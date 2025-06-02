@@ -1,0 +1,248 @@
+========================================================
+RELATÓRIO MENSAL DE PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA
+Conforme estipulado em contrato mensal de prestação de serviços na área de informática, segue abaixo o relatório de manutenções preventivas e corretivas realizadas no mês de junho de 2025:
+
+Em 06-2025 o SWAP pôde ser limpo com sucesso: Sistema com desempenho dentro da normalidade!
+
+
+Atualizando o sistema!
+
+Hit:1 http://br.archive.ubuntu.com/ubuntu jammy InRelease
+Hit:2 http://br.archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:3 http://br.archive.ubuntu.com/ubuntu jammy-backports InRelease
+Hit:4 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Get:5 https://pkgs.tailscale.com/stable/ubuntu jammy InRelease
+Fetched 6,578 B in 1s (5,966 B/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following packages were automatically installed and are no longer required:
+  linux-headers-5.15.0-136 linux-headers-5.15.0-136-generic
+  linux-image-5.15.0-136-generic linux-modules-5.15.0-136-generic
+  linux-modules-extra-5.15.0-136-generic
+Use 'sudo apt autoremove' to remove them.
+Get more security updates through Ubuntu Pro with 'esm-apps' enabled:
+  libsoup-3.0-0 traceroute libsoup-3.0-common 7zip
+Learn more about Ubuntu Pro at https://ubuntu.com/pro
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages will be REMOVED:
+  linux-headers-5.15.0-136 linux-headers-5.15.0-136-generic
+  linux-image-5.15.0-136-generic linux-modules-5.15.0-136-generic
+  linux-modules-extra-5.15.0-136-generic
+0 upgraded, 0 newly installed, 5 to remove and 0 not upgraded.
+After this operation, 584 MB disk space will be freed.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 178060 files and directories currently installed.)
+Removing linux-headers-5.15.0-136-generic (5.15.0-136.147) ...
+Removing linux-headers-5.15.0-136 (5.15.0-136.147) ...
+Removing linux-modules-extra-5.15.0-136-generic (5.15.0-136.147) ...
+Removing linux-image-5.15.0-136-generic (5.15.0-136.147) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+/etc/kernel/prerm.d/dkms:
+dkms: removing: r8168 8.049.02 (5.15.0-136-generic) (x86_64)
+Module r8168-8.049.02 for kernel 5.15.0-136-generic (x86_64).
+Before uninstall, this module version was ACTIVE on this kernel.
+
+r8168.ko:
+ - Uninstallation
+   - Deleting from: /lib/modules/5.15.0-136-generic/updates/dkms/
+ - Original module
+   - No original module was found for this module on this kernel.
+   - Use the dkms install command to reinstall any previous module version.
+
+depmod...
+
+update-initramfs....
+/etc/kernel/postrm.d/initramfs-tools:
+update-initramfs: Deleting /boot/initrd.img-5.15.0-136-generic
+/etc/kernel/postrm.d/zz-update-grub:
+Sourcing file `/etc/default/grub'
+Sourcing file `/etc/default/grub.d/init-select.cfg'
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-5.15.0-140-generic
+Found initrd image: /boot/initrd.img-5.15.0-140-generic
+Found linux image: /boot/vmlinuz-5.15.0-139-generic
+Found initrd image: /boot/initrd.img-5.15.0-139-generic
+Warning: os-prober will not be executed to detect other bootable partitions.
+Systems on them will not be added to the GRUB boot configuration.
+Check GRUB_DISABLE_OS_PROBER documentation entry.
+Adding boot menu entry for UEFI Firmware Settings ...
+done
+Removing linux-modules-5.15.0-136-generic (5.15.0-136.147) ...
+
+Em 06-2025 o sistema do servidor foi atualizado e está em dia com a segurança digital.
+
+
+############################################################################
+Armazenamento: /dev/sda
+
+Model Family:     Silicon Motion based SSDs
+Device Model:     ADATA SU650
+Serial Number:    2M17291HCSHR
+
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-139-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x002f   100   100   050    Pre-fail  Always       -       0
+  5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       6868
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       58
+161 Valid_Spare_Block_Cnt   0x0032   100   100   000    Old_age   Always       -       0
+162 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       61550
+163 Initial_Bad_Block_Count 0x0032   100   100   000    Old_age   Always       -       100
+164 Total_Erase_Count       0x0032   100   100   000    Old_age   Always       -       138
+166 Min_Erase_Count         0x0032   100   100   000    Old_age   Always       -       74
+167 Average_Erase_Count     0x0032   100   100   050    Old_age   Always       -       0
+168 Max_Erase_Count_of_Spec 0x0032   100   100   000    Old_age   Always       -       0
+169 Remaining_Lifetime_Perc 0x0032   100   100   000    Old_age   Always       -       100
+171 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       0
+172 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       0
+174 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       34
+175 Program_Fail_Count_Chip 0x0032   100   100   000    Old_age   Always       -       0
+181 Program_Fail_Cnt_Total  0x0022   100   100   000    Old_age   Always       -       1508341
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+194 Temperature_Celsius     0x0022   100   100   030    Old_age   Always       -       43
+195 Hardware_ECC_Recovered  0x003a   100   100   000    Old_age   Always       -       402
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+199 UDMA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       0
+206 Unknown_SSD_Attribute   0x0032   100   100   000    Old_age   Always       -       4
+207 Unknown_SSD_Attribute   0x0032   100   100   000    Old_age   Always       -       167
+232 Available_Reservd_Space 0x0032   100   100   000    Old_age   Always       -       100
+233 Media_Wearout_Indicator 0x0032   100   100   000    Old_age   Always       -       320
+241 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       3871
+242 Host_Reads_32MiB        0x0032   100   100   000    Old_age   Always       -       216
+249 Unkn_SiliconMotion_Attr 0x0032   100   100   000    Old_age   Always       -       464
+250 Read_Error_Retry_Rate   0x0032   100   100   000    Old_age   Always       -       5331
+
+
+
+Verificacao concluida em 06-2025!
+Em 06-2025 foi realizada a verificação da saúde dos discos rígidos. Mais informações no anexo SMART_DUMP no e-mail!
+
+latest: Pulling from pihole/pihole
+83abf496f1b8: Already exists
+7dc8d6dc79f9: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+23f0d915f019: Pulling fs layer
+21b3b8b0f4ea: Pulling fs layer
+c9c5362aff66: Pulling fs layer
+5e9acbd01ae1: Pulling fs layer
+9d5b2c1388ce: Pulling fs layer
+8b6fcd16ca08: Pulling fs layer
+6ddf0f599da8: Pulling fs layer
+958f1dddc1f3: Pulling fs layer
+c9c5362aff66: Waiting
+5e9acbd01ae1: Waiting
+9d5b2c1388ce: Waiting
+8b6fcd16ca08: Waiting
+6ddf0f599da8: Waiting
+958f1dddc1f3: Waiting
+21b3b8b0f4ea: Waiting
+4f4fb700ef54: Verifying Checksum
+4f4fb700ef54: Download complete
+23f0d915f019: Verifying Checksum
+23f0d915f019: Download complete
+7dc8d6dc79f9: Verifying Checksum
+7dc8d6dc79f9: Download complete
+21b3b8b0f4ea: Verifying Checksum
+21b3b8b0f4ea: Download complete
+c9c5362aff66: Verifying Checksum
+c9c5362aff66: Download complete
+5e9acbd01ae1: Verifying Checksum
+5e9acbd01ae1: Download complete
+7dc8d6dc79f9: Pull complete
+4f4fb700ef54: Pull complete
+23f0d915f019: Pull complete
+21b3b8b0f4ea: Pull complete
+c9c5362aff66: Pull complete
+9d5b2c1388ce: Verifying Checksum
+9d5b2c1388ce: Download complete
+5e9acbd01ae1: Pull complete
+9d5b2c1388ce: Pull complete
+8b6fcd16ca08: Verifying Checksum
+8b6fcd16ca08: Download complete
+8b6fcd16ca08: Pull complete
+6ddf0f599da8: Verifying Checksum
+6ddf0f599da8: Download complete
+6ddf0f599da8: Pull complete
+958f1dddc1f3: Verifying Checksum
+958f1dddc1f3: Download complete
+958f1dddc1f3: Pull complete
+Digest: sha256:db38df3e050606bd014c801c2cbb0b13f263d3122d3d817a8cbcee807688af24
+Status: Downloaded newer image for pihole/pihole:latest
+docker.io/pihole/pihole:latest
+426adcfb336833859f6ba8d1b60a54bbf2478e187d7d86e638358296fe479351
+
+Esperar 5s antes de aplicar as configs
+true
+pihole
+
+Em 06-2025 os serviços de DNS e bloqueios de sites do pihole foram atualizados e suas listas foram revalidadas!
+
+
+Pentest não configurado. Ignorando.
+
+Em 06-2025 foi realizada a verificação da integridade dos Logs de Eventos das pastas da rede e dos registros de uso dos compartilhamentos.
+
+
+Checando armazenamento geral!
+
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           379M  3.2M  376M   1% /run
+/dev/sda2       109G   19G   85G  18% /
+tmpfs           1.9G     0  1.9G   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           1.9G   12K  1.9G   1% /tmp
+tmpfs           1.9G     0  1.9G   0% /var/tmp
+/dev/sda1       1.1G  6.1M  1.1G   1% /boot/efi
+tmpfs           379M  8.0K  379M   1% /run/user/1000
+
+DUMP de RSnapshots (se existente)!
+
+
+DUMP de RSYNC (se existente)!
+
+
+DUMP do RClone (se existente)!
+
+
+Checando backups dos containers!
+
+
+Não existem backups de containers neste servidor. Verifique se esta situação está correta.
+
+Em 06-2025 foi realizada a verificação das rotinas de backup do servidor. O backup para a nuvem, se existente, também foi verificado.
+
+Deleted Images:
+untagged: pihole/pihole@sha256:c2215c570976ebc23ab6688f556a80133d4236dae0bffee678129da4396fbd61
+deleted: sha256:feb8c881adba50db1a084d9818946051d6c439d04910b6bcecb7a644449e9fa8
+deleted: sha256:28d21765ab0871ec69c3c57fff7f4c515170cef582df53f1df3cd79f8eb9d11c
+deleted: sha256:38bd342b3d17e7832afba1c46bc4c51fde3f1995c1b13f9082c3a15a0a047234
+deleted: sha256:7ead47e5eb084acda2875f5efe35fd2c91abf8914d5b8e88b5e3565efaca58eb
+deleted: sha256:8552dbdff729f26f21eec3860e51093f696d82f1b299985d17d58ced0c4c305a
+deleted: sha256:f7bbde35428304f90af90ff0278c36b8a6b622b8f8ac71e1f6be1a8e75719e7a
+deleted: sha256:602fb92bd90d83ed7ddbdc4319934744b3019e74cb50601bbbf17e74a7b2636b
+deleted: sha256:44d37db0c1a1d6fd03a0d388a0911d281bcf03bf5884c8b9cd451ffa3ff698d9
+deleted: sha256:22e50476e30a7a73321afcdda326d0a3d9c06f0819b21a59020d9c18b197eaa1
+deleted: sha256:70814fd7cbcde3ed1b4de650cb1b63f7402f28aa1ed27fff677ce00e4495b9cb
+deleted: sha256:bbc77bc5e314e595967a56e60e8fa311a303353b5c7b9296a2515c1e739f0777
+
+Total reclaimed space: 82.66MB
+
+Em 06-2025 foi realizada a limpeza do sistema com remoção de pacotes e imagens obsoletas dos serviços, objetivando reduzir o consumo de armazenamento.
+
+Em 06-2025 o SWAP pôde ser limpo com sucesso pela segunda vez para finalização da manutenção: Sistema com desempenho dentro da normalidade!
+

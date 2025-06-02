@@ -1,0 +1,740 @@
+========================================================
+RELATÓRIO MENSAL DE PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA
+Conforme estipulado em contrato mensal de prestação de serviços na área de informática, segue abaixo o relatório de manutenções preventivas e corretivas realizadas no mês de junho de 2025:
+
+Em 06-2025 o SWAP pôde ser limpo com sucesso: Sistema com desempenho dentro da normalidade!
+
+
+Atualizando o sistema!
+
+Hit:1 http://archive.ubuntu.com/ubuntu focal InRelease
+Hit:2 http://archive.ubuntu.com/ubuntu focal-updates InRelease
+Get:3 https://pkgs.tailscale.com/stable/ubuntu focal InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu focal-security InRelease
+Fetched 6,578 B in 2s (3,033 B/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following packages were automatically installed and are no longer required:
+  linux-headers-5.4.0-212 linux-headers-5.4.0-212-generic
+  linux-image-5.4.0-212-generic linux-modules-5.4.0-212-generic
+  linux-modules-extra-5.4.0-212-generic
+Use 'sudo apt autoremove' to remove them.
+Get more security updates through Ubuntu Pro with 'esm-apps' enabled:
+  libavformat58 libswresample3 libgsasl7 libzvbi0 libavcodec58 libavutil56
+  libsdl2-2.0-0 traceroute libzvbi-common docker.io
+Learn more about Ubuntu Pro at https://ubuntu.com/pro
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages will be REMOVED:
+  linux-headers-5.4.0-212 linux-headers-5.4.0-212-generic
+  linux-image-5.4.0-212-generic linux-modules-5.4.0-212-generic
+  linux-modules-extra-5.4.0-212-generic
+0 upgraded, 0 newly installed, 5 to remove and 0 not upgraded.
+After this operation, 381 MB disk space will be freed.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 195986 files and directories currently installed.)
+Removing linux-headers-5.4.0-212-generic (5.4.0-212.232) ...
+Removing linux-headers-5.4.0-212 (5.4.0-212.232) ...
+Removing linux-modules-extra-5.4.0-212-generic (5.4.0-212.232) ...
+Removing linux-image-5.4.0-212-generic (5.4.0-212.232) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+/etc/kernel/postrm.d/initramfs-tools:
+update-initramfs: Deleting /boot/initrd.img-5.4.0-212-generic
+/etc/kernel/postrm.d/zz-update-grub:
+Sourcing file `/etc/default/grub'
+Sourcing file `/etc/default/grub.d/init-select.cfg'
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-5.4.0-216-generic
+Found initrd image: /boot/initrd.img-5.4.0-216-generic
+Found linux image: /boot/vmlinuz-5.4.0-215-generic
+Found initrd image: /boot/initrd.img-5.4.0-215-generic
+Found Windows Recovery Environment on /dev/sdc1
+done
+Removing linux-modules-5.4.0-212-generic (5.4.0-212.232) ...
+
+Em 06-2025 o sistema do servidor foi atualizado e está em dia com a segurança digital.
+
+
+############################################################################
+Armazenamento: /dev/sda
+
+Device Model:     ADATA SU630
+Serial Number:    2L5029SN8JEU
+
+smartctl 7.1 2019-12-30 r5022 [x86_64-linux-5.4.0-215-generic] (local build)
+Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x002f   100   100   050    Pre-fail  Always       -       0
+  5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       26903
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       114
+160 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       0
+161 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       100
+163 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       12
+164 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       69106
+165 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       114
+166 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       30
+167 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       96
+148 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       207318
+149 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       344
+150 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       90
+151 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       288
+159 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       0
+168 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       344
+169 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       98
+177 Wear_Leveling_Count     0x0032   100   100   000    Old_age   Always       -       0
+181 Program_Fail_Cnt_Total  0x0032   100   100   000    Old_age   Always       -       0
+182 Erase_Fail_Count_Total  0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       84
+194 Temperature_Celsius     0x0032   100   100   000    Old_age   Always       -       33
+195 Hardware_ECC_Recovered  0x0032   100   100   000    Old_age   Always       -       0
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+199 UDMA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       0
+232 Available_Reservd_Space 0x0032   100   100   000    Old_age   Always       -       100
+241 Total_LBAs_Written      0x0032   100   100   000    Old_age   Always       -       339289
+242 Total_LBAs_Read         0x0032   100   100   000    Old_age   Always       -       348120
+245 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       448444
+
+
+
+############################################################################
+Armazenamento: /dev/sdb
+
+Model Family:     Seagate Barracuda 7200.14 (AF)
+Device Model:     ST1000DM003-1ER162
+Serial Number:    Z4Y3GK8E
+
+smartctl 7.1 2019-12-30 r5022 [x86_64-linux-5.4.0-215-generic] (local build)
+Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x002f   111   099   006    Pre-fail  Always       -       41379368
+  3 Spin_Up_Time            0x0023   097   097   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   099   099   020    Old_age   Always       -       1621
+  5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       8
+  7 Seek_Error_Rate         0x002f   083   060   030    Pre-fail  Always       -       225398589
+  9 Power_On_Hours          0x0032   061   061   000    Old_age   Always       -       34977
+ 10 Spin_Retry_Count        0x0033   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   099   099   020    Old_age   Always       -       1576
+180 Unknown_HDD_Attribute   0x002a   100   100   000    Old_age   Always       -       563760990
+183 Runtime_Bad_Block       0x0032   100   100   000    Old_age   Always       -       0
+184 End-to-End_Error        0x0033   100   100   097    Pre-fail  Always       -       0
+187 Reported_Uncorrect      0x0032   099   099   000    Old_age   Always       -       1
+188 Command_Timeout         0x0032   100   099   000    Old_age   Always       -       0 0 1
+189 High_Fly_Writes         0x003a   098   098   000    Old_age   Always       -       2
+190 Airflow_Temperature_Cel 0x0022   063   050   045    Old_age   Always       -       37 (Min/Max 32/38)
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       371
+193 Load_Cycle_Count        0x0032   005   005   000    Old_age   Always       -       190426
+194 Temperature_Celsius     0x0022   037   050   000    Old_age   Always       -       37 (0 12 0 0 0)
+196 Reallocated_Event_Count 0x0032   100   100   036    Old_age   Always       -       8
+197 Current_Pending_Sector  0x0032   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0030   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x0032   200   200   000    Old_age   Always       -       0
+
+
+
+############################################################################
+Armazenamento: /dev/sdc
+
+Model Family:     Phison Driven SSDs
+Device Model:     KINGSTON SA400S37240G
+Serial Number:    50026B7785252E6E
+
+smartctl 7.1 2019-12-30 r5022 [x86_64-linux-5.4.0-215-generic] (local build)
+Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 1
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x0032   100   100   000    Old_age   Always       -       100
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       17281
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       66
+148 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       629
+149 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       481
+167 Write_Protect_Mode      0x0000   100   100   000    Old_age   Offline      -       0
+168 SATA_Phy_Error_Count    0x0012   100   100   000    Old_age   Always       -       0
+169 Bad_Block_Rate          0x0000   100   100   000    Old_age   Offline      -       0
+170 Bad_Blk_Ct_Erl/Lat      0x0000   100   100   010    Old_age   Offline      -       0/0
+172 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       0
+173 MaxAvgErase_Ct          0x0000   100   100   000    Old_age   Offline      -       0
+181 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       0
+182 Erase_Fail_Count        0x0000   100   100   000    Old_age   Offline      -       148
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       3
+192 Unsafe_Shutdown_Count   0x0012   100   100   000    Old_age   Always       -       51
+194 Temperature_Celsius     0x0022   038   051   000    Old_age   Always       -       38 (Min/Max 20/51)
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       36
+199 SATA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       0
+218 CRC_Error_Count         0x0032   100   100   000    Old_age   Always       -       0
+231 SSD_Life_Left           0x0000   072   072   000    Old_age   Offline      -       72
+233 Flash_Writes_GiB        0x0032   100   100   000    Old_age   Always       -       47514
+241 Lifetime_Writes_GiB     0x0032   100   100   000    Old_age   Always       -       20445
+242 Lifetime_Reads_GiB      0x0032   100   100   000    Old_age   Always       -       34877
+244 Average_Erase_Count     0x0000   100   100   000    Old_age   Offline      -       197
+245 Max_Erase_Count         0x0000   100   100   000    Old_age   Offline      -       278
+246 Total_Erase_Count       0x0000   100   100   000    Old_age   Offline      -       87672
+
+
+
+############################################################################
+Armazenamento: /dev/sdd
+
+Model Family:     Toshiba P300
+Device Model:     TOSHIBA HDWD110
+Serial Number:    214D49TFS
+
+smartctl 7.1 2019-12-30 r5022 [x86_64-linux-5.4.0-215-generic] (local build)
+Copyright (C) 2002-19, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000b   100   100   016    Pre-fail  Always       -       0
+  2 Throughput_Performance  0x0005   141   141   054    Pre-fail  Offline      -       73
+  3 Spin_Up_Time            0x0007   113   113   024    Pre-fail  Always       -       205 (Average 202)
+  4 Start_Stop_Count        0x0012   100   100   000    Old_age   Always       -       176
+  5 Reallocated_Sector_Ct   0x0033   100   100   005    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000b   100   100   067    Pre-fail  Always       -       0
+  8 Seek_Time_Performance   0x0005   113   113   020    Pre-fail  Offline      -       35
+  9 Power_On_Hours          0x0012   096   096   000    Old_age   Always       -       31185
+ 10 Spin_Retry_Count        0x0013   100   100   060    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       175
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       920
+193 Load_Cycle_Count        0x0012   100   100   000    Old_age   Always       -       920
+194 Temperature_Celsius     0x0002   153   153   000    Old_age   Always       -       39 (Min/Max 23/60)
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0022   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0008   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x000a   200   200   000    Old_age   Always       -       0
+
+
+
+Verificacao concluida em 06-2025!
+Em 06-2025 foi realizada a verificação da saúde dos discos rígidos. Mais informações no anexo SMART_DUMP no e-mail!
+
+Checking 3748 objects
+Checked 3748 objects (0 errors)
+
+Em 06-2025 foi realizada a verificação da integridade do Controlador de Domínio.
+
+latest: Pulling from pihole/pihole
+83abf496f1b8: Already exists
+7dc8d6dc79f9: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+23f0d915f019: Pulling fs layer
+21b3b8b0f4ea: Pulling fs layer
+c9c5362aff66: Pulling fs layer
+5e9acbd01ae1: Pulling fs layer
+9d5b2c1388ce: Pulling fs layer
+8b6fcd16ca08: Pulling fs layer
+6ddf0f599da8: Pulling fs layer
+958f1dddc1f3: Pulling fs layer
+6ddf0f599da8: Waiting
+958f1dddc1f3: Waiting
+c9c5362aff66: Waiting
+9d5b2c1388ce: Waiting
+21b3b8b0f4ea: Waiting
+5e9acbd01ae1: Waiting
+8b6fcd16ca08: Waiting
+4f4fb700ef54: Verifying Checksum
+4f4fb700ef54: Download complete
+23f0d915f019: Verifying Checksum
+23f0d915f019: Download complete
+7dc8d6dc79f9: Verifying Checksum
+7dc8d6dc79f9: Download complete
+21b3b8b0f4ea: Download complete
+c9c5362aff66: Download complete
+9d5b2c1388ce: Download complete
+5e9acbd01ae1: Verifying Checksum
+5e9acbd01ae1: Download complete
+8b6fcd16ca08: Verifying Checksum
+8b6fcd16ca08: Download complete
+7dc8d6dc79f9: Pull complete
+4f4fb700ef54: Pull complete
+23f0d915f019: Pull complete
+21b3b8b0f4ea: Pull complete
+c9c5362aff66: Pull complete
+6ddf0f599da8: Download complete
+5e9acbd01ae1: Pull complete
+9d5b2c1388ce: Pull complete
+8b6fcd16ca08: Pull complete
+6ddf0f599da8: Pull complete
+958f1dddc1f3: Verifying Checksum
+958f1dddc1f3: Download complete
+958f1dddc1f3: Pull complete
+Digest: sha256:db38df3e050606bd014c801c2cbb0b13f263d3122d3d817a8cbcee807688af24
+Status: Downloaded newer image for pihole/pihole:latest
+docker.io/pihole/pihole:latest
+pihole
+pihole
+f16f2870227031f128ac24d674f1f03f456f4ba6b1ec7769459f0c42bbfc05c6
+
+Esperar 5s antes de aplicar as configs
+true
+pihole
+
+Em 06-2025 os serviços de DNS e bloqueios de sites do pihole foram atualizados e suas listas foram revalidadas!
+
+pihole-hotel
+pihole-hotel
+c82bb5fa0becee35c90d9d97efa79f60acbda1482abd2f89ea317f7f86373b6d
+
+Esperar 5s antes de aplicar as configs
+true
+pihole-hotel
+
+Em 06-2025 os serviços de DNS e bloqueios de sites do pihole-hotel foram atualizados e suas listas foram revalidadas!
+
+
+
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-06-01 12:06 -03
+Pre-scan script results:
+| broadcast-avahi-dos: 
+|   Discovered hosts:
+|     224.0.0.251
+|   After NULL UDP avahi packet DoS (CVE-2011-1002).
+|_  Hosts are all up (not vulnerable).
+Nmap scan report for dominio.macvlan (192.168.0.10)
+Host is up (0.000015s latency).
+Not shown: 65520 closed tcp ports (reset)
+PORT      STATE SERVICE
+42/tcp    open  nameserver
+53/tcp    open  domain
+88/tcp    open  kerberos-sec
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+389/tcp   open  ldap
+445/tcp   open  microsoft-ds
+464/tcp   open  kpasswd5
+631/tcp   open  ipp
+|_http-aspnet-debug: ERROR: Script execution failed (use -d to debug)
+| http-method-tamper: 
+|   VULNERABLE:
+|   Authentication bypass by HTTP verb tampering
+|     State: VULNERABLE (Exploitable)
+|       This web server contains password protected resources vulnerable to authentication bypass
+|       vulnerabilities via HTTP verb tampering. This is often found in web servers that only limit access to the
+|        common HTTP methods and in misconfigured .htaccess files.
+|              
+|     Extra information:
+|       
+|   URIs suspected to be vulnerable to HTTP verb tampering:
+|     /admin [GENERIC]
+|   
+|     References:
+|       http://capec.mitre.org/data/definitions/274.html
+|       http://www.mkit.com.ar/labs/htexploit/
+|       https://www.owasp.org/index.php/Testing_for_HTTP_Methods_and_XST_%28OWASP-CM-008%29
+|_      http://www.imperva.com/resources/glossary/http_verb_tampering.html
+| http-enum: 
+|   /admin.php: Possible admin folder (401 Unauthorized)
+|   /admin/: Possible admin folder (401 Unauthorized)
+|   /admin/admin/: Possible admin folder (401 Unauthorized)
+|   /administrator/: Possible admin folder (401 Unauthorized)
+|   /adminarea/: Possible admin folder (401 Unauthorized)
+|   /adminLogin/: Possible admin folder (401 Unauthorized)
+|   /admin_area/: Possible admin folder (401 Unauthorized)
+|   /administratorlogin/: Possible admin folder (401 Unauthorized)
+|   /admin/account.php: Possible admin folder (401 Unauthorized)
+|   /admin/index.php: Possible admin folder (401 Unauthorized)
+|   /admin/admin.php: Possible admin folder (401 Unauthorized)
+|   /admin_area/admin.php: Possible admin folder (401 Unauthorized)
+|   /admin_area/login.php: Possible admin folder (401 Unauthorized)
+|   /admin/index.html: Possible admin folder (401 Unauthorized)
+|   /admin/admin.html: Possible admin folder (401 Unauthorized)
+|   /admin_area/index.php: Possible admin folder (401 Unauthorized)
+|   /admin/home.php: Possible admin folder (401 Unauthorized)
+|   /admin_area/login.html: Possible admin folder (401 Unauthorized)
+|   /admin_area/index.html: Possible admin folder (401 Unauthorized)
+|   /admin/controlpanel.php: Possible admin folder (401 Unauthorized)
+|   /admincp/: Possible admin folder (401 Unauthorized)
+|   /admincp/index.asp: Possible admin folder (401 Unauthorized)
+|   /admincp/index.html: Possible admin folder (401 Unauthorized)
+|   /admincp/login.php: Possible admin folder (401 Unauthorized)
+|   /admin/account.html: Possible admin folder (401 Unauthorized)
+|   /adminpanel.html: Possible admin folder (401 Unauthorized)
+|   /admin/admin_login.html: Possible admin folder (401 Unauthorized)
+|   /admin_login.html: Possible admin folder (401 Unauthorized)
+|   /admin/cp.php: Possible admin folder (401 Unauthorized)
+|   /administrator/index.php: Possible admin folder (401 Unauthorized)
+|   /administrator/login.php: Possible admin folder (401 Unauthorized)
+|   /admin/admin_login.php: Possible admin folder (401 Unauthorized)
+|   /admin_login.php: Possible admin folder (401 Unauthorized)
+|   /administrator/account.php: Possible admin folder (401 Unauthorized)
+|   /administrator.php: Possible admin folder (401 Unauthorized)
+|   /admin_area/admin.html: Possible admin folder (401 Unauthorized)
+|   /admin/admin-login.php: Possible admin folder (401 Unauthorized)
+|   /admin-login.php: Possible admin folder (401 Unauthorized)
+|   /admin/home.html: Possible admin folder (401 Unauthorized)
+|   /admin/admin-login.html: Possible admin folder (401 Unauthorized)
+|   /admin-login.html: Possible admin folder (401 Unauthorized)
+|   /admincontrol.php: Possible admin folder (401 Unauthorized)
+|   /admin/adminLogin.html: Possible admin folder (401 Unauthorized)
+|   /adminLogin.html: Possible admin folder (401 Unauthorized)
+|   /adminarea/index.html: Possible admin folder (401 Unauthorized)
+|   /adminarea/admin.html: Possible admin folder (401 Unauthorized)
+|   /admin/controlpanel.html: Possible admin folder (401 Unauthorized)
+|   /admin.html: Possible admin folder (401 Unauthorized)
+|   /admin/cp.html: Possible admin folder (401 Unauthorized)
+|   /adminpanel.php: Possible admin folder (401 Unauthorized)
+|   /administrator/index.html: Possible admin folder (401 Unauthorized)
+|   /administrator/login.html: Possible admin folder (401 Unauthorized)
+|   /administrator/account.html: Possible admin folder (401 Unauthorized)
+|   /administrator.html: Possible admin folder (401 Unauthorized)
+|   /adminarea/login.html: Possible admin folder (401 Unauthorized)
+|   /admincontrol/login.html: Possible admin folder (401 Unauthorized)
+|   /admincontrol.html: Possible admin folder (401 Unauthorized)
+|   /adminLogin.php: Possible admin folder (401 Unauthorized)
+|   /admin/adminLogin.php: Possible admin folder (401 Unauthorized)
+|   /adminarea/index.php: Possible admin folder (401 Unauthorized)
+|   /adminarea/admin.php: Possible admin folder (401 Unauthorized)
+|   /adminarea/login.php: Possible admin folder (401 Unauthorized)
+|   /admincontrol/login.php: Possible admin folder (401 Unauthorized)
+|   /admin2.php: Possible admin folder (401 Unauthorized)
+|   /admin2/login.php: Possible admin folder (401 Unauthorized)
+|   /admin2/index.php: Possible admin folder (401 Unauthorized)
+|   /administratorlogin.php: Possible admin folder (401 Unauthorized)
+|   /admin/account.cfm: Possible admin folder (401 Unauthorized)
+|   /admin/index.cfm: Possible admin folder (401 Unauthorized)
+|   /admin/admin.cfm: Possible admin folder (401 Unauthorized)
+|   /admin.cfm: Possible admin folder (401 Unauthorized)
+|   /admin/admin_login.cfm: Possible admin folder (401 Unauthorized)
+|   /admin_login.cfm: Possible admin folder (401 Unauthorized)
+|   /adminpanel.cfm: Possible admin folder (401 Unauthorized)
+|   /admin/controlpanel.cfm: Possible admin folder (401 Unauthorized)
+|   /admincontrol.cfm: Possible admin folder (401 Unauthorized)
+|   /admin/cp.cfm: Possible admin folder (401 Unauthorized)
+|   /admincp/index.cfm: Possible admin folder (401 Unauthorized)
+|   /admincp/login.cfm: Possible admin folder (401 Unauthorized)
+|   /admin_area/admin.cfm: Possible admin folder (401 Unauthorized)
+|   /admin_area/login.cfm: Possible admin folder (401 Unauthorized)
+|   /administrator/login.cfm: Possible admin folder (401 Unauthorized)
+|   /administratorlogin.cfm: Possible admin folder (401 Unauthorized)
+|   /administrator.cfm: Possible admin folder (401 Unauthorized)
+|   /administrator/account.cfm: Possible admin folder (401 Unauthorized)
+|   /adminLogin.cfm: Possible admin folder (401 Unauthorized)
+|   /admin2/index.cfm: Possible admin folder (401 Unauthorized)
+|   /admin_area/index.cfm: Possible admin folder (401 Unauthorized)
+|   /admin2/login.cfm: Possible admin folder (401 Unauthorized)
+|   /admincontrol/login.cfm: Possible admin folder (401 Unauthorized)
+|   /administrator/index.cfm: Possible admin folder (401 Unauthorized)
+|   /adminarea/login.cfm: Possible admin folder (401 Unauthorized)
+|   /adminarea/admin.cfm: Possible admin folder (401 Unauthorized)
+|   /adminarea/index.cfm: Possible admin folder (401 Unauthorized)
+|   /admin/adminLogin.cfm: Possible admin folder (401 Unauthorized)
+|   /admin-login.cfm: Possible admin folder (401 Unauthorized)
+|   /admin/admin-login.cfm: Possible admin folder (401 Unauthorized)
+|   /admin/home.cfm: Possible admin folder (401 Unauthorized)
+|   /admin/account.asp: Possible admin folder (401 Unauthorized)
+|   /admin/index.asp: Possible admin folder (401 Unauthorized)
+|   /admin/admin.asp: Possible admin folder (401 Unauthorized)
+|   /admin_area/admin.asp: Possible admin folder (401 Unauthorized)
+|   /admin_area/login.asp: Possible admin folder (401 Unauthorized)
+|   /admin_area/index.asp: Possible admin folder (401 Unauthorized)
+|   /admin/home.asp: Possible admin folder (401 Unauthorized)
+|   /admin/controlpanel.asp: Possible admin folder (401 Unauthorized)
+|   /admin.asp: Possible admin folder (401 Unauthorized)
+|   /admin/admin-login.asp: Possible admin folder (401 Unauthorized)
+|   /admin-login.asp: Possible admin folder (401 Unauthorized)
+|   /admin/cp.asp: Possible admin folder (401 Unauthorized)
+|   /administrator/account.asp: Possible admin folder (401 Unauthorized)
+|   /administrator.asp: Possible admin folder (401 Unauthorized)
+|   /administrator/login.asp: Possible admin folder (401 Unauthorized)
+|   /admincp/login.asp: Possible admin folder (401 Unauthorized)
+|   /admincontrol.asp: Possible admin folder (401 Unauthorized)
+|   /adminpanel.asp: Possible admin folder (401 Unauthorized)
+|   /admin/admin_login.asp: Possible admin folder (401 Unauthorized)
+|   /admin_login.asp: Possible admin folder (401 Unauthorized)
+|   /adminLogin.asp: Possible admin folder (401 Unauthorized)
+|   /admin/adminLogin.asp: Possible admin folder (401 Unauthorized)
+|   /adminarea/index.asp: Possible admin folder (401 Unauthorized)
+|   /adminarea/admin.asp: Possible admin folder (401 Unauthorized)
+|   /adminarea/login.asp: Possible admin folder (401 Unauthorized)
+|   /administrator/index.asp: Possible admin folder (401 Unauthorized)
+|   /admincontrol/login.asp: Possible admin folder (401 Unauthorized)
+|   /admin2.asp: Possible admin folder (401 Unauthorized)
+|   /admin2/login.asp: Possible admin folder (401 Unauthorized)
+|   /admin2/index.asp: Possible admin folder (401 Unauthorized)
+|   /administratorlogin.asp: Possible admin folder (401 Unauthorized)
+|   /admin/account.aspx: Possible admin folder (401 Unauthorized)
+|   /admin/index.aspx: Possible admin folder (401 Unauthorized)
+|   /admin/admin.aspx: Possible admin folder (401 Unauthorized)
+|   /admin_area/admin.aspx: Possible admin folder (401 Unauthorized)
+|   /admin_area/login.aspx: Possible admin folder (401 Unauthorized)
+|   /admin_area/index.aspx: Possible admin folder (401 Unauthorized)
+|   /admin/home.aspx: Possible admin folder (401 Unauthorized)
+|   /admin/controlpanel.aspx: Possible admin folder (401 Unauthorized)
+|   /admin.aspx: Possible admin folder (401 Unauthorized)
+|   /admin/admin-login.aspx: Possible admin folder (401 Unauthorized)
+|   /admin-login.aspx: Possible admin folder (401 Unauthorized)
+|   /admin/cp.aspx: Possible admin folder (401 Unauthorized)
+|   /administrator/account.aspx: Possible admin folder (401 Unauthorized)
+|   /administrator.aspx: Possible admin folder (401 Unauthorized)
+|   /administrator/login.aspx: Possible admin folder (401 Unauthorized)
+|   /admincp/index.aspx: Possible admin folder (401 Unauthorized)
+|   /admincp/login.aspx: Possible admin folder (401 Unauthorized)
+|   /admincontrol.aspx: Possible admin folder (401 Unauthorized)
+|   /adminpanel.aspx: Possible admin folder (401 Unauthorized)
+|   /admin/admin_login.aspx: Possible admin folder (401 Unauthorized)
+|   /admin_login.aspx: Possible admin folder (401 Unauthorized)
+|   /adminLogin.aspx: Possible admin folder (401 Unauthorized)
+|   /admin/adminLogin.aspx: Possible admin folder (401 Unauthorized)
+|   /adminarea/index.aspx: Possible admin folder (401 Unauthorized)
+|   /adminarea/admin.aspx: Possible admin folder (401 Unauthorized)
+|   /adminarea/login.aspx: Possible admin folder (401 Unauthorized)
+|   /administrator/index.aspx: Possible admin folder (401 Unauthorized)
+|   /admincontrol/login.aspx: Possible admin folder (401 Unauthorized)
+|   /admin2.aspx: Possible admin folder (401 Unauthorized)
+|   /admin2/login.aspx: Possible admin folder (401 Unauthorized)
+|   /admin2/index.aspx: Possible admin folder (401 Unauthorized)
+|   /administratorlogin.aspx: Possible admin folder (401 Unauthorized)
+|   /admin/index.jsp: Possible admin folder (401 Unauthorized)
+|   /admin/admin.jsp: Possible admin folder (401 Unauthorized)
+|   /admin_area/admin.jsp: Possible admin folder (401 Unauthorized)
+|   /admin_area/login.jsp: Possible admin folder (401 Unauthorized)
+|   /admin_area/index.jsp: Possible admin folder (401 Unauthorized)
+|   /admin/home.jsp: Possible admin folder (401 Unauthorized)
+|   /admin/controlpanel.jsp: Possible admin folder (401 Unauthorized)
+|   /admin.jsp: Possible admin folder (401 Unauthorized)
+|   /admin/admin-login.jsp: Possible admin folder (401 Unauthorized)
+|   /admin-login.jsp: Possible admin folder (401 Unauthorized)
+|   /admin/cp.jsp: Possible admin folder (401 Unauthorized)
+|   /administrator/account.jsp: Possible admin folder (401 Unauthorized)
+|   /administrator.jsp: Possible admin folder (401 Unauthorized)
+|   /administrator/login.jsp: Possible admin folder (401 Unauthorized)
+|   /admincp/index.jsp: Possible admin folder (401 Unauthorized)
+|   /admincp/login.jsp: Possible admin folder (401 Unauthorized)
+|   /admincontrol.jsp: Possible admin folder (401 Unauthorized)
+|   /admin/account.jsp: Possible admin folder (401 Unauthorized)
+|   /adminpanel.jsp: Possible admin folder (401 Unauthorized)
+|   /admin/admin_login.jsp: Possible admin folder (401 Unauthorized)
+|   /admin_login.jsp: Possible admin folder (401 Unauthorized)
+|   /adminLogin.jsp: Possible admin folder (401 Unauthorized)
+|   /admin/adminLogin.jsp: Possible admin folder (401 Unauthorized)
+|   /adminarea/index.jsp: Possible admin folder (401 Unauthorized)
+|   /adminarea/admin.jsp: Possible admin folder (401 Unauthorized)
+|   /adminarea/login.jsp: Possible admin folder (401 Unauthorized)
+|   /administrator/index.jsp: Possible admin folder (401 Unauthorized)
+|   /admincontrol/login.jsp: Possible admin folder (401 Unauthorized)
+|   /admin2.jsp: Possible admin folder (401 Unauthorized)
+|   /admin2/login.jsp: Possible admin folder (401 Unauthorized)
+|   /admin2/index.jsp: Possible admin folder (401 Unauthorized)
+|   /administratorlogin.jsp: Possible admin folder (401 Unauthorized)
+|   /admin1.php: Possible admin folder (401 Unauthorized)
+|   /administr8.asp: Possible admin folder (401 Unauthorized)
+|   /administr8.php: Possible admin folder (401 Unauthorized)
+|   /administr8.jsp: Possible admin folder (401 Unauthorized)
+|   /administr8.aspx: Possible admin folder (401 Unauthorized)
+|   /administr8.cfm: Possible admin folder (401 Unauthorized)
+|   /administr8/: Possible admin folder (401 Unauthorized)
+|   /administer/: Possible admin folder (401 Unauthorized)
+|   /administracao.php: Possible admin folder (401 Unauthorized)
+|   /administracao.asp: Possible admin folder (401 Unauthorized)
+|   /administracao.aspx: Possible admin folder (401 Unauthorized)
+|   /administracao.cfm: Possible admin folder (401 Unauthorized)
+|   /administracao.jsp: Possible admin folder (401 Unauthorized)
+|   /administracion.php: Possible admin folder (401 Unauthorized)
+|   /administracion.asp: Possible admin folder (401 Unauthorized)
+|   /administracion.aspx: Possible admin folder (401 Unauthorized)
+|   /administracion.jsp: Possible admin folder (401 Unauthorized)
+|   /administracion.cfm: Possible admin folder (401 Unauthorized)
+|   /administrators/: Possible admin folder (401 Unauthorized)
+|   /adminpro/: Possible admin folder (401 Unauthorized)
+|   /admins/: Possible admin folder (401 Unauthorized)
+|   /admins.cfm: Possible admin folder (401 Unauthorized)
+|   /admins.php: Possible admin folder (401 Unauthorized)
+|   /admins.jsp: Possible admin folder (401 Unauthorized)
+|   /admins.asp: Possible admin folder (401 Unauthorized)
+|   /admins.aspx: Possible admin folder (401 Unauthorized)
+|   /administracion-sistema/: Possible admin folder (401 Unauthorized)
+|   /admin108/: Possible admin folder (401 Unauthorized)
+|   /admin_cp.asp: Possible admin folder (401 Unauthorized)
+|   /admin/backup/: Possible backup (401 Unauthorized)
+|   /admin/download/backup.sql: Possible database backup (401 Unauthorized)
+|   /robots.txt: Robots file
+|   /admin/upload.php: Admin File Upload (401 Unauthorized)
+|   /admin/CiscoAdmin.jhtml: Cisco Collaboration Server (401 Unauthorized)
+|   /admin-console/: JBoss Console (401 Unauthorized)
+|   /admin4.nsf: Lotus Domino (401 Unauthorized)
+|   /admin5.nsf: Lotus Domino (401 Unauthorized)
+|   /admin.nsf: Lotus Domino (401 Unauthorized)
+|   /administrator/wp-login.php: Wordpress login page. (401 Unauthorized)
+|   /admin/libraries/ajaxfilemanager/ajaxfilemanager.php: Log1 CMS (401 Unauthorized)
+|   /admin/view/javascript/fckeditor/editor/filemanager/connectors/test.html: OpenCart/FCKeditor File upload (401 Unauthorized)
+|   /admin/includes/tiny_mce/plugins/tinybrowser/upload.php: CompactCMS or B-Hind CMS/FCKeditor File upload (401 Unauthorized)
+|   /admin/includes/FCKeditor/editor/filemanager/upload/test.html: ASP Simple Blog / FCKeditor File Upload (401 Unauthorized)
+|   /admin/jscript/upload.php: Lizard Cart/Remote File upload (401 Unauthorized)
+|   /admin/jscript/upload.html: Lizard Cart/Remote File upload (401 Unauthorized)
+|   /admin/jscript/upload.pl: Lizard Cart/Remote File upload (401 Unauthorized)
+|   /admin/jscript/upload.asp: Lizard Cart/Remote File upload (401 Unauthorized)
+|   /admin/environment.xml: Moodle files (401 Unauthorized)
+|   /classes/: Potentially interesting folder
+|   /es/: Potentially interesting folder
+|   /help/: Potentially interesting folder
+|_  /printers/: Potentially interesting folder
+636/tcp   open  ldapssl
+3268/tcp  open  globalcatLDAP
+3269/tcp  open  globalcatLDAPssl
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+MAC Address: 02:42:C0:A8:00:0A (Unknown)
+
+Host script results:
+|_samba-vuln-cve-2012-1182: Could not negotiate a connection:SMB: ERROR: Server returned less data than it was supposed to (one or more fields are missing); aborting [9]
+|_smb-vuln-ms10-054: false
+|_smb-vuln-ms10-061: Could not negotiate a connection:SMB: ERROR: Server returned less data than it was supposed to (one or more fields are missing); aborting [9]
+
+Nmap done: 1 IP address (1 host up) scanned in 153.68 seconds
+
+Em 06-2025 nenhum novo equipamento vulnerável detectado na rede. Por enquanto nenhum equipamento cujos testes sejam pertinentes de serem notificados.
+
+
+/srv/containers/dominio/log/syslog
+
+Jun  2 07:07:58 domain-server smbd_audit: IP=192.168.0.38|USER=AD\recepcao02|MACHINE=192.168.0.38|VOLUME=recepcao|renameat|ok|/mnt/Shared/Recepcao/RECEPCIONISTAS/~$IQUETAS SANDUICHE.docx|/mnt/Shared/Lixeira/recepcao02/RECEPCIONISTAS/Copy #6 of ~$IQUETAS SANDUICHE.docx
+Jun  2 09:09:55 domain-server smbd_audit: IP=192.168.0.38|USER=AD\recepcao02|MACHINE=192.168.0.38|VOLUME=sync|renameat|ok|/mnt/Shared/sync/recepcao02/Downloads/e735a9af-b16a-44bb-8e4a-c6e65c28523f.tmp|/mnt/Shared/sync/recepcao02/Downloads/31250612787806000150550010000036171121053982 (1).pdf.crdownload
+Jun  2 09:09:55 domain-server smbd_audit: IP=192.168.0.38|USER=AD\recepcao02|MACHINE=192.168.0.38|VOLUME=sync|renameat|ok|/mnt/Shared/sync/recepcao02/Downloads/31250612787806000150550010000036171121053982 (1).pdf.crdownload|/mnt/Shared/sync/recepcao02/Downloads/31250612787806000150550010000036171121053982 (1).pdf
+Jun  2 09:29:10 domain-server smbd_audit: IP=192.168.0.38|USER=AD\recepcao02|MACHINE=192.168.0.38|VOLUME=sync|renameat|ok|/mnt/Shared/sync/recepcao02/Downloads/f5ec38da-6823-4de7-8ceb-14cfb92db76c.tmp|/mnt/Shared/sync/recepcao02/Downloads/Comprovante (15).pdf.crdownload
+Jun  2 09:29:12 domain-server smbd_audit: IP=192.168.0.38|USER=AD\recepcao02|MACHINE=192.168.0.38|VOLUME=sync|renameat|ok|/mnt/Shared/sync/recepcao02/Downloads/aaf7d939-e7a1-4478-8675-515a5e55d6a5.tmp|/mnt/Shared/sync/recepcao02/Downloads/Comprovante (16).pdf.crdownload
+Jun  2 09:29:13 domain-server smbd_audit: IP=192.168.0.38|USER=AD\recepcao02|MACHINE=192.168.0.38|VOLUME=sync|renameat|ok|/mnt/Shared/sync/recepcao02/Downloads/Comprovante (15).pdf.crdownload|/mnt/Shared/sync/recepcao02/Downloads/Comprovante (15).pdf
+Jun  2 09:29:14 domain-server smbd_audit: IP=192.168.0.38|USER=AD\recepcao02|MACHINE=192.168.0.38|VOLUME=sync|renameat|ok|/mnt/Shared/sync/recepcao02/Downloads/Comprovante (16).pdf.crdownload|/mnt/Shared/sync/recepcao02/Downloads/Comprovante (16).pdf
+
+Em 06-2025 foi realizada a verificação da integridade dos Logs de Eventos das pastas da rede e dos registros de uso dos compartilhamentos.
+
+
+Checando armazenamento geral!
+
+Filesystem      Size  Used Avail Use% Mounted on
+udev            7.7G     0  7.7G   0% /dev
+tmpfs           1.6G  2.6M  1.6G   1% /run
+/dev/sda2       219G   39G  181G  18% /
+tmpfs           7.7G     0  7.7G   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           7.7G     0  7.7G   0% /sys/fs/cgroup
+/dev/sdd        916G  172G  698G  20% /mnt/disk01
+/dev/sdb        916G  240G  677G  27% /mnt/disk02
+tmpfs           1.6G     0  1.6G   0% /run/user/1000
+
+DUMP de RSnapshots (se existente)!
+
+Jun 01 16:00:16 kvm-hfdm rsnapshot[3749123]: /usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot01.conf alpha: completed successfully
+Jun 01 20:00:02 kvm-hfdm CRON[3847026]: (root) CMD (/usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot01.conf alpha)
+Jun 01 20:00:14 kvm-hfdm rsnapshot[3847239]: /usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot01.conf alpha: completed successfully
+Jun 01 21:00:01 kvm-hfdm CRON[3871477]: (root) CMD (/usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot01.conf beta)
+Jun 01 21:00:02 kvm-hfdm rsnapshot[3871487]: /usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot01.conf beta: completed successfully
+Jun 02 08:00:01 kvm-hfdm CRON[4141697]: (root) CMD (/usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot01.conf alpha)
+Jun 02 08:00:19 kvm-hfdm rsnapshot[4141958]: /usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot01.conf alpha: completed successfully
+
+DUMP de RSYNC (se existente)!
+
+
+DUMP do RClone (se existente)!
+
+
+Checando backups dos containers!
+
+total 15G
+drwxrwxrwx 5 administrador administrador 4.0K Jun  2 02:04 .
+drwxrwxrwx 5 root          root          4.0K Dec  3  2022 ..
+drwxrwxrwx 2 root          root          4.0K Apr 11  2024 config
+-rw-r--r-- 1 root          root           230 Jun  1 02:00 dashdot-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root           230 Jun  2 02:00 dashdot-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root           230 May 31 02:00 dashdot-31_05_25.tar.lz4
+-rw-r--r-- 1 root          root           42M Jun  1 02:00 dominio-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root           42M Jun  2 02:00 dominio-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root           41M May 31 02:00 dominio-31_05_25.tar.lz4
+-rw-r--r-- 1 root          root          6.5K Jun  1 02:00 homarr-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root          6.5K Jun  2 02:00 homarr-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root          6.5K May 31 02:00 homarr-31_05_25.tar.lz4
+-rw-r--r-- 1 root          root          422M Jun  1 02:00 kuma-tracker-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root          422M Jun  2 02:00 kuma-tracker-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root          422M May 31 02:00 kuma-tracker-31_05_25.tar.lz4
+-rw-r--r-- 1 root          root          614M Jun  1 02:00 mongodb-unifi-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root          615M Jun  2 02:00 mongodb-unifi-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root          613M May 31 02:00 mongodb-unifi-31_05_25.tar.lz4
+-rw-r--r-- 1 root          root           76K Jun  1 02:00 myspeed-tracker-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root           76K Jun  2 02:00 myspeed-tracker-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root           77K May 31 02:00 myspeed-tracker-31_05_25.tar.lz4
+-rw-r--r-- 1 root          root           243 Jun  1 02:00 nut-gui-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root           243 Jun  2 02:00 nut-gui-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root           243 May 31 02:00 nut-gui-31_05_25.tar.lz4
+-rw-r--r-- 1 root          root           236 Jun  1 02:00 openspeedtest-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root           236 Jun  2 02:00 openspeedtest-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root           236 May 31 02:00 openspeedtest-31_05_25.tar.lz4
+-rw-r--r-- 1 root          root          944K Jun  1 02:00 pentest-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root          945K Jun  2 02:00 pentest-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root          944K May 31 02:00 pentest-31_05_25.tar.lz4
+-rw-r--r-- 1 root          root          935M Jun  1 02:01 pihole-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root          936M Jun  2 02:01 pihole-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root          927M May 31 02:01 pihole-31_05_25.tar.lz4
+-rw-r--r-- 1 root          root          1.5G Jun  1 02:01 pihole-hotel-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root          1.5G Jun  2 02:01 pihole-hotel-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root          1.5G May 31 02:01 pihole-hotel-31_05_25.tar.lz4
+-rw-r--r-- 1 root          root           11K Jun  1 02:01 scripts-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root           11K Jun  2 02:01 scripts-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root           11K May 31 02:01 scripts-31_05_25.tar.lz4
+-rw-r--r-- 1 root          root          1.5M Jun  1 02:01 scrutiny-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root          1.4M Jun  2 02:01 scrutiny-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root          1.3M May 31 02:01 scrutiny-31_05_25.tar.lz4
+-rw-r--r-- 1 root          root          1.2M Jun  1 02:01 ssh-dw-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root          1.2M Jun  2 02:01 ssh-dw-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root          1.2M May 31 02:01 ssh-dw-31_05_25.tar.lz4
+drwxrwxrwx 2 administrador administrador 4.0K Apr 21  2024 .stfolder
+drwxrwxrwx 2 administrador administrador 4.0K Apr 11  2024 Sync
+-rw-r--r-- 1 root          root          6.3M Jun  1 02:01 syncthing-cloud-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root          5.7M Jun  2 02:01 syncthing-cloud-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root          5.4M May 31 02:01 syncthing-cloud-31_05_25.tar.lz4
+-rw-r--r-- 1 root          root          8.4K Jun  1 02:01 tailscale-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root          8.4K Jun  2 02:01 tailscale-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root          8.4K May 31 02:01 tailscale-31_05_25.tar.lz4
+-rw-r--r-- 1 root          root          1.3G Jun  1 02:03 unifi-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root          1.3G Jun  2 02:03 unifi-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root          1.3G May 31 02:03 unifi-31_05_25.tar.lz4
+-rw-r--r-- 1 root          root          277M Jun  1 02:04 unifi-network-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root          279M Jun  2 02:04 unifi-network-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root          275M May 31 02:04 unifi-network-31_05_25.tar.lz4
+-rw-r--r-- 1 root          root          409K Jun  1 02:04 xpra-virt-manager-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root          410K Jun  2 02:04 xpra-virt-manager-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root          408K May 31 02:04 xpra-virt-manager-31_05_25.tar.lz4
+Em 06-2025 foi realizada a verificação das rotinas de backup do servidor. O backup para a nuvem, se existente, também foi verificado.
+
+Deleted Images:
+untagged: pihole/pihole@sha256:c2215c570976ebc23ab6688f556a80133d4236dae0bffee678129da4396fbd61
+deleted: sha256:feb8c881adba50db1a084d9818946051d6c439d04910b6bcecb7a644449e9fa8
+deleted: sha256:28d21765ab0871ec69c3c57fff7f4c515170cef582df53f1df3cd79f8eb9d11c
+deleted: sha256:38bd342b3d17e7832afba1c46bc4c51fde3f1995c1b13f9082c3a15a0a047234
+deleted: sha256:7ead47e5eb084acda2875f5efe35fd2c91abf8914d5b8e88b5e3565efaca58eb
+deleted: sha256:8552dbdff729f26f21eec3860e51093f696d82f1b299985d17d58ced0c4c305a
+deleted: sha256:f7bbde35428304f90af90ff0278c36b8a6b622b8f8ac71e1f6be1a8e75719e7a
+deleted: sha256:602fb92bd90d83ed7ddbdc4319934744b3019e74cb50601bbbf17e74a7b2636b
+deleted: sha256:44d37db0c1a1d6fd03a0d388a0911d281bcf03bf5884c8b9cd451ffa3ff698d9
+deleted: sha256:22e50476e30a7a73321afcdda326d0a3d9c06f0819b21a59020d9c18b197eaa1
+deleted: sha256:70814fd7cbcde3ed1b4de650cb1b63f7402f28aa1ed27fff677ce00e4495b9cb
+deleted: sha256:bbc77bc5e314e595967a56e60e8fa311a303353b5c7b9296a2515c1e739f0777
+
+Total reclaimed space: 82.66MB
+
+Em 06-2025 foi realizada a limpeza do sistema com remoção de pacotes e imagens obsoletas dos serviços, objetivando reduzir o consumo de armazenamento.
+
+Em 06-2025 o SWAP pôde ser limpo com sucesso pela segunda vez para finalização da manutenção: Sistema com desempenho dentro da normalidade!
+

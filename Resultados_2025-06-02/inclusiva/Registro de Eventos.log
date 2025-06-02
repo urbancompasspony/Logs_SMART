@@ -1,0 +1,688 @@
+========================================================
+RELATÓRIO MENSAL DE PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA
+Conforme estipulado em contrato mensal de prestação de serviços na área de informática, segue abaixo o relatório de manutenções preventivas e corretivas realizadas no mês de junho de 2025:
+
+Em 06-2025 o SWAP pôde ser limpo com sucesso: Sistema com desempenho dentro da normalidade!
+
+
+Atualizando o sistema!
+
+Hit:1 http://archive.ubuntu.com/ubuntu jammy InRelease
+Hit:2 http://archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu jammy-security InRelease
+Get:5 https://pkgs.tailscale.com/stable/ubuntu jammy InRelease
+Fetched 6,578 B in 1s (6,618 B/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+44 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+Get more security updates through Ubuntu Pro with 'esm-apps' enabled:
+  libzvbi-common libavdevice58 libpostproc55 docker.io libsoup-3.0-0
+  libavcodec58 traceroute libavutil56 libswscale5 libswresample3
+  libsoup-3.0-common libavformat58 libzvbi0 libavfilter7
+Learn more about Ubuntu Pro at https://ubuntu.com/pro
+The following NEW packages will be installed:
+  linux-headers-5.15.0-140 linux-headers-5.15.0-140-generic
+  linux-image-5.15.0-140-generic linux-modules-5.15.0-140-generic
+  linux-modules-extra-5.15.0-140-generic
+The following packages will be upgraded:
+  apport apt apt-utils cifs-utils containerd docker.io grub-efi-amd64
+  grub-efi-amd64-bin grub-efi-amd64-signed initramfs-tools initramfs-tools-bin
+  initramfs-tools-core intel-microcode libapt-pkg6.0 libc-bin libc-dev-bin
+  libc6 libc6-dev libglib2.0-0 libglib2.0-bin libglib2.0-data libgssapi-krb5-2
+  libk5crypto3 libkrb5-3 libkrb5support0 libldap-2.5-0 libldap-common
+  libsoup2.4-1 libsoup2.4-common libsqlite3-0 linux-firmware linux-generic
+  linux-headers-generic linux-image-generic linux-libc-dev locales net-tools
+  open-vm-tools python3-apport python3-pkg-resources python3-problem-report
+  python3-setuptools runc tzdata
+44 upgraded, 5 newly installed, 0 to remove and 0 not upgraded.
+30 standard LTS security updates
+Need to get 539 MB of archives.
+After this operation, 587 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libc6-dev amd64 2.35-0ubuntu3.10 [2,100 kB]
+Get:2 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libc-dev-bin amd64 2.35-0ubuntu3.10 [20.3 kB]
+Get:3 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-libc-dev amd64 5.15.0-140.150 [1,313 kB]
+Get:4 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libc6 amd64 2.35-0ubuntu3.10 [3,235 kB]
+Get:5 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libc-bin amd64 2.35-0ubuntu3.10 [706 kB]
+Get:6 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libapt-pkg6.0 amd64 2.4.14 [912 kB]
+Get:7 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 apt amd64 2.4.14 [1,363 kB]
+Get:8 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 apt-utils amd64 2.4.14 [211 kB]
+Get:9 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libglib2.0-data all 2.72.4-0ubuntu2.5 [4,656 B]
+Get:10 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libglib2.0-bin amd64 2.72.4-0ubuntu2.5 [81.2 kB]
+Get:11 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libglib2.0-0 amd64 2.72.4-0ubuntu2.5 [1,466 kB]
+Get:12 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 open-vm-tools amd64 2:12.3.5-3~ubuntu0.22.04.2 [746 kB]
+Get:13 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libk5crypto3 amd64 1.19.2-2ubuntu0.7 [86.5 kB]
+Get:14 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libkrb5support0 amd64 1.19.2-2ubuntu0.7 [32.7 kB]
+Get:15 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libkrb5-3 amd64 1.19.2-2ubuntu0.7 [356 kB]
+Get:16 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgssapi-krb5-2 amd64 1.19.2-2ubuntu0.7 [144 kB]
+Get:17 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libsqlite3-0 amd64 3.37.2-2ubuntu0.4 [643 kB]
+Get:18 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 locales all 2.35-0ubuntu3.10 [4,248 kB]
+Get:19 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-setuptools all 59.6.0-1.2ubuntu0.22.04.3 [340 kB]
+Get:20 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-pkg-resources all 59.6.0-1.2ubuntu0.22.04.3 [133 kB]
+Get:21 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 tzdata all 2025b-0ubuntu0.22.04.1 [347 kB]
+Get:22 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-problem-report all 2.20.11-0ubuntu82.7 [11.4 kB]
+Get:23 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-apport all 2.20.11-0ubuntu82.7 [89.0 kB]
+Get:24 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 apport all 2.20.11-0ubuntu82.7 [135 kB]
+Get:25 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 cifs-utils amd64 2:6.14-1ubuntu0.2 [96.6 kB]
+Get:26 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 runc amd64 1.2.5-0ubuntu1~22.04.1 [8,093 kB]
+Get:27 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 containerd amd64 1.7.27-0ubuntu1~22.04.1 [37.8 MB]
+Get:28 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 docker.io amd64 27.5.1-0ubuntu3~22.04.1 [33.3 MB]
+Get:29 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 grub-efi-amd64 amd64 2.06-2ubuntu14.8 [47.1 kB]
+Get:30 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 grub-efi-amd64-signed amd64 1.187.12+2.06-2ubuntu14.8 [1,391 kB]
+Get:31 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 grub-efi-amd64-bin amd64 2.06-2ubuntu14.8 [1,679 kB]
+Get:32 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 initramfs-tools all 0.140ubuntu13.5 [9,060 B]
+Get:33 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 initramfs-tools-core all 0.140ubuntu13.5 [47.8 kB]
+Get:34 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 initramfs-tools-bin amd64 0.140ubuntu13.5 [9,330 B]
+Get:35 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libldap-2.5-0 amd64 2.5.19+dfsg-0ubuntu0.22.04.1 [184 kB]
+Get:36 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libldap-common all 2.5.19+dfsg-0ubuntu0.22.04.1 [16.1 kB]
+Get:37 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libsoup2.4-common all 2.74.2-3ubuntu0.5 [4,660 B]
+Get:38 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libsoup2.4-1 amd64 2.74.2-3ubuntu0.5 [287 kB]
+Get:39 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-firmware all 20220329.git681281e4-0ubuntu3.37 [312 MB]
+Get:40 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-modules-5.15.0-140-generic amd64 5.15.0-140.150 [22.7 MB]
+Get:41 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-image-5.15.0-140-generic amd64 5.15.0-140.150 [11.6 MB]
+Get:42 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-modules-extra-5.15.0-140-generic amd64 5.15.0-140.150 [64.0 MB]
+Get:43 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 intel-microcode amd64 3.20250512.0ubuntu0.22.04.1 [11.0 MB]
+Get:44 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-generic amd64 5.15.0.140.135 [1,702 B]
+Get:45 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-image-generic amd64 5.15.0.140.135 [2,474 B]
+Get:46 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-headers-5.15.0-140 all 5.15.0-140.150 [12.3 MB]
+Get:47 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-headers-5.15.0-140-generic amd64 5.15.0-140.150 [2,839 kB]
+Get:48 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-headers-generic amd64 5.15.0.140.135 [2,328 B]
+Get:49 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 net-tools amd64 1.60+git20181103.0eebece-1ubuntu5.4 [204 kB]
+Preconfiguring packages ...
+Fetched 539 MB in 1min 10s (7,669 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 140078 files and directories currently installed.)
+Preparing to unpack .../libc6-dev_2.35-0ubuntu3.10_amd64.deb ...
+Unpacking libc6-dev:amd64 (2.35-0ubuntu3.10) over (2.35-0ubuntu3.9) ...
+Preparing to unpack .../libc-dev-bin_2.35-0ubuntu3.10_amd64.deb ...
+Unpacking libc-dev-bin (2.35-0ubuntu3.10) over (2.35-0ubuntu3.9) ...
+Preparing to unpack .../linux-libc-dev_5.15.0-140.150_amd64.deb ...
+Unpacking linux-libc-dev:amd64 (5.15.0-140.150) over (5.15.0-139.149) ...
+Preparing to unpack .../libc6_2.35-0ubuntu3.10_amd64.deb ...
+Unpacking libc6:amd64 (2.35-0ubuntu3.10) over (2.35-0ubuntu3.9) ...
+Setting up libc6:amd64 (2.35-0ubuntu3.10) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 140078 files and directories currently installed.)
+Preparing to unpack .../libc-bin_2.35-0ubuntu3.10_amd64.deb ...
+Unpacking libc-bin (2.35-0ubuntu3.10) over (2.35-0ubuntu3.9) ...
+Setting up libc-bin (2.35-0ubuntu3.10) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 140078 files and directories currently installed.)
+Preparing to unpack .../libapt-pkg6.0_2.4.14_amd64.deb ...
+Unpacking libapt-pkg6.0:amd64 (2.4.14) over (2.4.13) ...
+Setting up libapt-pkg6.0:amd64 (2.4.14) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 140078 files and directories currently installed.)
+Preparing to unpack .../archives/apt_2.4.14_amd64.deb ...
+Unpacking apt (2.4.14) over (2.4.13) ...
+Setting up apt (2.4.14) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 140078 files and directories currently installed.)
+Preparing to unpack .../0-apt-utils_2.4.14_amd64.deb ...
+Unpacking apt-utils (2.4.14) over (2.4.13) ...
+Preparing to unpack .../1-libglib2.0-data_2.72.4-0ubuntu2.5_all.deb ...
+Unpacking libglib2.0-data (2.72.4-0ubuntu2.5) over (2.72.4-0ubuntu2.4) ...
+Preparing to unpack .../2-libglib2.0-bin_2.72.4-0ubuntu2.5_amd64.deb ...
+Unpacking libglib2.0-bin (2.72.4-0ubuntu2.5) over (2.72.4-0ubuntu2.4) ...
+Preparing to unpack .../3-libglib2.0-0_2.72.4-0ubuntu2.5_amd64.deb ...
+Unpacking libglib2.0-0:amd64 (2.72.4-0ubuntu2.5) over (2.72.4-0ubuntu2.4) ...
+Preparing to unpack .../4-open-vm-tools_2%3a12.3.5-3~ubuntu0.22.04.2_amd64.deb ...
+Unpacking open-vm-tools (2:12.3.5-3~ubuntu0.22.04.2) over (2:12.3.5-3~ubuntu0.22.04.1) ...
+Preparing to unpack .../5-libk5crypto3_1.19.2-2ubuntu0.7_amd64.deb ...
+Unpacking libk5crypto3:amd64 (1.19.2-2ubuntu0.7) over (1.19.2-2ubuntu0.6) ...
+Setting up libk5crypto3:amd64 (1.19.2-2ubuntu0.7) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 140078 files and directories currently installed.)
+Preparing to unpack .../libkrb5support0_1.19.2-2ubuntu0.7_amd64.deb ...
+Unpacking libkrb5support0:amd64 (1.19.2-2ubuntu0.7) over (1.19.2-2ubuntu0.6) ...
+Setting up libkrb5support0:amd64 (1.19.2-2ubuntu0.7) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 140078 files and directories currently installed.)
+Preparing to unpack .../libkrb5-3_1.19.2-2ubuntu0.7_amd64.deb ...
+Unpacking libkrb5-3:amd64 (1.19.2-2ubuntu0.7) over (1.19.2-2ubuntu0.6) ...
+Setting up libkrb5-3:amd64 (1.19.2-2ubuntu0.7) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 140078 files and directories currently installed.)
+Preparing to unpack .../libgssapi-krb5-2_1.19.2-2ubuntu0.7_amd64.deb ...
+Unpacking libgssapi-krb5-2:amd64 (1.19.2-2ubuntu0.7) over (1.19.2-2ubuntu0.6) ...
+Setting up libgssapi-krb5-2:amd64 (1.19.2-2ubuntu0.7) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 140078 files and directories currently installed.)
+Preparing to unpack .../00-libsqlite3-0_3.37.2-2ubuntu0.4_amd64.deb ...
+Unpacking libsqlite3-0:amd64 (3.37.2-2ubuntu0.4) over (3.37.2-2ubuntu0.3) ...
+Preparing to unpack .../01-locales_2.35-0ubuntu3.10_all.deb ...
+Unpacking locales (2.35-0ubuntu3.10) over (2.35-0ubuntu3.9) ...
+Preparing to unpack .../02-python3-setuptools_59.6.0-1.2ubuntu0.22.04.3_all.deb ...
+Unpacking python3-setuptools (59.6.0-1.2ubuntu0.22.04.3) over (59.6.0-1.2ubuntu0.22.04.2) ...
+Preparing to unpack .../03-python3-pkg-resources_59.6.0-1.2ubuntu0.22.04.3_all.deb ...
+Unpacking python3-pkg-resources (59.6.0-1.2ubuntu0.22.04.3) over (59.6.0-1.2ubuntu0.22.04.2) ...
+Preparing to unpack .../04-tzdata_2025b-0ubuntu0.22.04.1_all.deb ...
+Unpacking tzdata (2025b-0ubuntu0.22.04.1) over (2025b-0ubuntu0.22.04) ...
+Preparing to unpack .../05-python3-problem-report_2.20.11-0ubuntu82.7_all.deb ...
+Unpacking python3-problem-report (2.20.11-0ubuntu82.7) over (2.20.11-0ubuntu82.6) ...
+Preparing to unpack .../06-python3-apport_2.20.11-0ubuntu82.7_all.deb ...
+Unpacking python3-apport (2.20.11-0ubuntu82.7) over (2.20.11-0ubuntu82.6) ...
+Preparing to unpack .../07-apport_2.20.11-0ubuntu82.7_all.deb ...
+Unpacking apport (2.20.11-0ubuntu82.7) over (2.20.11-0ubuntu82.6) ...
+Preparing to unpack .../08-cifs-utils_2%3a6.14-1ubuntu0.2_amd64.deb ...
+Unpacking cifs-utils (2:6.14-1ubuntu0.2) over (2:6.14-1ubuntu0.1) ...
+Preparing to unpack .../09-runc_1.2.5-0ubuntu1~22.04.1_amd64.deb ...
+Unpacking runc (1.2.5-0ubuntu1~22.04.1) over (1.1.12-0ubuntu2~22.04.1) ...
+Preparing to unpack .../10-containerd_1.7.27-0ubuntu1~22.04.1_amd64.deb ...
+Unpacking containerd (1.7.27-0ubuntu1~22.04.1) over (1.7.24-0ubuntu1~22.04.2) ...
+Preparing to unpack .../11-docker.io_27.5.1-0ubuntu3~22.04.1_amd64.deb ...
+Unpacking docker.io (27.5.1-0ubuntu3~22.04.1) over (26.1.3-0ubuntu1~22.04.1) ...
+Preparing to unpack .../12-grub-efi-amd64_2.06-2ubuntu14.8_amd64.deb ...
+Unpacking grub-efi-amd64 (2.06-2ubuntu14.8) over (2.06-2ubuntu14.4) ...
+Preparing to unpack .../13-grub-efi-amd64-signed_1.187.12+2.06-2ubuntu14.8_amd64.deb ...
+Unpacking grub-efi-amd64-signed (1.187.12+2.06-2ubuntu14.8) over (1.187.6+2.06-2ubuntu14.4) ...
+Preparing to unpack .../14-grub-efi-amd64-bin_2.06-2ubuntu14.8_amd64.deb ...
+Unpacking grub-efi-amd64-bin (2.06-2ubuntu14.8) over (2.06-2ubuntu14.4) ...
+Preparing to unpack .../15-initramfs-tools_0.140ubuntu13.5_all.deb ...
+Unpacking initramfs-tools (0.140ubuntu13.5) over (0.140ubuntu13.4) ...
+Preparing to unpack .../16-initramfs-tools-core_0.140ubuntu13.5_all.deb ...
+Unpacking initramfs-tools-core (0.140ubuntu13.5) over (0.140ubuntu13.4) ...
+Preparing to unpack .../17-initramfs-tools-bin_0.140ubuntu13.5_amd64.deb ...
+Unpacking initramfs-tools-bin (0.140ubuntu13.5) over (0.140ubuntu13.4) ...
+Preparing to unpack .../18-libldap-2.5-0_2.5.19+dfsg-0ubuntu0.22.04.1_amd64.deb ...
+Unpacking libldap-2.5-0:amd64 (2.5.19+dfsg-0ubuntu0.22.04.1) over (2.5.18+dfsg-0ubuntu0.22.04.3) ...
+Preparing to unpack .../19-libldap-common_2.5.19+dfsg-0ubuntu0.22.04.1_all.deb ...
+Unpacking libldap-common (2.5.19+dfsg-0ubuntu0.22.04.1) over (2.5.18+dfsg-0ubuntu0.22.04.3) ...
+Preparing to unpack .../20-libsoup2.4-common_2.74.2-3ubuntu0.5_all.deb ...
+Unpacking libsoup2.4-common (2.74.2-3ubuntu0.5) over (2.74.2-3ubuntu0.2) ...
+Preparing to unpack .../21-libsoup2.4-1_2.74.2-3ubuntu0.5_amd64.deb ...
+Unpacking libsoup2.4-1:amd64 (2.74.2-3ubuntu0.5) over (2.74.2-3ubuntu0.2) ...
+Preparing to unpack .../22-linux-firmware_20220329.git681281e4-0ubuntu3.37_all.deb ...
+Unpacking linux-firmware (20220329.git681281e4-0ubuntu3.37) over (20220329.git681281e4-0ubuntu3.36) ...
+Selecting previously unselected package linux-modules-5.15.0-140-generic.
+Preparing to unpack .../23-linux-modules-5.15.0-140-generic_5.15.0-140.150_amd64.deb ...
+Unpacking linux-modules-5.15.0-140-generic (5.15.0-140.150) ...
+Selecting previously unselected package linux-image-5.15.0-140-generic.
+Preparing to unpack .../24-linux-image-5.15.0-140-generic_5.15.0-140.150_amd64.deb ...
+Unpacking linux-image-5.15.0-140-generic (5.15.0-140.150) ...
+Selecting previously unselected package linux-modules-extra-5.15.0-140-generic.
+Preparing to unpack .../25-linux-modules-extra-5.15.0-140-generic_5.15.0-140.150_amd64.deb ...
+Unpacking linux-modules-extra-5.15.0-140-generic (5.15.0-140.150) ...
+Preparing to unpack .../26-intel-microcode_3.20250512.0ubuntu0.22.04.1_amd64.deb ...
+Unpacking intel-microcode (3.20250512.0ubuntu0.22.04.1) over (3.20250211.0ubuntu0.22.04.1) ...
+Preparing to unpack .../27-linux-generic_5.15.0.140.135_amd64.deb ...
+Unpacking linux-generic (5.15.0.140.135) over (5.15.0.139.135) ...
+Preparing to unpack .../28-linux-image-generic_5.15.0.140.135_amd64.deb ...
+Unpacking linux-image-generic (5.15.0.140.135) over (5.15.0.139.135) ...
+Selecting previously unselected package linux-headers-5.15.0-140.
+Preparing to unpack .../29-linux-headers-5.15.0-140_5.15.0-140.150_all.deb ...
+Unpacking linux-headers-5.15.0-140 (5.15.0-140.150) ...
+Selecting previously unselected package linux-headers-5.15.0-140-generic.
+Preparing to unpack .../30-linux-headers-5.15.0-140-generic_5.15.0-140.150_amd64.deb ...
+Unpacking linux-headers-5.15.0-140-generic (5.15.0-140.150) ...
+Preparing to unpack .../31-linux-headers-generic_5.15.0.140.135_amd64.deb ...
+Unpacking linux-headers-generic (5.15.0.140.135) over (5.15.0.139.135) ...
+Preparing to unpack .../32-net-tools_1.60+git20181103.0eebece-1ubuntu5.4_amd64.deb ...
+Unpacking net-tools (1.60+git20181103.0eebece-1ubuntu5.4) over (1.60+git20181103.0eebece-1ubuntu5) ...
+Setting up python3-pkg-resources (59.6.0-1.2ubuntu0.22.04.3) ...
+Setting up net-tools (1.60+git20181103.0eebece-1ubuntu5.4) ...
+Setting up apt-utils (2.4.14) ...
+Setting up python3-setuptools (59.6.0-1.2ubuntu0.22.04.3) ...
+Setting up linux-firmware (20220329.git681281e4-0ubuntu3.37) ...
+update-initramfs: Generating /boot/initrd.img-5.15.0-139-generic
+update-initramfs: Generating /boot/initrd.img-5.15.0-136-generic
+Setting up python3-problem-report (2.20.11-0ubuntu82.7) ...
+Setting up libglib2.0-0:amd64 (2.72.4-0ubuntu2.5) ...
+Setting up intel-microcode (3.20250512.0ubuntu0.22.04.1) ...
+update-initramfs: deferring update (trigger activated)
+intel-microcode: microcode will be updated at next boot
+Setting up libsqlite3-0:amd64 (3.37.2-2ubuntu0.4) ...
+Setting up cifs-utils (2:6.14-1ubuntu0.2) ...
+Setting up linux-libc-dev:amd64 (5.15.0-140.150) ...
+Setting up locales (2.35-0ubuntu3.10) ...
+Generating locales (this might take a while)...
+  en_US.UTF-8... done
+  pt_BR.UTF-8... done
+  pt_PT.UTF-8... done
+Generation complete.
+Setting up libldap-common (2.5.19+dfsg-0ubuntu0.22.04.1) ...
+Setting up libldap-2.5-0:amd64 (2.5.19+dfsg-0ubuntu0.22.04.1) ...
+Setting up runc (1.2.5-0ubuntu1~22.04.1) ...
+Setting up python3-apport (2.20.11-0ubuntu82.7) ...
+Setting up tzdata (2025b-0ubuntu0.22.04.1) ...
+
+Current default time zone: 'America/Bahia'
+Local time is now:      Mon Jun  2 12:03:50 -03 2025.
+Universal Time is now:  Mon Jun  2 15:03:50 UTC 2025.
+Run 'dpkg-reconfigure tzdata' if you wish to change it.
+
+Setting up libglib2.0-data (2.72.4-0ubuntu2.5) ...
+Setting up linux-headers-5.15.0-140 (5.15.0-140.150) ...
+Setting up libsoup2.4-common (2.74.2-3ubuntu0.5) ...
+Setting up open-vm-tools (2:12.3.5-3~ubuntu0.22.04.2) ...
+Setting up linux-headers-5.15.0-140-generic (5.15.0-140.150) ...
+Setting up grub-efi-amd64-bin (2.06-2ubuntu14.8) ...
+Setting up libc-dev-bin (2.35-0ubuntu3.10) ...
+Setting up containerd (1.7.27-0ubuntu1~22.04.1) ...
+Setting up initramfs-tools-bin (0.140ubuntu13.5) ...
+Setting up libsoup2.4-1:amd64 (2.74.2-3ubuntu0.5) ...
+Setting up libglib2.0-bin (2.72.4-0ubuntu2.5) ...
+Setting up linux-headers-generic (5.15.0.140.135) ...
+Setting up docker.io (27.5.1-0ubuntu3~22.04.1) ...
+Setting up apport (2.20.11-0ubuntu82.7) ...
+Installing new version of config file /etc/init.d/apport ...
+apport-autoreport.service is a disabled or a static unit, not starting it.
+Setting up grub-efi-amd64 (2.06-2ubuntu14.8) ...
+Installing grub to /boot/efi.
+Installing for x86_64-efi platform.
+Installation finished. No error reported.
+Sourcing file `/etc/default/grub'
+Sourcing file `/etc/default/grub.d/init-select.cfg'
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-5.15.0-140-generic
+Found linux image: /boot/vmlinuz-5.15.0-139-generic
+Found initrd image: /boot/initrd.img-5.15.0-139-generic
+Found linux image: /boot/vmlinuz-5.15.0-136-generic
+Found initrd image: /boot/initrd.img-5.15.0-136-generic
+Warning: os-prober will not be executed to detect other bootable partitions.
+Systems on them will not be added to the GRUB boot configuration.
+Check GRUB_DISABLE_OS_PROBER documentation entry.
+Adding boot menu entry for UEFI Firmware Settings ...
+done
+Setting up libc6-dev:amd64 (2.35-0ubuntu3.10) ...
+Setting up initramfs-tools-core (0.140ubuntu13.5) ...
+Setting up initramfs-tools (0.140ubuntu13.5) ...
+update-initramfs: deferring update (trigger activated)
+Setting up grub-efi-amd64-signed (1.187.12+2.06-2ubuntu14.8) ...
+Installing grub to /boot/efi.
+Installing for x86_64-efi platform.
+Installation finished. No error reported.
+Setting up linux-image-5.15.0-140-generic (5.15.0-140.150) ...
+I: /boot/vmlinuz.old is now a symlink to vmlinuz-5.15.0-139-generic
+I: /boot/initrd.img.old is now a symlink to initrd.img-5.15.0-139-generic
+I: /boot/vmlinuz is now a symlink to vmlinuz-5.15.0-140-generic
+I: /boot/initrd.img is now a symlink to initrd.img-5.15.0-140-generic
+Setting up linux-modules-extra-5.15.0-140-generic (5.15.0-140.150) ...
+Setting up linux-modules-5.15.0-140-generic (5.15.0-140.150) ...
+Setting up linux-image-generic (5.15.0.140.135) ...
+Setting up linux-generic (5.15.0.140.135) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.10) ...
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for shim-signed (1.51.4+15.8-0ubuntu1) ...
+Processing triggers for initramfs-tools (0.140ubuntu13.5) ...
+update-initramfs: Generating /boot/initrd.img-5.15.0-139-generic
+Processing triggers for linux-image-5.15.0-140-generic (5.15.0-140.150) ...
+/etc/kernel/postinst.d/initramfs-tools:
+update-initramfs: Generating /boot/initrd.img-5.15.0-140-generic
+/etc/kernel/postinst.d/zz-update-grub:
+Sourcing file `/etc/default/grub'
+Sourcing file `/etc/default/grub.d/init-select.cfg'
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-5.15.0-140-generic
+Found initrd image: /boot/initrd.img-5.15.0-140-generic
+Found linux image: /boot/vmlinuz-5.15.0-139-generic
+Found initrd image: /boot/initrd.img-5.15.0-139-generic
+Found linux image: /boot/vmlinuz-5.15.0-136-generic
+Found initrd image: /boot/initrd.img-5.15.0-136-generic
+Warning: os-prober will not be executed to detect other bootable partitions.
+Systems on them will not be added to the GRUB boot configuration.
+Check GRUB_DISABLE_OS_PROBER documentation entry.
+Adding boot menu entry for UEFI Firmware Settings ...
+done
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages will be REMOVED:
+  linux-headers-5.15.0-139 linux-headers-5.15.0-139-generic
+  linux-image-5.15.0-139-generic linux-modules-5.15.0-139-generic
+  linux-modules-extra-5.15.0-139-generic
+0 upgraded, 0 newly installed, 5 to remove and 0 not upgraded.
+After this operation, 584 MB disk space will be freed.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 175572 files and directories currently installed.)
+Removing linux-headers-5.15.0-139-generic (5.15.0-139.149) ...
+Removing linux-headers-5.15.0-139 (5.15.0-139.149) ...
+Removing linux-modules-extra-5.15.0-139-generic (5.15.0-139.149) ...
+Removing linux-image-5.15.0-139-generic (5.15.0-139.149) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+I: /boot/vmlinuz.old is now a symlink to vmlinuz-5.15.0-136-generic
+I: /boot/initrd.img.old is now a symlink to initrd.img-5.15.0-136-generic
+/etc/kernel/postrm.d/initramfs-tools:
+update-initramfs: Deleting /boot/initrd.img-5.15.0-139-generic
+/etc/kernel/postrm.d/zz-update-grub:
+Sourcing file `/etc/default/grub'
+Sourcing file `/etc/default/grub.d/init-select.cfg'
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-5.15.0-140-generic
+Found initrd image: /boot/initrd.img-5.15.0-140-generic
+Found linux image: /boot/vmlinuz-5.15.0-136-generic
+Found initrd image: /boot/initrd.img-5.15.0-136-generic
+Warning: os-prober will not be executed to detect other bootable partitions.
+Systems on them will not be added to the GRUB boot configuration.
+Check GRUB_DISABLE_OS_PROBER documentation entry.
+Adding boot menu entry for UEFI Firmware Settings ...
+done
+Removing linux-modules-5.15.0-139-generic (5.15.0-139.149) ...
+
+Em 06-2025 o sistema do servidor foi atualizado e está em dia com a segurança digital.
+
+
+############################################################################
+Armazenamento: /dev/sda
+
+Device Model:     Kingchuxing 128GB
+Serial Number:    2023080702039
+
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-136-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 1
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x0032   100   100   050    Old_age   Always       -       0
+  5 Reallocated_Sector_Ct   0x0032   100   100   050    Old_age   Always       -       0
+  9 Power_On_Hours          0x0032   100   100   050    Old_age   Always       -       13222
+ 12 Power_Cycle_Count       0x0032   100   100   050    Old_age   Always       -       73
+160 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       0
+161 Unknown_Attribute       0x0033   100   100   050    Pre-fail  Always       -       100
+163 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       18
+164 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       60327
+165 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       189
+166 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       7
+167 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       124
+168 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       5050
+169 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       98
+175 Program_Fail_Count_Chip 0x0032   100   100   050    Old_age   Always       -       0
+176 Erase_Fail_Count_Chip   0x0032   100   100   050    Old_age   Always       -       0
+177 Wear_Leveling_Count     0x0032   100   100   050    Old_age   Always       -       0
+178 Used_Rsvd_Blk_Cnt_Chip  0x0032   100   100   050    Old_age   Always       -       0
+181 Program_Fail_Cnt_Total  0x0032   100   100   050    Old_age   Always       -       0
+182 Erase_Fail_Count_Total  0x0032   100   100   050    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   050    Old_age   Always       -       63
+194 Temperature_Celsius     0x0022   100   100   050    Old_age   Always       -       40
+195 Hardware_ECC_Recovered  0x0032   100   100   050    Old_age   Always       -       0
+196 Reallocated_Event_Count 0x0032   100   100   050    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0032   100   100   050    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0032   100   100   050    Old_age   Always       -       0
+199 UDMA_CRC_Error_Count    0x0032   100   100   050    Old_age   Always       -       0
+232 Available_Reservd_Space 0x0032   100   100   050    Old_age   Always       -       100
+241 Total_LBAs_Written      0x0030   100   100   050    Old_age   Offline      -       273129
+242 Total_LBAs_Read         0x0030   100   100   050    Old_age   Offline      -       60310
+245 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       187010
+
+
+
+############################################################################
+Armazenamento: /dev/sdb
+
+Model Family:     WD Blue / Red / Green SSDs
+Device Model:     WDC WDS200T2G0A-00JH30
+Serial Number:    232817800494
+
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-136-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 1
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  5 Reallocated_Sector_Ct   0x0032   100   100   000    Old_age   Always       -       0
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       13291
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       66
+165 Block_Erase_Count       0x0032   100   100   000    Old_age   Always       -       97
+166 Minimum_PE_Cycles_TLC   0x0032   100   100   ---    Old_age   Always       -       1
+167 Max_Bad_Blocks_per_Die  0x0032   100   100   ---    Old_age   Always       -       57
+168 Maximum_PE_Cycles_TLC   0x0032   100   100   ---    Old_age   Always       -       3
+169 Total_Bad_Blocks        0x0032   100   100   ---    Old_age   Always       -       1406
+170 Grown_Bad_Blocks        0x0032   100   100   ---    Old_age   Always       -       0
+171 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       0
+172 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       0
+173 Average_PE_Cycles_TLC   0x0032   100   100   000    Old_age   Always       -       1
+174 Unexpected_Power_Loss   0x0032   100   100   000    Old_age   Always       -       55
+184 End-to-End_Error        0x0032   100   100   ---    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   100   ---    Old_age   Always       -       0
+194 Temperature_Celsius     0x0022   059   073   000    Old_age   Always       -       41 (Min/Max 19/73)
+199 UDMA_CRC_Error_Count    0x0032   100   100   ---    Old_age   Always       -       0
+230 Media_Wearout_Indicator 0x0032   100   100   000    Old_age   Always       -       0x001b0014001b
+232 Available_Reservd_Space 0x0033   100   100   005    Pre-fail  Always       -       100
+233 NAND_GB_Written_TLC     0x0032   100   100   ---    Old_age   Always       -       1343
+234 NAND_GB_Written_SLC     0x0032   100   100   000    Old_age   Always       -       2642
+241 Host_Writes_GiB         0x0030   100   100   000    Old_age   Offline      -       1141
+242 Host_Reads_GiB          0x0030   100   100   000    Old_age   Offline      -       2610
+244 Temp_Throttle_Status    0x0032   000   100   ---    Old_age   Always       -       0
+
+
+
+############################################################################
+Armazenamento: /dev/sdc
+
+Model Family:     Toshiba 2.5" HDD MQ04UBD...
+Device Model:     TOSHIBA MQ04UBD200
+Serial Number:    53NFT01TT
+
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-136-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000b   100   100   050    Pre-fail  Always       -       0
+  2 Throughput_Performance  0x0005   100   100   050    Pre-fail  Offline      -       0
+  3 Spin_Up_Time            0x0027   100   100   001    Pre-fail  Always       -       2190
+  4 Start_Stop_Count        0x0032   100   100   000    Old_age   Always       -       3047
+  5 Reallocated_Sector_Ct   0x0033   100   100   050    Pre-fail  Always       -       1
+  7 Seek_Error_Rate         0x000b   100   100   050    Pre-fail  Always       -       0
+  8 Seek_Time_Performance   0x0005   100   100   050    Pre-fail  Offline      -       0
+  9 Power_On_Hours          0x0032   068   068   000    Old_age   Always       -       12966
+ 10 Spin_Retry_Count        0x0033   160   100   030    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       30
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       17
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       12
+193 Load_Cycle_Count        0x0032   100   100   000    Old_age   Always       -       4555
+194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       29 (Min/Max 23/55)
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       1
+197 Current_Pending_Sector  0x0032   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0030   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x0032   200   200   000    Old_age   Always       -       0
+220 Disk_Shift              0x0002   100   100   000    Old_age   Always       -       0
+222 Loaded_Hours            0x0032   100   100   000    Old_age   Always       -       269
+223 Load_Retry_Count        0x0032   100   100   000    Old_age   Always       -       0
+224 Load_Friction           0x0022   100   100   000    Old_age   Always       -       0
+226 Load-in_Time            0x0026   100   100   000    Old_age   Always       -       277
+240 Head_Flying_Hours       0x0001   100   100   001    Pre-fail  Offline      -       0
+
+
+
+Verificacao concluida em 06-2025!
+Em 06-2025 foi realizada a verificação da saúde dos discos rígidos. Mais informações no anexo SMART_DUMP no e-mail!
+
+Checking 3771 objects
+Checked 3771 objects (0 errors)
+
+Em 06-2025 foi realizada a verificação da integridade do Controlador de Domínio.
+
+latest: Pulling from pihole/pihole
+83abf496f1b8: Already exists
+7dc8d6dc79f9: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+23f0d915f019: Pulling fs layer
+21b3b8b0f4ea: Pulling fs layer
+c9c5362aff66: Pulling fs layer
+5e9acbd01ae1: Pulling fs layer
+9d5b2c1388ce: Pulling fs layer
+8b6fcd16ca08: Pulling fs layer
+6ddf0f599da8: Pulling fs layer
+958f1dddc1f3: Pulling fs layer
+c9c5362aff66: Waiting
+5e9acbd01ae1: Waiting
+9d5b2c1388ce: Waiting
+8b6fcd16ca08: Waiting
+6ddf0f599da8: Waiting
+21b3b8b0f4ea: Waiting
+958f1dddc1f3: Waiting
+4f4fb700ef54: Verifying Checksum
+4f4fb700ef54: Download complete
+23f0d915f019: Download complete
+7dc8d6dc79f9: Verifying Checksum
+7dc8d6dc79f9: Download complete
+21b3b8b0f4ea: Verifying Checksum
+21b3b8b0f4ea: Download complete
+c9c5362aff66: Download complete
+5e9acbd01ae1: Download complete
+9d5b2c1388ce: Verifying Checksum
+9d5b2c1388ce: Download complete
+8b6fcd16ca08: Verifying Checksum
+8b6fcd16ca08: Download complete
+6ddf0f599da8: Verifying Checksum
+6ddf0f599da8: Download complete
+958f1dddc1f3: Verifying Checksum
+958f1dddc1f3: Download complete
+7dc8d6dc79f9: Pull complete
+4f4fb700ef54: Pull complete
+23f0d915f019: Pull complete
+21b3b8b0f4ea: Pull complete
+c9c5362aff66: Pull complete
+5e9acbd01ae1: Pull complete
+9d5b2c1388ce: Pull complete
+8b6fcd16ca08: Pull complete
+6ddf0f599da8: Pull complete
+958f1dddc1f3: Pull complete
+Digest: sha256:db38df3e050606bd014c801c2cbb0b13f263d3122d3d817a8cbcee807688af24
+Status: Downloaded newer image for pihole/pihole:latest
+docker.io/pihole/pihole:latest
+pihole
+pihole
+2f5f6180f12d0a495ed4ed9335ac7f93c7c7466fc173abd0830f26f52ed0d7df
+
+Esperar 5s antes de aplicar as configs
+true
+pihole
+
+Em 06-2025 os serviços de DNS e bloqueios de sites do pihole foram atualizados e suas listas foram revalidadas!
+
+
+
+
+Em 06-2025 nenhum novo equipamento vulnerável detectado na rede. Por enquanto nenhum equipamento cujos testes sejam pertinentes de serem notificados.
+
+
+/srv/containers/dominio/log/syslog
+
+Jun  2 11:27:18 inclusiva smbd_audit: IP=192.168.0.24|USER=AD\jessica|MACHINE=192.168.0.24|VOLUME=inclusiva|renameat|ok|/mnt/inclusiva/OPERACIONAL - INCLUSIVA CONTABIL/FISCAL - GF SERVIÇOS/CONTRATOS/CONTRATOS SOCIAIS - DOCS EMPRESAS/180 - AGROPECUÁRIA ZEFLECHA LTDA/8 - DEPARTAMENTO FISCAL/2025/04-2025/AGROP ZEFLECHA 04-2025.REC|/mnt/inclusiva/OPERACIONAL - INCLUSIVA CONTABIL/FISCAL - GF SERVIÇOS/CONTRATOS/CONTRATOS SOCIAIS - DOCS EMPRESAS/180 - AGROPECUÁRIA ZEFLECHA LTDA/8 - DEPARTAMENTO FISCAL/2025/04-2025/EFD CONTRIBUIÇÕES/AGROP ZEFLECHA 04-2025.REC
+Jun  2 11:27:18 inclusiva smbd_audit: IP=192.168.0.24|USER=AD\jessica|MACHINE=192.168.0.24|VOLUME=inclusiva|renameat|ok|/mnt/inclusiva/OPERACIONAL - INCLUSIVA CONTABIL/FISCAL - GF SERVIÇOS/CONTRATOS/CONTRATOS SOCIAIS - DOCS EMPRESAS/180 - AGROPECUÁRIA ZEFLECHA LTDA/8 - DEPARTAMENTO FISCAL/2025/04-2025/AGROP ZEFLECHA 04-2025.TXT|/mnt/inclusiva/OPERACIONAL - INCLUSIVA CONTABIL/FISCAL - GF SERVIÇOS/CONTRATOS/CONTRATOS SOCIAIS - DOCS EMPRESAS/180 - AGROPECUÁRIA ZEFLECHA LTDA/8 - DEPARTAMENTO FISCAL/2025/04-2025/EFD CONTRIBUIÇÕES/AGROP ZEFLECHA 04-2025.TXT
+Jun  2 11:27:18 inclusiva smbd_audit: IP=192.168.0.24|USER=AD\jessica|MACHINE=192.168.0.24|VOLUME=inclusiva|renameat|ok|/mnt/inclusiva/OPERACIONAL - INCLUSIVA CONTABIL/FISCAL - GF SERVIÇOS/CONTRATOS/CONTRATOS SOCIAIS - DOCS EMPRESAS/180 - AGROPECUÁRIA ZEFLECHA LTDA/8 - DEPARTAMENTO FISCAL/2025/04-2025/AGROP ZEFLECHA 042025.pdf|/mnt/inclusiva/OPERACIONAL - INCLUSIVA CONTABIL/FISCAL - GF SERVIÇOS/CONTRATOS/CONTRATOS SOCIAIS - DOCS EMPRESAS/180 - AGROPECUÁRIA ZEFLECHA LTDA/8 - DEPARTAMENTO FISCAL/2025/04-2025/EFD CONTRIBUIÇÕES/AGROP ZEFLECHA 042025.pdf
+Jun  2 11:33:09 inclusiva smbd_audit: IP=192.168.0.24|USER=AD\jessica|MACHINE=192.168.0.24|VOLUME=inclusiva|renameat|ok|/mnt/inclusiva/OPERACIONAL - INCLUSIVA CONTABIL/FISCAL - GF SERVIÇOS/CONTRATOS/CONTRATOS SOCIAIS - DOCS EMPRESAS/180 - AGROPECUÁRIA ZEFLECHA LTDA/8 - DEPARTAMENTO FISCAL/2025/05-2025/AGROP ZEFLECHA 052025.pdf|/mnt/Lixeira/jessica/OPERACIONAL - INCLUSIVA CONTABIL/FISCAL - GF SERVIÇOS/CONTRATOS/CONTRATOS SOCIAIS - DOCS EMPRESAS/180 - AGROPECUÁRIA ZEFLECHA LTDA/8 - DEPARTAMENTO FISCAL/2025/05-2025/Copy #1 of AGROP ZEFLECHA 052025.pdf
+Jun  2 11:33:16 inclusiva smbd_audit: IP=192.168.0.24|USER=AD\jessica|MACHINE=192.168.0.24|VOLUME=inclusiva|renameat|ok|/mnt/inclusiva/OPERACIONAL - INCLUSIVA CONTABIL/FISCAL - GF SERVIÇOS/CONTRATOS/CONTRATOS SOCIAIS - DOCS EMPRESAS/180 - AGROPECUÁRIA ZEFLECHA LTDA/8 - DEPARTAMENTO FISCAL/2025/05-2025/Nova pasta|/mnt/inclusiva/OPERACIONAL - INCLUSIVA CONTABIL/FISCAL - GF SERVIÇOS/CONTRATOS/CONTRATOS SOCIAIS - DOCS EMPRESAS/180 - AGROPECUÁRIA ZEFLECHA LTDA/8 - DEPARTAMENTO FISCAL/2025/05-2025/DAPI
+Jun  2 11:33:22 inclusiva smbd_audit: IP=192.168.0.24|USER=AD\jessica|MACHINE=192.168.0.24|VOLUME=inclusiva|renameat|ok|/mnt/inclusiva/OPERACIONAL - INCLUSIVA CONTABIL/FISCAL - GF SERVIÇOS/CONTRATOS/CONTRATOS SOCIAIS - DOCS EMPRESAS/180 - AGROPECUÁRIA ZEFLECHA LTDA/8 - DEPARTAMENTO FISCAL/2025/05-2025/052025 ICMS NORMAL (M).pdf|/mnt/inclusiva/OPERACIONAL - INCLUSIVA CONTABIL/FISCAL - GF SERVIÇOS/CONTRATOS/CONTRATOS SOCIAIS - DOCS EMPRESAS/180 - AGROPECUÁRIA ZEFLECHA LTDA/8 - DEPARTAMENTO FISCAL/2025/05-2025/DAPI/052025 ICMS NORMAL (M).pdf
+Jun  2 11:33:22 inclusiva smbd_audit: IP=192.168.0.24|USER=AD\jessica|MACHINE=192.168.0.24|VOLUME=inclusiva|renameat|ok|/mnt/inclusiva/OPERACIONAL - INCLUSIVA CONTABIL/FISCAL - GF SERVIÇOS/CONTRATOS/CONTRATOS SOCIAIS - DOCS EMPRESAS/180 - AGROPECUÁRIA ZEFLECHA LTDA/8 - DEPARTAMENTO FISCAL/2025/05-2025/AGROP ZEFLECHA 052025.pdf|/mnt/inclusiva/OPERACIONAL - INCLUSIVA CONTABIL/FISCAL - GF SERVIÇOS/CONTRATOS/CONTRATOS SOCIAIS - DOCS EMPRESAS/180 - AGROPECUÁRIA ZEFLECHA LTDA/8 - DEPARTAMENTO FISCAL/2025/05-2025/DAPI/AGROP ZEFLECHA 052025.pdf
+
+Em 06-2025 foi realizada a verificação da integridade dos Logs de Eventos das pastas da rede e dos registros de uso dos compartilhamentos.
+
+
+Checando armazenamento geral!
+
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           778M  3.8M  774M   1% /run
+/dev/sda2       116G   25G   86G  23% /
+tmpfs           3.8G     0  3.8G   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/sdb        1.8T  214G  1.6T  12% /mnt/disk01
+/dev/sda1       1.1G  6.1M  1.1G   1% /boot/efi
+/dev/sdc        1.8T  231G  1.6T  13% /mnt/disk02
+tmpfs           778M  8.0K  778M   1% /run/user/1000
+
+DUMP de RSnapshots (se existente)!
+
+May 30 23:01:23 inclusiva rsnapshot[680854]: /usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot beta: completed successfully
+May 31 07:00:01 inclusiva CRON[688568]: (root) CMD (/usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot gamma)
+May 31 07:01:35 inclusiva rsnapshot[688635]: /usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot gamma: completed successfully
+Jun 02 07:00:01 inclusiva CRON[725615]: (root) CMD (/usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot alpha)
+Jun 02 07:08:29 inclusiva rsnapshot[725740]: /usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot alpha: completed successfully
+Jun 02 10:00:01 inclusiva CRON[728434]: (root) CMD (/usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot alpha)
+Jun 02 10:04:35 inclusiva rsnapshot[728586]: /usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot alpha: completed successfully
+
+DUMP de RSYNC (se existente)!
+
+
+DUMP do RClone (se existente)!
+
+
+Checando backups dos containers!
+
+total 3.1G
+drwxrwxrwx 5 administrador administrador 4.0K Jun  2 00:00 .
+drwxrwxrwx 5 root          root          4.0K Dec  5  2023 ..
+drwxrwxrwx 2 root          root          4.0K Apr 22  2024 config
+-rw-r--r-- 1 root          root           28K Jun  1 00:00 cups-printer-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root           28K Jun  2 00:00 cups-printer-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root           19M Jun  1 00:00 dominio-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root           19M Jun  2 00:00 dominio-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root           19M May 31 00:00 dominio-31_05_25.tar.lz4
+-rw-r--r-- 1 root          root          2.5K Jun  1 00:00 duplicati-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root          2.5K Jun  2 00:00 duplicati-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root          2.5K May 31 00:00 duplicati-31_05_25.tar.lz4
+-rw-r--r-- 1 root          root           294 Jun  1 00:00 ftp-server-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root           294 Jun  2 00:00 ftp-server-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root           294 May 31 00:00 ftp-server-31_05_25.tar.lz4
+-rw-r--r-- 1 root          root          4.9K Jun  1 00:00 homarr-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root          4.9K Jun  2 00:00 homarr-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root          4.9K May 31 00:00 homarr-31_05_25.tar.lz4
+-rw-r--r-- 1 root          root           41M Jun  1 00:00 kuma-tracker-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root           41M Jun  2 00:00 kuma-tracker-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root           41M May 31 00:00 kuma-tracker-31_05_25.tar.lz4
+-rw-r--r-- 1 root          root           26K Jun  1 00:00 myspeed-tracker-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root           26K Jun  2 00:00 myspeed-tracker-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root           26K May 31 00:00 myspeed-tracker-31_05_25.tar.lz4
+-rw-r--r-- 1 root          root          7.0M Jun  1 00:00 mysql-spark-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root          7.0M Jun  2 00:00 mysql-spark-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root          6.9M May 31 00:00 mysql-spark-31_05_25.tar.lz4
+-rw-r--r-- 1 root          root           43M Jun  1 00:00 openfire-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root           43M Jun  2 00:00 openfire-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root           43M May 31 00:00 openfire-31_05_25.tar.lz4
+-rw-r--r-- 1 root          root           231 Jun  1 00:00 openspeedtest-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root           231 Jun  2 00:00 openspeedtest-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root           231 May 31 00:00 openspeedtest-31_05_25.tar.lz4
+-rw-r--r-- 1 root          root          249K Jun  1 00:00 pentest-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root          249K Jun  2 00:00 pentest-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root          249K May 31 00:00 pentest-31_05_25.tar.lz4
+-rw-r--r-- 1 root          root          926M Jun  1 00:00 pihole-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root          930M Jun  2 00:00 pihole-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root          928M May 31 00:00 pihole-31_05_25.tar.lz4
+-rw-r--r-- 1 root          root          5.7K Jun  1 00:00 scripts-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root          5.7K Jun  2 00:00 scripts-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root          5.7K May 31 00:00 scripts-31_05_25.tar.lz4
+-rw-r--r-- 1 root          root          876K Jun  1 00:00 scrutiny-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root          876K Jun  2 00:00 scrutiny-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root          876K May 31 00:00 scrutiny-31_05_25.tar.lz4
+-rw-r--r-- 1 root          root          1.1M Jun  1 00:00 ssh-dw-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root          1.1M Jun  2 00:00 ssh-dw-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root          1.1M May 31 00:00 ssh-dw-31_05_25.tar.lz4
+drwxrwxrwx 2 administrador administrador 4.0K Apr 22  2024 .stfolder
+drwxrwxrwx 2 administrador administrador 4.0K Apr 22  2024 Sync
+-rw-r--r-- 1 root          root          7.0M Jun  1 00:00 syncthing-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root          5.9M Jun  2 00:00 syncthing-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root          6.2M May 31 00:00 syncthing-31_05_25.tar.lz4
+-rw-r--r-- 1 root          root          8.0K Jun  1 00:00 tailscale-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root          8.0K Jun  2 00:00 tailscale-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root          8.0K May 31 00:00 tailscale-31_05_25.tar.lz4
+-rw-r--r-- 1 root          root          370K Jun  1 00:00 xpra-virt-manager-01_06_25.tar.lz4
+-rw-r--r-- 1 root          root          376K Jun  2 00:00 xpra-virt-manager-02_06_25.tar.lz4
+-rw-r--r-- 1 root          root          422K May 31 00:00 xpra-virt-manager-31_05_25.tar.lz4
+Em 06-2025 foi realizada a verificação das rotinas de backup do servidor. O backup para a nuvem, se existente, também foi verificado.
+
+Deleted Images:
+untagged: pihole/pihole@sha256:c2215c570976ebc23ab6688f556a80133d4236dae0bffee678129da4396fbd61
+deleted: sha256:feb8c881adba50db1a084d9818946051d6c439d04910b6bcecb7a644449e9fa8
+deleted: sha256:28d21765ab0871ec69c3c57fff7f4c515170cef582df53f1df3cd79f8eb9d11c
+deleted: sha256:38bd342b3d17e7832afba1c46bc4c51fde3f1995c1b13f9082c3a15a0a047234
+deleted: sha256:7ead47e5eb084acda2875f5efe35fd2c91abf8914d5b8e88b5e3565efaca58eb
+deleted: sha256:8552dbdff729f26f21eec3860e51093f696d82f1b299985d17d58ced0c4c305a
+deleted: sha256:f7bbde35428304f90af90ff0278c36b8a6b622b8f8ac71e1f6be1a8e75719e7a
+deleted: sha256:602fb92bd90d83ed7ddbdc4319934744b3019e74cb50601bbbf17e74a7b2636b
+deleted: sha256:44d37db0c1a1d6fd03a0d388a0911d281bcf03bf5884c8b9cd451ffa3ff698d9
+deleted: sha256:22e50476e30a7a73321afcdda326d0a3d9c06f0819b21a59020d9c18b197eaa1
+deleted: sha256:70814fd7cbcde3ed1b4de650cb1b63f7402f28aa1ed27fff677ce00e4495b9cb
+deleted: sha256:bbc77bc5e314e595967a56e60e8fa311a303353b5c7b9296a2515c1e739f0777
+
+Total reclaimed space: 82.66MB
+
+Em 06-2025 foi realizada a limpeza do sistema com remoção de pacotes e imagens obsoletas dos serviços, objetivando reduzir o consumo de armazenamento.
+
+Em 06-2025 o SWAP pôde ser limpo com sucesso pela segunda vez para finalização da manutenção: Sistema com desempenho dentro da normalidade!
+

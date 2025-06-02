@@ -1,0 +1,72 @@
+
+############################################################################
+Model Family:     Seagate IronWolf
+Device Model:     ST4000VN008-2DR166
+Serial Number:    ZDHBNVQ8
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-136-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000f   080   064   044    Pre-fail  Always       -       102465656
+  3 Spin_Up_Time            0x0003   096   094   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   099   099   020    Old_age   Always       -       1645
+  5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   086   060   045    Pre-fail  Always       -       367785009
+  9 Power_On_Hours          0x0032   078   078   000    Old_age   Always       -       19508 (79 146 0)
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   020    Old_age   Always       -       107
+184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   099   000    Old_age   Always       -       65542
+189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x0022   064   049   040    Old_age   Always       -       36 (Min/Max 23/38)
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       1038
+193 Load_Cycle_Count        0x0032   064   064   000    Old_age   Always       -       73875
+194 Temperature_Celsius     0x0022   036   051   000    Old_age   Always       -       36 (0 23 0 0 0)
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
+240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       9815 (133 5 0)
+241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       33634036824
+242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       21761982351
+
+
+############################################################################
+Device Model:     SAMSUNG HD161HJ
+Serial Number:    S15LJ50PC02297
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-136-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 18
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000f   100   100   051    Pre-fail  Always       -       0
+  3 Spin_Up_Time            0x0007   080   073   011    Pre-fail  Always       -       3000
+  4 Start_Stop_Count        0x0032   093   093   000    Old_age   Always       -       6548
+  5 Reallocated_Sector_Ct   0x0033   252   252   010    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   252   252   051    Pre-fail  Always       -       0
+  8 Seek_Time_Performance   0x0025   252   252   015    Pre-fail  Offline      -       0
+  9 Power_On_Hours          0x0032   094   094   000    Old_age   Always       -       3444647
+ 10 Spin_Retry_Count        0x0033   252   252   051    Pre-fail  Always       -       0
+ 11 Calibration_Retry_Count 0x0012   252   252   000    Old_age   Always       -       0
+ 12 Power_Cycle_Count       0x0032   096   096   000    Old_age   Always       -       3058
+184 End-to-End_Error        0x0032   252   252   000    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   252   252   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   252   252   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x0022   118   073   000    Old_age   Always       -       45
+194 Temperature_Celsius     0x0022   118   073   000    Old_age   Always       -       45
+195 Hardware_ECC_Recovered  0x001a   100   100   000    Old_age   Always       -       0
+196 Reallocated_Event_Count 0x0032   252   252   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0012   252   252   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0030   252   252   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x0036   200   199   000    Old_age   Always       -       0
+200 Multi_Zone_Error_Rate   0x000a   100   100   000    Old_age   Always       -       0
+201 Soft_Read_Error_Rate    0x000a   252   252   000    Old_age   Always       -       0
+
+
+Verificacao concluida em 06-2025!

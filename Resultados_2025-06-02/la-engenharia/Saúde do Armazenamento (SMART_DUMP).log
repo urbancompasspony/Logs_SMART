@@ -1,0 +1,64 @@
+
+############################################################################
+Model Family:     Phison Driven SSDs
+Device Model:     KINGSTON SA400S37240G
+Serial Number:    50026B7784C8B301
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-136-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 1
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x0032   100   100   000    Old_age   Always       -       100
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       21742
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       69
+148 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       0
+149 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       0
+167 Write_Protect_Mode      0x0000   100   100   000    Old_age   Offline      -       0
+168 SATA_Phy_Error_Count    0x0012   100   100   000    Old_age   Always       -       0
+169 Bad_Block_Rate          0x0000   100   100   000    Old_age   Offline      -       0
+170 Bad_Blk_Ct_Erl/Lat      0x0000   100   100   010    Old_age   Offline      -       0/0
+172 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       0
+173 MaxAvgErase_Ct          0x0000   100   100   000    Old_age   Offline      -       0
+181 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       0
+182 Erase_Fail_Count        0x0000   100   100   000    Old_age   Offline      -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+192 Unsafe_Shutdown_Count   0x0012   100   100   000    Old_age   Always       -       41
+194 Temperature_Celsius     0x0022   039   048   000    Old_age   Always       -       39 (Min/Max 21/48)
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+199 SATA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       0
+218 CRC_Error_Count         0x0032   100   100   000    Old_age   Always       -       0
+231 SSD_Life_Left           0x0000   084   084   000    Old_age   Offline      -       84
+233 Flash_Writes_GiB        0x0032   100   100   000    Old_age   Always       -       13960
+241 Lifetime_Writes_GiB     0x0032   100   100   000    Old_age   Always       -       17700
+242 Lifetime_Reads_GiB      0x0032   100   100   000    Old_age   Always       -       8475
+244 Average_Erase_Count     0x0000   100   100   000    Old_age   Offline      -       167
+245 Max_Erase_Count         0x0000   100   100   000    Old_age   Offline      -       199
+246 Total_Erase_Count       0x0000   100   100   000    Old_age   Offline      -       260529
+
+
+############################################################################
+Device Model:     PNY CS900 1TB SSD
+Serial Number:    PNY23232306050100E50
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-136-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000b   100   100   050    Pre-fail  Always       -       0
+  9 Power_On_Hours          0x0012   100   100   000    Old_age   Always       -       10641
+ 12 Power_Cycle_Count       0x0012   100   100   000    Old_age   Always       -       25
+168 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       0
+170 Unknown_Attribute       0x0003   100   100   010    Pre-fail  Always       -       470
+173 Unknown_Attribute       0x0012   100   100   000    Old_age   Always       -       131081
+192 Power-Off_Retract_Count 0x0012   100   100   000    Old_age   Always       -       12
+194 Temperature_Celsius     0x0023   067   067   000    Pre-fail  Always       -       33 (Min/Max 33/33)
+218 Unknown_Attribute       0x000b   100   100   050    Pre-fail  Always       -       0
+231 Unknown_SSD_Attribute   0x0013   100   100   000    Pre-fail  Always       -       99
+241 Total_LBAs_Written      0x0012   100   100   000    Old_age   Always       -       2013
+
+
+Verificacao concluida em 06-2025!

@@ -1,0 +1,45 @@
+
+############################################################################
+Model Family:     Silicon Motion based SSDs
+Device Model:     ADATA SU650
+Serial Number:    2M17291HCSHR
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-139-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x002f   100   100   050    Pre-fail  Always       -       0
+  5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       6868
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       58
+161 Valid_Spare_Block_Cnt   0x0032   100   100   000    Old_age   Always       -       0
+162 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       61550
+163 Initial_Bad_Block_Count 0x0032   100   100   000    Old_age   Always       -       100
+164 Total_Erase_Count       0x0032   100   100   000    Old_age   Always       -       138
+166 Min_Erase_Count         0x0032   100   100   000    Old_age   Always       -       74
+167 Average_Erase_Count     0x0032   100   100   050    Old_age   Always       -       0
+168 Max_Erase_Count_of_Spec 0x0032   100   100   000    Old_age   Always       -       0
+169 Remaining_Lifetime_Perc 0x0032   100   100   000    Old_age   Always       -       100
+171 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       0
+172 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       0
+174 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       34
+175 Program_Fail_Count_Chip 0x0032   100   100   000    Old_age   Always       -       0
+181 Program_Fail_Cnt_Total  0x0022   100   100   000    Old_age   Always       -       1508341
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+194 Temperature_Celsius     0x0022   100   100   030    Old_age   Always       -       43
+195 Hardware_ECC_Recovered  0x003a   100   100   000    Old_age   Always       -       402
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+199 UDMA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       0
+206 Unknown_SSD_Attribute   0x0032   100   100   000    Old_age   Always       -       4
+207 Unknown_SSD_Attribute   0x0032   100   100   000    Old_age   Always       -       167
+232 Available_Reservd_Space 0x0032   100   100   000    Old_age   Always       -       100
+233 Media_Wearout_Indicator 0x0032   100   100   000    Old_age   Always       -       320
+241 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       3871
+242 Host_Reads_32MiB        0x0032   100   100   000    Old_age   Always       -       216
+249 Unkn_SiliconMotion_Attr 0x0032   100   100   000    Old_age   Always       -       464
+250 Read_Error_Retry_Rate   0x0032   100   100   000    Old_age   Always       -       5331
+
+
+Verificacao concluida em 06-2025!

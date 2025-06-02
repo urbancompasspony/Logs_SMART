@@ -1,0 +1,518 @@
+========================================================
+RELATÓRIO MENSAL DE PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA
+Conforme estipulado em contrato mensal de prestação de serviços na área de informática, segue abaixo o relatório de manutenções preventivas e corretivas realizadas no mês de junho de 2025:
+
+Em 06-2025 o SWAP pôde ser limpo com sucesso: Sistema com desempenho dentro da normalidade!
+
+
+Atualizando o sistema!
+
+Hit:1 http://archive.ubuntu.com/ubuntu jammy InRelease
+Hit:2 http://archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
+Hit:4 https://esm.ubuntu.com/apps/ubuntu jammy-apps-security InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu jammy-security InRelease
+Hit:6 https://esm.ubuntu.com/apps/ubuntu jammy-apps-updates InRelease
+Get:7 https://pkgs.tailscale.com/stable/ubuntu jammy InRelease
+Hit:8 https://esm.ubuntu.com/infra/ubuntu jammy-infra-security InRelease
+Hit:9 https://esm.ubuntu.com/infra/ubuntu jammy-infra-updates InRelease
+Hit:10 https://ppa.launchpadcontent.net/fujiapple/trippy/ubuntu jammy InRelease
+Fetched 6,578 B in 2s (3,555 B/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
+Em 06-2025 o sistema do servidor foi atualizado e está em dia com a segurança digital.
+
+
+############################################################################
+Armazenamento: /dev/sda
+
+Device Model:     [No Information Found]
+Serial Number:    [No Information Found]
+
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-133-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+Read Device Identity failed: scsi error unsupported field in scsi command
+
+SMART support is: Ambiguous - ATA IDENTIFY DEVICE words 82-83 don't show if SMART supported.
+SMART support is: Ambiguous - ATA IDENTIFY DEVICE words 85-87 don't show if SMART is enabled.
+A mandatory SMART command failed: exiting. To continue, add one or more '-T permissive' options.
+
+
+############################################################################
+Armazenamento: /dev/sdb
+
+Model Family:     Western Digital Elements / My Passport (USB, AF)
+Device Model:     WDC WD10JMVW-11AJGS4
+Serial Number:    WD-WX61A16ENXJY
+
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-133-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x002f   200   200   051    Pre-fail  Always       -       0
+  3 Spin_Up_Time            0x0027   139   134   021    Pre-fail  Always       -       4050
+  4 Start_Stop_Count        0x0032   100   100   000    Old_age   Always       -       452
+  5 Reallocated_Sector_Ct   0x0033   200   200   140    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x002e   200   200   000    Old_age   Always       -       0
+  9 Power_On_Hours          0x0032   077   076   000    Old_age   Always       -       17497
+ 10 Spin_Retry_Count        0x0032   100   100   000    Old_age   Always       -       0
+ 11 Calibration_Retry_Count 0x0032   100   100   000    Old_age   Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       207
+192 Power-Off_Retract_Count 0x0032   200   200   000    Old_age   Always       -       140
+193 Load_Cycle_Count        0x0032   198   198   000    Old_age   Always       -       6264
+194 Temperature_Celsius     0x0022   112   092   000    Old_age   Always       -       35
+196 Reallocated_Event_Count 0x0032   200   200   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0032   200   200   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0030   100   253   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x0032   200   200   000    Old_age   Always       -       0
+200 Multi_Zone_Error_Rate   0x0008   100   253   000    Old_age   Offline      -       0
+
+
+
+############################################################################
+Armazenamento: /dev/sdc
+
+Model Family:     Phison Driven SSDs
+Device Model:     KINGSTON SA400S37960G
+Serial Number:    50026B7785CD7329
+
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-133-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x0032   100   100   000    Old_age   Always       -       0
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       1774
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       3
+148 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       0
+149 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       0
+167 Write_Protect_Mode      0x0000   100   100   000    Old_age   Offline      -       0
+168 SATA_Phy_Error_Count    0x0012   100   100   000    Old_age   Always       -       0
+169 Bad_Block_Rate          0x0000   100   100   000    Old_age   Offline      -       6
+170 Bad_Blk_Ct_Lat/Erl      0x0000   100   100   010    Old_age   Offline      -       0/9
+172 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       0
+173 MaxAvgErase_Ct          0x0000   100   100   000    Old_age   Offline      -       6 (Average 3)
+181 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       0
+182 Erase_Fail_Count        0x0000   100   100   000    Old_age   Offline      -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+192 Unsafe_Shutdown_Count   0x0012   100   100   000    Old_age   Always       -       2
+194 Temperature_Celsius     0x0022   037   053   000    Old_age   Always       -       37 (Min/Max 23/53)
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+199 SATA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       196733
+218 CRC_Error_Count         0x0032   100   100   000    Old_age   Always       -       0
+231 SSD_Life_Left           0x0000   100   100   000    Old_age   Offline      -       100
+233 Flash_Writes_GiB        0x0032   100   100   000    Old_age   Always       -       2748
+241 Lifetime_Writes_GiB     0x0032   100   100   000    Old_age   Always       -       898
+242 Lifetime_Reads_GiB      0x0032   100   100   000    Old_age   Always       -       2590
+244 Average_Erase_Count     0x0000   100   100   000    Old_age   Offline      -       3
+245 Max_Erase_Count         0x0000   100   100   000    Old_age   Offline      -       6
+246 Total_Erase_Count       0x0000   100   100   000    Old_age   Offline      -       2960
+
+
+
+############################################################################
+Armazenamento: /dev/sdd
+
+Model Family:     Toshiba P300 (CMR)
+Device Model:     TOSHIBA HDWD110
+Serial Number:    11FNT06FS
+
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-133-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000b   100   100   016    Pre-fail  Always       -       0
+  2 Throughput_Performance  0x0005   142   142   054    Pre-fail  Offline      -       70
+  3 Spin_Up_Time            0x0007   122   122   024    Pre-fail  Always       -       177 (Average 198)
+  4 Start_Stop_Count        0x0012   100   100   000    Old_age   Always       -       80
+  5 Reallocated_Sector_Ct   0x0033   100   100   005    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000b   100   100   067    Pre-fail  Always       -       0
+  8 Seek_Time_Performance   0x0005   108   108   020    Pre-fail  Offline      -       37
+  9 Power_On_Hours          0x0012   097   097   000    Old_age   Always       -       23639
+ 10 Spin_Retry_Count        0x0013   100   100   060    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       80
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       373
+193 Load_Cycle_Count        0x0012   100   100   000    Old_age   Always       -       373
+194 Temperature_Celsius     0x0002   146   146   000    Old_age   Always       -       41 (Min/Max 25/63)
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0022   100   100   000    Old_age   Always       -       8
+198 Offline_Uncorrectable   0x0008   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x000a   200   200   000    Old_age   Always       -       3
+
+
+
+############################################################################
+Armazenamento: /dev/sde
+
+Model Family:     Toshiba P300 (CMR)
+Device Model:     TOSHIBA HDWD110
+Serial Number:    11FNT0KFS
+
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-133-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000b   100   100   016    Pre-fail  Always       -       0
+  2 Throughput_Performance  0x0005   143   143   054    Pre-fail  Offline      -       66
+  3 Spin_Up_Time            0x0007   114   114   024    Pre-fail  Always       -       202 (Average 201)
+  4 Start_Stop_Count        0x0012   100   100   000    Old_age   Always       -       290
+  5 Reallocated_Sector_Ct   0x0033   100   100   005    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000b   100   100   067    Pre-fail  Always       -       0
+  8 Seek_Time_Performance   0x0005   115   115   020    Pre-fail  Offline      -       34
+  9 Power_On_Hours          0x0012   096   096   000    Old_age   Always       -       28336
+ 10 Spin_Retry_Count        0x0013   100   100   060    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       289
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       1022
+193 Load_Cycle_Count        0x0012   100   100   000    Old_age   Always       -       1022
+194 Temperature_Celsius     0x0002   146   146   000    Old_age   Always       -       41 (Min/Max 22/61)
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0022   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0008   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x000a   200   200   000    Old_age   Always       -       0
+
+
+
+############################################################################
+Armazenamento: /dev/sdf
+
+Model Family:     Phison Driven SSDs
+Device Model:     KINGSTON SA400S37960G
+Serial Number:    50026B7785CD7A7C
+
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-133-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x0032   100   100   000    Old_age   Always       -       0
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       1798
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       4
+148 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       0
+149 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       0
+167 Write_Protect_Mode      0x0000   100   100   000    Old_age   Offline      -       0
+168 SATA_Phy_Error_Count    0x0012   100   100   000    Old_age   Always       -       0
+169 Bad_Block_Rate          0x0000   100   100   000    Old_age   Offline      -       5
+170 Bad_Blk_Ct_Lat/Erl      0x0000   100   100   010    Old_age   Offline      -       0/7
+172 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       0
+173 MaxAvgErase_Ct          0x0000   100   100   000    Old_age   Offline      -       5 (Average 3)
+181 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       0
+182 Erase_Fail_Count        0x0000   100   100   000    Old_age   Offline      -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+192 Unsafe_Shutdown_Count   0x0012   100   100   000    Old_age   Always       -       3
+194 Temperature_Celsius     0x0022   032   048   000    Old_age   Always       -       31 (Min/Max 24/48)
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+199 SATA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       196737
+218 CRC_Error_Count         0x0032   100   100   000    Old_age   Always       -       0
+231 SSD_Life_Left           0x0000   100   100   000    Old_age   Offline      -       100
+233 Flash_Writes_GiB        0x0032   100   100   000    Old_age   Always       -       2777
+241 Lifetime_Writes_GiB     0x0032   100   100   000    Old_age   Always       -       902
+242 Lifetime_Reads_GiB      0x0032   100   100   000    Old_age   Always       -       2598
+244 Average_Erase_Count     0x0000   100   100   000    Old_age   Offline      -       3
+245 Max_Erase_Count         0x0000   100   100   000    Old_age   Offline      -       5
+246 Total_Erase_Count       0x0000   100   100   000    Old_age   Offline      -       3028
+
+
+
+############################################################################
+Armazenamento: /dev/sdg
+
+Model Family:     Western Digital Blue (CMR)
+Device Model:     WDC WD10EZEX-00WN4A0
+Serial Number:    WD-WCC6Y4AD1HC3
+
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-133-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x002f   200   200   051    Pre-fail  Always       -       0
+  3 Spin_Up_Time            0x0027   175   173   021    Pre-fail  Always       -       2233
+  4 Start_Stop_Count        0x0032   080   080   000    Old_age   Always       -       20675
+  5 Reallocated_Sector_Ct   0x0033   200   200   140    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x002e   200   200   000    Old_age   Always       -       0
+  9 Power_On_Hours          0x0032   041   040   000    Old_age   Always       -       43225
+ 10 Spin_Retry_Count        0x0032   100   100   000    Old_age   Always       -       0
+ 11 Calibration_Retry_Count 0x0032   100   100   000    Old_age   Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       256
+192 Power-Off_Retract_Count 0x0032   200   200   000    Old_age   Always       -       163
+193 Load_Cycle_Count        0x0032   178   178   000    Old_age   Always       -       66995
+194 Temperature_Celsius     0x0022   101   081   000    Old_age   Always       -       42
+196 Reallocated_Event_Count 0x0032   200   200   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0032   200   200   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0030   200   200   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x0032   200   199   000    Old_age   Always       -       428
+200 Multi_Zone_Error_Rate   0x0008   200   200   000    Old_age   Offline      -       0
+
+
+
+############################################################################
+Armazenamento: /dev/sdh
+
+Model Family:     Seagate BarraCuda 3.5 (CMR)
+Device Model:     ST1000DM010-2EP102
+Serial Number:    ZN1P3VGN
+
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-133-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000f   080   063   006    Pre-fail  Always       -       106432328
+  3 Spin_Up_Time            0x0003   097   097   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   100   100   020    Old_age   Always       -       671
+  5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   078   060   045    Pre-fail  Always       -       83614414
+  9 Power_On_Hours          0x0032   081   081   000    Old_age   Always       -       16945
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   020    Old_age   Always       -       670
+183 Runtime_Bad_Block       0x0032   099   099   000    Old_age   Always       -       1
+184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   100   000    Old_age   Always       -       0 0 0
+189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x0022   058   041   040    Old_age   Always       -       42 (Min/Max 29/51)
+193 Load_Cycle_Count        0x0032   100   100   000    Old_age   Always       -       1346
+194 Temperature_Celsius     0x0022   042   021   000    Old_age   Always       -       42 (0 21 0 0 0)
+195 Hardware_ECC_Recovered  0x001a   029   001   000    Old_age   Always       -       106432328
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
+240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       11871h+22m+17.437s
+241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       34244685202
+242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       44705250674
+
+
+
+############################################################################
+Armazenamento: /dev/nvme0n1p1
+
+Model Number:                       WDC PC SN530 SDBPNPZ-512G-1014
+Serial Number:                      2118HR474305
+
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-133-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF SMART DATA SECTION ===
+SMART/Health Information (NVMe Log 0x02)
+Critical Warning:                   0x00
+Temperature:                        45 Celsius
+Available Spare:                    100%
+Available Spare Threshold:          10%
+Percentage Used:                    3%
+Data Units Read:                    42,580,995 [21.8 TB]
+Data Units Written:                 36,054,288 [18.4 TB]
+Host Read Commands:                 582,800,764
+Host Write Commands:                589,977,851
+Controller Busy Time:               1,770
+Power Cycles:                       2,061
+Power On Hours:                     2,599
+Unsafe Shutdowns:                   43
+Media and Data Integrity Errors:    0
+Error Information Log Entries:      111
+Warning  Comp. Temperature Time:    0
+Critical Comp. Temperature Time:    0
+
+
+Skipping duplicate device: /dev/nvme0n1p2
+
+Verificacao concluida em 06-2025!
+Em 06-2025 foi realizada a verificação da saúde dos discos rígidos. Mais informações no anexo SMART_DUMP no e-mail!
+
+latest: Pulling from pihole/pihole
+Digest: sha256:db38df3e050606bd014c801c2cbb0b13f263d3122d3d817a8cbcee807688af24
+Status: Image is up to date for pihole/pihole:latest
+docker.io/pihole/pihole:latest
+pihole-vpn
+pihole-vpn
+45d12e115d98c3a0ee7c7ea1a13f2b7241a3444268fd153449c183e5ea4e5a8f
+
+Esperar 5s antes de aplicar as configs
+true
+pihole-vpn
+
+Em 06-2025 os serviços de DNS e bloqueios de sites do pihole-vpn foram atualizados e suas listas foram revalidadas!
+
+pihole-particular
+pihole-particular
+cfa4efc5c608fafd95e9124da3dd2dce1249abae6988d1bc5dd75b34a938c294
+
+Esperar 5s antes de aplicar as configs
+true
+pihole-particular
+
+Em 06-2025 os serviços de DNS e bloqueios de sites do pihole-particular foram atualizados e suas listas foram revalidadas!
+
+
+
+
+Em 06-2025 nenhum novo equipamento vulnerável detectado na rede. Por enquanto nenhum equipamento cujos testes sejam pertinentes de serem notificados.
+
+
+/srv/containers/particular/log/syslog
+
+
+Em 06-2025 foi realizada a verificação da integridade dos Logs de Eventos das pastas da rede e dos registros de uso dos compartilhamentos.
+
+
+Checando armazenamento geral!
+
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           3.2G  4.4M  3.2G   1% /run
+/dev/nvme0n1p2  469G  112G  358G  24% /
+tmpfs            16G     0   16G   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs            16G  824K   16G   1% /tmp
+tmpfs            16G     0   16G   0% /var/tmp
+/dev/sdb        917G  202G  716G  22% /mnt/games
+/dev/sdh        916G  239G  678G  27% /mnt/multimedia-bkp
+/dev/md0        1.8T  648G  1.1T  37% /mnt/md0
+/dev/md1        1.8T  702G  1.2T  39% /mnt/md1
+/dev/sda        1.8T  648G  1.2T  36% /mnt/externo
+/dev/sdg        916G  240G  677G  27% /mnt/multimedia
+tmpfs           3.2G  8.0K  3.2G   1% /run/user/1000
+
+DUMP de RSnapshots (se existente)!
+
+May 31 18:00:32 olympus rsnapshot[1844833]: /usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot-particular.conf alpha: completed successfully
+May 31 21:00:01 olympus CRON[1860164]: (root) CMD (/usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot-particular.conf gamma)
+May 31 21:00:13 olympus rsnapshot[1860221]: /usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot-particular.conf gamma: completed successfully
+Jun 01 12:00:01 olympus CRON[1983191]: (root) CMD (/usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot-particular.conf alpha)
+Jun 01 12:00:52 olympus rsnapshot[1983692]: /usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot-particular.conf alpha: completed successfully
+Jun 01 18:00:01 olympus CRON[2025798]: (root) CMD (/usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot-particular.conf alpha)
+Jun 01 18:00:49 olympus rsnapshot[2026162]: /usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot-particular.conf alpha: completed successfully
+
+DUMP de RSYNC (se existente)!
+
+May 31 04:00:01 olympus CRON[1773799]: (root) CMD (rsync --delete -aHAXv /mnt/multimedia/ /mnt/multimedia-bkp/)
+Jun 01 02:00:01 olympus CRON[1899153]: (root) CMD (rsync --delete -aHAXv /mnt/md0/Nextcloud/ /mnt/md1/Nextcloud/)
+Jun 01 03:00:01 olympus CRON[1921857]: (root) CMD (rsync --delete -aHAXv /mnt/md0/ /mnt/externo/)
+Jun 01 04:00:01 olympus CRON[1928668]: (root) CMD (rsync --delete -aHAXv /mnt/multimedia/ /mnt/multimedia-bkp/)
+Jun 02 02:00:01 olympus CRON[2078481]: (root) CMD (rsync --delete -aHAXv /mnt/md0/Nextcloud/ /mnt/md1/Nextcloud/)
+Jun 02 03:00:01 olympus CRON[2099294]: (root) CMD (rsync --delete -aHAXv /mnt/md0/ /mnt/externo/)
+Jun 02 04:00:01 olympus CRON[2104167]: (root) CMD (rsync --delete -aHAXv /mnt/multimedia/ /mnt/multimedia-bkp/)
+
+DUMP do RClone (se existente)!
+
+
+Checando backups dos containers!
+
+total 11G
+drwxrwxrwx+  3 administrador administrador 4.0K Jun  2 02:00 .
+drwxrwxrwx  41 administrador administrador 4.0K May 28 12:08 ..
+-rwxrwxrwx+  1 root          root           25M Jun  1 02:00 chromium-browser-01_06_25.tar.lz4
+-rw-rw-rw-+  1 root          root           25M Jun  2 02:00 chromium-browser-02_06_25.tar.lz4
+-rwxrwxrwx+  1 root          root           25M May 31 02:00 chromium-browser-31_05_25.tar.lz4
+-rwxrwxrwx+  1 root          root           44M Jun  1 02:00 cloud-syncthing-01_06_25.tar.lz4
+-rw-rw-rw-+  1 root          root           44M Jun  2 02:00 cloud-syncthing-02_06_25.tar.lz4
+-rwxrwxrwx+  1 root          root           44M May 31 02:00 cloud-syncthing-31_05_25.tar.lz4
+drwxrwxrwx+  2 root          root          4.0K May 23  2024 config
+-rwxrwxrwx+  1 root          root          2.6K Jun  1 02:00 file-browser-01_06_25.tar.lz4
+-rw-rw-rw-+  1 root          root          2.6K Jun  2 02:00 file-browser-02_06_25.tar.lz4
+-rwxrwxrwx+  1 root          root          2.6K May 31 02:00 file-browser-31_05_25.tar.lz4
+-rwxrwxrwx+  1 root          root          515M Jun  1 02:00 jellyfin-01_06_25.tar.lz4
+-rw-rw-rw-+  1 root          root          515M Jun  2 02:00 jellyfin-02_06_25.tar.lz4
+-rwxrwxrwx+  1 root          root          515M May 31 02:00 jellyfin-31_05_25.tar.lz4
+-rwxrwxrwx+  1 root          root          295M Jun  1 02:00 luanti-server-01_06_25.tar.lz4
+-rw-rw-rw-+  1 root          root          295M Jun  2 02:00 luanti-server-02_06_25.tar.lz4
+-rwxrwxrwx+  1 root          root          295M May 31 02:00 luanti-server-31_05_25.tar.lz4
+-rwxrwxrwx+  1 root          root           98K Jun  1 02:00 myspeed-tracker-01_06_25.tar.lz4
+-rw-rw-rw-+  1 root          root           95K Jun  2 02:00 myspeed-tracker-02_06_25.tar.lz4
+-rwxrwxrwx+  1 root          root           95K May 31 02:00 myspeed-tracker-31_05_25.tar.lz4
+-rwxrwxrwx+  1 root          root           20M Jun  1 02:00 mysql-statping-01_06_25.tar.lz4
+-rw-rw-rw-+  1 root          root           20M Jun  2 02:00 mysql-statping-02_06_25.tar.lz4
+-rwxrwxrwx+  1 root          root           20M May 31 02:00 mysql-statping-31_05_25.tar.lz4
+-rwxrwxrwx+  1 root          root           35K Jun  1 02:00 nextcloud-01_06_25.tar.lz4
+-rw-rw-rw-+  1 root          root           35K Jun  2 02:00 nextcloud-02_06_25.tar.lz4
+-rwxrwxrwx+  1 root          root           35K May 31 02:00 nextcloud-31_05_25.tar.lz4
+-rwxrwxrwx+  1 root          root          431M Jun  1 02:00 nextcloud-mysql-01_06_25.tar.lz4
+-rw-rw-rw-+  1 root          root          432M Jun  2 02:00 nextcloud-mysql-02_06_25.tar.lz4
+-rwxrwxrwx+  1 root          root          432M May 31 02:00 nextcloud-mysql-31_05_25.tar.lz4
+-rwxrwxrwx+  1 root          root           23M Jun  1 02:00 onlyoffice-01_06_25.tar.lz4
+-rw-rw-rw-+  1 root          root           23M Jun  2 02:00 onlyoffice-02_06_25.tar.lz4
+-rwxrwxrwx+  1 root          root           23M May 31 02:00 onlyoffice-31_05_25.tar.lz4
+-rwxrwxrwx+  1 root          root           234 Jun  1 02:00 openspeedtest-01_06_25.tar.lz4
+-rw-rw-rw-+  1 root          root           234 Jun  2 02:00 openspeedtest-02_06_25.tar.lz4
+-rwxrwxrwx+  1 root          root           234 May 31 02:00 openspeedtest-31_05_25.tar.lz4
+-rwxrwxrwx+  1 root          root           18M Jun  1 02:00 particular-01_06_25.tar.lz4
+-rw-rw-rw-+  1 root          root           18M Jun  2 02:00 particular-02_06_25.tar.lz4
+-rwxrwxrwx+  1 root          root           18M May 31 02:00 particular-31_05_25.tar.lz4
+-rwxrwxrwx+  1 root          root           14M Jun  1 02:00 particular-syncthing-01_06_25.tar.lz4
+-rw-rw-rw-+  1 root          root           14M Jun  2 02:00 particular-syncthing-02_06_25.tar.lz4
+-rwxrwxrwx+  1 root          root           14M May 31 02:00 particular-syncthing-31_05_25.tar.lz4
+-rwxrwxrwx+  1 root          root          620K Jun  1 02:00 pentest-01_06_25.tar.lz4
+-rw-rw-rw-+  1 root          root          622K Jun  2 02:00 pentest-02_06_25.tar.lz4
+-rwxrwxrwx+  1 root          root          624K May 31 02:00 pentest-31_05_25.tar.lz4
+-rwxrwxrwx+  1 root          root          810M Jun  1 02:00 pihole-particular-01_06_25.tar.lz4
+-rw-rw-rw-+  1 root          root          812M Jun  2 02:00 pihole-particular-02_06_25.tar.lz4
+-rwxrwxrwx+  1 root          root          802M May 31 02:00 pihole-particular-31_05_25.tar.lz4
+-rwxrwxrwx+  1 root          root          1.4G Jun  1 02:01 pihole-vpn-01_06_25.tar.lz4
+-rw-rw-rw-+  1 root          root          1.4G Jun  2 02:00 pihole-vpn-02_06_25.tar.lz4
+-rwxrwxrwx+  1 root          root          1.4G May 31 02:01 pihole-vpn-31_05_25.tar.lz4
+-rwxrwxrwx+  1 root          root          2.5M Jun  1 02:01 qdir-stat-01_06_25.tar.lz4
+-rw-rw-rw-+  1 root          root          2.5M Jun  2 02:00 qdir-stat-02_06_25.tar.lz4
+-rwxrwxrwx+  1 root          root          2.5M May 31 02:01 qdir-stat-31_05_25.tar.lz4
+-rwxrwxrwx+  1 root          root          124K Jun  1 02:01 reverseproxy-01_06_25.tar.lz4
+-rw-rw-rw-+  1 root          root          124K Jun  2 02:00 reverseproxy-02_06_25.tar.lz4
+-rwxrwxrwx+  1 root          root          124K May 31 02:01 reverseproxy-31_05_25.tar.lz4
+-rwxrwxrwx+  1 root          root           12K Jun  1 02:01 scripts-01_06_25.tar.lz4
+-rw-rw-rw-+  1 root          root           12K Jun  2 02:00 scripts-02_06_25.tar.lz4
+-rwxrwxrwx+  1 root          root           12K May 31 02:01 scripts-31_05_25.tar.lz4
+-rwxrwxrwx+  1 root          root          1.2K Jun  1 02:01 script-server-01_06_25.tar.lz4
+-rw-rw-rw-+  1 root          root          1.2K Jun  2 02:00 script-server-02_06_25.tar.lz4
+-rwxrwxrwx+  1 root          root          1.2K May 31 02:01 script-server-31_05_25.tar.lz4
+-rwxrwxrwx+  1 root          root          1.2M Jun  1 02:01 ssh-dw-01_06_25.tar.lz4
+-rw-rw-rw-+  1 root          root          1.2M Jun  2 02:00 ssh-dw-02_06_25.tar.lz4
+-rwxrwxrwx+  1 root          root          1.2M May 31 02:01 ssh-dw-31_05_25.tar.lz4
+-rwxrwxrwx+  1 root          root           183 Jun  1 02:01 ssh-tunnel-01_06_25.tar.lz4
+-rw-rw-rw-+  1 root          root           183 Jun  2 02:00 ssh-tunnel-02_06_25.tar.lz4
+-rwxrwxrwx+  1 root          root           183 May 31 02:01 ssh-tunnel-31_05_25.tar.lz4
+-rwxrwxrwx+  1 root          root           43K Jun  1 02:01 sshvpn-01_06_25.tar.lz4
+-rw-rw-rw-+  1 root          root           43K Jun  2 02:00 sshvpn-02_06_25.tar.lz4
+-rwxrwxrwx+  1 root          root           43K May 31 02:01 sshvpn-31_05_25.tar.lz4
+-rwxrwxrwx+  1 root          root           266 Jun  1 02:01 syncthing-01_06_25.tar.lz4
+-rw-rw-rw-+  1 root          root           266 Jun  2 02:00 syncthing-02_06_25.tar.lz4
+-rwxrwxrwx+  1 root          root           266 May 31 02:01 syncthing-31_05_25.tar.lz4
+-rwxrwxrwx+  1 root          root          1.5K Jun  1 02:01 syncthing-relay-01_06_25.tar.lz4
+-rw-rw-rw-+  1 root          root          1.5K Jun  2 02:00 syncthing-relay-02_06_25.tar.lz4
+-rwxrwxrwx+  1 root          root          1.5K May 31 02:01 syncthing-relay-31_05_25.tar.lz4
+-rwxrwxrwx+  1 root          root          242K Jun  1 02:01 xpra-virt-manager-01_06_25.tar.lz4
+-rw-rw-rw-+  1 root          root          242K Jun  2 02:00 xpra-virt-manager-02_06_25.tar.lz4
+-rwxrwxrwx+  1 root          root          242K May 31 02:01 xpra-virt-manager-31_05_25.tar.lz4
+Em 06-2025 foi realizada a verificação das rotinas de backup do servidor. O backup para a nuvem, se existente, também foi verificado.
+
+Total reclaimed space: 0B
+
+Em 06-2025 foi realizada a limpeza do sistema com remoção de pacotes e imagens obsoletas dos serviços, objetivando reduzir o consumo de armazenamento.
+
+Em 06-2025 o SWAP pôde ser limpo com sucesso pela segunda vez para finalização da manutenção: Sistema com desempenho dentro da normalidade!
+

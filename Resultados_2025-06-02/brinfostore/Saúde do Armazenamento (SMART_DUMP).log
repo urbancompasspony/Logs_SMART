@@ -1,0 +1,136 @@
+
+############################################################################
+Device Model:     WDC WD6004FZWX-00BKVA0
+Serial Number:    WD-AD02LBLL
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-136-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x002f   200   200   051    Pre-fail  Always       -       0
+  3 Spin_Up_Time            0x0027   153   153   021    Pre-fail  Always       -       9341
+  4 Start_Stop_Count        0x0032   100   100   000    Old_age   Always       -       8
+  5 Reallocated_Sector_Ct   0x0033   200   200   140    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x002e   100   253   000    Old_age   Always       -       0
+  9 Power_On_Hours          0x0032   097   097   000    Old_age   Always       -       2388
+ 10 Spin_Retry_Count        0x0032   100   253   000    Old_age   Always       -       0
+ 11 Calibration_Retry_Count 0x0032   100   253   000    Old_age   Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       8
+192 Power-Off_Retract_Count 0x0032   200   200   000    Old_age   Always       -       4
+193 Load_Cycle_Count        0x0032   200   200   000    Old_age   Always       -       10
+194 Temperature_Celsius     0x0022   104   096   000    Old_age   Always       -       48
+196 Reallocated_Event_Count 0x0032   200   200   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0032   200   200   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0030   100   253   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x0032   200   200   000    Old_age   Always       -       0
+200 Multi_Zone_Error_Rate   0x0008   100   253   000    Old_age   Offline      -       0
+
+
+############################################################################
+Model Family:     Phison Driven SSDs
+Device Model:     KINGSTON SA400S37240G
+Serial Number:    50026B77842D6C0C
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-136-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x0032   100   100   000    Old_age   Always       -       0
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       10687
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       217
+148 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       0
+149 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       0
+167 Write_Protect_Mode      0x0000   100   100   000    Old_age   Offline      -       0
+168 SATA_Phy_Error_Count    0x0012   100   100   000    Old_age   Always       -       0
+169 Bad_Block_Rate          0x0000   100   100   000    Old_age   Offline      -       29
+170 Bad_Blk_Ct_Erl/Lat      0x0000   100   100   010    Old_age   Offline      -       0/25
+172 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       0
+173 MaxAvgErase_Ct          0x0000   100   100   000    Old_age   Offline      -       175 (Average 153)
+181 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       0
+182 Erase_Fail_Count        0x0000   100   100   000    Old_age   Offline      -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+192 Unsafe_Shutdown_Count   0x0012   100   100   000    Old_age   Always       -       107
+194 Temperature_Celsius     0x0022   042   050   000    Old_age   Always       -       42 (Min/Max 23/50)
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+199 SATA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       0
+218 CRC_Error_Count         0x0032   100   100   000    Old_age   Always       -       0
+231 SSD_Life_Left           0x0000   078   078   000    Old_age   Offline      -       78
+233 Flash_Writes_GiB        0x0032   100   100   000    Old_age   Always       -       25899
+241 Lifetime_Writes_GiB     0x0032   100   100   000    Old_age   Always       -       15645
+242 Lifetime_Reads_GiB      0x0032   100   100   000    Old_age   Always       -       146345
+244 Average_Erase_Count     0x0000   100   100   000    Old_age   Offline      -       153
+245 Max_Erase_Count         0x0000   100   100   000    Old_age   Offline      -       175
+246 Total_Erase_Count       0x0000   100   100   000    Old_age   Offline      -       520056
+
+
+############################################################################
+Model Family:     Western Digital Red (SMR)
+Device Model:     WDC WD30EFAX-68JH4N0
+Serial Number:    WD-WX22D70JUPFT
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-136-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x002f   200   200   051    Pre-fail  Always       -       0
+  3 Spin_Up_Time            0x0027   206   194   021    Pre-fail  Always       -       2675
+  4 Start_Stop_Count        0x0032   100   100   000    Old_age   Always       -       817
+  5 Reallocated_Sector_Ct   0x0033   200   200   140    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x002e   200   200   000    Old_age   Always       -       0
+  9 Power_On_Hours          0x0032   086   086   000    Old_age   Always       -       10859
+ 10 Spin_Retry_Count        0x0032   100   100   000    Old_age   Always       -       0
+ 11 Calibration_Retry_Count 0x0032   100   100   000    Old_age   Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       282
+192 Power-Off_Retract_Count 0x0032   200   200   000    Old_age   Always       -       149
+193 Load_Cycle_Count        0x0032   199   199   000    Old_age   Always       -       5156
+194 Temperature_Celsius     0x0022   110   101   000    Old_age   Always       -       37
+196 Reallocated_Event_Count 0x0032   200   200   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0032   200   200   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0030   100   253   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x0032   200   200   000    Old_age   Always       -       0
+200 Multi_Zone_Error_Rate   0x0008   100   253   000    Old_age   Offline      -       0
+
+
+############################################################################
+Model Family:     Seagate IronWolf
+Device Model:     ST4000VN008-2DR166
+Serial Number:    ZGY5GEYK
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-136-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000f   083   064   044    Pre-fail  Always       -       186737488
+  3 Spin_Up_Time            0x0003   094   093   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   100   100   020    Old_age   Always       -       779
+  5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   091   060   045    Pre-fail  Always       -       1142577685
+  9 Power_On_Hours          0x0032   063   063   000    Old_age   Always       -       33121 (185 24 0)
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   020    Old_age   Always       -       412
+184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   100   000    Old_age   Always       -       0
+189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x0022   063   048   040    Old_age   Always       -       37 (Min/Max 27/41)
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       347
+193 Load_Cycle_Count        0x0032   072   072   000    Old_age   Always       -       57907
+194 Temperature_Celsius     0x0022   037   052   000    Old_age   Always       -       37 (0 15 0 0 0)
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
+240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       25478 (202 11 0)
+241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       2893066172867
+242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       911518629018
+
+
+Verificacao concluida em 06-2025!

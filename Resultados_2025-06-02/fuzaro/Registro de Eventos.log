@@ -1,0 +1,924 @@
+========================================================
+RELATÓRIO MENSAL DE PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA
+Conforme estipulado em contrato mensal de prestação de serviços na área de informática, segue abaixo o relatório de manutenções preventivas e corretivas realizadas no mês de maio de 2025:
+
+Em 05-2025 o SWAP pôde ser limpo com sucesso: Sistema com desempenho dentro da normalidade!
+
+
+Atualizando o sistema!
+
+Hit:1 http://archive.ubuntu.com/ubuntu jammy InRelease
+Get:2 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
+Get:3 https://pkgs.tailscale.com/stable/ubuntu jammy InRelease
+Get:4 http://archive.ubuntu.com/ubuntu jammy-backports InRelease [127 kB]
+Get:5 http://archive.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
+Get:6 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [2,547 kB]
+Get:7 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1,201 kB]
+Fetched 4,139 kB in 4s (1,039 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+50 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+Get more security updates through Ubuntu Pro with 'esm-apps' enabled:
+  libzvbi-common libavdevice58 libpostproc55 docker.io libsoup-3.0-0
+  libavcodec58 traceroute libavutil56 libswscale5 libswresample3
+  libsoup-3.0-common libavformat58 libzvbi0 libavfilter7
+Learn more about Ubuntu Pro at https://ubuntu.com/pro
+The following NEW packages will be installed:
+  linux-headers-5.15.0-139 linux-headers-5.15.0-139-generic
+  linux-image-5.15.0-139-generic linux-modules-5.15.0-139-generic
+  linux-modules-extra-5.15.0-139-generic
+The following packages will be upgraded:
+  binutils binutils-common binutils-x86-64-linux-gnu distro-info-data ethtool
+  libarchive13 libbinutils libctf-nobfd0 libctf0 libexpat1
+  libjavascriptcoregtk-4.1-0 libperl5.34 libsoup2.4-1 libsoup2.4-common
+  libvirt-clients libvirt-daemon libvirt-daemon-config-network
+  libvirt-daemon-config-nwfilter libvirt-daemon-driver-qemu
+  libvirt-daemon-system libvirt-daemon-system-systemd libvirt0
+  libwebkit2gtk-4.1-0 libxml2 linux-base linux-generic linux-headers-generic
+  linux-image-generic linux-libc-dev openssh-client openssh-server
+  openssh-sftp-server osinfo-db pci.ids perl perl-base perl-modules-5.34
+  python3-libxml2 qemu-guest-agent qemu-system-common qemu-system-data
+  qemu-system-x86 ubuntu-advantage-tools ubuntu-pro-client
+  ubuntu-pro-client-l10n vim vim-common vim-runtime vim-tiny xxd
+50 upgraded, 5 newly installed, 0 to remove and 0 not upgraded.
+26 standard LTS security updates
+Need to get 194 MB of archives.
+After this operation, 585 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libperl5.34 amd64 5.34.0-3ubuntu1.4 [4,820 kB]
+Get:2 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 perl amd64 5.34.0-3ubuntu1.4 [232 kB]
+Get:3 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 perl-base amd64 5.34.0-3ubuntu1.4 [1,759 kB]
+Get:4 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 perl-modules-5.34 all 5.34.0-3ubuntu1.4 [2,977 kB]
+Get:5 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 openssh-sftp-server amd64 1:8.9p1-3ubuntu0.13 [38.7 kB]
+Get:6 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 openssh-server amd64 1:8.9p1-3ubuntu0.13 [435 kB]
+Get:7 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 openssh-client amd64 1:8.9p1-3ubuntu0.13 [903 kB]
+Get:8 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 qemu-guest-agent amd64 1:6.2+dfsg-2ubuntu6.26 [251 kB]
+Get:9 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 distro-info-data all 0.52ubuntu0.9 [5,336 B]
+Get:10 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libexpat1 amd64 2.4.7-1ubuntu0.6 [92.1 kB]
+Get:11 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libxml2 amd64 2.9.13+dfsg-1ubuntu0.7 [763 kB]
+Get:12 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 ubuntu-pro-client-l10n amd64 35.1ubuntu0~22.04 [20.6 kB]
+Get:13 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 ubuntu-pro-client amd64 35.1ubuntu0~22.04 [236 kB]
+Get:14 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 ubuntu-advantage-tools all 35.1ubuntu0~22.04 [10.9 kB]
+Get:15 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 vim amd64 2:8.2.3995-1ubuntu2.24 [1,728 kB]
+Get:16 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 vim-tiny amd64 2:8.2.3995-1ubuntu2.24 [707 kB]
+Get:17 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 vim-runtime all 2:8.2.3995-1ubuntu2.24 [6,833 kB]
+Get:18 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 xxd amd64 2:8.2.3995-1ubuntu2.24 [51.4 kB]
+Get:19 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 vim-common all 2:8.2.3995-1ubuntu2.24 [81.5 kB]
+Get:20 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 pci.ids all 0.0~2022.01.22-1ubuntu0.1 [251 kB]
+Get:21 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libctf0 amd64 2.38-4ubuntu2.8 [103 kB]
+Get:22 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libctf-nobfd0 amd64 2.38-4ubuntu2.8 [108 kB]
+Get:23 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 binutils-x86-64-linux-gnu amd64 2.38-4ubuntu2.8 [2,324 kB]
+Get:24 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libbinutils amd64 2.38-4ubuntu2.8 [661 kB]
+Get:25 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 binutils amd64 2.38-4ubuntu2.8 [3,196 B]
+Get:26 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 binutils-common amd64 2.38-4ubuntu2.8 [223 kB]
+Get:27 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 ethtool amd64 1:5.16-1ubuntu0.2 [208 kB]
+Get:28 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libarchive13 amd64 3.6.0-1ubuntu1.4 [368 kB]
+Get:29 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 libwebkit2gtk-4.1-0 amd64 2.48.1-0ubuntu0.22.04.1 [26.8 MB]
+Get:30 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libjavascriptcoregtk-4.1-0 amd64 2.48.1-0ubuntu0.22.04.1 [8,982 kB]
+Get:31 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libsoup2.4-common all 2.74.2-3ubuntu0.2 [4,192 B]
+Get:32 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libsoup2.4-1 amd64 2.74.2-3ubuntu0.2 [287 kB]
+Get:33 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libvirt-daemon-config-network all 8.0.0-1ubuntu7.11 [8,652 B]
+Get:34 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 qemu-system-x86 amd64 1:6.2+dfsg-2ubuntu6.26 [10.1 MB]
+Get:35 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 qemu-system-common amd64 1:6.2+dfsg-2ubuntu6.26 [2,047 kB]
+Get:36 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libvirt-daemon-driver-qemu amd64 8.0.0-1ubuntu7.11 [747 kB]
+Get:37 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libvirt-clients amd64 8.0.0-1ubuntu7.11 [429 kB]
+Get:38 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libvirt0 amd64 8.0.0-1ubuntu7.11 [1,756 kB]
+Get:39 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libvirt-daemon amd64 8.0.0-1ubuntu7.11 [412 kB]
+Get:40 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libvirt-daemon-system amd64 8.0.0-1ubuntu7.11 [52.3 kB]
+Get:41 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libvirt-daemon-config-nwfilter all 8.0.0-1ubuntu7.11 [11.6 kB]
+Get:42 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 qemu-system-data all 1:6.2+dfsg-2ubuntu6.26 [1,430 kB]
+Get:43 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libvirt-daemon-system-systemd all 8.0.0-1ubuntu7.11 [69.0 kB]
+Get:44 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-base all 4.5ubuntu9+22.04.1 [19.1 kB]
+Get:45 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-modules-5.15.0-139-generic amd64 5.15.0-139.149 [22.7 MB]
+Get:46 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-image-5.15.0-139-generic amd64 5.15.0-139.149 [11.6 MB]
+Get:47 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-modules-extra-5.15.0-139-generic amd64 5.15.0-139.149 [63.9 MB]
+Get:48 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-generic amd64 5.15.0.139.135 [1,698 B]
+Get:49 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-image-generic amd64 5.15.0.139.135 [2,468 B]
+Get:50 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-headers-5.15.0-139 all 5.15.0-139.149 [12.3 MB]
+Get:51 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-headers-5.15.0-139-generic amd64 5.15.0-139.149 [2,849 kB]
+Get:52 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-headers-generic amd64 5.15.0.139.135 [2,326 B]
+Get:53 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 linux-libc-dev amd64 5.15.0-139.149 [1,298 kB]
+Get:54 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 osinfo-db all 0.20250124-0ubuntu0.22.04.1 [175 kB]
+Get:55 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 python3-libxml2 amd64 2.9.13+dfsg-1ubuntu0.7 [148 kB]
+Preconfiguring packages ...
+Fetched 194 MB in 18s (11.1 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 138589 files and directories currently installed.)
+Preparing to unpack .../libperl5.34_5.34.0-3ubuntu1.4_amd64.deb ...
+Unpacking libperl5.34:amd64 (5.34.0-3ubuntu1.4) over (5.34.0-3ubuntu1.3) ...
+Preparing to unpack .../perl_5.34.0-3ubuntu1.4_amd64.deb ...
+Unpacking perl (5.34.0-3ubuntu1.4) over (5.34.0-3ubuntu1.3) ...
+Preparing to unpack .../perl-base_5.34.0-3ubuntu1.4_amd64.deb ...
+Unpacking perl-base (5.34.0-3ubuntu1.4) over (5.34.0-3ubuntu1.3) ...
+Setting up perl-base (5.34.0-3ubuntu1.4) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 138589 files and directories currently installed.)
+Preparing to unpack .../00-perl-modules-5.34_5.34.0-3ubuntu1.4_all.deb ...
+Unpacking perl-modules-5.34 (5.34.0-3ubuntu1.4) over (5.34.0-3ubuntu1.3) ...
+Preparing to unpack .../01-openssh-sftp-server_1%3a8.9p1-3ubuntu0.13_amd64.deb ...
+Unpacking openssh-sftp-server (1:8.9p1-3ubuntu0.13) over (1:8.9p1-3ubuntu0.11) ...
+Preparing to unpack .../02-openssh-server_1%3a8.9p1-3ubuntu0.13_amd64.deb ...
+Unpacking openssh-server (1:8.9p1-3ubuntu0.13) over (1:8.9p1-3ubuntu0.11) ...
+Preparing to unpack .../03-openssh-client_1%3a8.9p1-3ubuntu0.13_amd64.deb ...
+Unpacking openssh-client (1:8.9p1-3ubuntu0.13) over (1:8.9p1-3ubuntu0.11) ...
+Preparing to unpack .../04-qemu-guest-agent_1%3a6.2+dfsg-2ubuntu6.26_amd64.deb ...
+Unpacking qemu-guest-agent (1:6.2+dfsg-2ubuntu6.26) over (1:6.2+dfsg-2ubuntu6.25) ...
+Preparing to unpack .../05-distro-info-data_0.52ubuntu0.9_all.deb ...
+Unpacking distro-info-data (0.52ubuntu0.9) over (0.52ubuntu0.8) ...
+Preparing to unpack .../06-libexpat1_2.4.7-1ubuntu0.6_amd64.deb ...
+Unpacking libexpat1:amd64 (2.4.7-1ubuntu0.6) over (2.4.7-1ubuntu0.5) ...
+Preparing to unpack .../07-libxml2_2.9.13+dfsg-1ubuntu0.7_amd64.deb ...
+Unpacking libxml2:amd64 (2.9.13+dfsg-1ubuntu0.7) over (2.9.13+dfsg-1ubuntu0.6) ...
+Preparing to unpack .../08-ubuntu-pro-client-l10n_35.1ubuntu0~22.04_amd64.deb ...
+Unpacking ubuntu-pro-client-l10n (35.1ubuntu0~22.04) over (34~22.04) ...
+Preparing to unpack .../09-ubuntu-pro-client_35.1ubuntu0~22.04_amd64.deb ...
+Unpacking ubuntu-pro-client (35.1ubuntu0~22.04) over (34~22.04) ...
+Preparing to unpack .../10-ubuntu-advantage-tools_35.1ubuntu0~22.04_all.deb ...
+Unpacking ubuntu-advantage-tools (35.1ubuntu0~22.04) over (34~22.04) ...
+Preparing to unpack .../11-vim_2%3a8.2.3995-1ubuntu2.24_amd64.deb ...
+Unpacking vim (2:8.2.3995-1ubuntu2.24) over (2:8.2.3995-1ubuntu2.23) ...
+Preparing to unpack .../12-vim-tiny_2%3a8.2.3995-1ubuntu2.24_amd64.deb ...
+Unpacking vim-tiny (2:8.2.3995-1ubuntu2.24) over (2:8.2.3995-1ubuntu2.23) ...
+Preparing to unpack .../13-vim-runtime_2%3a8.2.3995-1ubuntu2.24_all.deb ...
+Unpacking vim-runtime (2:8.2.3995-1ubuntu2.24) over (2:8.2.3995-1ubuntu2.23) ...
+Preparing to unpack .../14-xxd_2%3a8.2.3995-1ubuntu2.24_amd64.deb ...
+Unpacking xxd (2:8.2.3995-1ubuntu2.24) over (2:8.2.3995-1ubuntu2.23) ...
+Preparing to unpack .../15-vim-common_2%3a8.2.3995-1ubuntu2.24_all.deb ...
+Unpacking vim-common (2:8.2.3995-1ubuntu2.24) over (2:8.2.3995-1ubuntu2.23) ...
+Preparing to unpack .../16-pci.ids_0.0~2022.01.22-1ubuntu0.1_all.deb ...
+Unpacking pci.ids (0.0~2022.01.22-1ubuntu0.1) over (0.0~2022.01.22-1) ...
+Preparing to unpack .../17-libctf0_2.38-4ubuntu2.8_amd64.deb ...
+Unpacking libctf0:amd64 (2.38-4ubuntu2.8) over (2.38-4ubuntu2.7) ...
+Preparing to unpack .../18-libctf-nobfd0_2.38-4ubuntu2.8_amd64.deb ...
+Unpacking libctf-nobfd0:amd64 (2.38-4ubuntu2.8) over (2.38-4ubuntu2.7) ...
+Preparing to unpack .../19-binutils-x86-64-linux-gnu_2.38-4ubuntu2.8_amd64.deb ...
+Unpacking binutils-x86-64-linux-gnu (2.38-4ubuntu2.8) over (2.38-4ubuntu2.7) ...
+Preparing to unpack .../20-libbinutils_2.38-4ubuntu2.8_amd64.deb ...
+Unpacking libbinutils:amd64 (2.38-4ubuntu2.8) over (2.38-4ubuntu2.7) ...
+Preparing to unpack .../21-binutils_2.38-4ubuntu2.8_amd64.deb ...
+Unpacking binutils (2.38-4ubuntu2.8) over (2.38-4ubuntu2.7) ...
+Preparing to unpack .../22-binutils-common_2.38-4ubuntu2.8_amd64.deb ...
+Unpacking binutils-common:amd64 (2.38-4ubuntu2.8) over (2.38-4ubuntu2.7) ...
+Preparing to unpack .../23-ethtool_1%3a5.16-1ubuntu0.2_amd64.deb ...
+Unpacking ethtool (1:5.16-1ubuntu0.2) over (1:5.16-1ubuntu0.1) ...
+Preparing to unpack .../24-libarchive13_3.6.0-1ubuntu1.4_amd64.deb ...
+Unpacking libarchive13:amd64 (3.6.0-1ubuntu1.4) over (3.6.0-1ubuntu1.3) ...
+Preparing to unpack .../25-libwebkit2gtk-4.1-0_2.48.1-0ubuntu0.22.04.1_amd64.deb ...
+Unpacking libwebkit2gtk-4.1-0:amd64 (2.48.1-0ubuntu0.22.04.1) over (2.48.0-0ubuntu0.22.04.1) ...
+Preparing to unpack .../26-libjavascriptcoregtk-4.1-0_2.48.1-0ubuntu0.22.04.1_amd64.deb ...
+Unpacking libjavascriptcoregtk-4.1-0:amd64 (2.48.1-0ubuntu0.22.04.1) over (2.48.0-0ubuntu0.22.04.1) ...
+Preparing to unpack .../27-libsoup2.4-common_2.74.2-3ubuntu0.2_all.deb ...
+Unpacking libsoup2.4-common (2.74.2-3ubuntu0.2) over (2.74.2-3ubuntu0.1) ...
+Preparing to unpack .../28-libsoup2.4-1_2.74.2-3ubuntu0.2_amd64.deb ...
+Unpacking libsoup2.4-1:amd64 (2.74.2-3ubuntu0.2) over (2.74.2-3ubuntu0.1) ...
+Preparing to unpack .../29-libvirt-daemon-config-network_8.0.0-1ubuntu7.11_all.deb ...
+Unpacking libvirt-daemon-config-network (8.0.0-1ubuntu7.11) over (8.0.0-1ubuntu7.10) ...
+Preparing to unpack .../30-qemu-system-x86_1%3a6.2+dfsg-2ubuntu6.26_amd64.deb ...
+Unpacking qemu-system-x86 (1:6.2+dfsg-2ubuntu6.26) over (1:6.2+dfsg-2ubuntu6.25) ...
+Preparing to unpack .../31-qemu-system-common_1%3a6.2+dfsg-2ubuntu6.26_amd64.deb ...
+Unpacking qemu-system-common (1:6.2+dfsg-2ubuntu6.26) over (1:6.2+dfsg-2ubuntu6.25) ...
+Preparing to unpack .../32-libvirt-daemon-driver-qemu_8.0.0-1ubuntu7.11_amd64.deb ...
+Unpacking libvirt-daemon-driver-qemu (8.0.0-1ubuntu7.11) over (8.0.0-1ubuntu7.10) ...
+Preparing to unpack .../33-libvirt-clients_8.0.0-1ubuntu7.11_amd64.deb ...
+Unpacking libvirt-clients (8.0.0-1ubuntu7.11) over (8.0.0-1ubuntu7.10) ...
+Preparing to unpack .../34-libvirt0_8.0.0-1ubuntu7.11_amd64.deb ...
+Unpacking libvirt0:amd64 (8.0.0-1ubuntu7.11) over (8.0.0-1ubuntu7.10) ...
+Preparing to unpack .../35-libvirt-daemon_8.0.0-1ubuntu7.11_amd64.deb ...
+Unpacking libvirt-daemon (8.0.0-1ubuntu7.11) over (8.0.0-1ubuntu7.10) ...
+Preparing to unpack .../36-libvirt-daemon-system_8.0.0-1ubuntu7.11_amd64.deb ...
+Unpacking libvirt-daemon-system (8.0.0-1ubuntu7.11) over (8.0.0-1ubuntu7.10) ...
+Preparing to unpack .../37-libvirt-daemon-config-nwfilter_8.0.0-1ubuntu7.11_all.deb ...
+Unpacking libvirt-daemon-config-nwfilter (8.0.0-1ubuntu7.11) over (8.0.0-1ubuntu7.10) ...
+Preparing to unpack .../38-qemu-system-data_1%3a6.2+dfsg-2ubuntu6.26_all.deb ...
+Unpacking qemu-system-data (1:6.2+dfsg-2ubuntu6.26) over (1:6.2+dfsg-2ubuntu6.25) ...
+Preparing to unpack .../39-libvirt-daemon-system-systemd_8.0.0-1ubuntu7.11_all.deb ...
+Unpacking libvirt-daemon-system-systemd (8.0.0-1ubuntu7.11) over (8.0.0-1ubuntu7.10) ...
+Preparing to unpack .../40-linux-base_4.5ubuntu9+22.04.1_all.deb ...
+Unpacking linux-base (4.5ubuntu9+22.04.1) over (4.5ubuntu9) ...
+Selecting previously unselected package linux-modules-5.15.0-139-generic.
+Preparing to unpack .../41-linux-modules-5.15.0-139-generic_5.15.0-139.149_amd64.deb ...
+Unpacking linux-modules-5.15.0-139-generic (5.15.0-139.149) ...
+Selecting previously unselected package linux-image-5.15.0-139-generic.
+Preparing to unpack .../42-linux-image-5.15.0-139-generic_5.15.0-139.149_amd64.deb ...
+Unpacking linux-image-5.15.0-139-generic (5.15.0-139.149) ...
+Selecting previously unselected package linux-modules-extra-5.15.0-139-generic.
+Preparing to unpack .../43-linux-modules-extra-5.15.0-139-generic_5.15.0-139.149_amd64.deb ...
+Unpacking linux-modules-extra-5.15.0-139-generic (5.15.0-139.149) ...
+Preparing to unpack .../44-linux-generic_5.15.0.139.135_amd64.deb ...
+Unpacking linux-generic (5.15.0.139.135) over (5.15.0.136.134) ...
+Preparing to unpack .../45-linux-image-generic_5.15.0.139.135_amd64.deb ...
+Unpacking linux-image-generic (5.15.0.139.135) over (5.15.0.136.134) ...
+Selecting previously unselected package linux-headers-5.15.0-139.
+Preparing to unpack .../46-linux-headers-5.15.0-139_5.15.0-139.149_all.deb ...
+Unpacking linux-headers-5.15.0-139 (5.15.0-139.149) ...
+Selecting previously unselected package linux-headers-5.15.0-139-generic.
+Preparing to unpack .../47-linux-headers-5.15.0-139-generic_5.15.0-139.149_amd64.deb ...
+Unpacking linux-headers-5.15.0-139-generic (5.15.0-139.149) ...
+Preparing to unpack .../48-linux-headers-generic_5.15.0.139.135_amd64.deb ...
+Unpacking linux-headers-generic (5.15.0.139.135) over (5.15.0.136.134) ...
+Preparing to unpack .../49-linux-libc-dev_5.15.0-139.149_amd64.deb ...
+Unpacking linux-libc-dev:amd64 (5.15.0-139.149) over (5.15.0-136.147) ...
+Preparing to unpack .../50-osinfo-db_0.20250124-0ubuntu0.22.04.1_all.deb ...
+Unpacking osinfo-db (0.20250124-0ubuntu0.22.04.1) over (0.20240523-0ubuntu0.22.04.1) ...
+Preparing to unpack .../51-python3-libxml2_2.9.13+dfsg-1ubuntu0.7_amd64.deb ...
+Unpacking python3-libxml2:amd64 (2.9.13+dfsg-1ubuntu0.7) over (2.9.13+dfsg-1ubuntu0.6) ...
+Setting up linux-headers-5.15.0-139 (5.15.0-139.149) ...
+Setting up libexpat1:amd64 (2.4.7-1ubuntu0.6) ...
+Setting up libvirt-daemon-config-network (8.0.0-1ubuntu7.11) ...
+Setting up pci.ids (0.0~2022.01.22-1ubuntu0.1) ...
+Setting up linux-base (4.5ubuntu9+22.04.1) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+Setting up qemu-system-common (1:6.2+dfsg-2ubuntu6.26) ...
+Setting up distro-info-data (0.52ubuntu0.9) ...
+Setting up openssh-client (1:8.9p1-3ubuntu0.13) ...
+Setting up qemu-guest-agent (1:6.2+dfsg-2ubuntu6.26) ...
+qemu-guest-agent.service is a disabled or a static unit not running, not starting it.
+Setting up binutils-common:amd64 (2.38-4ubuntu2.8) ...
+Setting up linux-libc-dev:amd64 (5.15.0-139.149) ...
+Setting up libctf-nobfd0:amd64 (2.38-4ubuntu2.8) ...
+Setting up perl-modules-5.34 (5.34.0-3ubuntu1.4) ...
+Setting up xxd (2:8.2.3995-1ubuntu2.24) ...
+Setting up libjavascriptcoregtk-4.1-0:amd64 (2.48.1-0ubuntu0.22.04.1) ...
+Setting up vim-common (2:8.2.3995-1ubuntu2.24) ...
+Setting up osinfo-db (0.20250124-0ubuntu0.22.04.1) ...
+Setting up libvirt-daemon-system-systemd (8.0.0-1ubuntu7.11) ...
+Setting up qemu-system-data (1:6.2+dfsg-2ubuntu6.26) ...
+Setting up libsoup2.4-common (2.74.2-3ubuntu0.2) ...
+Setting up libbinutils:amd64 (2.38-4ubuntu2.8) ...
+Setting up vim-runtime (2:8.2.3995-1ubuntu2.24) ...
+Setting up libvirt-daemon-config-nwfilter (8.0.0-1ubuntu7.11) ...
+Setting up linux-headers-5.15.0-139-generic (5.15.0-139.149) ...
+Setting up libxml2:amd64 (2.9.13+dfsg-1ubuntu0.7) ...
+Setting up ubuntu-pro-client (35.1ubuntu0~22.04) ...
+Installing new version of config file /etc/apparmor.d/ubuntu_pro_apt_news ...
+Installing new version of config file /etc/apt/apt.conf.d/20apt-esm-hook.conf ...
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+Setting up ethtool (1:5.16-1ubuntu0.2) ...
+Setting up libctf0:amd64 (2.38-4ubuntu2.8) ...
+Setting up ubuntu-pro-client-l10n (35.1ubuntu0~22.04) ...
+Setting up openssh-sftp-server (1:8.9p1-3ubuntu0.13) ...
+Setting up libwebkit2gtk-4.1-0:amd64 (2.48.1-0ubuntu0.22.04.1) ...
+Setting up libperl5.34:amd64 (5.34.0-3ubuntu1.4) ...
+Setting up vim (2:8.2.3995-1ubuntu2.24) ...
+Setting up libsoup2.4-1:amd64 (2.74.2-3ubuntu0.2) ...
+Setting up openssh-server (1:8.9p1-3ubuntu0.13) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+rescue-ssh.target is a disabled or a static unit not running, not starting it.
+ssh.socket is a disabled or a static unit not running, not starting it.
+Setting up libarchive13:amd64 (3.6.0-1ubuntu1.4) ...
+Setting up qemu-system-x86 (1:6.2+dfsg-2ubuntu6.26) ...
+Setting up linux-headers-generic (5.15.0.139.135) ...
+Setting up vim-tiny (2:8.2.3995-1ubuntu2.24) ...
+Setting up python3-libxml2:amd64 (2.9.13+dfsg-1ubuntu0.7) ...
+Setting up perl (5.34.0-3ubuntu1.4) ...
+Setting up libvirt0:amd64 (8.0.0-1ubuntu7.11) ...
+Setting up ubuntu-advantage-tools (35.1ubuntu0~22.04) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+Setting up binutils-x86-64-linux-gnu (2.38-4ubuntu2.8) ...
+Setting up libvirt-clients (8.0.0-1ubuntu7.11) ...
+Setting up binutils (2.38-4ubuntu2.8) ...
+Setting up libvirt-daemon-driver-qemu (8.0.0-1ubuntu7.11) ...
+Setting up libvirt-daemon (8.0.0-1ubuntu7.11) ...
+Setting up libvirt-daemon-system (8.0.0-1ubuntu7.11) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+virtlockd.service is a disabled or a static unit, not starting it.
+virtlogd.service is a disabled or a static unit, not starting it.
+Setting up libvirt-daemon dnsmasq configuration.
+Setting up linux-image-5.15.0-139-generic (5.15.0-139.149) ...
+I: /boot/vmlinuz.old is now a symlink to vmlinuz-5.15.0-136-generic
+I: /boot/initrd.img.old is now a symlink to initrd.img-5.15.0-136-generic
+I: /boot/vmlinuz is now a symlink to vmlinuz-5.15.0-139-generic
+I: /boot/initrd.img is now a symlink to initrd.img-5.15.0-139-generic
+Setting up linux-modules-extra-5.15.0-139-generic (5.15.0-139.149) ...
+Setting up linux-image-generic (5.15.0.139.135) ...
+Setting up linux-modules-5.15.0-139-generic (5.15.0-139.149) ...
+Setting up linux-generic (5.15.0.139.135) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.9) ...
+Processing triggers for ufw (0.36.1-4ubuntu0.1) ...
+Rules updated for profile 'Samba'
+Skipped reloading firewall
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for desktop-file-utils (0.26-1ubuntu3) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for linux-image-5.15.0-139-generic (5.15.0-139.149) ...
+/etc/kernel/postinst.d/initramfs-tools:
+update-initramfs: Generating /boot/initrd.img-5.15.0-139-generic
+/etc/kernel/postinst.d/zz-update-grub:
+Sourcing file `/etc/default/grub'
+Sourcing file `/etc/default/grub.d/init-select.cfg'
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-5.15.0-139-generic
+Found initrd image: /boot/initrd.img-5.15.0-139-generic
+Found linux image: /boot/vmlinuz-5.15.0-136-generic
+Found initrd image: /boot/initrd.img-5.15.0-136-generic
+Found linux image: /boot/vmlinuz-5.15.0-133-generic
+Found initrd image: /boot/initrd.img-5.15.0-133-generic
+Warning: os-prober will not be executed to detect other bootable partitions.
+Systems on them will not be added to the GRUB boot configuration.
+Check GRUB_DISABLE_OS_PROBER documentation entry.
+done
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages will be REMOVED:
+  linux-headers-5.15.0-136 linux-headers-5.15.0-136-generic
+  linux-image-5.15.0-136-generic linux-modules-5.15.0-136-generic
+  linux-modules-extra-5.15.0-136-generic
+0 upgraded, 0 newly installed, 5 to remove and 0 not upgraded.
+After this operation, 584 MB disk space will be freed.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 174252 files and directories currently installed.)
+Removing linux-headers-5.15.0-136-generic (5.15.0-136.147) ...
+Removing linux-headers-5.15.0-136 (5.15.0-136.147) ...
+Removing linux-modules-extra-5.15.0-136-generic (5.15.0-136.147) ...
+Removing linux-image-5.15.0-136-generic (5.15.0-136.147) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+I: /boot/vmlinuz.old is now a symlink to vmlinuz-5.15.0-133-generic
+I: /boot/initrd.img.old is now a symlink to initrd.img-5.15.0-133-generic
+/etc/kernel/postrm.d/initramfs-tools:
+update-initramfs: Deleting /boot/initrd.img-5.15.0-136-generic
+/etc/kernel/postrm.d/zz-update-grub:
+Sourcing file `/etc/default/grub'
+Sourcing file `/etc/default/grub.d/init-select.cfg'
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-5.15.0-139-generic
+Found initrd image: /boot/initrd.img-5.15.0-139-generic
+Found linux image: /boot/vmlinuz-5.15.0-133-generic
+Found initrd image: /boot/initrd.img-5.15.0-133-generic
+Warning: os-prober will not be executed to detect other bootable partitions.
+Systems on them will not be added to the GRUB boot configuration.
+Check GRUB_DISABLE_OS_PROBER documentation entry.
+done
+Removing linux-modules-5.15.0-136-generic (5.15.0-136.147) ...
+
+Em 05-2025 o sistema do servidor foi atualizado e está em dia com a segurança digital.
+
+
+############################################################################
+Armazenamento: /dev/sda
+
+Model Family:     Toshiba P300
+Device Model:     TOSHIBA HDWD110
+Serial Number:    126T2UUMS
+
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-133-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000b   100   100   016    Pre-fail  Always       -       0
+  2 Throughput_Performance  0x0005   141   141   054    Pre-fail  Offline      -       72
+  3 Spin_Up_Time            0x0007   126   126   024    Pre-fail  Always       -       184 (Average 180)
+  4 Start_Stop_Count        0x0012   100   100   000    Old_age   Always       -       86
+  5 Reallocated_Sector_Ct   0x0033   100   100   005    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000b   100   100   067    Pre-fail  Always       -       0
+  8 Seek_Time_Performance   0x0005   115   115   020    Pre-fail  Offline      -       34
+  9 Power_On_Hours          0x0012   098   098   000    Old_age   Always       -       18476
+ 10 Spin_Retry_Count        0x0013   100   100   060    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       86
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       120
+193 Load_Cycle_Count        0x0012   100   100   000    Old_age   Always       -       120
+194 Temperature_Celsius     0x0002   150   150   000    Old_age   Always       -       40 (Min/Max 25/45)
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0022   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0008   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x000a   200   200   000    Old_age   Always       -       0
+
+
+
+############################################################################
+Armazenamento: /dev/sdb
+
+Model Family:     Seagate Constellation ES (SATA 6Gb/s)
+Device Model:     ST1000NM0011
+Serial Number:    Z1N3REKR
+
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-133-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000f   081   063   044    Pre-fail  Always       -       126289080
+  3 Spin_Up_Time            0x0003   095   094   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   100   100   020    Old_age   Always       -       350
+  5 Reallocated_Sector_Ct   0x0033   100   100   036    Pre-fail  Always       -       4
+  7 Seek_Error_Rate         0x000f   093   060   030    Pre-fail  Always       -       2243015492
+  9 Power_On_Hours          0x0032   076   011   000    Old_age   Always       -       21880
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   020    Old_age   Always       -       352
+184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   100   000    Old_age   Always       -       0
+189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x0022   060   054   045    Old_age   Always       -       40 (Min/Max 33/41)
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       256
+193 Load_Cycle_Count        0x0032   082   082   000    Old_age   Always       -       37065
+194 Temperature_Celsius     0x0022   040   046   000    Old_age   Always       -       40 (0 21 0 0 0)
+195 Hardware_ECC_Recovered  0x001a   117   099   000    Old_age   Always       -       126289080
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
+240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       56864 (134 74 0)
+241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       2576710002
+242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       84689190
+
+
+
+############################################################################
+Armazenamento: /dev/sdc
+
+Model Family:     Seagate Constellation ES (SATA 6Gb/s)
+Device Model:     ST1000NM0011
+Serial Number:    Z1N3RDS1
+
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-133-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000f   083   063   044    Pre-fail  Always       -       216138265
+  3 Spin_Up_Time            0x0003   095   094   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   100   100   020    Old_age   Always       -       352
+  5 Reallocated_Sector_Ct   0x0033   100   100   036    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   090   060   030    Pre-fail  Always       -       1105909010
+  9 Power_On_Hours          0x0032   071   011   000    Old_age   Always       -       25553
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   020    Old_age   Always       -       353
+184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   100   000    Old_age   Always       -       0
+189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x0022   065   052   045    Old_age   Always       -       35 (Min/Max 32/38)
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       317
+193 Load_Cycle_Count        0x0032   078   078   000    Old_age   Always       -       45941
+194 Temperature_Celsius     0x0022   035   048   000    Old_age   Always       -       35 (0 20 0 0 0)
+195 Hardware_ECC_Recovered  0x001a   119   099   000    Old_age   Always       -       216138265
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
+240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       91011 (72 239 0)
+241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       2486474627
+242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       4056486669
+
+
+
+Verificacao concluida em 05-2025!
+Em 05-2025 foi realizada a verificação da saúde dos discos rígidos. Mais informações no anexo SMART_DUMP no e-mail!
+
+Checking 3687 objects
+Checked 3687 objects (0 errors)
+
+Em 05-2025 foi realizada a verificação da integridade do Controlador de Domínio.
+
+latest: Pulling from pihole/pihole
+Digest: sha256:c2215c570976ebc23ab6688f556a80133d4236dae0bffee678129da4396fbd61
+Status: Image is up to date for pihole/pihole:latest
+docker.io/pihole/pihole:latest
+pihole
+pihole
+dcb0bdf9c677264b548197ea898eaea164a993db9316dffbda415a53ddb2e173
+
+Esperar 5s antes de aplicar as configs
+true
+pihole
+
+Em 05-2025 os serviços de DNS e bloqueios de sites do pihole foram atualizados e suas listas foram revalidadas!
+
+
+/mnt/disk01/Backup_Bruto/Backups Cobian/Arquivos/2-4-6/SkyDrive/Arquivos/BKP Aplicativos/Informações/Apostilas/Aprenda EXCEL Sem fazer Esforço/Ferramentas/Uconeer/ReadMe.txt
+/mnt/disk01/Backup_Bruto/Backups Cobian/Arquivos/3-5-7/SkyDrive/Arquivos/BKP Aplicativos/Informações/Apostilas/Aprenda EXCEL Sem fazer Esforço/Ferramentas/Uconeer/ReadMe.txt
+/mnt/disk01/Backup_Bruto/Cobian Antigo/Arquivos/3-5-7/SkyDrive/Arquivos/BKP Aplicativos/Informações/Apostilas/Aprenda EXCEL Sem fazer Esforço/Ferramentas/Uconeer/ReadMe.txt
+/mnt/disk01/Backup_Bruto/Cobian Antigo/Arquivos/3-5-7/SkyDrive/Arquivos/Escritorio/EMPRESAS/Aliança Contábil Ltda ME_FUZARO CONTÁBIL/FUZARO CONTÁBIL LTDA/PONTE TRABALHO/Diversos/Pendrive André/AudacityPortable/Other/AudacitySource/ReadMe.txt
+/mnt/disk01/Backup_Bruto/SkyDrive/Arquivos/BKP Aplicativos/Informações/Apostilas/Aprenda EXCEL Sem fazer Esforço/Ferramentas/Uconeer/ReadMe.txt
+
+
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-05-02 12:01 -03
+Pre-scan script results:
+| broadcast-avahi-dos: 
+|   Discovered hosts:
+|     224.0.0.251
+|   After NULL UDP avahi packet DoS (CVE-2011-1002).
+|_  Hosts are all up (not vulnerable).
+Nmap scan report for dominio.macvlan (192.168.54.10)
+Host is up (0.000011s latency).
+Not shown: 65520 closed tcp ports (reset)
+PORT      STATE SERVICE
+42/tcp    open  nameserver
+53/tcp    open  domain
+88/tcp    open  kerberos-sec
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+389/tcp   open  ldap
+445/tcp   open  microsoft-ds
+464/tcp   open  kpasswd5
+631/tcp   open  ipp
+|_http-vuln-cve2014-3704: ERROR: Script execution failed (use -d to debug)
+| http-method-tamper: 
+|   VULNERABLE:
+|   Authentication bypass by HTTP verb tampering
+|     State: VULNERABLE (Exploitable)
+|       This web server contains password protected resources vulnerable to authentication bypass
+|       vulnerabilities via HTTP verb tampering. This is often found in web servers that only limit access to the
+|        common HTTP methods and in misconfigured .htaccess files.
+|              
+|     Extra information:
+|       
+|   URIs suspected to be vulnerable to HTTP verb tampering:
+|     /admin [GENERIC]
+|   
+|     References:
+|       http://www.imperva.com/resources/glossary/http_verb_tampering.html
+|       http://www.mkit.com.ar/labs/htexploit/
+|       http://capec.mitre.org/data/definitions/274.html
+|_      https://www.owasp.org/index.php/Testing_for_HTTP_Methods_and_XST_%28OWASP-CM-008%29
+|_http-aspnet-debug: ERROR: Script execution failed (use -d to debug)
+| http-slowloris-check: 
+|   VULNERABLE:
+|   Slowloris DOS attack
+|     State: LIKELY VULNERABLE
+|     IDs:  CVE:CVE-2007-6750
+|       Slowloris tries to keep many connections to the target web server open and hold
+|       them open as long as possible.  It accomplishes this by opening connections to
+|       the target web server and sending a partial request. By doing so, it starves
+|       the http server's resources causing Denial Of Service.
+|       
+|     Disclosure date: 2009-09-17
+|     References:
+|       http://ha.ckers.org/slowloris/
+|_      https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-6750
+| http-enum: 
+|   /admin.php: Possible admin folder (401 Unauthorized)
+|   /admin/: Possible admin folder (401 Unauthorized)
+|   /admin/admin/: Possible admin folder (401 Unauthorized)
+|   /administrator/: Possible admin folder (401 Unauthorized)
+|   /adminarea/: Possible admin folder (401 Unauthorized)
+|   /adminLogin/: Possible admin folder (401 Unauthorized)
+|   /admin_area/: Possible admin folder (401 Unauthorized)
+|   /administratorlogin/: Possible admin folder (401 Unauthorized)
+|   /admin/account.php: Possible admin folder (401 Unauthorized)
+|   /admin/index.php: Possible admin folder (401 Unauthorized)
+|   /admin/admin.php: Possible admin folder (401 Unauthorized)
+|   /admin_area/admin.php: Possible admin folder (401 Unauthorized)
+|   /admin_area/login.php: Possible admin folder (401 Unauthorized)
+|   /admin/index.html: Possible admin folder (401 Unauthorized)
+|   /admin/admin.html: Possible admin folder (401 Unauthorized)
+|   /admin_area/index.php: Possible admin folder (401 Unauthorized)
+|   /admin/home.php: Possible admin folder (401 Unauthorized)
+|   /admin_area/login.html: Possible admin folder (401 Unauthorized)
+|   /admin_area/index.html: Possible admin folder (401 Unauthorized)
+|   /admin/controlpanel.php: Possible admin folder (401 Unauthorized)
+|   /admincp/: Possible admin folder (401 Unauthorized)
+|   /admincp/index.asp: Possible admin folder (401 Unauthorized)
+|   /admincp/index.html: Possible admin folder (401 Unauthorized)
+|   /admincp/login.php: Possible admin folder (401 Unauthorized)
+|   /admin/account.html: Possible admin folder (401 Unauthorized)
+|   /adminpanel.html: Possible admin folder (401 Unauthorized)
+|   /admin/admin_login.html: Possible admin folder (401 Unauthorized)
+|   /admin_login.html: Possible admin folder (401 Unauthorized)
+|   /admin/cp.php: Possible admin folder (401 Unauthorized)
+|   /administrator/index.php: Possible admin folder (401 Unauthorized)
+|   /administrator/login.php: Possible admin folder (401 Unauthorized)
+|   /admin/admin_login.php: Possible admin folder (401 Unauthorized)
+|   /admin_login.php: Possible admin folder (401 Unauthorized)
+|   /administrator/account.php: Possible admin folder (401 Unauthorized)
+|   /administrator.php: Possible admin folder (401 Unauthorized)
+|   /admin_area/admin.html: Possible admin folder (401 Unauthorized)
+|   /admin/admin-login.php: Possible admin folder (401 Unauthorized)
+|   /admin-login.php: Possible admin folder (401 Unauthorized)
+|   /admin/home.html: Possible admin folder (401 Unauthorized)
+|   /admin/admin-login.html: Possible admin folder (401 Unauthorized)
+|   /admin-login.html: Possible admin folder (401 Unauthorized)
+|   /admincontrol.php: Possible admin folder (401 Unauthorized)
+|   /admin/adminLogin.html: Possible admin folder (401 Unauthorized)
+|   /adminLogin.html: Possible admin folder (401 Unauthorized)
+|   /adminarea/index.html: Possible admin folder (401 Unauthorized)
+|   /adminarea/admin.html: Possible admin folder (401 Unauthorized)
+|   /admin/controlpanel.html: Possible admin folder (401 Unauthorized)
+|   /admin.html: Possible admin folder (401 Unauthorized)
+|   /admin/cp.html: Possible admin folder (401 Unauthorized)
+|   /adminpanel.php: Possible admin folder (401 Unauthorized)
+|   /administrator/index.html: Possible admin folder (401 Unauthorized)
+|   /administrator/login.html: Possible admin folder (401 Unauthorized)
+|   /administrator/account.html: Possible admin folder (401 Unauthorized)
+|   /administrator.html: Possible admin folder (401 Unauthorized)
+|   /adminarea/login.html: Possible admin folder (401 Unauthorized)
+|   /admincontrol/login.html: Possible admin folder (401 Unauthorized)
+|   /admincontrol.html: Possible admin folder (401 Unauthorized)
+|   /adminLogin.php: Possible admin folder (401 Unauthorized)
+|   /admin/adminLogin.php: Possible admin folder (401 Unauthorized)
+|   /adminarea/index.php: Possible admin folder (401 Unauthorized)
+|   /adminarea/admin.php: Possible admin folder (401 Unauthorized)
+|   /adminarea/login.php: Possible admin folder (401 Unauthorized)
+|   /admincontrol/login.php: Possible admin folder (401 Unauthorized)
+|   /admin2.php: Possible admin folder (401 Unauthorized)
+|   /admin2/login.php: Possible admin folder (401 Unauthorized)
+|   /admin2/index.php: Possible admin folder (401 Unauthorized)
+|   /administratorlogin.php: Possible admin folder (401 Unauthorized)
+|   /admin/account.cfm: Possible admin folder (401 Unauthorized)
+|   /admin/index.cfm: Possible admin folder (401 Unauthorized)
+|   /admin/admin.cfm: Possible admin folder (401 Unauthorized)
+|   /admin.cfm: Possible admin folder (401 Unauthorized)
+|   /admin/admin_login.cfm: Possible admin folder (401 Unauthorized)
+|   /admin_login.cfm: Possible admin folder (401 Unauthorized)
+|   /adminpanel.cfm: Possible admin folder (401 Unauthorized)
+|   /admin/controlpanel.cfm: Possible admin folder (401 Unauthorized)
+|   /admincontrol.cfm: Possible admin folder (401 Unauthorized)
+|   /admin/cp.cfm: Possible admin folder (401 Unauthorized)
+|   /admincp/index.cfm: Possible admin folder (401 Unauthorized)
+|   /admincp/login.cfm: Possible admin folder (401 Unauthorized)
+|   /admin_area/admin.cfm: Possible admin folder (401 Unauthorized)
+|   /admin_area/login.cfm: Possible admin folder (401 Unauthorized)
+|   /administrator/login.cfm: Possible admin folder (401 Unauthorized)
+|   /administratorlogin.cfm: Possible admin folder (401 Unauthorized)
+|   /administrator.cfm: Possible admin folder (401 Unauthorized)
+|   /administrator/account.cfm: Possible admin folder (401 Unauthorized)
+|   /adminLogin.cfm: Possible admin folder (401 Unauthorized)
+|   /admin2/index.cfm: Possible admin folder (401 Unauthorized)
+|   /admin_area/index.cfm: Possible admin folder (401 Unauthorized)
+|   /admin2/login.cfm: Possible admin folder (401 Unauthorized)
+|   /admincontrol/login.cfm: Possible admin folder (401 Unauthorized)
+|   /administrator/index.cfm: Possible admin folder (401 Unauthorized)
+|   /adminarea/login.cfm: Possible admin folder (401 Unauthorized)
+|   /adminarea/admin.cfm: Possible admin folder (401 Unauthorized)
+|   /adminarea/index.cfm: Possible admin folder (401 Unauthorized)
+|   /admin/adminLogin.cfm: Possible admin folder (401 Unauthorized)
+|   /admin-login.cfm: Possible admin folder (401 Unauthorized)
+|   /admin/admin-login.cfm: Possible admin folder (401 Unauthorized)
+|   /admin/home.cfm: Possible admin folder (401 Unauthorized)
+|   /admin/account.asp: Possible admin folder (401 Unauthorized)
+|   /admin/index.asp: Possible admin folder (401 Unauthorized)
+|   /admin/admin.asp: Possible admin folder (401 Unauthorized)
+|   /admin_area/admin.asp: Possible admin folder (401 Unauthorized)
+|   /admin_area/login.asp: Possible admin folder (401 Unauthorized)
+|   /admin_area/index.asp: Possible admin folder (401 Unauthorized)
+|   /admin/home.asp: Possible admin folder (401 Unauthorized)
+|   /admin/controlpanel.asp: Possible admin folder (401 Unauthorized)
+|   /admin.asp: Possible admin folder (401 Unauthorized)
+|   /admin/admin-login.asp: Possible admin folder (401 Unauthorized)
+|   /admin-login.asp: Possible admin folder (401 Unauthorized)
+|   /admin/cp.asp: Possible admin folder (401 Unauthorized)
+|   /administrator/account.asp: Possible admin folder (401 Unauthorized)
+|   /administrator.asp: Possible admin folder (401 Unauthorized)
+|   /administrator/login.asp: Possible admin folder (401 Unauthorized)
+|   /admincp/login.asp: Possible admin folder (401 Unauthorized)
+|   /admincontrol.asp: Possible admin folder (401 Unauthorized)
+|   /adminpanel.asp: Possible admin folder (401 Unauthorized)
+|   /admin/admin_login.asp: Possible admin folder (401 Unauthorized)
+|   /admin_login.asp: Possible admin folder (401 Unauthorized)
+|   /adminLogin.asp: Possible admin folder (401 Unauthorized)
+|   /admin/adminLogin.asp: Possible admin folder (401 Unauthorized)
+|   /adminarea/index.asp: Possible admin folder (401 Unauthorized)
+|   /adminarea/admin.asp: Possible admin folder (401 Unauthorized)
+|   /adminarea/login.asp: Possible admin folder (401 Unauthorized)
+|   /administrator/index.asp: Possible admin folder (401 Unauthorized)
+|   /admincontrol/login.asp: Possible admin folder (401 Unauthorized)
+|   /admin2.asp: Possible admin folder (401 Unauthorized)
+|   /admin2/login.asp: Possible admin folder (401 Unauthorized)
+|   /admin2/index.asp: Possible admin folder (401 Unauthorized)
+|   /administratorlogin.asp: Possible admin folder (401 Unauthorized)
+|   /admin/account.aspx: Possible admin folder (401 Unauthorized)
+|   /admin/index.aspx: Possible admin folder (401 Unauthorized)
+|   /admin/admin.aspx: Possible admin folder (401 Unauthorized)
+|   /admin_area/admin.aspx: Possible admin folder (401 Unauthorized)
+|   /admin_area/login.aspx: Possible admin folder (401 Unauthorized)
+|   /admin_area/index.aspx: Possible admin folder (401 Unauthorized)
+|   /admin/home.aspx: Possible admin folder (401 Unauthorized)
+|   /admin/controlpanel.aspx: Possible admin folder (401 Unauthorized)
+|   /admin.aspx: Possible admin folder (401 Unauthorized)
+|   /admin/admin-login.aspx: Possible admin folder (401 Unauthorized)
+|   /admin-login.aspx: Possible admin folder (401 Unauthorized)
+|   /admin/cp.aspx: Possible admin folder (401 Unauthorized)
+|   /administrator/account.aspx: Possible admin folder (401 Unauthorized)
+|   /administrator.aspx: Possible admin folder (401 Unauthorized)
+|   /administrator/login.aspx: Possible admin folder (401 Unauthorized)
+|   /admincp/index.aspx: Possible admin folder (401 Unauthorized)
+|   /admincp/login.aspx: Possible admin folder (401 Unauthorized)
+|   /admincontrol.aspx: Possible admin folder (401 Unauthorized)
+|   /adminpanel.aspx: Possible admin folder (401 Unauthorized)
+|   /admin/admin_login.aspx: Possible admin folder (401 Unauthorized)
+|   /admin_login.aspx: Possible admin folder (401 Unauthorized)
+|   /adminLogin.aspx: Possible admin folder (401 Unauthorized)
+|   /admin/adminLogin.aspx: Possible admin folder (401 Unauthorized)
+|   /adminarea/index.aspx: Possible admin folder (401 Unauthorized)
+|   /adminarea/admin.aspx: Possible admin folder (401 Unauthorized)
+|   /adminarea/login.aspx: Possible admin folder (401 Unauthorized)
+|   /administrator/index.aspx: Possible admin folder (401 Unauthorized)
+|   /admincontrol/login.aspx: Possible admin folder (401 Unauthorized)
+|   /admin2.aspx: Possible admin folder (401 Unauthorized)
+|   /admin2/login.aspx: Possible admin folder (401 Unauthorized)
+|   /admin2/index.aspx: Possible admin folder (401 Unauthorized)
+|   /administratorlogin.aspx: Possible admin folder (401 Unauthorized)
+|   /admin/index.jsp: Possible admin folder (401 Unauthorized)
+|   /admin/admin.jsp: Possible admin folder (401 Unauthorized)
+|   /admin_area/admin.jsp: Possible admin folder (401 Unauthorized)
+|   /admin_area/login.jsp: Possible admin folder (401 Unauthorized)
+|   /admin_area/index.jsp: Possible admin folder (401 Unauthorized)
+|   /admin/home.jsp: Possible admin folder (401 Unauthorized)
+|   /admin/controlpanel.jsp: Possible admin folder (401 Unauthorized)
+|   /admin.jsp: Possible admin folder (401 Unauthorized)
+|   /admin/admin-login.jsp: Possible admin folder (401 Unauthorized)
+|   /admin-login.jsp: Possible admin folder (401 Unauthorized)
+|   /admin/cp.jsp: Possible admin folder (401 Unauthorized)
+|   /administrator/account.jsp: Possible admin folder (401 Unauthorized)
+|   /administrator.jsp: Possible admin folder (401 Unauthorized)
+|   /administrator/login.jsp: Possible admin folder (401 Unauthorized)
+|   /admincp/index.jsp: Possible admin folder (401 Unauthorized)
+|   /admincp/login.jsp: Possible admin folder (401 Unauthorized)
+|   /admincontrol.jsp: Possible admin folder (401 Unauthorized)
+|   /admin/account.jsp: Possible admin folder (401 Unauthorized)
+|   /adminpanel.jsp: Possible admin folder (401 Unauthorized)
+|   /admin/admin_login.jsp: Possible admin folder (401 Unauthorized)
+|   /admin_login.jsp: Possible admin folder (401 Unauthorized)
+|   /adminLogin.jsp: Possible admin folder (401 Unauthorized)
+|   /admin/adminLogin.jsp: Possible admin folder (401 Unauthorized)
+|   /adminarea/index.jsp: Possible admin folder (401 Unauthorized)
+|   /adminarea/admin.jsp: Possible admin folder (401 Unauthorized)
+|   /adminarea/login.jsp: Possible admin folder (401 Unauthorized)
+|   /administrator/index.jsp: Possible admin folder (401 Unauthorized)
+|   /admincontrol/login.jsp: Possible admin folder (401 Unauthorized)
+|   /admin2.jsp: Possible admin folder (401 Unauthorized)
+|   /admin2/login.jsp: Possible admin folder (401 Unauthorized)
+|   /admin2/index.jsp: Possible admin folder (401 Unauthorized)
+|   /administratorlogin.jsp: Possible admin folder (401 Unauthorized)
+|   /admin1.php: Possible admin folder (401 Unauthorized)
+|   /administr8.asp: Possible admin folder (401 Unauthorized)
+|   /administr8.php: Possible admin folder (401 Unauthorized)
+|   /administr8.jsp: Possible admin folder (401 Unauthorized)
+|   /administr8.aspx: Possible admin folder (401 Unauthorized)
+|   /administr8.cfm: Possible admin folder (401 Unauthorized)
+|   /administr8/: Possible admin folder (401 Unauthorized)
+|   /administer/: Possible admin folder (401 Unauthorized)
+|   /administracao.php: Possible admin folder (401 Unauthorized)
+|   /administracao.asp: Possible admin folder (401 Unauthorized)
+|   /administracao.aspx: Possible admin folder (401 Unauthorized)
+|   /administracao.cfm: Possible admin folder (401 Unauthorized)
+|   /administracao.jsp: Possible admin folder (401 Unauthorized)
+|   /administracion.php: Possible admin folder (401 Unauthorized)
+|   /administracion.asp: Possible admin folder (401 Unauthorized)
+|   /administracion.aspx: Possible admin folder (401 Unauthorized)
+|   /administracion.jsp: Possible admin folder (401 Unauthorized)
+|   /administracion.cfm: Possible admin folder (401 Unauthorized)
+|   /administrators/: Possible admin folder (401 Unauthorized)
+|   /adminpro/: Possible admin folder (401 Unauthorized)
+|   /admins/: Possible admin folder (401 Unauthorized)
+|   /admins.cfm: Possible admin folder (401 Unauthorized)
+|   /admins.php: Possible admin folder (401 Unauthorized)
+|   /admins.jsp: Possible admin folder (401 Unauthorized)
+|   /admins.asp: Possible admin folder (401 Unauthorized)
+|   /admins.aspx: Possible admin folder (401 Unauthorized)
+|   /administracion-sistema/: Possible admin folder (401 Unauthorized)
+|   /admin108/: Possible admin folder (401 Unauthorized)
+|   /admin_cp.asp: Possible admin folder (401 Unauthorized)
+|   /admin/backup/: Possible backup (401 Unauthorized)
+|   /admin/download/backup.sql: Possible database backup (401 Unauthorized)
+|   /robots.txt: Robots file
+|   /admin/upload.php: Admin File Upload (401 Unauthorized)
+|   /admin/CiscoAdmin.jhtml: Cisco Collaboration Server (401 Unauthorized)
+|   /admin-console/: JBoss Console (401 Unauthorized)
+|   /admin4.nsf: Lotus Domino (401 Unauthorized)
+|   /admin5.nsf: Lotus Domino (401 Unauthorized)
+|   /admin.nsf: Lotus Domino (401 Unauthorized)
+|   /administrator/wp-login.php: Wordpress login page. (401 Unauthorized)
+|   /admin/libraries/ajaxfilemanager/ajaxfilemanager.php: Log1 CMS (401 Unauthorized)
+|   /admin/view/javascript/fckeditor/editor/filemanager/connectors/test.html: OpenCart/FCKeditor File upload (401 Unauthorized)
+|   /admin/includes/tiny_mce/plugins/tinybrowser/upload.php: CompactCMS or B-Hind CMS/FCKeditor File upload (401 Unauthorized)
+|   /admin/includes/FCKeditor/editor/filemanager/upload/test.html: ASP Simple Blog / FCKeditor File Upload (401 Unauthorized)
+|   /admin/jscript/upload.php: Lizard Cart/Remote File upload (401 Unauthorized)
+|   /admin/jscript/upload.html: Lizard Cart/Remote File upload (401 Unauthorized)
+|   /admin/jscript/upload.pl: Lizard Cart/Remote File upload (401 Unauthorized)
+|   /admin/jscript/upload.asp: Lizard Cart/Remote File upload (401 Unauthorized)
+|   /admin/environment.xml: Moodle files (401 Unauthorized)
+|   /classes/: Potentially interesting folder
+|   /es/: Potentially interesting folder
+|   /help/: Potentially interesting folder
+|_  /printers/: Potentially interesting folder
+636/tcp   open  ldapssl
+3268/tcp  open  globalcatLDAP
+3269/tcp  open  globalcatLDAPssl
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+MAC Address: 02:42:C0:A8:36:0A (Unknown)
+
+Host script results:
+|_smb-vuln-ms10-061: Could not negotiate a connection:SMB: ERROR: Server returned less data than it was supposed to (one or more fields are missing); aborting [9]
+|_smb-vuln-ms10-054: false
+|_samba-vuln-cve-2012-1182: Could not negotiate a connection:SMB: ERROR: Server returned less data than it was supposed to (one or more fields are missing); aborting [9]
+
+Nmap done: 1 IP address (1 host up) scanned in 152.10 seconds
+
+Em 05-2025 nenhum novo equipamento vulnerável detectado na rede. Por enquanto nenhum equipamento cujos testes sejam pertinentes de serem notificados.
+
+
+/srv/containers/dominio/log/syslog
+
+Mar 19 09:10:01 fuzaro smbd_audit: IP=192.168.54.27|USER=AD\fuzaro|MACHINE=192.168.54.27|VOLUME=fuzaro|renameat|ok|/mnt/SkyDrive/Arquivos/Escritorio/EMPRESAS/Arcava Design Ltda/01 Federal/PGDAS/2025/Nova pasta|/mnt/SkyDrive/Arquivos/Escritorio/EMPRESAS/Arcava Design Ltda/01 Federal/PGDAS/2025/02 2025
+Mar 19 09:10:33 fuzaro smbd_audit: IP=192.168.54.27|USER=AD\fuzaro|MACHINE=192.168.54.27|VOLUME=fuzaro|renameat|ok|/mnt/SkyDrive/Arquivos/Escritorio/EMPRESAS/Arcava Design Ltda/01 Federal/PGDAS/2025/02 2025/PGDASD-RECIBO-50947820202502001.pdf|/mnt/Lixeira/fuzaro/SkyDrive/Arquivos/Escritorio/EMPRESAS/Arcava Design Ltda/01 Federal/PGDAS/2025/02 2025/PGDASD-RECIBO-50947820202502001.pdf
+Mar 19 09:10:33 fuzaro smbd_audit: IP=192.168.54.27|USER=AD\fuzaro|MACHINE=192.168.54.27|VOLUME=fuzaro|renameat|ok|/mnt/SkyDrive/Arquivos/Escritorio/EMPRESAS/Arcava Design Ltda/01 Federal/PGDAS/2025/02 2025/PGDASD-RECIBO-50947820202502001.pdf.crdownload|/mnt/SkyDrive/Arquivos/Escritorio/EMPRESAS/Arcava Design Ltda/01 Federal/PGDAS/2025/02 2025/PGDASD-RECIBO-50947820202502001.pdf
+Mar 19 09:10:36 fuzaro smbd_audit: IP=192.168.54.27|USER=AD\fuzaro|MACHINE=192.168.54.27|VOLUME=fuzaro|renameat|ok|/mnt/SkyDrive/Arquivos/Escritorio/EMPRESAS/Arcava Design Ltda/01 Federal/PGDAS/2025/02 2025/PGDASD-DECLARACAO-50947820202502001.pdf|/mnt/Lixeira/fuzaro/SkyDrive/Arquivos/Escritorio/EMPRESAS/Arcava Design Ltda/01 Federal/PGDAS/2025/02 2025/PGDASD-DECLARACAO-50947820202502001.pdf
+Mar 19 09:10:37 fuzaro smbd_audit: IP=192.168.54.27|USER=AD\fuzaro|MACHINE=192.168.54.27|VOLUME=fuzaro|renameat|ok|/mnt/SkyDrive/Arquivos/Escritorio/EMPRESAS/Arcava Design Ltda/01 Federal/PGDAS/2025/02 2025/PGDASD-DECLARACAO-50947820202502001.pdf.crdownload|/mnt/SkyDrive/Arquivos/Escritorio/EMPRESAS/Arcava Design Ltda/01 Federal/PGDAS/2025/02 2025/PGDASD-DECLARACAO-50947820202502001.pdf
+Mar 19 09:12:38 fuzaro smbd_audit: IP=192.168.54.27|USER=AD\fuzaro|MACHINE=192.168.54.27|VOLUME=fuzaro|renameat|ok|/mnt/SkyDrive/Arquivos/Escritorio/EMPRESAS/Hot Food Drive Ura Ltda/1 Federal/Relatorio Situacao Fiscal - 19 03 2025.pdf|/mnt/Lixeira/fuzaro/SkyDrive/Arquivos/Escritorio/EMPRESAS/Hot Food Drive Ura Ltda/1 Federal/Relatorio Situacao Fiscal - 19 03 2025.pdf
+Mar 19 09:12:39 fuzaro smbd_audit: IP=192.168.54.27|USER=AD\fuzaro|MACHINE=192.168.54.27|VOLUME=fuzaro|renameat|ok|/mnt/SkyDrive/Arquivos/Escritorio/EMPRESAS/Hot Food Drive Ura Ltda/1 Federal/Relatorio Situacao Fiscal - 19 03 2025.pdf.crdownload|/mnt/SkyDrive/Arquivos/Escritorio/EMPRESAS/Hot Food Drive Ura Ltda/1 Federal/Relatorio Situacao Fiscal - 19 03 2025.pdf
+
+Em 05-2025 foi realizada a verificação da integridade dos Logs de Eventos das pastas da rede e dos registros de uso dos compartilhamentos.
+
+
+Checando armazenamento geral!
+
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           389M   12M  377M   4% /run
+/dev/sda2       916G  835G   81G  92% /
+tmpfs           1.9G     0  1.9G   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/sdb        916G  808G  109G  89% /mnt/disk01
+/dev/sdc        916G  826G   91G  91% /mnt/disk02
+tmpfs           389M  8.0K  389M   1% /run/user/1000
+
+DUMP de RSnapshots (se existente)!
+
+May 02 13:12:55 fuzaro rsnapshot[568624]: /usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot01.conf alpha: completed successfully
+May 02 14:00:01 fuzaro CRON[568908]: (root) CMD (/usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot01.conf alpha)
+May 02 14:13:31 fuzaro rsnapshot[569009]: /usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot01.conf alpha: completed successfully
+May 02 15:00:01 fuzaro CRON[569363]: (root) CMD (/usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot01.conf alpha)
+May 02 15:14:10 fuzaro rsnapshot[569517]: /usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot01.conf alpha: completed successfully
+May 02 16:00:01 fuzaro CRON[569858]: (root) CMD (/usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot01.conf alpha)
+May 02 16:13:30 fuzaro rsnapshot[569960]: /usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot01.conf alpha: completed successfully
+
+DUMP de RSYNC (se existente)!
+
+Apr 26 00:00:01 fuzaro CRON[489653]: (root) CMD (rsync -a --delete /home/administrador/SHARED/ /mnt/disk01/Backup_Bruto/)
+Apr 27 00:00:01 fuzaro CRON[500052]: (root) CMD (rsync -a --delete /home/administrador/SHARED/ /mnt/disk01/Backup_Bruto/)
+Apr 28 00:00:01 fuzaro CRON[515012]: (root) CMD (rsync -a --delete /home/administrador/SHARED/ /mnt/disk01/Backup_Bruto/)
+Apr 29 00:00:01 fuzaro CRON[526798]: (root) CMD (rsync -a --delete /home/administrador/SHARED/ /mnt/disk01/Backup_Bruto/)
+Apr 30 00:00:01 fuzaro CRON[538878]: (root) CMD (rsync -a --delete /home/administrador/SHARED/ /mnt/disk01/Backup_Bruto/)
+May 01 00:00:01 fuzaro CRON[550312]: (root) CMD (rsync -a --delete /home/administrador/SHARED/ /mnt/disk01/Backup_Bruto/)
+May 02 00:00:01 fuzaro CRON[560618]: (root) CMD (rsync -a --delete /home/administrador/SHARED/ /mnt/disk01/Backup_Bruto/)
+
+DUMP do RClone (se existente)!
+
+
+Checando backups dos containers!
+
+total 2.4G
+drwxr-xr-x 5 administrador administrador 4.0K May  2 00:01 .
+drwxr-xr-x 5 root          root          4.0K Dec 12  2023 ..
+drwxr-xr-x 2 root          root          4.0K Apr 19  2024 config
+-rw-r--r-- 1 root          root          6.0M May  1 00:00 dominio-01_05_25.tar.lz4
+-rw-r--r-- 1 root          root          6.0M May  2 00:00 dominio-02_05_25.tar.lz4
+-rw-r--r-- 1 root          root          6.0M Apr 30 00:00 dominio-30_04_25.tar.lz4
+-rw-r--r-- 1 root          root          318K May  1 00:00 fuzaro-01_05_25.tar.lz4
+-rw-r--r-- 1 root          root          318K May  2 00:00 fuzaro-02_05_25.tar.lz4
+-rw-r--r-- 1 root          root          318K Apr 30 00:00 fuzaro-30_04_25.tar.lz4
+-rw-r--r-- 1 root          root          5.0K May  1 00:00 homarr-01_05_25.tar.lz4
+-rw-r--r-- 1 root          root          5.0K May  2 00:00 homarr-02_05_25.tar.lz4
+-rw-r--r-- 1 root          root          5.0K Apr 30 00:00 homarr-30_04_25.tar.lz4
+-rw-r--r-- 1 root          root          357K May  1 00:01 pentest-01_05_25.tar.lz4
+-rw-r--r-- 1 root          root          354K May  2 00:00 pentest-02_05_25.tar.lz4
+-rw-r--r-- 1 root          root          349K Apr 30 00:00 pentest-30_04_25.tar.lz4
+-rw-r--r-- 1 root          root          796M May  1 00:01 pihole-01_05_25.tar.lz4
+-rw-r--r-- 1 root          root          795M May  2 00:01 pihole-02_05_25.tar.lz4
+-rw-r--r-- 1 root          root          795M Apr 30 00:01 pihole-30_04_25.tar.lz4
+-rw-r--r-- 1 root          root          6.9K May  1 00:01 reverseproxy-01_05_25.tar.lz4
+-rw-r--r-- 1 root          root          6.9K May  2 00:01 reverseproxy-02_05_25.tar.lz4
+-rw-r--r-- 1 root          root          6.9K Apr 30 00:01 reverseproxy-30_04_25.tar.lz4
+-rw-r--r-- 1 root          root          5.6K May  1 00:01 scripts-01_05_25.tar.lz4
+-rw-r--r-- 1 root          root          5.6K May  2 00:01 scripts-02_05_25.tar.lz4
+-rw-r--r-- 1 root          root          5.6K Apr 30 00:01 scripts-30_04_25.tar.lz4
+-rw-r--r-- 1 root          root          888K May  1 00:01 scrutiny-01_05_25.tar.lz4
+-rw-r--r-- 1 root          root          878K May  2 00:01 scrutiny-02_05_25.tar.lz4
+-rw-r--r-- 1 root          root          871K Apr 30 00:01 scrutiny-30_04_25.tar.lz4
+drwxr-xr-x 2 administrador administrador 4.0K Apr 19  2024 .stfolder
+drwxr-xr-x 2 administrador administrador 4.0K Apr 19  2024 Sync
+-rw-r--r-- 1 root          root          6.2M May  1 00:01 syncthing-01_05_25.tar.lz4
+-rw-r--r-- 1 root          root          5.7M May  2 00:01 syncthing-02_05_25.tar.lz4
+-rw-r--r-- 1 root          root          6.2M Apr 30 00:01 syncthing-30_04_25.tar.lz4
+Em 05-2025 foi realizada a verificação das rotinas de backup do servidor. O backup para a nuvem, se existente, também foi verificado.
+
+Total reclaimed space: 0B
+
+Em 05-2025 foi realizada a limpeza do sistema com remoção de pacotes e imagens obsoletas dos serviços, objetivando reduzir o consumo de armazenamento.
+
+Em 05-2025 o SWAP pôde ser limpo com sucesso pela segunda vez para finalização da manutenção: Sistema com desempenho dentro da normalidade!
+
+ERRO: Não foi possível conectar ao servidor fuzaro.

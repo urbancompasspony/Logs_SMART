@@ -1,0 +1,169 @@
+
+############################################################################
+Model Family:     Western Digital Blue
+Device Model:     WDC WD10EZEX-00WN4A0
+Serial Number:    WD-WCC6Y7TNA3K6
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-131-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x002f   200   200   051    Pre-fail  Always       -       0
+  3 Spin_Up_Time            0x0027   177   167   021    Pre-fail  Always       -       2108
+  4 Start_Stop_Count        0x0032   100   100   000    Old_age   Always       -       483
+  5 Reallocated_Sector_Ct   0x0033   200   200   140    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x002e   100   253   000    Old_age   Always       -       0
+  9 Power_On_Hours          0x0032   048   048   000    Old_age   Always       -       38421
+ 10 Spin_Retry_Count        0x0032   100   100   000    Old_age   Always       -       0
+ 11 Calibration_Retry_Count 0x0032   100   100   000    Old_age   Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       471
+192 Power-Off_Retract_Count 0x0032   200   200   000    Old_age   Always       -       177
+193 Load_Cycle_Count        0x0032   199   199   000    Old_age   Always       -       3724
+194 Temperature_Celsius     0x0022   099   087   000    Old_age   Always       -       44
+196 Reallocated_Event_Count 0x0032   200   200   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0032   200   200   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0030   200   200   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x0032   200   200   000    Old_age   Always       -       0
+200 Multi_Zone_Error_Rate   0x0008   200   200   000    Old_age   Offline      -       0
+
+
+############################################################################
+Model Family:     Seagate BarraCuda 3.5
+Device Model:     ST1000DM010-2EP102
+Serial Number:    Z9AA1V5Z
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-131-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000f   083   063   006    Pre-fail  Always       -       205583698
+  3 Spin_Up_Time            0x0003   098   097   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   097   097   020    Old_age   Always       -       3235
+  5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   076   060   045    Pre-fail  Always       -       45176534
+  9 Power_On_Hours          0x0032   075   075   000    Old_age   Always       -       22289
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   020    Old_age   Always       -       160
+183 Runtime_Bad_Block       0x0032   100   100   000    Old_age   Always       -       0
+184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   099   000    Old_age   Always       -       1 1 1
+189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x0022   055   043   040    Old_age   Always       -       45 (Min/Max 31/51)
+193 Load_Cycle_Count        0x0032   099   099   000    Old_age   Always       -       3864
+194 Temperature_Celsius     0x0022   045   019   000    Old_age   Always       -       45 (0 19 0 0 0)
+195 Hardware_ECC_Recovered  0x001a   011   007   000    Old_age   Always       -       205583698
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       3
+240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       22124h+13m+08.379s
+241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       26825326810
+242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       169907802
+
+
+############################################################################
+Model Family:     Western Digital Blue Mobile (SMR)
+Device Model:     WDC WD20SPZX-75UA7T0
+Serial Number:    WXR1E680994Z
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-131-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x002f   200   200   051    Pre-fail  Always       -       0
+  3 Spin_Up_Time            0x0027   227   222   021    Pre-fail  Always       -       1616
+  4 Start_Stop_Count        0x0032   094   094   000    Old_age   Always       -       6438
+  5 Reallocated_Sector_Ct   0x0033   200   200   140    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x002e   200   200   000    Old_age   Always       -       0
+  9 Power_On_Hours          0x0032   083   083   000    Old_age   Always       -       12715
+ 10 Spin_Retry_Count        0x0032   100   100   000    Old_age   Always       -       0
+ 11 Calibration_Retry_Count 0x0032   100   100   000    Old_age   Always       -       0
+ 12 Power_Cycle_Count       0x0032   099   099   000    Old_age   Always       -       1768
+191 G-Sense_Error_Rate      0x0032   001   001   000    Old_age   Always       -       62405
+192 Power-Off_Retract_Count 0x0032   200   200   000    Old_age   Always       -       61
+193 Load_Cycle_Count        0x0032   182   182   000    Old_age   Always       -       56228
+194 Temperature_Celsius     0x0022   108   092   000    Old_age   Always       -       39
+196 Reallocated_Event_Count 0x0032   200   200   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0032   200   200   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0030   100   253   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x0032   200   200   000    Old_age   Always       -       0
+200 Multi_Zone_Error_Rate   0x0008   100   253   000    Old_age   Offline      -       0
+240 Head_Flying_Hours       0x0032   092   092   000    Old_age   Always       -       6066
+241 Total_LBAs_Written      0x0032   200   200   000    Old_age   Always       -       50048042881
+242 Total_LBAs_Read         0x0032   200   200   000    Old_age   Always       -       69959161934
+254 Free_Fall_Sensor        0x0032   200   200   000    Old_age   Always       -       0
+
+
+############################################################################
+Model Family:     Seagate Barracuda 7200.14 (AF)
+Device Model:     ST1000DM003-1CH162
+Serial Number:    S1DD8G64
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-131-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000f   111   099   006    Pre-fail  Always       -       34017720
+  3 Spin_Up_Time            0x0003   098   097   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   100   100   020    Old_age   Always       -       814
+  5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   074   060   030    Pre-fail  Always       -       25950062514
+  9 Power_On_Hours          0x0032   083   083   000    Old_age   Always       -       15061
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   020    Old_age   Always       -       691
+183 Runtime_Bad_Block       0x0032   100   100   000    Old_age   Always       -       0
+184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   100   000    Old_age   Always       -       0 0 0
+189 High_Fly_Writes         0x003a   099   099   000    Old_age   Always       -       1
+190 Airflow_Temperature_Cel 0x0022   056   045   045    Old_age   Always   In_the_past 44 (Min/Max 31/52)
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       224
+193 Load_Cycle_Count        0x0032   066   066   000    Old_age   Always       -       69876
+194 Temperature_Celsius     0x0022   044   055   000    Old_age   Always       -       44 (0 16 0 0 0)
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
+240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       5583h+24m+05.829s
+241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       16723026120
+242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       39642615416
+
+
+############################################################################
+Model Number:                       NX-128
+Serial Number:                      0003884000002
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-131-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF SMART DATA SECTION ===
+SMART/Health Information (NVMe Log 0x02)
+Critical Warning:                   0x00
+Temperature:                        42 Celsius
+Available Spare:                    100%
+Available Spare Threshold:          1%
+Percentage Used:                    42%
+Data Units Read:                    17,481,264 [8.95 TB]
+Data Units Written:                 39,512,341 [20.2 TB]
+Host Read Commands:                 288,593,964
+Host Write Commands:                761,028,748
+Controller Busy Time:               2,875
+Power Cycles:                       43
+Power On Hours:                     10,188
+Unsafe Shutdowns:                   31
+Media and Data Integrity Errors:    0
+Error Information Log Entries:      181
+Warning  Comp. Temperature Time:    0
+Critical Comp. Temperature Time:    0
+Temperature Sensor 1:               42 Celsius
+Temperature Sensor 2:               69 Celsius
+
+
+Verificacao concluida em 06-2025!

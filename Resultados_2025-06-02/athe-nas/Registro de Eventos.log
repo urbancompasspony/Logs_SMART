@@ -1,0 +1,217 @@
+========================================================
+RELATÓRIO MENSAL DE PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA
+Conforme estipulado em contrato mensal de prestação de serviços na área de informática, segue abaixo o relatório de manutenções preventivas e corretivas realizadas no mês de junho de 2025:
+
+Em 06-2025 o SWAP pôde ser limpo com sucesso: Sistema com desempenho dentro da normalidade!
+
+
+Atualizando o sistema!
+
+Hit:1 http://br.archive.ubuntu.com/ubuntu jammy InRelease
+Hit:2 http://br.archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:3 http://br.archive.ubuntu.com/ubuntu jammy-backports InRelease
+Hit:4 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Get:5 https://pkgs.tailscale.com/stable/ubuntu jammy InRelease
+Fetched 6,578 B in 1s (7,018 B/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+Get more security updates through Ubuntu Pro with 'esm-apps' enabled:
+  libyara8 libsoup-3.0-0 traceroute libsoup-3.0-common 7zip
+Learn more about Ubuntu Pro at https://ubuntu.com/pro
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
+Em 06-2025 o sistema do servidor foi atualizado e está em dia com a segurança digital.
+
+
+############################################################################
+Armazenamento: /dev/sda
+
+Model Family:     Seagate Skyhawk
+Device Model:     ST1000VX005-2EZ102
+Serial Number:    Z9CCARCE
+
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-136-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000f   081   063   006    Pre-fail  Always       -       165749216
+  3 Spin_Up_Time            0x0003   096   096   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   086   086   020    Old_age   Always       -       14609
+  5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   084   060   045    Pre-fail  Always       -       242773207
+  9 Power_On_Hours          0x0032   058   058   000    Old_age   Always       -       37308h+00m+00.000s
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   086   086   020    Old_age   Always       -       14609
+184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   100   000    Old_age   Always       -       0
+189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x0022   060   040   040    Old_age   Always   In_the_past 40 (Min/Max 38/47)
+193 Load_Cycle_Count        0x0032   092   092   000    Old_age   Always       -       16124
+194 Temperature_Celsius     0x0022   040   020   000    Old_age   Always       -       40 (0 20 0 0 0)
+195 Hardware_ECC_Recovered  0x001a   001   001   000    Old_age   Always       -       165749216
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   199   000    Old_age   Always       -       7
+
+
+
+############################################################################
+Armazenamento: /dev/sdb
+
+Model Family:     Toshiba P300
+Device Model:     TOSHIBA HDWD110
+Serial Number:    11FNSDUFS
+
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-136-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000b   100   100   016    Pre-fail  Always       -       0
+  2 Throughput_Performance  0x0005   142   142   054    Pre-fail  Offline      -       71
+  3 Spin_Up_Time            0x0007   117   117   024    Pre-fail  Always       -       196 (Average 197)
+  4 Start_Stop_Count        0x0012   100   100   000    Old_age   Always       -       86
+  5 Reallocated_Sector_Ct   0x0033   100   100   005    Pre-fail  Always       -       1
+  7 Seek_Error_Rate         0x000b   100   100   067    Pre-fail  Always       -       0
+  8 Seek_Time_Performance   0x0005   115   115   020    Pre-fail  Offline      -       34
+  9 Power_On_Hours          0x0012   097   097   000    Old_age   Always       -       24959
+ 10 Spin_Retry_Count        0x0013   100   100   060    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       85
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       551
+193 Load_Cycle_Count        0x0012   100   100   000    Old_age   Always       -       551
+194 Temperature_Celsius     0x0002   142   142   000    Old_age   Always       -       42 (Min/Max 25/62)
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       1
+197 Current_Pending_Sector  0x0022   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0008   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x000a   200   200   000    Old_age   Always       -       3
+
+
+
+############################################################################
+Armazenamento: /dev/sdc
+
+Model Family:     Toshiba P300
+Device Model:     TOSHIBA HDWD110
+Serial Number:    11FNSYYFS
+
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-136-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000b   100   100   016    Pre-fail  Always       -       0
+  2 Throughput_Performance  0x0005   142   142   054    Pre-fail  Offline      -       68
+  3 Spin_Up_Time            0x0007   116   116   024    Pre-fail  Always       -       199 (Average 195)
+  4 Start_Stop_Count        0x0012   098   098   000    Old_age   Always       -       10236
+  5 Reallocated_Sector_Ct   0x0033   100   100   005    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000b   100   100   067    Pre-fail  Always       -       0
+  8 Seek_Time_Performance   0x0005   115   115   020    Pre-fail  Offline      -       34
+  9 Power_On_Hours          0x0012   098   098   000    Old_age   Always       -       19613
+ 10 Spin_Retry_Count        0x0013   100   100   060    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       1217
+192 Power-Off_Retract_Count 0x0032   092   092   000    Old_age   Always       -       10514
+193 Load_Cycle_Count        0x0012   092   092   000    Old_age   Always       -       10514
+194 Temperature_Celsius     0x0002   157   157   000    Old_age   Always       -       38 (Min/Max 22/63)
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0022   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0008   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x000a   200   200   000    Old_age   Always       -       0
+
+
+
+############################################################################
+Armazenamento: /dev/sdd
+
+
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-136-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+/dev/sdd: Unknown USB bridge [0x152d:0xb567 (0x223)]
+Please specify device type with the -d option.
+
+Use smartctl -h to get a usage summary
+
+
+
+Verificacao concluida em 06-2025!
+Em 06-2025 foi realizada a verificação da saúde dos discos rígidos. Mais informações no anexo SMART_DUMP no e-mail!
+
+
+Pentest não configurado. Ignorando.
+
+/srv/containers/inova/log/syslog
+
+May 30 23:55:28 inova smbd_audit: IP=192.168.160.3|USER=supervisor|MACHINE=desktop-7ceejl4|VOLUME=Atendimento|renameat|ok|/mnt/disk0p0/notebook/ATENDIMENTO/ATENDIMENTO/JO/ATUALIZAÇÃO PROMOSYS/ROTEIROS E ATUALIZAÇÕES BANCOS/BANCOS ATIVOS/~$INANTO.docx|/mnt/disk0p0/Lixeira/supervisor/ATENDIMENTO/JO/ATUALIZAÇÃO PROMOSYS/ROTEIROS E ATUALIZAÇÕES BANCOS/BANCOS ATIVOS/Copy #23 of ~$INANTO.docx
+May 30 23:56:42 inova smbd_audit: IP=192.168.160.3|USER=supervisor|MACHINE=desktop-7ceejl4|VOLUME=Atendimento|renameat|ok|/mnt/disk0p0/notebook/ATENDIMENTO/ATENDIMENTO/JO/ATUALIZAÇÃO PROMOSYS/ROTEIROS E ATUALIZAÇÕES BANCOS/BANCOS ATIVOS/~$NTECH DO CORBAN.docx|/mnt/disk0p0/Lixeira/supervisor/ATENDIMENTO/JO/ATUALIZAÇÃO PROMOSYS/ROTEIROS E ATUALIZAÇÕES BANCOS/BANCOS ATIVOS/Copy #20 of ~$NTECH DO CORBAN.docx
+May 31 11:05:16 inova smbd_audit: IP=192.168.160.12|USER=inova|MACHINE=desktop-isabel|VOLUME=Atendimento|renameat|ok|/mnt/disk0p0/notebook/ATENDIMENTO/ATENDIMENTO/ISABEL CRISTINA/PLANILHA DE VENDAS/~$VENDAS 2019  correta 2.xlsx|/mnt/disk0p0/Lixeira/inova/ATENDIMENTO/ISABEL CRISTINA/PLANILHA DE VENDAS/Copy #1 of ~$VENDAS 2019  correta 2.xlsx
+Jun  1 00:05:18 inova smbd_audit: IP=192.168.160.12|USER=inova|MACHINE=desktop-isabel|VOLUME=Atendimento|renameat|ok|/mnt/disk0p0/notebook/ATENDIMENTO/ATENDIMENTO/ISABEL CRISTINA/PLANILHA DE VENDAS/VENDAS 2019  .xlsx|/mnt/disk0p0/notebook/ATENDIMENTO/ATENDIMENTO/ISABEL CRISTINA/PLANILHA DE VENDAS/2EF4BAF8.tmp
+Jun  1 00:05:18 inova smbd_audit: IP=192.168.160.12|USER=inova|MACHINE=desktop-isabel|VOLUME=Atendimento|renameat|ok|/mnt/disk0p0/notebook/ATENDIMENTO/ATENDIMENTO/ISABEL CRISTINA/PLANILHA DE VENDAS/ECB8C813.tmp|/mnt/disk0p0/notebook/ATENDIMENTO/ATENDIMENTO/ISABEL CRISTINA/PLANILHA DE VENDAS/VENDAS 2019  .xlsx
+Jun  1 00:05:19 inova smbd_audit: IP=192.168.160.12|USER=inova|MACHINE=desktop-isabel|VOLUME=Atendimento|renameat|ok|/mnt/disk0p0/notebook/ATENDIMENTO/ATENDIMENTO/ISABEL CRISTINA/PLANILHA DE VENDAS/~$VENDAS 2019  .xlsx|/mnt/disk0p0/Lixeira/inova/ATENDIMENTO/ISABEL CRISTINA/PLANILHA DE VENDAS/~$VENDAS 2019  .xlsx
+Jun  1 00:05:31 inova smbd_audit: IP=192.168.160.12|USER=inova|MACHINE=desktop-isabel|VOLUME=Atendimento|renameat|ok|/mnt/disk0p0/notebook/ATENDIMENTO/ATENDIMENTO/ISABEL CRISTINA/PLANILHA DE VENDAS/~$VENDAS 2019  correta .xlsx|/mnt/disk0p0/Lixeira/inova/ATENDIMENTO/ISABEL CRISTINA/PLANILHA DE VENDAS/Copy #1 of ~$VENDAS 2019  correta .xlsx
+
+Em 06-2025 foi realizada a verificação da integridade dos Logs de Eventos das pastas da rede e dos registros de uso dos compartilhamentos.
+
+
+Checando armazenamento geral!
+
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           775M  3.1M  772M   1% /run
+/dev/sdd2        29G   17G  9.9G  63% /
+tmpfs           3.8G     0  3.8G   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           3.8G  216K  3.8G   1% /run/qemu
+tmpfs           3.8G   12K  3.8G   1% /tmp
+tmpfs           3.8G     0  3.8G   0% /var/tmp
+/dev/sdc        916G  188G  728G  21% /mnt/cloud-bkp
+/dev/sdb1       393G  297G   97G  76% /mnt/disk0p0
+/dev/sda1       393G  302G   91G  77% /mnt/disk1p0
+/dev/sdd1       1.1G  6.1M  1.1G   1% /boot/efi
+tmpfs           775M  8.0K  775M   1% /run/user/1000
+
+DUMP de RSnapshots (se existente)!
+
+May 30 18:30:23 athe-nas rsnapshot[117951]: /usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot-inova.conf beta: completed successfully
+May 31 19:00:01 athe-nas CRON[120503]: (root) CMD (/usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot-inova.conf gamma)
+May 31 19:09:01 athe-nas rsnapshot[120557]: /usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot-inova.conf gamma: completed successfully
+Jun 02 07:00:01 athe-nas CRON[123878]: (root) CMD (/usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot-inova.conf alpha)
+Jun 02 07:00:30 athe-nas rsnapshot[123885]: /usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot-inova.conf alpha: completed successfully
+Jun 02 10:00:01 athe-nas CRON[124527]: (root) CMD (/usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot-inova.conf alpha)
+Jun 02 10:00:35 athe-nas rsnapshot[124534]: /usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot-inova.conf alpha: completed successfully
+
+DUMP de RSYNC (se existente)!
+
+
+DUMP do RClone (se existente)!
+
+
+Checando backups dos containers!
+
+
+Não existem backups de containers neste servidor. Verifique se esta situação está correta.
+
+Em 06-2025 foi realizada a verificação das rotinas de backup do servidor. O backup para a nuvem, se existente, também foi verificado.
+
+Total reclaimed space: 0B
+
+Em 06-2025 foi realizada a limpeza do sistema com remoção de pacotes e imagens obsoletas dos serviços, objetivando reduzir o consumo de armazenamento.
+
+Em 06-2025 o SWAP pôde ser limpo com sucesso pela segunda vez para finalização da manutenção: Sistema com desempenho dentro da normalidade!
+
