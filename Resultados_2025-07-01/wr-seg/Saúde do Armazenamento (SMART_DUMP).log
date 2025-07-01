@@ -1,0 +1,172 @@
+
+############################################################################
+Device Model:     TOSHIBA HDWG440
+Serial Number:    24W0A1L4FZ1G
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000b   100   100   050    Pre-fail  Always       -       0
+  2 Throughput_Performance  0x0005   100   100   050    Pre-fail  Offline      -       0
+  3 Spin_Up_Time            0x0027   100   100   001    Pre-fail  Always       -       8472
+  4 Start_Stop_Count        0x0032   100   100   000    Old_age   Always       -       7
+  5 Reallocated_Sector_Ct   0x0033   100   100   050    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000b   100   100   050    Pre-fail  Always       -       0
+  8 Seek_Time_Performance   0x0005   100   100   050    Pre-fail  Offline      -       0
+  9 Power_On_Hours          0x0032   085   085   000    Old_age   Always       -       6010
+ 10 Spin_Retry_Count        0x0033   100   100   030    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       7
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       3
+193 Load_Cycle_Count        0x0032   100   100   000    Old_age   Always       -       1777
+194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       31 (Min/Max 18/40)
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0032   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0030   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x0032   200   200   000    Old_age   Always       -       0
+220 Disk_Shift              0x0002   100   100   000    Old_age   Always       -       17039367
+222 Loaded_Hours            0x0032   095   095   000    Old_age   Always       -       2259
+223 Load_Retry_Count        0x0032   100   100   000    Old_age   Always       -       0
+224 Load_Friction           0x0022   100   100   000    Old_age   Always       -       0
+226 Load-in_Time            0x0026   100   100   000    Old_age   Always       -       513
+240 Head_Flying_Hours       0x0001   100   100   001    Pre-fail  Offline      -       0
+
+
+############################################################################
+Device Model:     TOSHIBA HDWG440
+Serial Number:    24W0A0LNFZ1G
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000b   100   100   050    Pre-fail  Always       -       0
+  2 Throughput_Performance  0x0005   100   100   050    Pre-fail  Offline      -       0
+  3 Spin_Up_Time            0x0027   100   100   001    Pre-fail  Always       -       8765
+  4 Start_Stop_Count        0x0032   100   100   000    Old_age   Always       -       7
+  5 Reallocated_Sector_Ct   0x0033   100   100   050    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000b   100   100   050    Pre-fail  Always       -       0
+  8 Seek_Time_Performance   0x0005   100   100   050    Pre-fail  Offline      -       0
+  9 Power_On_Hours          0x0032   085   085   000    Old_age   Always       -       6010
+ 10 Spin_Retry_Count        0x0033   100   100   030    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       7
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       3
+193 Load_Cycle_Count        0x0032   100   100   000    Old_age   Always       -       889
+194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       33 (Min/Max 18/41)
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0032   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0030   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x0032   200   200   000    Old_age   Always       -       0
+220 Disk_Shift              0x0002   100   100   000    Old_age   Always       -       17563649
+222 Loaded_Hours            0x0032   087   087   000    Old_age   Always       -       5464
+223 Load_Retry_Count        0x0032   100   100   000    Old_age   Always       -       0
+224 Load_Friction           0x0022   100   100   000    Old_age   Always       -       0
+226 Load-in_Time            0x0026   100   100   000    Old_age   Always       -       510
+240 Head_Flying_Hours       0x0001   100   100   001    Pre-fail  Offline      -       0
+
+
+############################################################################
+Model Family:     Marvell based SanDisk SSDs
+Device Model:     SanDisk SSD PLUS 240GB
+Serial Number:    224803A00484
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 0
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  5 Reallocated_Sector_Ct   0x0032   100   100   010    Old_age   Always       -       17
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       371
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       32
+165 Total_Write/Erase_Count 0x0032   100   100   000    Old_age   Always       -       2929217307378
+166 Min_W/E_Cycle           0x0032   100   100   000    Old_age   Always       -       8
+167 Min_Bad_Block/Die       0x0032   100   100   000    Old_age   Always       -       18
+168 Maximum_Erase_Cycle     0x0032   100   100   000    Old_age   Always       -       14
+169 Total_Bad_Block         0x0032   100   100   000    Old_age   Always       -       81
+170 Unknown_Marvell_Attr    0x0032   100   100   000    Old_age   Always       -       17
+171 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       0
+172 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       0
+173 Avg_Write/Erase_Count   0x0032   100   100   005    Old_age   Always       -       12
+174 Unexpect_Power_Loss_Ct  0x0032   100   100   000    Old_age   Always       -       1
+184 End-to-End_Error        0x0032   100   100   097    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   100   000    Old_age   Always       -       0
+194 Temperature_Celsius     0x0022   100   100   014    Old_age   Always       -       33 (Min/Max 19/48)
+199 SATA_CRC_Error          0x0032   100   100   000    Old_age   Always       -       0
+230 Perc_Write/Erase_Count  0x0032   100   100   000    Old_age   Always       -       256 80 256
+232 Perc_Avail_Resrvd_Space 0x0033   100   100   004    Pre-fail  Always       -       94
+233 Total_NAND_Writes_GiB   0x0032   100   100   000    Old_age   Always       -       3038
+234 Perc_Write/Erase_Ct_BC  0x0032   100   100   000    Old_age   Always       -       4660
+241 Total_Writes_GiB        0x0030   253   253   000    Old_age   Offline      -       2508
+242 Total_Reads_GiB         0x0030   253   253   000    Old_age   Offline      -       2866
+244 Thermal_Throttle        0x0032   100   100   000    Old_age   Always       -       0
+
+
+############################################################################
+Model Number:                       SAMSUNG MZALQ256HAJD-000L2
+Serial Number:                      M2022072117454
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF SMART DATA SECTION ===
+SMART/Health Information (NVMe Log 0x02)
+Critical Warning:                   0x00
+Temperature:                        62 Celsius
+Available Spare:                    100%
+Available Spare Threshold:          10%
+Percentage Used:                    17%
+Data Units Read:                    99,286,650 [50.8 TB]
+Data Units Written:                 55,439,706 [28.3 TB]
+Host Read Commands:                 1,202,832,004
+Host Write Commands:                803,411,708
+Controller Busy Time:               12,196
+Power Cycles:                       227
+Power On Hours:                     2,262
+Unsafe Shutdowns:                   40
+Media and Data Integrity Errors:    0
+Error Information Log Entries:      1,155
+Warning  Comp. Temperature Time:    4
+Critical Comp. Temperature Time:    0
+Temperature Sensor 1:               62 Celsius
+Thermal Temp. 1 Transition Count:   1048
+Thermal Temp. 1 Total Time:         1319
+
+
+############################################################################
+Model Number:                       SAMSUNG MZALQ256HAJD-000L2
+Serial Number:                      M2022072117454
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF SMART DATA SECTION ===
+SMART/Health Information (NVMe Log 0x02)
+Critical Warning:                   0x00
+Temperature:                        62 Celsius
+Available Spare:                    100%
+Available Spare Threshold:          10%
+Percentage Used:                    17%
+Data Units Read:                    99,286,650 [50.8 TB]
+Data Units Written:                 55,439,706 [28.3 TB]
+Host Read Commands:                 1,202,832,017
+Host Write Commands:                803,411,708
+Controller Busy Time:               12,196
+Power Cycles:                       227
+Power On Hours:                     2,262
+Unsafe Shutdowns:                   40
+Media and Data Integrity Errors:    0
+Error Information Log Entries:      1,155
+Warning  Comp. Temperature Time:    4
+Critical Comp. Temperature Time:    0
+Temperature Sensor 1:               62 Celsius
+Thermal Temp. 1 Transition Count:   1048
+Thermal Temp. 1 Total Time:         1319
+
+
+Verificacao concluida em 07-2025!

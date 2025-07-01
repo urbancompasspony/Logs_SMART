@@ -1,0 +1,104 @@
+
+############################################################################
+Model Family:     Seagate Skyhawk
+Device Model:     ST1000VX005-2EZ102
+Serial Number:    Z9CCARCE
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000f   079   063   006    Pre-fail  Always       -       91447968
+  3 Spin_Up_Time            0x0003   096   096   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   086   086   020    Old_age   Always       -       14609
+  5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   084   060   045    Pre-fail  Always       -       243115834
+  9 Power_On_Hours          0x0032   057   057   000    Old_age   Always       -       38003h+00m+00.000s
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   086   086   020    Old_age   Always       -       14609
+184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   100   000    Old_age   Always       -       0
+189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x0022   060   040   040    Old_age   Always   In_the_past 40 (Min/Max 37/47)
+193 Load_Cycle_Count        0x0032   092   092   000    Old_age   Always       -       16153
+194 Temperature_Celsius     0x0022   040   020   000    Old_age   Always       -       40 (0 20 0 0 0)
+195 Hardware_ECC_Recovered  0x001a   004   001   000    Old_age   Always       -       91447968
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   199   000    Old_age   Always       -       7
+
+
+############################################################################
+Model Family:     Toshiba P300 (CMR)
+Device Model:     TOSHIBA HDWD110
+Serial Number:    11FNSDUFS
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000b   100   100   016    Pre-fail  Always       -       0
+  2 Throughput_Performance  0x0005   142   142   054    Pre-fail  Offline      -       71
+  3 Spin_Up_Time            0x0007   117   117   024    Pre-fail  Always       -       196 (Average 197)
+  4 Start_Stop_Count        0x0012   100   100   000    Old_age   Always       -       86
+  5 Reallocated_Sector_Ct   0x0033   100   100   005    Pre-fail  Always       -       1
+  7 Seek_Error_Rate         0x000b   100   100   067    Pre-fail  Always       -       0
+  8 Seek_Time_Performance   0x0005   115   115   020    Pre-fail  Offline      -       34
+  9 Power_On_Hours          0x0012   097   097   000    Old_age   Always       -       25654
+ 10 Spin_Retry_Count        0x0013   100   100   060    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       85
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       574
+193 Load_Cycle_Count        0x0012   100   100   000    Old_age   Always       -       574
+194 Temperature_Celsius     0x0002   146   146   000    Old_age   Always       -       41 (Min/Max 25/62)
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       1
+197 Current_Pending_Sector  0x0022   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0008   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x000a   200   200   000    Old_age   Always       -       3
+
+
+############################################################################
+Model Family:     Toshiba P300 (CMR)
+Device Model:     TOSHIBA HDWD110
+Serial Number:    11FNSYYFS
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000b   100   100   016    Pre-fail  Always       -       0
+  2 Throughput_Performance  0x0005   142   142   054    Pre-fail  Offline      -       68
+  3 Spin_Up_Time            0x0007   116   116   024    Pre-fail  Always       -       199 (Average 195)
+  4 Start_Stop_Count        0x0012   098   098   000    Old_age   Always       -       10236
+  5 Reallocated_Sector_Ct   0x0033   100   100   005    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000b   100   100   067    Pre-fail  Always       -       0
+  8 Seek_Time_Performance   0x0005   110   110   020    Pre-fail  Offline      -       36
+  9 Power_On_Hours          0x0012   098   098   000    Old_age   Always       -       20308
+ 10 Spin_Retry_Count        0x0013   100   100   060    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       1217
+192 Power-Off_Retract_Count 0x0032   092   092   000    Old_age   Always       -       10518
+193 Load_Cycle_Count        0x0012   092   092   000    Old_age   Always       -       10518
+194 Temperature_Celsius     0x0002   157   157   000    Old_age   Always       -       38 (Min/Max 22/63)
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0022   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0008   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x000a   200   200   000    Old_age   Always       -       0
+
+
+############################################################################
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+/dev/sdd: Unknown USB bridge [0x152d:0xb567 (0x223)]
+Please specify device type with the -d option.
+
+Use smartctl -h to get a usage summary
+
+
+Verificacao concluida em 07-2025!

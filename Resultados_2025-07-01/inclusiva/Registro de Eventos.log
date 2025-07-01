@@ -1,0 +1,430 @@
+========================================================
+RELATÓRIO MENSAL DE PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA
+Conforme estipulado em contrato mensal de prestação de serviços na área de informática, segue abaixo o relatório de manutenções preventivas e corretivas realizadas no mês de julho de 2025:
+
+Em 07-2025 o SWAP pôde ser limpo com sucesso: Sistema com desempenho dentro da normalidade!
+
+
+Atualizando o sistema!
+
+Hit:1 http://archive.ubuntu.com/ubuntu noble InRelease
+Hit:2 https://packages.mozilla.org/apt mozilla InRelease
+Hit:3 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:4 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:5 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+9 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+Get more security updates through Ubuntu Pro with 'esm-apps' enabled:
+  libzvbi-common libcjson1 libavdevice60 libpostproc57 libavcodec60
+  libzvbi0t64 libavutil58 libswscale7 libswresample4 libavformat60
+  libavfilter9
+Learn more about Ubuntu Pro at https://ubuntu.com/pro
+The following NEW packages will be installed:
+  linux-headers-6.8.0-63 linux-headers-6.8.0-63-generic
+  linux-image-6.8.0-63-generic linux-modules-6.8.0-63-generic
+  linux-modules-extra-6.8.0-63-generic linux-tools-6.8.0-63
+  linux-tools-6.8.0-63-generic
+The following upgrades have been deferred due to phasing:
+  libpciaccess0
+The following packages will be upgraded:
+  firefox linux-generic linux-headers-generic linux-image-generic
+  linux-libc-dev linux-tools-common rclone sudo
+8 upgraded, 7 newly installed, 0 to remove and 1 not upgraded.
+2 standard LTS security updates
+Need to get 288 MB of archives.
+After this operation, 301 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 sudo amd64 1.9.15p5-3ubuntu5.24.04.1 [948 kB]
+Get:2 https://packages.mozilla.org/apt mozilla/main amd64 firefox amd64 140.0.2~build1 [76.9 MB]
+Get:3 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-modules-6.8.0-63-generic amd64 6.8.0-63.66 [39.4 MB]
+Get:4 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-image-6.8.0-63-generic amd64 6.8.0-63.66 [14.8 MB]
+Get:5 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-modules-extra-6.8.0-63-generic amd64 6.8.0-63.66 [113 MB]
+Get:6 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-generic amd64 6.8.0-63.66 [1,702 B]
+Get:7 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-image-generic amd64 6.8.0-63.66 [10.7 kB]
+Get:8 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-headers-6.8.0-63 all 6.8.0-63.66 [13.9 MB]
+Get:9 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-headers-6.8.0-63-generic amd64 6.8.0-63.66 [4,147 kB]
+Get:10 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-headers-generic amd64 6.8.0-63.66 [10.5 kB]
+Get:11 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-libc-dev amd64 6.8.0-63.66 [1,878 kB]
+Get:12 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-tools-common all 6.8.0-63.66 [719 kB]
+Get:13 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-tools-6.8.0-63 amd64 6.8.0-63.66 [5,378 kB]
+Get:14 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-tools-6.8.0-63-generic amd64 6.8.0-63.66 [1,814 B]
+Get:15 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 rclone amd64 1.60.1+dfsg-3ubuntu0.24.04.3 [16.5 MB]
+Fetched 288 MB in 15s (18.8 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 147928 files and directories currently installed.)
+Preparing to unpack .../00-sudo_1.9.15p5-3ubuntu5.24.04.1_amd64.deb ...
+Unpacking sudo (1.9.15p5-3ubuntu5.24.04.1) over (1.9.15p5-3ubuntu5) ...
+Preparing to unpack .../01-firefox_140.0.2~build1_amd64.deb ...
+Unpacking firefox (140.0.2~build1) over (140.0.1~build1) ...
+Selecting previously unselected package linux-modules-6.8.0-63-generic.
+Preparing to unpack .../02-linux-modules-6.8.0-63-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-modules-6.8.0-63-generic (6.8.0-63.66) ...
+Selecting previously unselected package linux-image-6.8.0-63-generic.
+Preparing to unpack .../03-linux-image-6.8.0-63-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-image-6.8.0-63-generic (6.8.0-63.66) ...
+Selecting previously unselected package linux-modules-extra-6.8.0-63-generic.
+Preparing to unpack .../04-linux-modules-extra-6.8.0-63-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-modules-extra-6.8.0-63-generic (6.8.0-63.66) ...
+Preparing to unpack .../05-linux-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-generic (6.8.0-63.66) over (6.8.0-62.65) ...
+Preparing to unpack .../06-linux-image-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-image-generic (6.8.0-63.66) over (6.8.0-62.65) ...
+Selecting previously unselected package linux-headers-6.8.0-63.
+Preparing to unpack .../07-linux-headers-6.8.0-63_6.8.0-63.66_all.deb ...
+Unpacking linux-headers-6.8.0-63 (6.8.0-63.66) ...
+Selecting previously unselected package linux-headers-6.8.0-63-generic.
+Preparing to unpack .../08-linux-headers-6.8.0-63-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-headers-6.8.0-63-generic (6.8.0-63.66) ...
+Preparing to unpack .../09-linux-headers-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-headers-generic (6.8.0-63.66) over (6.8.0-62.65) ...
+Preparing to unpack .../10-linux-libc-dev_6.8.0-63.66_amd64.deb ...
+Unpacking linux-libc-dev:amd64 (6.8.0-63.66) over (6.8.0-62.65) ...
+Preparing to unpack .../11-linux-tools-common_6.8.0-63.66_all.deb ...
+Unpacking linux-tools-common (6.8.0-63.66) over (6.8.0-62.65) ...
+Selecting previously unselected package linux-tools-6.8.0-63.
+Preparing to unpack .../12-linux-tools-6.8.0-63_6.8.0-63.66_amd64.deb ...
+Unpacking linux-tools-6.8.0-63 (6.8.0-63.66) ...
+Selecting previously unselected package linux-tools-6.8.0-63-generic.
+Preparing to unpack .../13-linux-tools-6.8.0-63-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-tools-6.8.0-63-generic (6.8.0-63.66) ...
+Preparing to unpack .../14-rclone_1.60.1+dfsg-3ubuntu0.24.04.3_amd64.deb ...
+Unpacking rclone (1.60.1+dfsg-3ubuntu0.24.04.3) over (1.60.1+dfsg-3ubuntu0.24.04.2) ...
+Setting up linux-headers-6.8.0-63 (6.8.0-63.66) ...
+Setting up rclone (1.60.1+dfsg-3ubuntu0.24.04.3) ...
+Setting up firefox (140.0.2~build1) ...
+Setting up linux-modules-6.8.0-63-generic (6.8.0-63.66) ...
+Setting up linux-libc-dev:amd64 (6.8.0-63.66) ...
+Setting up linux-image-6.8.0-63-generic (6.8.0-63.66) ...
+I: /boot/vmlinuz.old is now a symlink to vmlinuz-6.8.0-62-generic
+I: /boot/initrd.img.old is now a symlink to initrd.img-6.8.0-62-generic
+I: /boot/vmlinuz is now a symlink to vmlinuz-6.8.0-63-generic
+I: /boot/initrd.img is now a symlink to initrd.img-6.8.0-63-generic
+Setting up sudo (1.9.15p5-3ubuntu5.24.04.1) ...
+Setting up linux-headers-6.8.0-63-generic (6.8.0-63.66) ...
+Setting up linux-modules-extra-6.8.0-63-generic (6.8.0-63.66) ...
+Setting up linux-tools-common (6.8.0-63.66) ...
+Setting up linux-image-generic (6.8.0-63.66) ...
+Setting up linux-headers-generic (6.8.0-63.66) ...
+Setting up linux-tools-6.8.0-63 (6.8.0-63.66) ...
+Setting up linux-generic (6.8.0-63.66) ...
+Setting up linux-tools-6.8.0-63-generic (6.8.0-63.66) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.4) ...
+Processing triggers for linux-image-6.8.0-63-generic (6.8.0-63.66) ...
+/etc/kernel/postinst.d/initramfs-tools:
+update-initramfs: Generating /boot/initrd.img-6.8.0-63-generic
+/etc/kernel/postinst.d/zz-update-grub:
+Sourcing file `/etc/default/grub'
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-6.8.0-63-generic
+Found initrd image: /boot/initrd.img-6.8.0-63-generic
+Found linux image: /boot/vmlinuz-6.8.0-62-generic
+Found initrd image: /boot/initrd.img-6.8.0-62-generic
+Found linux image: /boot/vmlinuz-5.15.0-142-generic
+Found initrd image: /boot/initrd.img-5.15.0-142-generic
+Warning: os-prober will not be executed to detect other bootable partitions.
+Systems on them will not be added to the GRUB boot configuration.
+Check GRUB_DISABLE_OS_PROBER documentation entry.
+Adding boot menu entry for UEFI Firmware Settings ...
+done
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages will be REMOVED:
+  linux-headers-5.15.0-142 linux-headers-5.15.0-142-generic
+  linux-image-5.15.0-142-generic linux-modules-5.15.0-142-generic
+  linux-modules-extra-5.15.0-142-generic
+0 upgraded, 0 newly installed, 5 to remove and 1 not upgraded.
+After this operation, 584 MB disk space will be freed.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 185947 files and directories currently installed.)
+Removing linux-headers-5.15.0-142-generic (5.15.0-142.152) ...
+Removing linux-headers-5.15.0-142 (5.15.0-142.152) ...
+Removing linux-modules-extra-5.15.0-142-generic (5.15.0-142.152) ...
+Removing linux-image-5.15.0-142-generic (5.15.0-142.152) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+/etc/kernel/postrm.d/initramfs-tools:
+update-initramfs: Deleting /boot/initrd.img-5.15.0-142-generic
+/etc/kernel/postrm.d/zz-update-grub:
+Sourcing file `/etc/default/grub'
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-6.8.0-63-generic
+Found initrd image: /boot/initrd.img-6.8.0-63-generic
+Found linux image: /boot/vmlinuz-6.8.0-62-generic
+Found initrd image: /boot/initrd.img-6.8.0-62-generic
+Warning: os-prober will not be executed to detect other bootable partitions.
+Systems on them will not be added to the GRUB boot configuration.
+Check GRUB_DISABLE_OS_PROBER documentation entry.
+Adding boot menu entry for UEFI Firmware Settings ...
+done
+Removing linux-modules-5.15.0-142-generic (5.15.0-142.152) ...
+
+Em 07-2025 o sistema do servidor foi atualizado e está em dia com a segurança digital.
+
+
+############################################################################
+Armazenamento: /dev/sda
+
+Device Model:     Kingchuxing 128GB
+Serial Number:    2023080702039
+
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 1
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x0032   100   100   050    Old_age   Always       -       0
+  5 Reallocated_Sector_Ct   0x0032   100   100   050    Old_age   Always       -       0
+  9 Power_On_Hours          0x0032   100   100   050    Old_age   Always       -       13915
+ 12 Power_Cycle_Count       0x0032   100   100   050    Old_age   Always       -       75
+160 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       0
+161 Unknown_Attribute       0x0033   100   100   050    Pre-fail  Always       -       100
+163 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       18
+164 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       62659
+165 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       194
+166 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       7
+167 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       129
+168 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       5050
+169 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       98
+175 Program_Fail_Count_Chip 0x0032   100   100   050    Old_age   Always       -       0
+176 Erase_Fail_Count_Chip   0x0032   100   100   050    Old_age   Always       -       0
+177 Wear_Leveling_Count     0x0032   100   100   050    Old_age   Always       -       0
+178 Used_Rsvd_Blk_Cnt_Chip  0x0032   100   100   050    Old_age   Always       -       0
+181 Program_Fail_Cnt_Total  0x0032   100   100   050    Old_age   Always       -       0
+182 Erase_Fail_Count_Total  0x0032   100   100   050    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   050    Old_age   Always       -       65
+194 Temperature_Celsius     0x0022   100   100   050    Old_age   Always       -       40
+195 Hardware_ECC_Recovered  0x0032   100   100   050    Old_age   Always       -       0
+196 Reallocated_Event_Count 0x0032   100   100   050    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0032   100   100   050    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0032   100   100   050    Old_age   Always       -       0
+199 UDMA_CRC_Error_Count    0x0032   100   100   050    Old_age   Always       -       0
+232 Available_Reservd_Space 0x0032   100   100   050    Old_age   Always       -       100
+241 Total_LBAs_Written      0x0030   100   100   050    Old_age   Offline      -       286861
+242 Total_LBAs_Read         0x0030   100   100   050    Old_age   Offline      -       64910
+245 Unknown_Attribute       0x0032   100   100   050    Old_age   Always       -       195903
+
+
+
+############################################################################
+Armazenamento: /dev/sdb
+
+Model Family:     WD Blue / Red / Green SSDs
+Device Model:     WDC WDS200T2G0A-00JH30
+Serial Number:    232817800494
+
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 1
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  5 Reallocated_Sector_Ct   0x0032   100   100   000    Old_age   Always       -       0
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       13985
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       68
+165 Block_Erase_Count       0x0032   100   100   000    Old_age   Always       -       101
+166 Minimum_PE_Cycles_TLC   0x0032   100   100   ---    Old_age   Always       -       1
+167 Max_Bad_Blocks_per_Die  0x0032   100   100   ---    Old_age   Always       -       57
+168 Maximum_PE_Cycles_TLC   0x0032   100   100   ---    Old_age   Always       -       3
+169 Total_Bad_Blocks        0x0032   100   100   ---    Old_age   Always       -       1406
+170 Grown_Bad_Blocks        0x0032   100   100   ---    Old_age   Always       -       0
+171 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       0
+172 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       0
+173 Average_PE_Cycles_TLC   0x0032   100   100   000    Old_age   Always       -       1
+174 Unexpected_Power_Loss   0x0032   100   100   000    Old_age   Always       -       57
+184 End-to-End_Error        0x0032   100   100   ---    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   100   ---    Old_age   Always       -       0
+194 Temperature_Celsius     0x0022   062   073   000    Old_age   Always       -       38 (Min/Max 19/73)
+199 UDMA_CRC_Error_Count    0x0032   100   100   ---    Old_age   Always       -       0
+230 Media_Wearout_Indicator 0x0032   100   100   000    Old_age   Always       -       0x001c0014001c
+232 Available_Reservd_Space 0x0033   100   100   005    Pre-fail  Always       -       100
+233 NAND_GB_Written_TLC     0x0032   100   100   ---    Old_age   Always       -       1392
+234 NAND_GB_Written_SLC     0x0032   100   100   000    Old_age   Always       -       2739
+241 Host_Writes_GiB         0x0030   100   100   000    Old_age   Offline      -       1178
+242 Host_Reads_GiB          0x0030   100   100   000    Old_age   Offline      -       2715
+244 Temp_Throttle_Status    0x0032   000   100   ---    Old_age   Always       -       0
+
+
+
+############################################################################
+Armazenamento: /dev/sdc
+
+Model Family:     Toshiba 2.5" HDD MQ04UBD...
+Device Model:     TOSHIBA MQ04UBD200
+Serial Number:    53NFT01TT
+
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000b   100   100   050    Pre-fail  Always       -       0
+  2 Throughput_Performance  0x0005   100   100   050    Pre-fail  Offline      -       0
+  3 Spin_Up_Time            0x0027   100   100   001    Pre-fail  Always       -       2197
+  4 Start_Stop_Count        0x0032   100   100   000    Old_age   Always       -       3209
+  5 Reallocated_Sector_Ct   0x0033   100   100   050    Pre-fail  Always       -       1
+  7 Seek_Error_Rate         0x000b   100   100   050    Pre-fail  Always       -       0
+  8 Seek_Time_Performance   0x0005   100   100   050    Pre-fail  Offline      -       0
+  9 Power_On_Hours          0x0032   066   066   000    Old_age   Always       -       13661
+ 10 Spin_Retry_Count        0x0033   164   100   030    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       32
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       19
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       14
+193 Load_Cycle_Count        0x0032   100   100   000    Old_age   Always       -       4730
+194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       26 (Min/Max 21/55)
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       1
+197 Current_Pending_Sector  0x0032   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0030   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x0032   200   200   000    Old_age   Always       -       0
+220 Disk_Shift              0x0002   100   100   000    Old_age   Always       -       0
+222 Loaded_Hours            0x0032   100   100   000    Old_age   Always       -       290
+223 Load_Retry_Count        0x0032   100   100   000    Old_age   Always       -       0
+224 Load_Friction           0x0022   100   100   000    Old_age   Always       -       0
+226 Load-in_Time            0x0026   100   100   000    Old_age   Always       -       183
+240 Head_Flying_Hours       0x0001   100   100   001    Pre-fail  Offline      -       0
+
+
+
+Verificacao concluida em 07-2025!
+Em 07-2025 foi realizada a verificação da saúde dos discos rígidos. Mais informações no anexo SMART_DUMP no e-mail!
+
+Checking 3773 objects
+Checked 3773 objects (0 errors)
+
+Em 07-2025 foi realizada a verificação da integridade do Controlador de Domínio.
+
+
+
+
+Em 07-2025 nenhum novo equipamento vulnerável detectado na rede. Por enquanto nenhum equipamento cujos testes sejam pertinentes de serem notificados.
+
+
+/srv/containers/dominio/log/syslog
+
+Jul  1 10:42:37 inclusiva smbd_audit: IP=192.168.0.25|USER=AD\flavia|MACHINE=192.168.0.25|VOLUME=inclusiva|renameat|ok|/mnt/inclusiva/OPERACIONAL - INCLUSIVA CONTABIL/CONTABIL - GF SERVIÇOS/EMPRESAS 2025/SRU/RENTEÇÕES IMPOSTOS/IR SALARIO/7CB7E4BF.tmp|/mnt/inclusiva/OPERACIONAL - INCLUSIVA CONTABIL/CONTABIL - GF SERVIÇOS/EMPRESAS 2025/SRU/RENTEÇÕES IMPOSTOS/IR SALARIO/IR FOLHA.xlsx
+Jul  1 10:42:37 inclusiva smbd_audit: IP=192.168.0.25|USER=AD\flavia|MACHINE=192.168.0.25|VOLUME=inclusiva|renameat|ok|/mnt/inclusiva/OPERACIONAL - INCLUSIVA CONTABIL/CONTABIL - GF SERVIÇOS/EMPRESAS 2025/SRU/RENTEÇÕES IMPOSTOS/IR SALARIO/IR FOLHA.xlsx|/mnt/inclusiva/OPERACIONAL - INCLUSIVA CONTABIL/CONTABIL - GF SERVIÇOS/EMPRESAS 2025/SRU/RENTEÇÕES IMPOSTOS/IR SALARIO/2F72B67B.tmp
+Jul  1 10:42:37 inclusiva smbd_audit: IP=192.168.0.25|USER=AD\flavia|MACHINE=192.168.0.25|VOLUME=inclusiva|renameat|ok|/mnt/inclusiva/OPERACIONAL - INCLUSIVA CONTABIL/CONTABIL - GF SERVIÇOS/EMPRESAS 2025/SRU/RENTEÇÕES IMPOSTOS/IR SALARIO/A8C05BE2.tmp|/mnt/inclusiva/OPERACIONAL - INCLUSIVA CONTABIL/CONTABIL - GF SERVIÇOS/EMPRESAS 2025/SRU/RENTEÇÕES IMPOSTOS/IR SALARIO/IR FOLHA.xlsx
+Jul  1 10:42:37 inclusiva smbd_audit: IP=192.168.0.25|USER=AD\flavia|MACHINE=192.168.0.25|VOLUME=inclusiva|renameat|ok|/mnt/inclusiva/OPERACIONAL - INCLUSIVA CONTABIL/CONTABIL - GF SERVIÇOS/EMPRESAS 2025/SRU/RENTEÇÕES IMPOSTOS/IR SALARIO/IR FOLHA.xlsx|/mnt/inclusiva/OPERACIONAL - INCLUSIVA CONTABIL/CONTABIL - GF SERVIÇOS/EMPRESAS 2025/SRU/RENTEÇÕES IMPOSTOS/IR SALARIO/4E49C64E.tmp
+Jul  1 10:42:37 inclusiva smbd_audit: IP=192.168.0.25|USER=AD\flavia|MACHINE=192.168.0.25|VOLUME=inclusiva|renameat|ok|/mnt/inclusiva/OPERACIONAL - INCLUSIVA CONTABIL/CONTABIL - GF SERVIÇOS/EMPRESAS 2025/SRU/RENTEÇÕES IMPOSTOS/IR SALARIO/84501141.tmp|/mnt/inclusiva/OPERACIONAL - INCLUSIVA CONTABIL/CONTABIL - GF SERVIÇOS/EMPRESAS 2025/SRU/RENTEÇÕES IMPOSTOS/IR SALARIO/IR FOLHA.xlsx
+Jul  1 10:42:38 inclusiva smbd_audit: IP=192.168.0.25|USER=AD\flavia|MACHINE=192.168.0.25|VOLUME=inclusiva|renameat|ok|/mnt/inclusiva/OPERACIONAL - INCLUSIVA CONTABIL/CONTABIL - GF SERVIÇOS/EMPRESAS 2025/SRU/RENTEÇÕES IMPOSTOS/IR SALARIO/~$IR FOLHA.xlsx|/mnt/Lixeira/flavia/OPERACIONAL - INCLUSIVA CONTABIL/CONTABIL - GF SERVIÇOS/EMPRESAS 2025/SRU/RENTEÇÕES IMPOSTOS/IR SALARIO/Copy #2 of ~$IR FOLHA.xlsx
+Jul  1 10:42:42 inclusiva smbd_audit: IP=192.168.0.25|USER=AD\flavia|MACHINE=192.168.0.25|VOLUME=inclusiva|renameat|ok|/mnt/inclusiva/OPERACIONAL - INCLUSIVA CONTABIL/CONTABIL - GF SERVIÇOS/EMPRESAS 2024/SRU/RELATÓRIOS CONCILIAÇÃO/IR/~$CONCILIAÇÃO IR.xlsx|/mnt/Lixeira/flavia/OPERACIONAL - INCLUSIVA CONTABIL/CONTABIL - GF SERVIÇOS/EMPRESAS 2024/SRU/RELATÓRIOS CONCILIAÇÃO/IR/Copy #15 of ~$CONCILIAÇÃO IR.xlsx
+
+Em 07-2025 foi realizada a verificação da integridade dos Logs de Eventos das pastas da rede e dos registros de uso dos compartilhamentos.
+
+
+Checando armazenamento geral!
+
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           778M  5.4M  773M   1% /run
+efivarfs        128K   62K   62K  51% /sys/firmware/efi/efivars
+/dev/sda2       116G   25G   86G  23% /
+tmpfs           3.8G     0  3.8G   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/sdb        1.8T  217G  1.6T  12% /mnt/disk01
+/dev/sda1       1.1G  6.2M  1.1G   1% /boot/efi
+/dev/sdc        1.8T  239G  1.6T  14% /mnt/disk02
+tmpfs           778M   20K  778M   1% /run/user/1000
+
+DUMP de RSnapshots (se existente)!
+
+Jun 30 23:00:01 inclusiva CRON[80842]: (root) CMD (/usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot beta)
+Jun 30 23:00:03 inclusiva rsnapshot[80849]: /usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot beta: completed successfully
+Jul 01 07:00:01 inclusiva CRON[87508]: (root) CMD (/usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot alpha)
+Jul 01 07:04:44 inclusiva rsnapshot[87594]: /usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot alpha: completed successfully
+Jul 01 10:00:01 inclusiva CRON[89888]: (root) CMD (/usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot alpha)
+Jul 01 10:03:48 inclusiva rsnapshot[90011]: /usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot alpha: completed successfully
+Jul 01 10:08:59 inclusiva python3[92806]: ansible-ansible.legacy.command Invoked with _raw_params=dpkg -l rsnapshot _uses_shell=False expand_argument_vars=True stdin_add_newline=True strip_empty_ends=True argv=None chdir=None executable=None creates=None removes=None stdin=None
+
+DUMP de RSYNC (se existente)!
+
+
+DUMP do RClone (se existente)!
+
+Jul 01 10:09:00 inclusiva python3[92832]: ansible-ansible.legacy.command Invoked with _raw_params=dpkg -l rclone _uses_shell=False expand_argument_vars=True stdin_add_newline=True strip_empty_ends=True argv=None chdir=None executable=None creates=None removes=None stdin=None
+
+Checando backups dos containers!
+
+total 3.1G
+drwxrwxrwx 5 administrador administrador 4.0K Jul  1 02:00 .
+drwxrwxrwx 5 root          root          4.0K Dec  5  2023 ..
+drwxrwxrwx 2 root          root          4.0K Apr 22  2024 config
+-rw-r--r-- 1 root          root           28K Jul  1 02:00 cups-printer-01_07_25.tar.lz4
+-rw-r--r-- 1 root          root           28K Jun 29 02:00 cups-printer-29_06_25.tar.lz4
+-rw-r--r-- 1 root          root           28K Jun 30 02:00 cups-printer-30_06_25.tar.lz4
+-rw-r--r-- 1 root          root           19M Jul  1 02:00 dominio-01_07_25.tar.lz4
+-rw-r--r-- 1 root          root           19M Jun 29 02:00 dominio-29_06_25.tar.lz4
+-rw-r--r-- 1 root          root           19M Jun 30 02:00 dominio-30_06_25.tar.lz4
+-rw-r--r-- 1 root          root          2.5K Jul  1 02:00 duplicati-01_07_25.tar.lz4
+-rw-r--r-- 1 root          root          2.5K Jun 29 02:00 duplicati-29_06_25.tar.lz4
+-rw-r--r-- 1 root          root          2.5K Jun 30 02:00 duplicati-30_06_25.tar.lz4
+-rw-r--r-- 1 root          root           294 Jul  1 02:00 ftp-server-01_07_25.tar.lz4
+-rw-r--r-- 1 root          root           294 Jun 29 02:00 ftp-server-29_06_25.tar.lz4
+-rw-r--r-- 1 root          root           294 Jun 30 02:00 ftp-server-30_06_25.tar.lz4
+-rw-r--r-- 1 root          root          4.9K Jul  1 02:00 homarr-01_07_25.tar.lz4
+-rw-r--r-- 1 root          root          4.9K Jun 29 02:00 homarr-29_06_25.tar.lz4
+-rw-r--r-- 1 root          root          4.9K Jun 30 02:00 homarr-30_06_25.tar.lz4
+-rw-r--r-- 1 root          root           41M Jul  1 02:00 kuma-tracker-01_07_25.tar.lz4
+-rw-r--r-- 1 root          root           41M Jun 29 02:00 kuma-tracker-29_06_25.tar.lz4
+-rw-r--r-- 1 root          root           41M Jun 30 02:00 kuma-tracker-30_06_25.tar.lz4
+-rw-r--r-- 1 root          root           27K Jul  1 02:00 myspeed-tracker-01_07_25.tar.lz4
+-rw-r--r-- 1 root          root           26K Jun 29 02:00 myspeed-tracker-29_06_25.tar.lz4
+-rw-r--r-- 1 root          root           30K Jun 30 02:00 myspeed-tracker-30_06_25.tar.lz4
+-rw-r--r-- 1 root          root          6.5M Jul  1 02:00 mysql-spark-01_07_25.tar.lz4
+-rw-r--r-- 1 root          root          6.5M Jun 29 02:00 mysql-spark-29_06_25.tar.lz4
+-rw-r--r-- 1 root          root          6.5M Jun 30 02:00 mysql-spark-30_06_25.tar.lz4
+-rw-r--r-- 1 root          root           43M Jul  1 02:00 openfire-01_07_25.tar.lz4
+-rw-r--r-- 1 root          root           43M Jun 29 02:00 openfire-29_06_25.tar.lz4
+-rw-r--r-- 1 root          root           43M Jun 30 02:00 openfire-30_06_25.tar.lz4
+-rw-r--r-- 1 root          root           231 Jul  1 02:00 openspeedtest-01_07_25.tar.lz4
+-rw-r--r-- 1 root          root           231 Jun 29 02:00 openspeedtest-29_06_25.tar.lz4
+-rw-r--r-- 1 root          root           231 Jun 30 02:00 openspeedtest-30_06_25.tar.lz4
+-rw-r--r-- 1 root          root          249K Jul  1 02:00 pentest-01_07_25.tar.lz4
+-rw-r--r-- 1 root          root          249K Jun 29 02:00 pentest-29_06_25.tar.lz4
+-rw-r--r-- 1 root          root          249K Jun 30 02:00 pentest-30_06_25.tar.lz4
+-rw-r--r-- 1 root          root          943M Jul  1 02:00 pihole-01_07_25.tar.lz4
+-rw-r--r-- 1 root          root          941M Jun 29 02:00 pihole-29_06_25.tar.lz4
+-rw-r--r-- 1 root          root          941M Jun 30 02:00 pihole-30_06_25.tar.lz4
+-rw-r--r-- 1 root          root          5.7K Jul  1 02:00 scripts-01_07_25.tar.lz4
+-rw-r--r-- 1 root          root          5.7K Jun 29 02:00 scripts-29_06_25.tar.lz4
+-rw-r--r-- 1 root          root          5.7K Jun 30 02:00 scripts-30_06_25.tar.lz4
+-rw-r--r-- 1 root          root          876K Jul  1 02:00 scrutiny-01_07_25.tar.lz4
+-rw-r--r-- 1 root          root          876K Jun 29 02:00 scrutiny-29_06_25.tar.lz4
+-rw-r--r-- 1 root          root          876K Jun 30 02:00 scrutiny-30_06_25.tar.lz4
+-rw-r--r-- 1 root          root          1.2M Jul  1 02:00 ssh-dw-01_07_25.tar.lz4
+-rw-r--r-- 1 root          root          1.2M Jun 29 02:00 ssh-dw-29_06_25.tar.lz4
+-rw-r--r-- 1 root          root          1.2M Jun 30 02:00 ssh-dw-30_06_25.tar.lz4
+drwxrwxrwx 2 administrador administrador 4.0K Apr 22  2024 .stfolder
+drwxrwxrwx 2 administrador administrador 4.0K Apr 22  2024 Sync
+-rw-r--r-- 1 root          root          5.1M Jul  1 02:00 syncthing-01_07_25.tar.lz4
+-rw-r--r-- 1 root          root          5.0M Jun 29 02:00 syncthing-29_06_25.tar.lz4
+-rw-r--r-- 1 root          root          4.7M Jun 30 02:00 syncthing-30_06_25.tar.lz4
+-rw-r--r-- 1 root          root          8.0K Jul  1 02:00 tailscale-01_07_25.tar.lz4
+-rw-r--r-- 1 root          root          8.0K Jun 29 02:00 tailscale-29_06_25.tar.lz4
+-rw-r--r-- 1 root          root          8.0K Jun 30 02:00 tailscale-30_06_25.tar.lz4
+-rw-r--r-- 1 root          root          384K Jul  1 02:00 xpra-virt-manager-01_07_25.tar.lz4
+-rw-r--r-- 1 root          root          381K Jun 29 02:00 xpra-virt-manager-29_06_25.tar.lz4
+-rw-r--r-- 1 root          root          382K Jun 30 02:00 xpra-virt-manager-30_06_25.tar.lz4
+Em 07-2025 foi realizada a verificação das rotinas de backup do servidor. O backup para a nuvem, se existente, também foi verificado.
+
+Total reclaimed space: 0B
+
+Em 07-2025 foi realizada a limpeza do sistema com remoção de pacotes e imagens obsoletas dos serviços, objetivando reduzir o consumo de armazenamento.
+
+Em 07-2025 o SWAP pôde ser limpo com sucesso pela segunda vez para finalização da manutenção: Sistema com desempenho dentro da normalidade!
+

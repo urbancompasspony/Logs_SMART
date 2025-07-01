@@ -1,0 +1,483 @@
+
+############################################################################
+Device Model:     ST1000NM0018-2F2130
+Serial Number:    ZFA09JJX
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x010f   083   063   044    Pre-fail  Always       -       226915167
+  3 Spin_Up_Time            0x0103   095   094   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   099   099   020    Old_age   Always       -       1364
+  5 Reallocated_Sector_Ct   0x0133   100   100   010    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   090   060   045    Pre-fail  Always       -       1049689429
+  9 Power_On_Hours          0x0032   059   059   000    Old_age   Always       -       36609 (227 127 0)
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   099   099   020    Old_age   Always       -       1374
+184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   099   000    Old_age   Always       -       17180131332
+189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x0022   065   043   040    Old_age   Always       -       35 (Min/Max 34/44)
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       1343
+193 Load_Cycle_Count        0x0032   088   088   000    Old_age   Always       -       24554
+194 Temperature_Celsius     0x0022   035   057   000    Old_age   Always       -       35 (0 17 0 0 0)
+195 Hardware_ECC_Recovered  0x001a   083   063   000    Old_age   Always       -       226915167
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
+240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       13012 (25 241 0)
+241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       30170437597
+242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       457578904026
+
+
+############################################################################
+Device Model:     ST1000NM0018-2F2130
+Serial Number:    ZFA09MZ5
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x010f   083   063   044    Pre-fail  Always       -       204535599
+  3 Spin_Up_Time            0x0103   095   094   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   099   099   020    Old_age   Always       -       1364
+  5 Reallocated_Sector_Ct   0x0133   100   100   010    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   090   060   045    Pre-fail  Always       -       985495344
+  9 Power_On_Hours          0x0032   059   059   000    Old_age   Always       -       35946 (79 169 0)
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   099   099   020    Old_age   Always       -       1373
+184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   099   000    Old_age   Always       -       25770196998
+189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x0022   064   044   040    Old_age   Always       -       36 (Min/Max 35/45)
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       1345
+193 Load_Cycle_Count        0x0032   088   088   000    Old_age   Always       -       24302
+194 Temperature_Celsius     0x0022   036   056   000    Old_age   Always       -       36 (0 17 0 0 0)
+195 Hardware_ECC_Recovered  0x001a   083   063   000    Old_age   Always       -       204535599
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
+240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       13075 (115 216 0)
+241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       28235832644
+242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       408169194547
+
+
+############################################################################
+Model Family:     Silicon Motion based SSDs
+Device Model:     ADATA SU630
+Serial Number:    2L492LQNDNL9
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x002f   100   100   050    Pre-fail  Always       -       0
+  5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       26186
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       132
+160 Uncorrectable_Error_Cnt 0x0032   100   100   050    Old_age   Always       -       0
+161 Valid_Spare_Block_Cnt   0x0032   100   100   050    Old_age   Always       -       100
+163 Initial_Bad_Block_Count 0x0032   100   100   000    Old_age   Always       -       12
+164 Total_Erase_Count       0x0032   100   100   000    Old_age   Always       -       230239
+165 Max_Erase_Count         0x0032   100   100   000    Old_age   Always       -       388
+166 Min_Erase_Count         0x0032   100   100   000    Old_age   Always       -       116
+167 Average_Erase_Count     0x0032   100   100   000    Old_age   Always       -       320
+148 Total_SLC_Erase_Ct      0x0032   100   100   000    Old_age   Always       -       690717
+149 Max_SLC_Erase_Ct        0x0032   100   100   000    Old_age   Always       -       1165
+150 Min_SLC_Erase_Ct        0x0032   100   100   000    Old_age   Always       -       348
+151 Average_SLC_Erase_Ct    0x0032   100   100   000    Old_age   Always       -       962
+159 DRAM_1_Bit_Error_Count  0x0032   100   100   000    Old_age   Always       -       0
+168 Max_Erase_Count_of_Spec 0x0032   100   100   000    Old_age   Always       -       1165
+169 Remaining_Lifetime_Perc 0x0032   100   100   000    Old_age   Always       -       92
+177 Wear_Leveling_Count     0x0032   100   100   000    Old_age   Always       -       23391
+181 Program_Fail_Cnt_Total  0x0032   100   100   000    Old_age   Always       -       0
+182 Erase_Fail_Count_Total  0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       122
+194 Temperature_Celsius     0x0032   100   100   000    Old_age   Always       -       33
+195 Hardware_ECC_Recovered  0x0032   100   100   000    Old_age   Always       -       0
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+199 UDMA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       0
+232 Available_Reservd_Space 0x0032   100   100   000    Old_age   Always       -       100
+241 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       850763
+242 Host_Reads_32MiB        0x0032   100   100   000    Old_age   Always       -       1506802
+245 TLC_Writes_32MiB        0x0032   100   100   000    Old_age   Always       -       1847168
+
+
+############################################################################
+Device Model:     [No Information Found]
+Serial Number:    [No Information Found]
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+Read Device Identity failed: scsi error unsupported field in scsi command
+
+If this is a USB connected device, look at the various --device=TYPE variants
+SMART support is: Ambiguous - ATA IDENTIFY DEVICE words 82-83 don't show if SMART supported.
+SMART support is: Ambiguous - ATA IDENTIFY DEVICE words 85-87 don't show if SMART is enabled.
+A mandatory SMART command failed: exiting. To continue, add one or more '-T permissive' options.
+
+############################################################################
+Device Model:     ST1000NM0018-2F2130
+Serial Number:    ZFA09JJX
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x010f   083   063   044    Pre-fail  Always       -       226915167
+  3 Spin_Up_Time            0x0103   095   094   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   099   099   020    Old_age   Always       -       1364
+  5 Reallocated_Sector_Ct   0x0133   100   100   010    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   090   060   045    Pre-fail  Always       -       1049689429
+  9 Power_On_Hours          0x0032   059   059   000    Old_age   Always       -       36609 (235 155 0)
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   099   099   020    Old_age   Always       -       1374
+184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   099   000    Old_age   Always       -       17180131332
+189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x0022   065   043   040    Old_age   Always       -       35 (Min/Max 34/44)
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       1343
+193 Load_Cycle_Count        0x0032   088   088   000    Old_age   Always       -       24554
+194 Temperature_Celsius     0x0022   035   057   000    Old_age   Always       -       35 (0 17 0 0 0)
+195 Hardware_ECC_Recovered  0x001a   083   063   000    Old_age   Always       -       226915167
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
+240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       13012 (34 13 0)
+241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       30170437597
+242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       457578904026
+
+
+############################################################################
+Device Model:     ST1000NM0018-2F2130
+Serial Number:    ZFA09MZ5
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x010f   083   063   044    Pre-fail  Always       -       204535599
+  3 Spin_Up_Time            0x0103   095   094   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   099   099   020    Old_age   Always       -       1364
+  5 Reallocated_Sector_Ct   0x0133   100   100   010    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   090   060   045    Pre-fail  Always       -       985495344
+  9 Power_On_Hours          0x0032   059   059   000    Old_age   Always       -       35946 (87 213 0)
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   099   099   020    Old_age   Always       -       1373
+184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   099   000    Old_age   Always       -       25770196998
+189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x0022   064   044   040    Old_age   Always       -       36 (Min/Max 35/45)
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       1345
+193 Load_Cycle_Count        0x0032   088   088   000    Old_age   Always       -       24302
+194 Temperature_Celsius     0x0022   036   056   000    Old_age   Always       -       36 (0 17 0 0 0)
+195 Hardware_ECC_Recovered  0x001a   083   063   000    Old_age   Always       -       204535599
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
+240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       13075 (124 4 0)
+241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       28235832644
+242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       408169194547
+
+
+############################################################################
+Model Family:     Silicon Motion based SSDs
+Device Model:     ADATA SU630
+Serial Number:    2L492LQNDNL9
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x002f   100   100   050    Pre-fail  Always       -       0
+  5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       26186
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       132
+160 Uncorrectable_Error_Cnt 0x0032   100   100   050    Old_age   Always       -       0
+161 Valid_Spare_Block_Cnt   0x0032   100   100   050    Old_age   Always       -       100
+163 Initial_Bad_Block_Count 0x0032   100   100   000    Old_age   Always       -       12
+164 Total_Erase_Count       0x0032   100   100   000    Old_age   Always       -       230239
+165 Max_Erase_Count         0x0032   100   100   000    Old_age   Always       -       388
+166 Min_Erase_Count         0x0032   100   100   000    Old_age   Always       -       116
+167 Average_Erase_Count     0x0032   100   100   000    Old_age   Always       -       320
+148 Total_SLC_Erase_Ct      0x0032   100   100   000    Old_age   Always       -       690717
+149 Max_SLC_Erase_Ct        0x0032   100   100   000    Old_age   Always       -       1165
+150 Min_SLC_Erase_Ct        0x0032   100   100   000    Old_age   Always       -       348
+151 Average_SLC_Erase_Ct    0x0032   100   100   000    Old_age   Always       -       962
+159 DRAM_1_Bit_Error_Count  0x0032   100   100   000    Old_age   Always       -       0
+168 Max_Erase_Count_of_Spec 0x0032   100   100   000    Old_age   Always       -       1165
+169 Remaining_Lifetime_Perc 0x0032   100   100   000    Old_age   Always       -       92
+177 Wear_Leveling_Count     0x0032   100   100   000    Old_age   Always       -       23391
+181 Program_Fail_Cnt_Total  0x0032   100   100   000    Old_age   Always       -       0
+182 Erase_Fail_Count_Total  0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       122
+194 Temperature_Celsius     0x0032   100   100   000    Old_age   Always       -       33
+195 Hardware_ECC_Recovered  0x0032   100   100   000    Old_age   Always       -       0
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+199 UDMA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       0
+232 Available_Reservd_Space 0x0032   100   100   000    Old_age   Always       -       100
+241 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       850763
+242 Host_Reads_32MiB        0x0032   100   100   000    Old_age   Always       -       1506802
+245 TLC_Writes_32MiB        0x0032   100   100   000    Old_age   Always       -       1847168
+
+
+############################################################################
+Device Model:     ST1000NM0018-2F2130
+Serial Number:    ZFA09JJX
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x010f   083   063   044    Pre-fail  Always       -       226915167
+  3 Spin_Up_Time            0x0103   095   094   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   099   099   020    Old_age   Always       -       1364
+  5 Reallocated_Sector_Ct   0x0133   100   100   010    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   090   060   045    Pre-fail  Always       -       1049689429
+  9 Power_On_Hours          0x0032   059   059   000    Old_age   Always       -       36609 (244 27 0)
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   099   099   020    Old_age   Always       -       1374
+184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   099   000    Old_age   Always       -       17180131332
+189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x0022   064   043   040    Old_age   Always       -       36 (Min/Max 34/44)
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       1343
+193 Load_Cycle_Count        0x0032   088   088   000    Old_age   Always       -       24554
+194 Temperature_Celsius     0x0022   036   057   000    Old_age   Always       -       36 (0 17 0 0 0)
+195 Hardware_ECC_Recovered  0x001a   083   063   000    Old_age   Always       -       226915167
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
+240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       13012 (42 141 0)
+241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       30170437597
+242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       457578904026
+
+
+############################################################################
+Device Model:     ST1000NM0018-2F2130
+Serial Number:    ZFA09MZ5
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x010f   083   063   044    Pre-fail  Always       -       204535599
+  3 Spin_Up_Time            0x0103   095   094   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   099   099   020    Old_age   Always       -       1364
+  5 Reallocated_Sector_Ct   0x0133   100   100   010    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   090   060   045    Pre-fail  Always       -       985495344
+  9 Power_On_Hours          0x0032   059   059   000    Old_age   Always       -       35946 (96 85 0)
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   099   099   020    Old_age   Always       -       1373
+184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   099   000    Old_age   Always       -       25770196998
+189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x0022   064   044   040    Old_age   Always       -       36 (Min/Max 35/45)
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       1345
+193 Load_Cycle_Count        0x0032   088   088   000    Old_age   Always       -       24302
+194 Temperature_Celsius     0x0022   036   056   000    Old_age   Always       -       36 (0 17 0 0 0)
+195 Hardware_ECC_Recovered  0x001a   083   063   000    Old_age   Always       -       204535599
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
+240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       13075 (132 132 0)
+241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       28235832644
+242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       408169194547
+
+
+############################################################################
+Model Family:     Silicon Motion based SSDs
+Device Model:     ADATA SU630
+Serial Number:    2L492LQNDNL9
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x002f   100   100   050    Pre-fail  Always       -       0
+  5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       26186
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       132
+160 Uncorrectable_Error_Cnt 0x0032   100   100   050    Old_age   Always       -       0
+161 Valid_Spare_Block_Cnt   0x0032   100   100   050    Old_age   Always       -       100
+163 Initial_Bad_Block_Count 0x0032   100   100   000    Old_age   Always       -       12
+164 Total_Erase_Count       0x0032   100   100   000    Old_age   Always       -       230239
+165 Max_Erase_Count         0x0032   100   100   000    Old_age   Always       -       388
+166 Min_Erase_Count         0x0032   100   100   000    Old_age   Always       -       116
+167 Average_Erase_Count     0x0032   100   100   000    Old_age   Always       -       320
+148 Total_SLC_Erase_Ct      0x0032   100   100   000    Old_age   Always       -       690717
+149 Max_SLC_Erase_Ct        0x0032   100   100   000    Old_age   Always       -       1165
+150 Min_SLC_Erase_Ct        0x0032   100   100   000    Old_age   Always       -       348
+151 Average_SLC_Erase_Ct    0x0032   100   100   000    Old_age   Always       -       962
+159 DRAM_1_Bit_Error_Count  0x0032   100   100   000    Old_age   Always       -       0
+168 Max_Erase_Count_of_Spec 0x0032   100   100   000    Old_age   Always       -       1165
+169 Remaining_Lifetime_Perc 0x0032   100   100   000    Old_age   Always       -       92
+177 Wear_Leveling_Count     0x0032   100   100   000    Old_age   Always       -       23391
+181 Program_Fail_Cnt_Total  0x0032   100   100   000    Old_age   Always       -       0
+182 Erase_Fail_Count_Total  0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       122
+194 Temperature_Celsius     0x0032   100   100   000    Old_age   Always       -       33
+195 Hardware_ECC_Recovered  0x0032   100   100   000    Old_age   Always       -       0
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+199 UDMA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       0
+232 Available_Reservd_Space 0x0032   100   100   000    Old_age   Always       -       100
+241 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       850763
+242 Host_Reads_32MiB        0x0032   100   100   000    Old_age   Always       -       1506802
+245 TLC_Writes_32MiB        0x0032   100   100   000    Old_age   Always       -       1847168
+
+
+############################################################################
+Device Model:     ST1000NM0018-2F2130
+Serial Number:    ZFA09JJX
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x010f   083   063   044    Pre-fail  Always       -       226915167
+  3 Spin_Up_Time            0x0103   095   094   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   099   099   020    Old_age   Always       -       1364
+  5 Reallocated_Sector_Ct   0x0133   100   100   010    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   090   060   045    Pre-fail  Always       -       1049689429
+  9 Power_On_Hours          0x0032   059   059   000    Old_age   Always       -       36609 (252 213 0)
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   099   099   020    Old_age   Always       -       1374
+184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   099   000    Old_age   Always       -       17180131332
+189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x0022   064   043   040    Old_age   Always       -       36 (Min/Max 34/44)
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       1343
+193 Load_Cycle_Count        0x0032   088   088   000    Old_age   Always       -       24554
+194 Temperature_Celsius     0x0022   036   057   000    Old_age   Always       -       36 (0 17 0 0 0)
+195 Hardware_ECC_Recovered  0x001a   083   063   000    Old_age   Always       -       226915167
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
+240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       13012 (51 71 0)
+241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       30170437597
+242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       457578904026
+
+
+############################################################################
+Device Model:     ST1000NM0018-2F2130
+Serial Number:    ZFA09MZ5
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x010f   083   063   044    Pre-fail  Always       -       204535599
+  3 Spin_Up_Time            0x0103   095   094   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   099   099   020    Old_age   Always       -       1364
+  5 Reallocated_Sector_Ct   0x0133   100   100   010    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   090   060   045    Pre-fail  Always       -       985495344
+  9 Power_On_Hours          0x0032   059   059   000    Old_age   Always       -       35946 (105 32 0)
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   099   099   020    Old_age   Always       -       1373
+184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   099   000    Old_age   Always       -       25770196998
+189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x0022   064   044   040    Old_age   Always       -       36 (Min/Max 35/45)
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       1345
+193 Load_Cycle_Count        0x0032   088   088   000    Old_age   Always       -       24302
+194 Temperature_Celsius     0x0022   036   056   000    Old_age   Always       -       36 (0 17 0 0 0)
+195 Hardware_ECC_Recovered  0x001a   083   063   000    Old_age   Always       -       204535599
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
+240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       13075 (141 79 0)
+241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       28235832644
+242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       408169194547
+
+
+############################################################################
+Model Family:     Silicon Motion based SSDs
+Device Model:     ADATA SU630
+Serial Number:    2L492LQNDNL9
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x002f   100   100   050    Pre-fail  Always       -       0
+  5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       26186
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       132
+160 Uncorrectable_Error_Cnt 0x0032   100   100   050    Old_age   Always       -       0
+161 Valid_Spare_Block_Cnt   0x0032   100   100   050    Old_age   Always       -       100
+163 Initial_Bad_Block_Count 0x0032   100   100   000    Old_age   Always       -       12
+164 Total_Erase_Count       0x0032   100   100   000    Old_age   Always       -       230239
+165 Max_Erase_Count         0x0032   100   100   000    Old_age   Always       -       388
+166 Min_Erase_Count         0x0032   100   100   000    Old_age   Always       -       116
+167 Average_Erase_Count     0x0032   100   100   000    Old_age   Always       -       320
+148 Total_SLC_Erase_Ct      0x0032   100   100   000    Old_age   Always       -       690717
+149 Max_SLC_Erase_Ct        0x0032   100   100   000    Old_age   Always       -       1165
+150 Min_SLC_Erase_Ct        0x0032   100   100   000    Old_age   Always       -       348
+151 Average_SLC_Erase_Ct    0x0032   100   100   000    Old_age   Always       -       962
+159 DRAM_1_Bit_Error_Count  0x0032   100   100   000    Old_age   Always       -       0
+168 Max_Erase_Count_of_Spec 0x0032   100   100   000    Old_age   Always       -       1165
+169 Remaining_Lifetime_Perc 0x0032   100   100   000    Old_age   Always       -       92
+177 Wear_Leveling_Count     0x0032   100   100   000    Old_age   Always       -       23391
+181 Program_Fail_Cnt_Total  0x0032   100   100   000    Old_age   Always       -       0
+182 Erase_Fail_Count_Total  0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       122
+194 Temperature_Celsius     0x0032   100   100   000    Old_age   Always       -       33
+195 Hardware_ECC_Recovered  0x0032   100   100   000    Old_age   Always       -       0
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+199 UDMA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       0
+232 Available_Reservd_Space 0x0032   100   100   000    Old_age   Always       -       100
+241 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       850763
+242 Host_Reads_32MiB        0x0032   100   100   000    Old_age   Always       -       1506802
+245 TLC_Writes_32MiB        0x0032   100   100   000    Old_age   Always       -       1847168
+
+
+Verificacao concluida em 07-2025!

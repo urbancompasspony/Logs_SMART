@@ -1,0 +1,22 @@
+========================================================
+RELATÓRIO MENSAL DE PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA
+Conforme estipulado em contrato mensal de prestação de serviços na área de informática, segue abaixo o relatório de manutenções preventivas e corretivas realizadas no mês de julho de 2025:
+
+Em 07-2025 houve um ERRO: Não foi possível limpar o swap. A memória disponível (2175 MB) quando somada à margem de segurança (1024 MB) é menor que o swap em uso (1981 MB).
+
+Em 07-2025 o sistema do servidor foi atualizado e está em dia com a segurança digital.
+
+Em 07-2025 foi realizada a verificação da saúde dos discos rígidos. Mais informações no anexo SMART_DUMP no e-mail!
+
+Em 07-2025 foi realizada a verificação da integridade do Controlador de Domínio.
+
+Em 07-2025 nenhum novo equipamento vulnerável detectado na rede. Por enquanto nenhum equipamento cujos testes sejam pertinentes de serem notificados.
+
+Em 07-2025 foi realizada a verificação da integridade dos Logs de Eventos das pastas da rede e dos registros de uso dos compartilhamentos.
+
+Em 07-2025 foi realizada a verificação das rotinas de backup do servidor. O backup para a nuvem, se existente, também foi verificado.
+
+Em 07-2025 foi realizada a limpeza do sistema com remoção de pacotes e imagens obsoletas dos serviços, objetivando reduzir o consumo de armazenamento.
+
+Em 07-2025 houve um ERRO: Não foi possível limpar o swap. A memória disponível (3065 MB) quando somada à margem de segurança (1024 MB) é menor que o swap em uso (2787 MB).
+

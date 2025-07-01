@@ -1,0 +1,839 @@
+========================================================
+RELATÓRIO MENSAL DE PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA
+Conforme estipulado em contrato mensal de prestação de serviços na área de informática, segue abaixo o relatório de manutenções preventivas e corretivas realizadas no mês de julho de 2025:
+
+Em 07-2025 o SWAP pôde ser limpo com sucesso: Sistema com desempenho dentro da normalidade!
+
+
+Atualizando o sistema!
+
+Hit:1 http://br.archive.ubuntu.com/ubuntu noble InRelease
+Hit:2 http://br.archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:3 http://br.archive.ubuntu.com/ubuntu noble-backports InRelease
+Hit:4 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:5 https://packages.mozilla.org/apt mozilla InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+8 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following packages were automatically installed and are no longer required:
+  libintl-perl libintl-xs-perl libmodule-find-perl libmodule-scandeps-perl
+  libproc-processtable-perl libsort-naturally-perl libterm-readkey-perl
+  squashfs-tools
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  linux-headers-6.8.0-63 linux-headers-6.8.0-63-generic
+  linux-image-6.8.0-63-generic linux-modules-6.8.0-63-generic
+  linux-modules-extra-6.8.0-63-generic linux-tools-6.8.0-63
+  linux-tools-6.8.0-63-generic
+The following upgrades have been deferred due to phasing:
+  libpciaccess0
+The following packages will be upgraded:
+  linux-generic linux-headers-generic linux-image-generic linux-libc-dev
+  linux-tools-common rclone sudo
+7 upgraded, 7 newly installed, 0 to remove and 1 not upgraded.
+2 standard LTS security updates
+Need to get 193 MB/211 MB of archives.
+After this operation, 301 MB of additional disk space will be used.
+Get:1 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-modules-6.8.0-63-generic amd64 6.8.0-63.66 [39.4 MB]
+Get:2 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-image-6.8.0-63-generic amd64 6.8.0-63.66 [14.8 MB]
+Get:3 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-modules-extra-6.8.0-63-generic amd64 6.8.0-63.66 [113 MB]
+Get:4 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-generic amd64 6.8.0-63.66 [1,702 B]
+Get:5 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-image-generic amd64 6.8.0-63.66 [10.7 kB]
+Get:6 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-headers-6.8.0-63 all 6.8.0-63.66 [13.9 MB]
+Get:7 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-headers-6.8.0-63-generic amd64 6.8.0-63.66 [4,147 kB]
+Get:8 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-headers-generic amd64 6.8.0-63.66 [10.5 kB]
+Get:9 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-libc-dev amd64 6.8.0-63.66 [1,878 kB]
+Get:10 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-tools-common all 6.8.0-63.66 [719 kB]
+Get:11 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-tools-6.8.0-63 amd64 6.8.0-63.66 [5,378 kB]
+Get:12 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-tools-6.8.0-63-generic amd64 6.8.0-63.66 [1,814 B]
+Fetched 193 MB in 8s (23.5 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 152709 files and directories currently installed.)
+Preparing to unpack .../00-sudo_1.9.15p5-3ubuntu5.24.04.1_amd64.deb ...
+Unpacking sudo (1.9.15p5-3ubuntu5.24.04.1) over (1.9.15p5-3ubuntu5) ...
+Selecting previously unselected package linux-modules-6.8.0-63-generic.
+Preparing to unpack .../01-linux-modules-6.8.0-63-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-modules-6.8.0-63-generic (6.8.0-63.66) ...
+Selecting previously unselected package linux-image-6.8.0-63-generic.
+Preparing to unpack .../02-linux-image-6.8.0-63-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-image-6.8.0-63-generic (6.8.0-63.66) ...
+Selecting previously unselected package linux-modules-extra-6.8.0-63-generic.
+Preparing to unpack .../03-linux-modules-extra-6.8.0-63-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-modules-extra-6.8.0-63-generic (6.8.0-63.66) ...
+Preparing to unpack .../04-linux-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-generic (6.8.0-63.66) over (6.8.0-62.65) ...
+Preparing to unpack .../05-linux-image-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-image-generic (6.8.0-63.66) over (6.8.0-62.65) ...
+Selecting previously unselected package linux-headers-6.8.0-63.
+Preparing to unpack .../06-linux-headers-6.8.0-63_6.8.0-63.66_all.deb ...
+Unpacking linux-headers-6.8.0-63 (6.8.0-63.66) ...
+Selecting previously unselected package linux-headers-6.8.0-63-generic.
+Preparing to unpack .../07-linux-headers-6.8.0-63-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-headers-6.8.0-63-generic (6.8.0-63.66) ...
+Preparing to unpack .../08-linux-headers-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-headers-generic (6.8.0-63.66) over (6.8.0-62.65) ...
+Preparing to unpack .../09-linux-libc-dev_6.8.0-63.66_amd64.deb ...
+Unpacking linux-libc-dev:amd64 (6.8.0-63.66) over (6.8.0-62.65) ...
+Preparing to unpack .../10-linux-tools-common_6.8.0-63.66_all.deb ...
+Unpacking linux-tools-common (6.8.0-63.66) over (6.8.0-62.65) ...
+Selecting previously unselected package linux-tools-6.8.0-63.
+Preparing to unpack .../11-linux-tools-6.8.0-63_6.8.0-63.66_amd64.deb ...
+Unpacking linux-tools-6.8.0-63 (6.8.0-63.66) ...
+Selecting previously unselected package linux-tools-6.8.0-63-generic.
+Preparing to unpack .../12-linux-tools-6.8.0-63-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-tools-6.8.0-63-generic (6.8.0-63.66) ...
+Preparing to unpack .../13-rclone_1.60.1+dfsg-3ubuntu0.24.04.3_amd64.deb ...
+Unpacking rclone (1.60.1+dfsg-3ubuntu0.24.04.3) over (1.60.1+dfsg-3ubuntu0.24.04.2) ...
+Setting up linux-headers-6.8.0-63 (6.8.0-63.66) ...
+Setting up rclone (1.60.1+dfsg-3ubuntu0.24.04.3) ...
+Setting up linux-modules-6.8.0-63-generic (6.8.0-63.66) ...
+Setting up linux-libc-dev:amd64 (6.8.0-63.66) ...
+Setting up linux-image-6.8.0-63-generic (6.8.0-63.66) ...
+I: /boot/vmlinuz.old is now a symlink to vmlinuz-6.8.0-62-generic
+I: /boot/initrd.img.old is now a symlink to initrd.img-6.8.0-62-generic
+I: /boot/vmlinuz is now a symlink to vmlinuz-6.8.0-63-generic
+I: /boot/initrd.img is now a symlink to initrd.img-6.8.0-63-generic
+Setting up sudo (1.9.15p5-3ubuntu5.24.04.1) ...
+Setting up linux-headers-6.8.0-63-generic (6.8.0-63.66) ...
+Setting up linux-modules-extra-6.8.0-63-generic (6.8.0-63.66) ...
+Setting up linux-tools-common (6.8.0-63.66) ...
+Setting up linux-image-generic (6.8.0-63.66) ...
+Setting up linux-headers-generic (6.8.0-63.66) ...
+Setting up linux-tools-6.8.0-63 (6.8.0-63.66) ...
+Setting up linux-generic (6.8.0-63.66) ...
+Setting up linux-tools-6.8.0-63-generic (6.8.0-63.66) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.4) ...
+Processing triggers for linux-image-6.8.0-63-generic (6.8.0-63.66) ...
+/etc/kernel/postinst.d/initramfs-tools:
+update-initramfs: Generating /boot/initrd.img-6.8.0-63-generic
+/etc/kernel/postinst.d/zz-update-grub:
+Sourcing file `/etc/default/grub'
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-6.8.0-63-generic
+Found initrd image: /boot/initrd.img-6.8.0-63-generic
+Found linux image: /boot/vmlinuz-6.8.0-62-generic
+Found initrd image: /boot/initrd.img-6.8.0-62-generic
+Found linux image: /boot/vmlinuz-5.15.0-142-generic
+Found initrd image: /boot/initrd.img-5.15.0-142-generic
+Warning: os-prober will not be executed to detect other bootable partitions.
+Systems on them will not be added to the GRUB boot configuration.
+Check GRUB_DISABLE_OS_PROBER documentation entry.
+Adding boot menu entry for UEFI Firmware Settings ...
+done
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages will be REMOVED:
+  libintl-perl libintl-xs-perl libmodule-find-perl libmodule-scandeps-perl
+  libproc-processtable-perl libsort-naturally-perl libterm-readkey-perl
+  linux-headers-5.15.0-142 linux-headers-5.15.0-142-generic
+  linux-image-5.15.0-142-generic linux-modules-5.15.0-142-generic
+  linux-modules-extra-5.15.0-142-generic squashfs-tools
+0 upgraded, 0 newly installed, 13 to remove and 1 not upgraded.
+After this operation, 589 MB disk space will be freed.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 190728 files and directories currently installed.)
+Removing libintl-xs-perl (1.33-1build3) ...
+Removing libintl-perl (1.33-1build3) ...
+Removing libmodule-find-perl (0.16-2) ...
+Removing libmodule-scandeps-perl (1.35-1ubuntu0.24.04.1) ...
+Removing libproc-processtable-perl:amd64 (0.636-1build3) ...
+Removing libsort-naturally-perl (1.03-4) ...
+Removing libterm-readkey-perl (2.38-2build4) ...
+Removing linux-headers-5.15.0-142-generic (5.15.0-142.152) ...
+Removing linux-headers-5.15.0-142 (5.15.0-142.152) ...
+Removing linux-modules-extra-5.15.0-142-generic (5.15.0-142.152) ...
+Removing squashfs-tools (1:4.6.1-1build1) ...
+Removing linux-image-5.15.0-142-generic (5.15.0-142.152) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+/etc/kernel/postrm.d/initramfs-tools:
+update-initramfs: Deleting /boot/initrd.img-5.15.0-142-generic
+/etc/kernel/postrm.d/zz-update-grub:
+Sourcing file `/etc/default/grub'
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-6.8.0-63-generic
+Found initrd image: /boot/initrd.img-6.8.0-63-generic
+Found linux image: /boot/vmlinuz-6.8.0-62-generic
+Found initrd image: /boot/initrd.img-6.8.0-62-generic
+Warning: os-prober will not be executed to detect other bootable partitions.
+Systems on them will not be added to the GRUB boot configuration.
+Check GRUB_DISABLE_OS_PROBER documentation entry.
+Adding boot menu entry for UEFI Firmware Settings ...
+done
+Removing linux-modules-5.15.0-142-generic (5.15.0-142.152) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+
+Em 07-2025 o sistema do servidor foi atualizado e está em dia com a segurança digital.
+
+
+############################################################################
+Armazenamento: /dev/sda
+
+Device Model:     ST1000NM0018-2F2130
+Serial Number:    ZFA09JJX
+
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x010f   083   063   044    Pre-fail  Always       -       226915167
+  3 Spin_Up_Time            0x0103   095   094   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   099   099   020    Old_age   Always       -       1364
+  5 Reallocated_Sector_Ct   0x0133   100   100   010    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   090   060   045    Pre-fail  Always       -       1049689429
+  9 Power_On_Hours          0x0032   059   059   000    Old_age   Always       -       36609 (227 127 0)
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   099   099   020    Old_age   Always       -       1374
+184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   099   000    Old_age   Always       -       17180131332
+189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x0022   065   043   040    Old_age   Always       -       35 (Min/Max 34/44)
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       1343
+193 Load_Cycle_Count        0x0032   088   088   000    Old_age   Always       -       24554
+194 Temperature_Celsius     0x0022   035   057   000    Old_age   Always       -       35 (0 17 0 0 0)
+195 Hardware_ECC_Recovered  0x001a   083   063   000    Old_age   Always       -       226915167
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
+240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       13012 (25 241 0)
+241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       30170437597
+242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       457578904026
+
+
+
+############################################################################
+Armazenamento: /dev/sdb
+
+Device Model:     ST1000NM0018-2F2130
+Serial Number:    ZFA09MZ5
+
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x010f   083   063   044    Pre-fail  Always       -       204535599
+  3 Spin_Up_Time            0x0103   095   094   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   099   099   020    Old_age   Always       -       1364
+  5 Reallocated_Sector_Ct   0x0133   100   100   010    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   090   060   045    Pre-fail  Always       -       985495344
+  9 Power_On_Hours          0x0032   059   059   000    Old_age   Always       -       35946 (79 169 0)
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   099   099   020    Old_age   Always       -       1373
+184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   099   000    Old_age   Always       -       25770196998
+189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x0022   064   044   040    Old_age   Always       -       36 (Min/Max 35/45)
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       1345
+193 Load_Cycle_Count        0x0032   088   088   000    Old_age   Always       -       24302
+194 Temperature_Celsius     0x0022   036   056   000    Old_age   Always       -       36 (0 17 0 0 0)
+195 Hardware_ECC_Recovered  0x001a   083   063   000    Old_age   Always       -       204535599
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
+240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       13075 (115 216 0)
+241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       28235832644
+242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       408169194547
+
+
+
+############################################################################
+Armazenamento: /dev/sdc
+
+Model Family:     Silicon Motion based SSDs
+Device Model:     ADATA SU630
+Serial Number:    2L492LQNDNL9
+
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x002f   100   100   050    Pre-fail  Always       -       0
+  5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       26186
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       132
+160 Uncorrectable_Error_Cnt 0x0032   100   100   050    Old_age   Always       -       0
+161 Valid_Spare_Block_Cnt   0x0032   100   100   050    Old_age   Always       -       100
+163 Initial_Bad_Block_Count 0x0032   100   100   000    Old_age   Always       -       12
+164 Total_Erase_Count       0x0032   100   100   000    Old_age   Always       -       230239
+165 Max_Erase_Count         0x0032   100   100   000    Old_age   Always       -       388
+166 Min_Erase_Count         0x0032   100   100   000    Old_age   Always       -       116
+167 Average_Erase_Count     0x0032   100   100   000    Old_age   Always       -       320
+148 Total_SLC_Erase_Ct      0x0032   100   100   000    Old_age   Always       -       690717
+149 Max_SLC_Erase_Ct        0x0032   100   100   000    Old_age   Always       -       1165
+150 Min_SLC_Erase_Ct        0x0032   100   100   000    Old_age   Always       -       348
+151 Average_SLC_Erase_Ct    0x0032   100   100   000    Old_age   Always       -       962
+159 DRAM_1_Bit_Error_Count  0x0032   100   100   000    Old_age   Always       -       0
+168 Max_Erase_Count_of_Spec 0x0032   100   100   000    Old_age   Always       -       1165
+169 Remaining_Lifetime_Perc 0x0032   100   100   000    Old_age   Always       -       92
+177 Wear_Leveling_Count     0x0032   100   100   000    Old_age   Always       -       23391
+181 Program_Fail_Cnt_Total  0x0032   100   100   000    Old_age   Always       -       0
+182 Erase_Fail_Count_Total  0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       122
+194 Temperature_Celsius     0x0032   100   100   000    Old_age   Always       -       33
+195 Hardware_ECC_Recovered  0x0032   100   100   000    Old_age   Always       -       0
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+199 UDMA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       0
+232 Available_Reservd_Space 0x0032   100   100   000    Old_age   Always       -       100
+241 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       850763
+242 Host_Reads_32MiB        0x0032   100   100   000    Old_age   Always       -       1506802
+245 TLC_Writes_32MiB        0x0032   100   100   000    Old_age   Always       -       1847168
+
+
+
+############################################################################
+Armazenamento: /dev/sdd
+
+Device Model:     [No Information Found]
+Serial Number:    [No Information Found]
+
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+Read Device Identity failed: scsi error unsupported field in scsi command
+
+If this is a USB connected device, look at the various --device=TYPE variants
+SMART support is: Ambiguous - ATA IDENTIFY DEVICE words 82-83 don't show if SMART supported.
+SMART support is: Ambiguous - ATA IDENTIFY DEVICE words 85-87 don't show if SMART is enabled.
+A mandatory SMART command failed: exiting. To continue, add one or more '-T permissive' options.
+
+
+############################################################################
+
+RAID ID: 0
+
+Device Model:     ST1000NM0018-2F2130
+Serial Number:    ZFA09JJX
+
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x010f   083   063   044    Pre-fail  Always       -       226915167
+  3 Spin_Up_Time            0x0103   095   094   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   099   099   020    Old_age   Always       -       1364
+  5 Reallocated_Sector_Ct   0x0133   100   100   010    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   090   060   045    Pre-fail  Always       -       1049689429
+  9 Power_On_Hours          0x0032   059   059   000    Old_age   Always       -       36609 (235 155 0)
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   099   099   020    Old_age   Always       -       1374
+184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   099   000    Old_age   Always       -       17180131332
+189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x0022   065   043   040    Old_age   Always       -       35 (Min/Max 34/44)
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       1343
+193 Load_Cycle_Count        0x0032   088   088   000    Old_age   Always       -       24554
+194 Temperature_Celsius     0x0022   035   057   000    Old_age   Always       -       35 (0 17 0 0 0)
+195 Hardware_ECC_Recovered  0x001a   083   063   000    Old_age   Always       -       226915167
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
+240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       13012 (34 13 0)
+241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       30170437597
+242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       457578904026
+
+
+
+############################################################################
+
+RAID ID: 1
+
+Device Model:     ST1000NM0018-2F2130
+Serial Number:    ZFA09MZ5
+
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x010f   083   063   044    Pre-fail  Always       -       204535599
+  3 Spin_Up_Time            0x0103   095   094   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   099   099   020    Old_age   Always       -       1364
+  5 Reallocated_Sector_Ct   0x0133   100   100   010    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   090   060   045    Pre-fail  Always       -       985495344
+  9 Power_On_Hours          0x0032   059   059   000    Old_age   Always       -       35946 (87 213 0)
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   099   099   020    Old_age   Always       -       1373
+184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   099   000    Old_age   Always       -       25770196998
+189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x0022   064   044   040    Old_age   Always       -       36 (Min/Max 35/45)
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       1345
+193 Load_Cycle_Count        0x0032   088   088   000    Old_age   Always       -       24302
+194 Temperature_Celsius     0x0022   036   056   000    Old_age   Always       -       36 (0 17 0 0 0)
+195 Hardware_ECC_Recovered  0x001a   083   063   000    Old_age   Always       -       204535599
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
+240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       13075 (124 4 0)
+241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       28235832644
+242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       408169194547
+
+
+
+############################################################################
+
+RAID ID: 3
+
+Model Family:     Silicon Motion based SSDs
+Device Model:     ADATA SU630
+Serial Number:    2L492LQNDNL9
+
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x002f   100   100   050    Pre-fail  Always       -       0
+  5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       26186
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       132
+160 Uncorrectable_Error_Cnt 0x0032   100   100   050    Old_age   Always       -       0
+161 Valid_Spare_Block_Cnt   0x0032   100   100   050    Old_age   Always       -       100
+163 Initial_Bad_Block_Count 0x0032   100   100   000    Old_age   Always       -       12
+164 Total_Erase_Count       0x0032   100   100   000    Old_age   Always       -       230239
+165 Max_Erase_Count         0x0032   100   100   000    Old_age   Always       -       388
+166 Min_Erase_Count         0x0032   100   100   000    Old_age   Always       -       116
+167 Average_Erase_Count     0x0032   100   100   000    Old_age   Always       -       320
+148 Total_SLC_Erase_Ct      0x0032   100   100   000    Old_age   Always       -       690717
+149 Max_SLC_Erase_Ct        0x0032   100   100   000    Old_age   Always       -       1165
+150 Min_SLC_Erase_Ct        0x0032   100   100   000    Old_age   Always       -       348
+151 Average_SLC_Erase_Ct    0x0032   100   100   000    Old_age   Always       -       962
+159 DRAM_1_Bit_Error_Count  0x0032   100   100   000    Old_age   Always       -       0
+168 Max_Erase_Count_of_Spec 0x0032   100   100   000    Old_age   Always       -       1165
+169 Remaining_Lifetime_Perc 0x0032   100   100   000    Old_age   Always       -       92
+177 Wear_Leveling_Count     0x0032   100   100   000    Old_age   Always       -       23391
+181 Program_Fail_Cnt_Total  0x0032   100   100   000    Old_age   Always       -       0
+182 Erase_Fail_Count_Total  0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       122
+194 Temperature_Celsius     0x0032   100   100   000    Old_age   Always       -       33
+195 Hardware_ECC_Recovered  0x0032   100   100   000    Old_age   Always       -       0
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+199 UDMA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       0
+232 Available_Reservd_Space 0x0032   100   100   000    Old_age   Always       -       100
+241 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       850763
+242 Host_Reads_32MiB        0x0032   100   100   000    Old_age   Always       -       1506802
+245 TLC_Writes_32MiB        0x0032   100   100   000    Old_age   Always       -       1847168
+
+
+
+############################################################################
+
+RAID ID: 0
+
+Device Model:     ST1000NM0018-2F2130
+Serial Number:    ZFA09JJX
+
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x010f   083   063   044    Pre-fail  Always       -       226915167
+  3 Spin_Up_Time            0x0103   095   094   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   099   099   020    Old_age   Always       -       1364
+  5 Reallocated_Sector_Ct   0x0133   100   100   010    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   090   060   045    Pre-fail  Always       -       1049689429
+  9 Power_On_Hours          0x0032   059   059   000    Old_age   Always       -       36609 (244 27 0)
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   099   099   020    Old_age   Always       -       1374
+184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   099   000    Old_age   Always       -       17180131332
+189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x0022   064   043   040    Old_age   Always       -       36 (Min/Max 34/44)
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       1343
+193 Load_Cycle_Count        0x0032   088   088   000    Old_age   Always       -       24554
+194 Temperature_Celsius     0x0022   036   057   000    Old_age   Always       -       36 (0 17 0 0 0)
+195 Hardware_ECC_Recovered  0x001a   083   063   000    Old_age   Always       -       226915167
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
+240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       13012 (42 141 0)
+241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       30170437597
+242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       457578904026
+
+
+
+############################################################################
+
+RAID ID: 1
+
+Device Model:     ST1000NM0018-2F2130
+Serial Number:    ZFA09MZ5
+
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x010f   083   063   044    Pre-fail  Always       -       204535599
+  3 Spin_Up_Time            0x0103   095   094   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   099   099   020    Old_age   Always       -       1364
+  5 Reallocated_Sector_Ct   0x0133   100   100   010    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   090   060   045    Pre-fail  Always       -       985495344
+  9 Power_On_Hours          0x0032   059   059   000    Old_age   Always       -       35946 (96 85 0)
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   099   099   020    Old_age   Always       -       1373
+184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   099   000    Old_age   Always       -       25770196998
+189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x0022   064   044   040    Old_age   Always       -       36 (Min/Max 35/45)
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       1345
+193 Load_Cycle_Count        0x0032   088   088   000    Old_age   Always       -       24302
+194 Temperature_Celsius     0x0022   036   056   000    Old_age   Always       -       36 (0 17 0 0 0)
+195 Hardware_ECC_Recovered  0x001a   083   063   000    Old_age   Always       -       204535599
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
+240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       13075 (132 132 0)
+241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       28235832644
+242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       408169194547
+
+
+
+############################################################################
+
+RAID ID: 3
+
+Model Family:     Silicon Motion based SSDs
+Device Model:     ADATA SU630
+Serial Number:    2L492LQNDNL9
+
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x002f   100   100   050    Pre-fail  Always       -       0
+  5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       26186
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       132
+160 Uncorrectable_Error_Cnt 0x0032   100   100   050    Old_age   Always       -       0
+161 Valid_Spare_Block_Cnt   0x0032   100   100   050    Old_age   Always       -       100
+163 Initial_Bad_Block_Count 0x0032   100   100   000    Old_age   Always       -       12
+164 Total_Erase_Count       0x0032   100   100   000    Old_age   Always       -       230239
+165 Max_Erase_Count         0x0032   100   100   000    Old_age   Always       -       388
+166 Min_Erase_Count         0x0032   100   100   000    Old_age   Always       -       116
+167 Average_Erase_Count     0x0032   100   100   000    Old_age   Always       -       320
+148 Total_SLC_Erase_Ct      0x0032   100   100   000    Old_age   Always       -       690717
+149 Max_SLC_Erase_Ct        0x0032   100   100   000    Old_age   Always       -       1165
+150 Min_SLC_Erase_Ct        0x0032   100   100   000    Old_age   Always       -       348
+151 Average_SLC_Erase_Ct    0x0032   100   100   000    Old_age   Always       -       962
+159 DRAM_1_Bit_Error_Count  0x0032   100   100   000    Old_age   Always       -       0
+168 Max_Erase_Count_of_Spec 0x0032   100   100   000    Old_age   Always       -       1165
+169 Remaining_Lifetime_Perc 0x0032   100   100   000    Old_age   Always       -       92
+177 Wear_Leveling_Count     0x0032   100   100   000    Old_age   Always       -       23391
+181 Program_Fail_Cnt_Total  0x0032   100   100   000    Old_age   Always       -       0
+182 Erase_Fail_Count_Total  0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       122
+194 Temperature_Celsius     0x0032   100   100   000    Old_age   Always       -       33
+195 Hardware_ECC_Recovered  0x0032   100   100   000    Old_age   Always       -       0
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+199 UDMA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       0
+232 Available_Reservd_Space 0x0032   100   100   000    Old_age   Always       -       100
+241 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       850763
+242 Host_Reads_32MiB        0x0032   100   100   000    Old_age   Always       -       1506802
+245 TLC_Writes_32MiB        0x0032   100   100   000    Old_age   Always       -       1847168
+
+
+
+############################################################################
+
+RAID ID: 0
+
+Device Model:     ST1000NM0018-2F2130
+Serial Number:    ZFA09JJX
+
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x010f   083   063   044    Pre-fail  Always       -       226915167
+  3 Spin_Up_Time            0x0103   095   094   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   099   099   020    Old_age   Always       -       1364
+  5 Reallocated_Sector_Ct   0x0133   100   100   010    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   090   060   045    Pre-fail  Always       -       1049689429
+  9 Power_On_Hours          0x0032   059   059   000    Old_age   Always       -       36609 (252 213 0)
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   099   099   020    Old_age   Always       -       1374
+184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   099   000    Old_age   Always       -       17180131332
+189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x0022   064   043   040    Old_age   Always       -       36 (Min/Max 34/44)
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       1343
+193 Load_Cycle_Count        0x0032   088   088   000    Old_age   Always       -       24554
+194 Temperature_Celsius     0x0022   036   057   000    Old_age   Always       -       36 (0 17 0 0 0)
+195 Hardware_ECC_Recovered  0x001a   083   063   000    Old_age   Always       -       226915167
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
+240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       13012 (51 71 0)
+241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       30170437597
+242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       457578904026
+
+
+
+############################################################################
+
+RAID ID: 1
+
+Device Model:     ST1000NM0018-2F2130
+Serial Number:    ZFA09MZ5
+
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x010f   083   063   044    Pre-fail  Always       -       204535599
+  3 Spin_Up_Time            0x0103   095   094   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   099   099   020    Old_age   Always       -       1364
+  5 Reallocated_Sector_Ct   0x0133   100   100   010    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   090   060   045    Pre-fail  Always       -       985495344
+  9 Power_On_Hours          0x0032   059   059   000    Old_age   Always       -       35946 (105 32 0)
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   099   099   020    Old_age   Always       -       1373
+184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   099   000    Old_age   Always       -       25770196998
+189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x0022   064   044   040    Old_age   Always       -       36 (Min/Max 35/45)
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       1345
+193 Load_Cycle_Count        0x0032   088   088   000    Old_age   Always       -       24302
+194 Temperature_Celsius     0x0022   036   056   000    Old_age   Always       -       36 (0 17 0 0 0)
+195 Hardware_ECC_Recovered  0x001a   083   063   000    Old_age   Always       -       204535599
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
+240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       13075 (141 79 0)
+241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       28235832644
+242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       408169194547
+
+
+
+############################################################################
+
+RAID ID: 3
+
+Model Family:     Silicon Motion based SSDs
+Device Model:     ADATA SU630
+Serial Number:    2L492LQNDNL9
+
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x002f   100   100   050    Pre-fail  Always       -       0
+  5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       26186
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       132
+160 Uncorrectable_Error_Cnt 0x0032   100   100   050    Old_age   Always       -       0
+161 Valid_Spare_Block_Cnt   0x0032   100   100   050    Old_age   Always       -       100
+163 Initial_Bad_Block_Count 0x0032   100   100   000    Old_age   Always       -       12
+164 Total_Erase_Count       0x0032   100   100   000    Old_age   Always       -       230239
+165 Max_Erase_Count         0x0032   100   100   000    Old_age   Always       -       388
+166 Min_Erase_Count         0x0032   100   100   000    Old_age   Always       -       116
+167 Average_Erase_Count     0x0032   100   100   000    Old_age   Always       -       320
+148 Total_SLC_Erase_Ct      0x0032   100   100   000    Old_age   Always       -       690717
+149 Max_SLC_Erase_Ct        0x0032   100   100   000    Old_age   Always       -       1165
+150 Min_SLC_Erase_Ct        0x0032   100   100   000    Old_age   Always       -       348
+151 Average_SLC_Erase_Ct    0x0032   100   100   000    Old_age   Always       -       962
+159 DRAM_1_Bit_Error_Count  0x0032   100   100   000    Old_age   Always       -       0
+168 Max_Erase_Count_of_Spec 0x0032   100   100   000    Old_age   Always       -       1165
+169 Remaining_Lifetime_Perc 0x0032   100   100   000    Old_age   Always       -       92
+177 Wear_Leveling_Count     0x0032   100   100   000    Old_age   Always       -       23391
+181 Program_Fail_Cnt_Total  0x0032   100   100   000    Old_age   Always       -       0
+182 Erase_Fail_Count_Total  0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       122
+194 Temperature_Celsius     0x0032   100   100   000    Old_age   Always       -       33
+195 Hardware_ECC_Recovered  0x0032   100   100   000    Old_age   Always       -       0
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+199 UDMA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       0
+232 Available_Reservd_Space 0x0032   100   100   000    Old_age   Always       -       100
+241 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       850763
+242 Host_Reads_32MiB        0x0032   100   100   000    Old_age   Always       -       1506802
+245 TLC_Writes_32MiB        0x0032   100   100   000    Old_age   Always       -       1847168
+
+
+
+Verificacao concluida em 07-2025!
+Em 07-2025 foi realizada a verificação da saúde dos discos rígidos. Mais informações no anexo SMART_DUMP no e-mail!
+
+
+
+
+Em 07-2025 nenhum novo equipamento vulnerável detectado na rede. Por enquanto nenhum equipamento cujos testes sejam pertinentes de serem notificados.
+
+
+/srv/containers/smb/log/syslog
+
+Feb 14 11:03:32 smb smbd_audit: IP=192.168.1.11|USER=administrador|MACHINE=desktop-b464u78|VOLUME=shared|renameat|ok|/mnt/Nova pasta|/mnt/aaa
+
+Em 07-2025 foi realizada a verificação da integridade dos Logs de Eventos das pastas da rede e dos registros de uso dos compartilhamentos.
+
+
+Checando armazenamento geral!
+
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           778M  2.1M  776M   1% /run
+/dev/sdc2       219G  132G   77G  64% /
+tmpfs           3.8G   68K  3.8G   1% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           3.8G     0  3.8G   0% /run/qemu
+/dev/sdb        916G  180G  737G  20% /mnt/disk02
+/dev/sda        916G  252G  665G  28% /mnt/disk01
+tmpfs           778M   16K  778M   1% /run/user/1000
+
+DUMP de RSnapshots (se existente)!
+
+Jul 01 10:08:52 ftagricola python3[2056463]: ansible-ansible.legacy.command Invoked with _raw_params=dpkg -l rsnapshot _uses_shell=False expand_argument_vars=True stdin_add_newline=True strip_empty_ends=True argv=None chdir=None executable=None creates=None removes=None stdin=None
+
+DUMP de RSYNC (se existente)!
+
+Jun 27 17:56:26 ftagricola systemd[1]: rsync.service - fast remote file copy program daemon was skipped because of an unmet condition check (ConditionPathExists=/etc/rsyncd.conf).
+Jun 27 23:00:01 ftagricola CRON[120772]: (root) CMD (rsync -a --delete /mnt/disk01/BKP_Oracle/ /mnt/disk02/RSnapshot_BKP_Oracle/)
+Jun 28 23:00:01 ftagricola CRON[672535]: (root) CMD (rsync -a --delete /mnt/disk01/BKP_Oracle/ /mnt/disk02/RSnapshot_BKP_Oracle/)
+Jun 29 23:00:01 ftagricola CRON[1226945]: (root) CMD (rsync -a --delete /mnt/disk01/BKP_Oracle/ /mnt/disk02/RSnapshot_BKP_Oracle/)
+Jun 30 23:00:01 ftagricola CRON[1790204]: (root) CMD (rsync -a --delete /mnt/disk01/BKP_Oracle/ /mnt/disk02/RSnapshot_BKP_Oracle/)
+
+DUMP do RClone (se existente)!
+
+Jul 01 10:08:53 ftagricola python3[2056493]: ansible-ansible.legacy.command Invoked with _raw_params=dpkg -l rclone _uses_shell=False expand_argument_vars=True stdin_add_newline=True strip_empty_ends=True argv=None chdir=None executable=None creates=None removes=None stdin=None
+
+Checando backups dos containers!
+
+total 3.1G
+drwxrwxrwx 5 administrador administrador 4.0K Jul  1 02:00 .
+drwxrwxrwx 6 root          root          4.0K Mar 30 00:17 ..
+drwxrwxrwx 2 root          root          4.0K Apr 22  2024 config
+-rw-r--r-- 1 root          root           236 Jul  1 02:00 dashdot-01_07_25.tar.lz4
+-rwxrwxrwx 1 root          root           236 Jun 30 02:00 dashdot-30_06_25.tar.lz4
+-rw-r--r-- 1 root          root           276 Jul  1 02:00 ftp-server-01_07_25.tar.lz4
+-rwxrwxrwx 1 root          root           276 Jun 30 02:00 ftp-server-30_06_25.tar.lz4
+-rw-r--r-- 1 root          root          5.1K Jul  1 02:00 homarr-01_07_25.tar.lz4
+-rwxrwxrwx 1 root          root          5.1K Jun 30 02:00 homarr-30_06_25.tar.lz4
+-rw-r--r-- 1 root          root           29K Jul  1 02:00 myspeed-tracker-01_07_25.tar.lz4
+-rwxrwxrwx 1 root          root           28K Jun 30 02:00 myspeed-tracker-30_06_25.tar.lz4
+-rw-r--r-- 1 root          root           231 Jul  1 02:00 openspeedtest-01_07_25.tar.lz4
+-rwxrwxrwx 1 root          root           231 Jun 30 02:00 openspeedtest-30_06_25.tar.lz4
+-rw-r--r-- 1 root          root          913K Jul  1 02:00 pentest-01_07_25.tar.lz4
+-rwxrwxrwx 1 root          root          913K Jun 29 02:00 pentest-29_06_25.tar.lz4
+-rwxrwxrwx 1 root          root          913K Jun 30 02:00 pentest-30_06_25.tar.lz4
+-rw-r--r-- 1 root          root          1.1G Jul  1 02:00 pihole-01_07_25.tar.lz4
+-rwxrwxrwx 1 root          root          1.1G Jun 29 02:00 pihole-29_06_25.tar.lz4
+-rwxrwxrwx 1 root          root          1.1G Jun 30 02:00 pihole-30_06_25.tar.lz4
+-rw-r--r-- 1 root          root           32K Jul  1 02:00 scripts-01_07_25.tar.lz4
+-rwxrwxrwx 1 root          root           32K Jun 29 02:00 scripts-29_06_25.tar.lz4
+-rwxrwxrwx 1 root          root           32K Jun 30 02:00 scripts-30_06_25.tar.lz4
+-rw-r--r-- 1 root          root          1.6M Jul  1 02:00 scrutiny-01_07_25.tar.lz4
+-rwxrwxrwx 1 root          root          1.6M Jun 29 02:00 scrutiny-29_06_25.tar.lz4
+-rwxrwxrwx 1 root          root          1.5M Jun 30 02:00 scrutiny-30_06_25.tar.lz4
+-rw-r--r-- 1 root          root          2.5M Jul  1 02:00 smb-01_07_25.tar.lz4
+-rwxrwxrwx 1 root          root          2.5M Jun 29 02:00 smb-29_06_25.tar.lz4
+-rwxrwxrwx 1 root          root          2.5M Jun 30 02:00 smb-30_06_25.tar.lz4
+-rw-r--r-- 1 root          root          1.3M Jul  1 02:00 ssh-dw-01_07_25.tar.lz4
+-rwxrwxrwx 1 root          root          1.3M Jun 29 02:00 ssh-dw-29_06_25.tar.lz4
+-rwxrwxrwx 1 root          root          1.3M Jun 30 02:00 ssh-dw-30_06_25.tar.lz4
+drwxrwxrwx 2 administrador administrador 4.0K Apr 22  2024 .stfolder
+drwxrwxrwx 2 administrador administrador 4.0K Apr 22  2024 Sync
+-rw-r--r-- 1 root          root          5.7M Jul  1 02:00 syncthing-01_07_25.tar.lz4
+-rwxrwxrwx 1 root          root          4.1M Jun 29 02:00 syncthing-29_06_25.tar.lz4
+-rwxrwxrwx 1 root          root          4.2M Jun 30 02:00 syncthing-30_06_25.tar.lz4
+-rw-r--r-- 1 root          root          6.6K Jul  1 02:00 tailscale-01_07_25.tar.lz4
+-rwxrwxrwx 1 root          root          6.6K Jun 29 02:00 tailscale-29_06_25.tar.lz4
+-rwxrwxrwx 1 root          root          6.6K Jun 30 02:00 tailscale-30_06_25.tar.lz4
+-rw-r--r-- 1 root          root          558K Jul  1 02:00 xpra-virt-manager-01_07_25.tar.lz4
+-rwxrwxrwx 1 root          root          556K Jun 29 02:00 xpra-virt-manager-29_06_25.tar.lz4
+-rwxrwxrwx 1 root          root          557K Jun 30 02:00 xpra-virt-manager-30_06_25.tar.lz4
+Em 07-2025 foi realizada a verificação das rotinas de backup do servidor. O backup para a nuvem, se existente, também foi verificado.
+
+Deleted Images:
+untagged: filebrowser/filebrowser:s6
+untagged: filebrowser/filebrowser@sha256:62da3fc76a53db9d5a2797cbde39bbaed915822f7d88141473afe18a5e57c2a2
+deleted: sha256:e482ea8e9ae0f2941e7fae32758bb4e79ee3cb4cdddc910f47792217c2b156aa
+deleted: sha256:3f58ea29e22715988461dbd8fd3ab9d7f3b46e0eacf1b7faf4cb2d861e6d9888
+deleted: sha256:dfad41b4d0c727fcf46b56797b109289d147afc299a750fb8ad1b59ecb4c98d4
+deleted: sha256:f678425d0dae66e181c27e45d3ace6b41d76739be64128fad7050da8eda5108c
+deleted: sha256:074090da9b01dff5935d9b83c67ba5ef9862903ec5a9e516c3e7a0b5b6380b4d
+deleted: sha256:0f4553afeb428215f2ea05be7b48d590df2c9b7da02d869298966980a49a7cfa
+deleted: sha256:d13b4177d0759fb5e1d96689282dc9ff3d791efaefc54d373ae73fd579b60452
+deleted: sha256:baafde442fd560f1b2685e174c72b4d0d1339f00ae5a3ede0cd589471ca54807
+deleted: sha256:32ce2921ed27246a24ff794e702210e60802cb3d53ece12a38a260e5b5e29708
+deleted: sha256:877036b083444b81229692659857a1c806d1c4bb7bbc505c05ba4276967c9a33
+untagged: registry.gitlab.com/docker329/pentest:latest
+untagged: registry.gitlab.com/docker329/pentest@sha256:7fc7e2f05d7186d7af73b04c9e18f805461150c2ee39f0b001b4b90a145cc693
+deleted: sha256:65f3f0dcdc654a8576793147453074911d90de9bd2f25446576b47b0662cb9d1
+deleted: sha256:2b8179e0ef252855c6f20cf46cbe33c8f2008ab1dac9d878a0d6bab69e4dd951
+deleted: sha256:0e433229fb4d384c9e99ebcaf919212c6e5111d6d9e4d4eade92abbee85cfb5d
+deleted: sha256:5f73d3226483538a81dc18efbf98a29f9a8828c99875821fccb8f305715bf101
+deleted: sha256:f5cffab977500df8307996d77b51c248671d15e340d7b5068cb98e1f220aa083
+deleted: sha256:e55822641327e534ed92eb383d5d86fec0dd7f04211267c5befa139a58d40f58
+deleted: sha256:9c8b3e5cca6750d7c05a8adc6bc4706048b72f003b0e60f74f2d8c0fc07bad7b
+
+Total reclaimed space: 359.1MB
+
+Em 07-2025 foi realizada a limpeza do sistema com remoção de pacotes e imagens obsoletas dos serviços, objetivando reduzir o consumo de armazenamento.
+
+Em 07-2025 o SWAP pôde ser limpo com sucesso pela segunda vez para finalização da manutenção: Sistema com desempenho dentro da normalidade!
+

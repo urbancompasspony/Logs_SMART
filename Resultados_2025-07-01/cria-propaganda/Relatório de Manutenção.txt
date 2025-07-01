@@ -1,0 +1,18 @@
+========================================================
+RELATÓRIO MENSAL DE PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA
+Conforme estipulado em contrato mensal de prestação de serviços na área de informática, segue abaixo o relatório de manutenções preventivas e corretivas realizadas no mês de julho de 2025:
+
+Em 07-2025 o SWAP pôde ser limpo com sucesso: Sistema com desempenho dentro da normalidade!
+
+Em 07-2025 o sistema do servidor foi atualizado e está em dia com a segurança digital.
+
+Em 07-2025 foi realizada a verificação da saúde dos discos rígidos. Mais informações no anexo SMART_DUMP no e-mail!
+
+Em 07-2025 foi realizada a verificação da integridade dos Logs de Eventos das pastas da rede e dos registros de uso dos compartilhamentos.
+
+Em 07-2025 foi realizada a verificação das rotinas de backup do servidor. O backup para a nuvem, se existente, também foi verificado.
+
+Em 07-2025 foi realizada a limpeza do sistema com remoção de pacotes e imagens obsoletas dos serviços, objetivando reduzir o consumo de armazenamento.
+
+Em 07-2025 o SWAP pôde ser limpo com sucesso pela segunda vez para finalização da manutenção: Sistema com desempenho dentro da normalidade!
+

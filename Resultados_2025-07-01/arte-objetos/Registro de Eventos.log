@@ -1,0 +1,500 @@
+========================================================
+RELATÓRIO MENSAL DE PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA
+Conforme estipulado em contrato mensal de prestação de serviços na área de informática, segue abaixo o relatório de manutenções preventivas e corretivas realizadas no mês de July de 2025:
+
+Em 07-2025 o SWAP pôde ser limpo com sucesso: Sistema com desempenho dentro da normalidade!
+
+
+Atualizando o sistema!
+
+Hit:1 http://br.archive.ubuntu.com/ubuntu noble InRelease
+Get:2 http://br.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+Get:3 http://br.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+Get:4 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1,207 kB]
+Get:5 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [161 kB]
+Get:6 http://br.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Components [212 B]
+Get:7 http://br.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1,098 kB]
+Get:8 http://br.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [377 kB]
+Get:9 http://br.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
+Get:10 http://br.archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [7,068 B]
+Get:11 http://br.archive.ubuntu.com/ubuntu noble-backports/restricted amd64 Components [212 B]
+Get:12 http://br.archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [16.4 kB]
+Get:13 http://br.archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 Components [212 B]
+Get:14 https://packages.mozilla.org/apt mozilla InRelease [1,524 B]
+Get:15 https://packages.mozilla.org/apt mozilla/main amd64 Packages [104 kB]
+Get:16 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+Get:17 https://packages.mozilla.org/apt mozilla/main all Packages [5,525 kB]
+Get:18 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [21.5 kB]
+Get:19 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Components [212 B]
+Get:20 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [52.2 kB]
+Get:21 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components [208 B]
+Fetched 8,951 kB in 3s (2,808 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+19 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following packages were automatically installed and are no longer required:
+  epiphany-browser-data libgee-0.8-2 libgranite-7-7 libgranite-7-common
+  libjavascriptcoregtk-6.0-1 libportal-gtk4-1 libportal1 libwebkitgtk-6.0-4
+Use 'sudo apt autoremove' to remove them.
+Get more security updates through Ubuntu Pro with 'esm-apps' enabled:
+  libzvbi-common libavcodec60 libzvbi0t64 libavutil58 libswresample4 7zip
+Learn more about Ubuntu Pro at https://ubuntu.com/pro
+The following NEW packages will be installed:
+  linux-headers-6.8.0-63 linux-headers-6.8.0-63-generic
+  linux-image-6.8.0-63-generic linux-modules-6.8.0-63-generic
+  linux-modules-extra-6.8.0-63-generic linux-tools-6.8.0-63
+  linux-tools-6.8.0-63-generic
+The following upgrades have been deferred due to phasing:
+  libpciaccess0
+The following packages will be upgraded:
+  alsa-ucm-conf duf firefox firmware-sof-signed libarchive13t64
+  libasound2-data libasound2t64 libbluetooth3 libopeniscsiusr linux-generic
+  linux-headers-generic linux-image-generic linux-libc-dev linux-tools-common
+  open-iscsi python3-urllib3 rclone sudo
+18 upgraded, 7 newly installed, 0 to remove and 1 not upgraded.
+5 standard LTS security updates
+Need to get 297 MB of archives.
+After this operation, 302 MB of additional disk space will be used.
+Get:1 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 libopeniscsiusr amd64 2.1.9-3ubuntu5.4 [49.4 kB]
+Get:2 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 open-iscsi amd64 2.1.9-3ubuntu5.4 [328 kB]
+Get:3 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 sudo amd64 1.9.15p5-3ubuntu5.24.04.1 [948 kB]
+Get:4 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 libasound2t64 amd64 1.2.11-1ubuntu0.1 [399 kB]
+Get:5 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 libasound2-data all 1.2.11-1ubuntu0.1 [21.1 kB]
+Get:6 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 alsa-ucm-conf all 1.2.10-1ubuntu5.7 [66.4 kB]
+Get:7 http://br.archive.ubuntu.com/ubuntu noble-updates/universe amd64 duf amd64 0.8.1-1ubuntu0.24.04.3 [900 kB]
+Get:8 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 firmware-sof-signed all 2023.12.1-1ubuntu1.5 [7,194 kB]
+Get:9 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 libarchive13t64 amd64 3.7.2-2ubuntu0.5 [382 kB]
+Get:10 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 libbluetooth3 amd64 5.72-0ubuntu5.3 [85.2 kB]
+Get:11 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-modules-6.8.0-63-generic amd64 6.8.0-63.66 [39.4 MB]
+Get:12 https://packages.mozilla.org/apt mozilla/main amd64 firefox amd64 140.0.2~build1 [76.9 MB]
+Get:13 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-image-6.8.0-63-generic amd64 6.8.0-63.66 [14.8 MB]
+Get:14 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-modules-extra-6.8.0-63-generic amd64 6.8.0-63.66 [113 MB]
+Get:15 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-generic amd64 6.8.0-63.66 [1,702 B]
+Get:16 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-image-generic amd64 6.8.0-63.66 [10.7 kB]
+Get:17 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-headers-6.8.0-63 all 6.8.0-63.66 [13.9 MB]
+Get:18 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-headers-6.8.0-63-generic amd64 6.8.0-63.66 [4,147 kB]
+Get:19 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-headers-generic amd64 6.8.0-63.66 [10.5 kB]
+Get:20 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-libc-dev amd64 6.8.0-63.66 [1,878 kB]
+Get:21 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-tools-common all 6.8.0-63.66 [719 kB]
+Get:22 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-tools-6.8.0-63 amd64 6.8.0-63.66 [5,378 kB]
+Get:23 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-tools-6.8.0-63-generic amd64 6.8.0-63.66 [1,814 B]
+Get:24 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-urllib3 all 2.0.7-1ubuntu0.2 [93.3 kB]
+Get:25 http://br.archive.ubuntu.com/ubuntu noble-updates/universe amd64 rclone amd64 1.60.1+dfsg-3ubuntu0.24.04.3 [16.5 MB]
+Preconfiguring packages ...
+Fetched 297 MB in 8s (37.2 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 163231 files and directories currently installed.)
+Preparing to unpack .../00-libopeniscsiusr_2.1.9-3ubuntu5.4_amd64.deb ...
+Unpacking libopeniscsiusr (2.1.9-3ubuntu5.4) over (2.1.9-3ubuntu5.3) ...
+Preparing to unpack .../01-open-iscsi_2.1.9-3ubuntu5.4_amd64.deb ...
+Unpacking open-iscsi (2.1.9-3ubuntu5.4) over (2.1.9-3ubuntu5.3) ...
+Preparing to unpack .../02-sudo_1.9.15p5-3ubuntu5.24.04.1_amd64.deb ...
+Unpacking sudo (1.9.15p5-3ubuntu5.24.04.1) over (1.9.15p5-3ubuntu5) ...
+Preparing to unpack .../03-libasound2t64_1.2.11-1ubuntu0.1_amd64.deb ...
+Unpacking libasound2t64:amd64 (1.2.11-1ubuntu0.1) over (1.2.11-1build2) ...
+Preparing to unpack .../04-libasound2-data_1.2.11-1ubuntu0.1_all.deb ...
+Unpacking libasound2-data (1.2.11-1ubuntu0.1) over (1.2.11-1build2) ...
+Preparing to unpack .../05-alsa-ucm-conf_1.2.10-1ubuntu5.7_all.deb ...
+Unpacking alsa-ucm-conf (1.2.10-1ubuntu5.7) over (1.2.10-1ubuntu5.4) ...
+Preparing to unpack .../06-duf_0.8.1-1ubuntu0.24.04.3_amd64.deb ...
+Unpacking duf (0.8.1-1ubuntu0.24.04.3) over (0.8.1-1ubuntu0.24.04.2) ...
+Preparing to unpack .../07-firefox_140.0.2~build1_amd64.deb ...
+Unpacking firefox (140.0.2~build1) over (139.0.4~build1) ...
+Preparing to unpack .../08-firmware-sof-signed_2023.12.1-1ubuntu1.5_all.deb ...
+Unpacking firmware-sof-signed (2023.12.1-1ubuntu1.5) over (2023.12.1-1ubuntu1.4) ...
+Preparing to unpack .../09-libarchive13t64_3.7.2-2ubuntu0.5_amd64.deb ...
+Unpacking libarchive13t64:amd64 (3.7.2-2ubuntu0.5) over (3.7.2-2ubuntu0.4) ...
+Preparing to unpack .../10-libbluetooth3_5.72-0ubuntu5.3_amd64.deb ...
+Unpacking libbluetooth3:amd64 (5.72-0ubuntu5.3) over (5.72-0ubuntu5.1) ...
+Selecting previously unselected package linux-modules-6.8.0-63-generic.
+Preparing to unpack .../11-linux-modules-6.8.0-63-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-modules-6.8.0-63-generic (6.8.0-63.66) ...
+Selecting previously unselected package linux-image-6.8.0-63-generic.
+Preparing to unpack .../12-linux-image-6.8.0-63-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-image-6.8.0-63-generic (6.8.0-63.66) ...
+Selecting previously unselected package linux-modules-extra-6.8.0-63-generic.
+Preparing to unpack .../13-linux-modules-extra-6.8.0-63-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-modules-extra-6.8.0-63-generic (6.8.0-63.66) ...
+Preparing to unpack .../14-linux-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-generic (6.8.0-63.66) over (6.8.0-62.65) ...
+Preparing to unpack .../15-linux-image-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-image-generic (6.8.0-63.66) over (6.8.0-62.65) ...
+Selecting previously unselected package linux-headers-6.8.0-63.
+Preparing to unpack .../16-linux-headers-6.8.0-63_6.8.0-63.66_all.deb ...
+Unpacking linux-headers-6.8.0-63 (6.8.0-63.66) ...
+Selecting previously unselected package linux-headers-6.8.0-63-generic.
+Preparing to unpack .../17-linux-headers-6.8.0-63-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-headers-6.8.0-63-generic (6.8.0-63.66) ...
+Preparing to unpack .../18-linux-headers-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-headers-generic (6.8.0-63.66) over (6.8.0-62.65) ...
+Preparing to unpack .../19-linux-libc-dev_6.8.0-63.66_amd64.deb ...
+Unpacking linux-libc-dev:amd64 (6.8.0-63.66) over (6.8.0-62.65) ...
+Preparing to unpack .../20-linux-tools-common_6.8.0-63.66_all.deb ...
+Unpacking linux-tools-common (6.8.0-63.66) over (6.8.0-62.65) ...
+Selecting previously unselected package linux-tools-6.8.0-63.
+Preparing to unpack .../21-linux-tools-6.8.0-63_6.8.0-63.66_amd64.deb ...
+Unpacking linux-tools-6.8.0-63 (6.8.0-63.66) ...
+Selecting previously unselected package linux-tools-6.8.0-63-generic.
+Preparing to unpack .../22-linux-tools-6.8.0-63-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-tools-6.8.0-63-generic (6.8.0-63.66) ...
+Preparing to unpack .../23-python3-urllib3_2.0.7-1ubuntu0.2_all.deb ...
+Unpacking python3-urllib3 (2.0.7-1ubuntu0.2) over (2.0.7-1ubuntu0.1) ...
+Preparing to unpack .../24-rclone_1.60.1+dfsg-3ubuntu0.24.04.3_amd64.deb ...
+Unpacking rclone (1.60.1+dfsg-3ubuntu0.24.04.3) over (1.60.1+dfsg-3ubuntu0.24.04.2) ...
+Setting up linux-headers-6.8.0-63 (6.8.0-63.66) ...
+Setting up rclone (1.60.1+dfsg-3ubuntu0.24.04.3) ...
+Setting up firmware-sof-signed (2023.12.1-1ubuntu1.5) ...
+Setting up linux-modules-6.8.0-63-generic (6.8.0-63.66) ...
+Setting up linux-libc-dev:amd64 (6.8.0-63.66) ...
+Setting up libopeniscsiusr (2.1.9-3ubuntu5.4) ...
+Setting up libasound2-data (1.2.11-1ubuntu0.1) ...
+Setting up duf (0.8.1-1ubuntu0.24.04.3) ...
+Setting up libasound2t64:amd64 (1.2.11-1ubuntu0.1) ...
+Setting up linux-image-6.8.0-63-generic (6.8.0-63.66) ...
+I: /boot/vmlinuz.old is now a symlink to vmlinuz-6.8.0-62-generic
+I: /boot/initrd.img.old is now a symlink to initrd.img-6.8.0-62-generic
+I: /boot/vmlinuz is now a symlink to vmlinuz-6.8.0-63-generic
+I: /boot/initrd.img is now a symlink to initrd.img-6.8.0-63-generic
+Setting up sudo (1.9.15p5-3ubuntu5.24.04.1) ...
+Setting up python3-urllib3 (2.0.7-1ubuntu0.2) ...
+Setting up libbluetooth3:amd64 (5.72-0ubuntu5.3) ...
+Setting up linux-headers-6.8.0-63-generic (6.8.0-63.66) ...
+/etc/kernel/header_postinst.d/dkms:
+ * dkms: running auto installation service for kernel 6.8.0-63-generic
+Sign command: /usr/bin/kmodsign
+Signing key: /var/lib/shim-signed/mok/MOK.priv
+Public certificate (MOK): /var/lib/shim-signed/mok/MOK.der
+
+Building module:
+Cleaning build area...
+make -j28 KERNELRELEASE=6.8.0-63-generic -C /lib/modules/6.8.0-63-generic/build M=/var/lib/dkms/r8168/8.052.01/build.........
+Signing module /var/lib/dkms/r8168/8.052.01/build/r8168.ko
+Cleaning build area...
+
+r8168.ko.zst:
+Running module version sanity check.
+ - Original module
+   - No original module exists within this kernel
+ - Installation
+   - Installing to /lib/modules/6.8.0-63-generic/updates/dkms/
+depmod...
+dkms autoinstall on 6.8.0-63-generic/x86_64 succeeded for r8168
+ * dkms: autoinstall for kernel 6.8.0-63-generic
+   ...done.
+Setting up linux-modules-extra-6.8.0-63-generic (6.8.0-63.66) ...
+Setting up linux-tools-common (6.8.0-63.66) ...
+Setting up libarchive13t64:amd64 (3.7.2-2ubuntu0.5) ...
+Setting up linux-image-generic (6.8.0-63.66) ...
+Setting up firefox (140.0.2~build1) ...
+Setting up alsa-ucm-conf (1.2.10-1ubuntu5.7) ...
+Setting up linux-headers-generic (6.8.0-63.66) ...
+Setting up open-iscsi (2.1.9-3ubuntu5.4) ...
+Setting up linux-tools-6.8.0-63 (6.8.0-63.66) ...
+Setting up linux-generic (6.8.0-63.66) ...
+Setting up linux-tools-6.8.0-63-generic (6.8.0-63.66) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+Processing triggers for initramfs-tools (0.142ubuntu25.5) ...
+update-initramfs: Generating /boot/initrd.img-6.8.0-62-generic
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.4) ...
+Processing triggers for linux-image-6.8.0-63-generic (6.8.0-63.66) ...
+/etc/kernel/postinst.d/dkms:
+ * dkms: running auto installation service for kernel 6.8.0-63-generic
+ * dkms: autoinstall for kernel 6.8.0-63-generic
+   ...done.
+/etc/kernel/postinst.d/initramfs-tools:
+update-initramfs: Generating /boot/initrd.img-6.8.0-63-generic
+/etc/kernel/postinst.d/zz-update-grub:
+Sourcing file `/etc/default/grub'
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-6.8.0-63-generic
+Found initrd image: /boot/initrd.img-6.8.0-63-generic
+Found linux image: /boot/vmlinuz-6.8.0-62-generic
+Found initrd image: /boot/initrd.img-6.8.0-62-generic
+Found linux image: /boot/vmlinuz-5.15.0-142-generic
+Found initrd image: /boot/initrd.img-5.15.0-142-generic
+Warning: os-prober will not be executed to detect other bootable partitions.
+Systems on them will not be added to the GRUB boot configuration.
+Check GRUB_DISABLE_OS_PROBER documentation entry.
+Adding boot menu entry for UEFI Firmware Settings ...
+done
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages will be REMOVED:
+  epiphany-browser-data libgee-0.8-2 libgranite-7-7 libgranite-7-common
+  libjavascriptcoregtk-6.0-1 libportal-gtk4-1 libportal1 libwebkitgtk-6.0-4
+  linux-headers-5.15.0-142 linux-headers-5.15.0-142-generic
+  linux-image-5.15.0-142-generic linux-modules-5.15.0-142-generic
+  linux-modules-extra-5.15.0-142-generic
+0 upgraded, 0 newly installed, 13 to remove and 1 not upgraded.
+After this operation, 715 MB disk space will be freed.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 201261 files and directories currently installed.)
+Removing epiphany-browser-data (46.5-0ubuntu1) ...
+Removing libgranite-7-7:amd64 (7.4.0-1build3) ...
+Removing libgee-0.8-2:amd64 (0.20.6-1build2) ...
+Removing libgranite-7-common (7.4.0-1build3) ...
+Removing libwebkitgtk-6.0-4:amd64 (2.48.3-0ubuntu0.24.04.1) ...
+Removing libjavascriptcoregtk-6.0-1:amd64 (2.48.3-0ubuntu0.24.04.1) ...
+Removing libportal-gtk4-1:amd64 (0.7.1-5build5) ...
+Removing libportal1:amd64 (0.7.1-5build5) ...
+Removing linux-headers-5.15.0-142-generic (5.15.0-142.152) ...
+Removing linux-headers-5.15.0-142 (5.15.0-142.152) ...
+Removing linux-modules-extra-5.15.0-142-generic (5.15.0-142.152) ...
+Removing linux-image-5.15.0-142-generic (5.15.0-142.152) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+/etc/kernel/prerm.d/dkms:
+dkms: removing: r8168 8.052.01 (5.15.0-142-generic) (x86_64)
+Module r8168-8.052.01 for kernel 5.15.0-142-generic (x86_64).
+Before uninstall, this module version was ACTIVE on this kernel.
+
+r8168.ko:
+ - Uninstallation
+   - Deleting from: /lib/modules/5.15.0-142-generic/updates/dkms/
+ - Original module
+   - No original module was found for this module on this kernel.
+   - Use the dkms install command to reinstall any previous module version.
+depmod...
+/etc/kernel/postrm.d/initramfs-tools:
+update-initramfs: Deleting /boot/initrd.img-5.15.0-142-generic
+/etc/kernel/postrm.d/zz-update-grub:
+Sourcing file `/etc/default/grub'
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-6.8.0-63-generic
+Found initrd image: /boot/initrd.img-6.8.0-63-generic
+Found linux image: /boot/vmlinuz-6.8.0-62-generic
+Found initrd image: /boot/initrd.img-6.8.0-62-generic
+Warning: os-prober will not be executed to detect other bootable partitions.
+Systems on them will not be added to the GRUB boot configuration.
+Check GRUB_DISABLE_OS_PROBER documentation entry.
+Adding boot menu entry for UEFI Firmware Settings ...
+done
+Removing linux-modules-5.15.0-142-generic (5.15.0-142.152) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.4) ...
+Processing triggers for libglib2.0-0t64:amd64 (2.80.0-6ubuntu3.4) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+
+Em 07-2025 o sistema do servidor foi atualizado e está em dia com a segurança digital.
+
+
+############################################################################
+Armazenamento: /dev/sda
+
+Device Model:     TOSHIBA HDWT720
+Serial Number:    93R3S62TS89H
+
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000b   100   100   050    Pre-fail  Always       -       0
+  2 Throughput_Performance  0x0005   100   100   050    Pre-fail  Offline      -       0
+  3 Spin_Up_Time            0x0027   100   100   001    Pre-fail  Always       -       3161
+  4 Start_Stop_Count        0x0032   100   100   000    Old_age   Always       -       19
+  5 Reallocated_Sector_Ct   0x0033   100   100   050    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000b   100   100   050    Pre-fail  Always       -       0
+  8 Seek_Time_Performance   0x0005   100   100   050    Pre-fail  Offline      -       0
+  9 Power_On_Hours          0x0032   099   099   000    Old_age   Always       -       465
+ 10 Spin_Retry_Count        0x0033   100   100   030    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       18
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       14
+193 Load_Cycle_Count        0x0032   100   100   000    Old_age   Always       -       26
+194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       25 (Min/Max 17/32)
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0032   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0030   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x0032   200   253   000    Old_age   Always       -       0
+220 Disk_Shift              0x0002   100   100   000    Old_age   Always       -       0
+222 Loaded_Hours            0x0032   099   099   000    Old_age   Always       -       462
+223 Load_Retry_Count        0x0032   100   100   000    Old_age   Always       -       0
+224 Load_Friction           0x0022   100   100   000    Old_age   Always       -       0
+226 Load-in_Time            0x0026   100   100   000    Old_age   Always       -       639
+240 Head_Flying_Hours       0x0001   100   100   001    Pre-fail  Offline      -       0
+
+
+
+############################################################################
+Armazenamento: /dev/sdb
+
+Device Model:     TOSHIBA HDWT720
+Serial Number:    93R3S63XS89H
+
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000b   100   100   050    Pre-fail  Always       -       0
+  2 Throughput_Performance  0x0005   100   100   050    Pre-fail  Offline      -       0
+  3 Spin_Up_Time            0x0027   100   100   001    Pre-fail  Always       -       3201
+  4 Start_Stop_Count        0x0032   100   100   000    Old_age   Always       -       19
+  5 Reallocated_Sector_Ct   0x0033   100   100   050    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000b   100   100   050    Pre-fail  Always       -       0
+  8 Seek_Time_Performance   0x0005   100   100   050    Pre-fail  Offline      -       0
+  9 Power_On_Hours          0x0032   099   099   000    Old_age   Always       -       465
+ 10 Spin_Retry_Count        0x0033   100   100   030    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       18
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       14
+193 Load_Cycle_Count        0x0032   100   100   000    Old_age   Always       -       26
+194 Temperature_Celsius     0x0022   100   100   000    Old_age   Always       -       25 (Min/Max 17/32)
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0032   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0030   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x0032   200   253   000    Old_age   Always       -       0
+220 Disk_Shift              0x0002   100   100   000    Old_age   Always       -       0
+222 Loaded_Hours            0x0032   099   099   000    Old_age   Always       -       462
+223 Load_Retry_Count        0x0032   100   100   000    Old_age   Always       -       0
+224 Load_Friction           0x0022   100   100   000    Old_age   Always       -       0
+226 Load-in_Time            0x0026   100   100   000    Old_age   Always       -       737
+240 Head_Flying_Hours       0x0001   100   100   001    Pre-fail  Offline      -       0
+
+
+
+############################################################################
+Armazenamento: /dev/nvme0n1p1
+
+Model Number:                       Corsair MP600 PRO
+Serial Number:                      A5ITB4434009WZ
+
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF SMART DATA SECTION ===
+SMART/Health Information (NVMe Log 0x02)
+Critical Warning:                   0x00
+Temperature:                        40 Celsius
+Available Spare:                    100%
+Available Spare Threshold:          5%
+Percentage Used:                    0%
+Data Units Read:                    188,278 [96.3 GB]
+Data Units Written:                 1,496,206 [766 GB]
+Host Read Commands:                 2,220,912
+Host Write Commands:                18,846,432
+Controller Busy Time:               346
+Power Cycles:                       28
+Power On Hours:                     466
+Unsafe Shutdowns:                   24
+Media and Data Integrity Errors:    0
+Error Information Log Entries:      45
+Warning  Comp. Temperature Time:    0
+Critical Comp. Temperature Time:    0
+
+
+
+############################################################################
+Armazenamento: /dev/nvme0n1p2
+
+Model Number:                       Corsair MP600 PRO
+Serial Number:                      A5ITB4434009WZ
+
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF SMART DATA SECTION ===
+SMART/Health Information (NVMe Log 0x02)
+Critical Warning:                   0x00
+Temperature:                        40 Celsius
+Available Spare:                    100%
+Available Spare Threshold:          5%
+Percentage Used:                    0%
+Data Units Read:                    188,278 [96.3 GB]
+Data Units Written:                 1,496,206 [766 GB]
+Host Read Commands:                 2,220,912
+Host Write Commands:                18,846,432
+Controller Busy Time:               346
+Power Cycles:                       28
+Power On Hours:                     466
+Unsafe Shutdowns:                   24
+Media and Data Integrity Errors:    0
+Error Information Log Entries:      47
+Warning  Comp. Temperature Time:    0
+Critical Comp. Temperature Time:    0
+
+
+
+Verificacao concluida em 07-2025!
+Em 07-2025 foi realizada a verificação da saúde dos discos rígidos. Mais informações no anexo SMART_DUMP no e-mail!
+
+Checking 3925 objects
+NOTE: old (due to rename or delete) DN string component for lastKnownParent in object CN=User\0ADEL:1f222842-ee5c-4bd1-a0e3-a4764179b88a,CN=Deleted Objects,DC=ad,DC=arteobjetos,DC=local - CN={BA6336A3-F535-4085-A63D-130BEDDE20E6},CN=Policies,CN=System,DC=ad,DC=arteobjetos,DC=local
+Change DN to <GUID=f29e9ca3-93ce-4e59-bc3a-0a7e1d60298a>;cn={BA6336A3-F535-4085-A63D-130BEDDE20E6}\0ADEL:f29e9ca3-93ce-4e59-bc3a-0a7e1d60298a,CN=Deleted Objects,DC=ad,DC=arteobjetos,DC=local? [YES]
+Fixed old DN string on attribute lastKnownParent
+NOTE: old (due to rename or delete) DN string component for lastKnownParent in object CN=Machine\0ADEL:7e14490f-9688-4476-8bc4-6746656513f5,CN=Deleted Objects,DC=ad,DC=arteobjetos,DC=local - CN={BA6336A3-F535-4085-A63D-130BEDDE20E6},CN=Policies,CN=System,DC=ad,DC=arteobjetos,DC=local
+Change DN to <GUID=f29e9ca3-93ce-4e59-bc3a-0a7e1d60298a>;cn={BA6336A3-F535-4085-A63D-130BEDDE20E6}\0ADEL:f29e9ca3-93ce-4e59-bc3a-0a7e1d60298a,CN=Deleted Objects,DC=ad,DC=arteobjetos,DC=local? [YES]
+Fixed old DN string on attribute lastKnownParent
+Checked 3925 objects (0 errors)
+
+Em 07-2025 foi realizada a verificação da integridade do Controlador de Domínio.
+
+
+
+
+Em 07-2025 nenhum novo equipamento vulnerável detectado na rede. Por enquanto nenhum equipamento cujos testes sejam pertinentes de serem notificados.
+
+
+/srv/containers/dominio/log/syslog
+
+May 22 17:20:09 servidor smbd_audit: IP=192.168.16.51|USER=AD\Administrator|MACHINE=192.168.16.51|VOLUME=sysvol|renameat|ok|/var/lib/samba/sysvol/ad.arteobjetos.local/Policies/{103B2803-58FF-484F-92CA-EC8AFDDB4C6A}/GPT.INI|/var/lib/samba/sysvol/ad.arteobjetos.local/Policies/{103B2803-58FF-484F-92CA-EC8AFDDB4C6A}/bakgpt.ini
+May 22 17:20:24 servidor smbd_audit: IP=192.168.16.51|USER=AD\Administrator|MACHINE=192.168.16.51|VOLUME=sysvol|renameat|ok|/var/lib/samba/sysvol/ad.arteobjetos.local/Policies/{FAFBC3D1-3A49-4D91-B65F-A096B0522FD7}/GPT.INI|/var/lib/samba/sysvol/ad.arteobjetos.local/Policies/{FAFBC3D1-3A49-4D91-B65F-A096B0522FD7}/bakgpt.ini
+May 22 17:20:36 servidor smbd_audit: IP=192.168.16.51|USER=AD\Administrator|MACHINE=192.168.16.51|VOLUME=sysvol|renameat|ok|/var/lib/samba/sysvol/ad.arteobjetos.local/Policies/{F5147A4A-000A-4330-A70B-F229C8983090}/GPT.INI|/var/lib/samba/sysvol/ad.arteobjetos.local/Policies/{F5147A4A-000A-4330-A70B-F229C8983090}/bakgpt.ini
+May 22 17:33:49 servidor smbd_audit: IP=192.168.16.51|USER=AD\Administrator|MACHINE=192.168.16.51|VOLUME=Wallpaper|renameat|ok|/mnt/disk01/dominio/wallpaper/Nova pasta|/mnt/disk01/dominio/wallpaper/wallpaper
+May 22 17:35:11 servidor smbd_audit: IP=192.168.16.51|USER=AD\Administrator|MACHINE=192.168.16.51|VOLUME=sysvol|renameat|ok|/var/lib/samba/sysvol/ad.arteobjetos.local/Policies/{F5147A4A-000A-4330-A70B-F229C8983090}/User/Registry.tmp|/var/lib/samba/sysvol/ad.arteobjetos.local/Policies/{F5147A4A-000A-4330-A70B-F229C8983090}/User/registry.pol
+
+Em 07-2025 foi realizada a verificação da integridade dos Logs de Eventos das pastas da rede e dos registros de uso dos compartilhamentos.
+
+
+Checando armazenamento geral!
+
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           6.3G  6.0M  6.3G   1% /run
+efivarfs        256K   82K  170K  33% /sys/firmware/efi/efivars
+/dev/nvme0n1p2  915G   62G  807G   8% /
+tmpfs            32G  136K   32G   1% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs            32G     0   32G   0% /run/qemu
+tmpfs            32G   12K   32G   1% /tmp
+tmpfs            32G     0   32G   0% /var/tmp
+/dev/nvme0n1p1  1.1G  6.2M  1.1G   1% /boot/efi
+/dev/sdb        1.8T   32K  1.8T   1% /mnt/disk02
+/dev/sda        1.8T  472K  1.8T   1% /mnt/disk01
+tmpfs           6.3G   36K  6.3G   1% /run/user/1000
+
+DUMP de RSnapshots (se existente)!
+
+
+DUMP de RSYNC (se existente)!
+
+
+DUMP do RClone (se existente)!
+
+
+Checando backups dos containers!
+
+
+Não existem backups de containers neste servidor. Verifique se esta situação está correta.
+
+Em 07-2025 foi realizada a verificação das rotinas de backup do servidor. O backup para a nuvem, se existente, também foi verificado.
+
+Total reclaimed space: 0B
+
+Em 07-2025 foi realizada a limpeza do sistema com remoção de pacotes e imagens obsoletas dos serviços, objetivando reduzir o consumo de armazenamento.
+
+Em 07-2025 o SWAP pôde ser limpo com sucesso pela segunda vez para finalização da manutenção: Sistema com desempenho dentro da normalidade!
+

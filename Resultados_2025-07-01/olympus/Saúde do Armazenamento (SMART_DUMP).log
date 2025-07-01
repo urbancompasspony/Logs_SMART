@@ -1,0 +1,303 @@
+
+############################################################################
+Model Family:     Phison Driven SSDs
+Device Model:     KINGSTON SA400S37960G
+Serial Number:    50026B7785CD7329
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x0032   100   100   000    Old_age   Always       -       0
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       2473
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       5
+148 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       0
+149 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       0
+167 Write_Protect_Mode      0x0000   100   100   000    Old_age   Offline      -       0
+168 SATA_Phy_Error_Count    0x0012   100   100   000    Old_age   Always       -       0
+169 Bad_Block_Rate          0x0000   100   100   000    Old_age   Offline      -       6
+170 Bad_Blk_Ct_Lat/Erl      0x0000   100   100   010    Old_age   Offline      -       0/9
+172 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       0
+173 MaxAvgErase_Ct          0x0000   100   100   000    Old_age   Offline      -       6 (Average 4)
+181 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       0
+182 Erase_Fail_Count        0x0000   100   100   000    Old_age   Offline      -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+192 Unsafe_Shutdown_Count   0x0012   100   100   000    Old_age   Always       -       2
+194 Temperature_Celsius     0x0022   035   053   000    Old_age   Always       -       35 (Min/Max 23/53)
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+199 SATA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       196748
+218 CRC_Error_Count         0x0032   100   100   000    Old_age   Always       -       0
+231 SSD_Life_Left           0x0000   100   100   000    Old_age   Offline      -       100
+233 Flash_Writes_GiB        0x0032   100   100   000    Old_age   Always       -       3103
+241 Lifetime_Writes_GiB     0x0032   100   100   000    Old_age   Always       -       1004
+242 Lifetime_Reads_GiB      0x0032   100   100   000    Old_age   Always       -       2782
+244 Average_Erase_Count     0x0000   100   100   000    Old_age   Offline      -       4
+245 Max_Erase_Count         0x0000   100   100   000    Old_age   Offline      -       6
+246 Total_Erase_Count       0x0000   100   100   000    Old_age   Offline      -       3219
+
+
+############################################################################
+Model Family:     Toshiba P300 (CMR)
+Device Model:     TOSHIBA HDWD110
+Serial Number:    11FNT06FS
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000b   100   100   016    Pre-fail  Always       -       0
+  2 Throughput_Performance  0x0005   142   142   054    Pre-fail  Offline      -       70
+  3 Spin_Up_Time            0x0007   122   122   024    Pre-fail  Always       -       177 (Average 198)
+  4 Start_Stop_Count        0x0012   100   100   000    Old_age   Always       -       82
+  5 Reallocated_Sector_Ct   0x0033   100   100   005    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000b   100   100   067    Pre-fail  Always       -       0
+  8 Seek_Time_Performance   0x0005   113   113   020    Pre-fail  Offline      -       35
+  9 Power_On_Hours          0x0012   097   097   000    Old_age   Always       -       24334
+ 10 Spin_Retry_Count        0x0013   100   100   060    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       82
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       383
+193 Load_Cycle_Count        0x0012   100   100   000    Old_age   Always       -       383
+194 Temperature_Celsius     0x0002   150   150   000    Old_age   Always       -       40 (Min/Max 25/63)
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0022   100   100   000    Old_age   Always       -       8
+198 Offline_Uncorrectable   0x0008   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x000a   200   200   000    Old_age   Always       -       3
+
+
+############################################################################
+Model Family:     Toshiba P300 (CMR)
+Device Model:     TOSHIBA HDWD110
+Serial Number:    11FNT0KFS
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000b   100   100   016    Pre-fail  Always       -       0
+  2 Throughput_Performance  0x0005   143   143   054    Pre-fail  Offline      -       66
+  3 Spin_Up_Time            0x0007   114   114   024    Pre-fail  Always       -       202 (Average 201)
+  4 Start_Stop_Count        0x0012   100   100   000    Old_age   Always       -       292
+  5 Reallocated_Sector_Ct   0x0033   100   100   005    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000b   100   100   067    Pre-fail  Always       -       0
+  8 Seek_Time_Performance   0x0005   115   115   020    Pre-fail  Offline      -       34
+  9 Power_On_Hours          0x0012   096   096   000    Old_age   Always       -       29031
+ 10 Spin_Retry_Count        0x0013   100   100   060    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       291
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       1045
+193 Load_Cycle_Count        0x0012   100   100   000    Old_age   Always       -       1045
+194 Temperature_Celsius     0x0002   146   146   000    Old_age   Always       -       41 (Min/Max 22/61)
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0022   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0008   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x000a   200   200   000    Old_age   Always       -       0
+
+
+############################################################################
+Model Family:     Phison Driven SSDs
+Device Model:     KINGSTON SA400S37960G
+Serial Number:    50026B7785CD7A7C
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x0032   100   100   000    Old_age   Always       -       0
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       2507
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       6
+148 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       0
+149 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       0
+167 Write_Protect_Mode      0x0000   100   100   000    Old_age   Offline      -       0
+168 SATA_Phy_Error_Count    0x0012   100   100   000    Old_age   Always       -       0
+169 Bad_Block_Rate          0x0000   100   100   000    Old_age   Offline      -       5
+170 Bad_Blk_Ct_Lat/Erl      0x0000   100   100   010    Old_age   Offline      -       0/7
+172 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       0
+173 MaxAvgErase_Ct          0x0000   100   100   000    Old_age   Offline      -       6 (Average 4)
+181 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       0
+182 Erase_Fail_Count        0x0000   100   100   000    Old_age   Offline      -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+192 Unsafe_Shutdown_Count   0x0012   100   100   000    Old_age   Always       -       3
+194 Temperature_Celsius     0x0022   030   048   000    Old_age   Always       -       30 (Min/Max 24/48)
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+199 SATA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       196748
+218 CRC_Error_Count         0x0032   100   100   000    Old_age   Always       -       0
+231 SSD_Life_Left           0x0000   100   100   000    Old_age   Offline      -       100
+233 Flash_Writes_GiB        0x0032   100   100   000    Old_age   Always       -       3131
+241 Lifetime_Writes_GiB     0x0032   100   100   000    Old_age   Always       -       1010
+242 Lifetime_Reads_GiB      0x0032   100   100   000    Old_age   Always       -       2792
+244 Average_Erase_Count     0x0000   100   100   000    Old_age   Offline      -       4
+245 Max_Erase_Count         0x0000   100   100   000    Old_age   Offline      -       6
+246 Total_Erase_Count       0x0000   100   100   000    Old_age   Offline      -       3278
+
+
+############################################################################
+Model Family:     Western Digital Blue
+Device Model:     WDC WD10EZEX-00WN4A0
+Serial Number:    WD-WCC6Y4AD1HC3
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x002f   200   200   051    Pre-fail  Always       -       0
+  3 Spin_Up_Time            0x0027   178   173   021    Pre-fail  Always       -       2066
+  4 Start_Stop_Count        0x0032   080   080   000    Old_age   Always       -       20677
+  5 Reallocated_Sector_Ct   0x0033   200   200   140    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x002e   200   200   000    Old_age   Always       -       0
+  9 Power_On_Hours          0x0032   040   040   000    Old_age   Always       -       43919
+ 10 Spin_Retry_Count        0x0032   100   100   000    Old_age   Always       -       0
+ 11 Calibration_Retry_Count 0x0032   100   100   000    Old_age   Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       258
+192 Power-Off_Retract_Count 0x0032   200   200   000    Old_age   Always       -       163
+193 Load_Cycle_Count        0x0032   178   178   000    Old_age   Always       -       67036
+194 Temperature_Celsius     0x0022   100   081   000    Old_age   Always       -       43
+196 Reallocated_Event_Count 0x0032   200   200   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0032   200   200   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0030   200   200   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x0032   200   199   000    Old_age   Always       -       428
+200 Multi_Zone_Error_Rate   0x0008   200   200   000    Old_age   Offline      -       0
+
+
+############################################################################
+Model Family:     Western Digital Elements / My Passport (USB, AF)
+Device Model:     WDC WD10JMVW-11AJGS4
+Serial Number:    WD-WX61A16ENXJY
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x002f   200   200   051    Pre-fail  Always       -       0
+  3 Spin_Up_Time            0x0027   140   134   021    Pre-fail  Always       -       3966
+  4 Start_Stop_Count        0x0032   100   100   000    Old_age   Always       -       456
+  5 Reallocated_Sector_Ct   0x0033   200   200   140    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x002e   200   200   000    Old_age   Always       -       0
+  9 Power_On_Hours          0x0032   076   076   000    Old_age   Always       -       18191
+ 10 Spin_Retry_Count        0x0032   100   100   000    Old_age   Always       -       0
+ 11 Calibration_Retry_Count 0x0032   100   100   000    Old_age   Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       209
+192 Power-Off_Retract_Count 0x0032   200   200   000    Old_age   Always       -       142
+193 Load_Cycle_Count        0x0032   198   198   000    Old_age   Always       -       6284
+194 Temperature_Celsius     0x0022   113   092   000    Old_age   Always       -       34
+196 Reallocated_Event_Count 0x0032   200   200   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0032   200   200   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0030   100   253   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x0032   200   200   000    Old_age   Always       -       0
+200 Multi_Zone_Error_Rate   0x0008   100   253   000    Old_age   Offline      -       0
+
+
+############################################################################
+Model Family:     Seagate BarraCuda 3.5 (CMR)
+Device Model:     ST1000DM010-2EP102
+Serial Number:    ZN1P3VGN
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000f   080   063   006    Pre-fail  Always       -       109291692
+  3 Spin_Up_Time            0x0003   098   097   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   100   100   020    Old_age   Always       -       673
+  5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   078   060   045    Pre-fail  Always       -       83617674
+  9 Power_On_Hours          0x0032   080   080   000    Old_age   Always       -       17639
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   020    Old_age   Always       -       672
+183 Runtime_Bad_Block       0x0032   099   099   000    Old_age   Always       -       1
+184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   100   000    Old_age   Always       -       0 0 0
+189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x0022   059   041   040    Old_age   Always       -       41 (Min/Max 39/46)
+193 Load_Cycle_Count        0x0032   100   100   000    Old_age   Always       -       1376
+194 Temperature_Celsius     0x0022   041   021   000    Old_age   Always       -       41 (0 21 0 0 0)
+195 Hardware_ECC_Recovered  0x001a   023   001   000    Old_age   Always       -       109291692
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
+240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       12559h+06m+57.354s
+241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       34247452954
+242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       44705342286
+
+
+############################################################################
+Device Model:     [No Information Found]
+Serial Number:    [No Information Found]
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+Read Device Identity failed: scsi error unsupported field in scsi command
+
+If this is a USB connected device, look at the various --device=TYPE variants
+SMART support is: Ambiguous - ATA IDENTIFY DEVICE words 82-83 don't show if SMART supported.
+SMART support is: Ambiguous - ATA IDENTIFY DEVICE words 85-87 don't show if SMART is enabled.
+A mandatory SMART command failed: exiting. To continue, add one or more '-T permissive' options.
+
+############################################################################
+Model Number:                       WDC PC SN530 SDBPNPZ-512G-1014
+Serial Number:                      2118HR474305
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF SMART DATA SECTION ===
+SMART/Health Information (NVMe Log 0x02)
+Critical Warning:                   0x00
+Temperature:                        37 Celsius
+Available Spare:                    100%
+Available Spare Threshold:          10%
+Percentage Used:                    3%
+Data Units Read:                    43,215,681 [22.1 TB]
+Data Units Written:                 37,319,346 [19.1 TB]
+Host Read Commands:                 588,645,207
+Host Write Commands:                619,361,323
+Controller Busy Time:               1,840
+Power Cycles:                       2,063
+Power On Hours:                     3,293
+Unsafe Shutdowns:                   43
+Media and Data Integrity Errors:    0
+Error Information Log Entries:      111
+Warning  Comp. Temperature Time:    0
+Critical Comp. Temperature Time:    0
+
+
+############################################################################
+Model Number:                       WDC PC SN530 SDBPNPZ-512G-1014
+Serial Number:                      2118HR474305
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF SMART DATA SECTION ===
+SMART/Health Information (NVMe Log 0x02)
+Critical Warning:                   0x00
+Temperature:                        37 Celsius
+Available Spare:                    100%
+Available Spare Threshold:          10%
+Percentage Used:                    3%
+Data Units Read:                    43,215,681 [22.1 TB]
+Data Units Written:                 37,319,346 [19.1 TB]
+Host Read Commands:                 588,645,207
+Host Write Commands:                619,361,323
+Controller Busy Time:               1,840
+Power Cycles:                       2,063
+Power On Hours:                     3,293
+Unsafe Shutdowns:                   43
+Media and Data Integrity Errors:    0
+Error Information Log Entries:      111
+Warning  Comp. Temperature Time:    0
+Critical Comp. Temperature Time:    0
+
+
+Verificacao concluida em 07-2025!

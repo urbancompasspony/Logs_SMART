@@ -1,0 +1,73 @@
+
+############################################################################
+Model Family:     Seagate Exos 7E8
+Device Model:     ST1000NM004A-2MN130
+Serial Number:    WJB0BWR7
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x010f   084   064   044    Pre-fail  Always       -       241727248
+  3 Spin_Up_Time            0x0103   095   094   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   100   100   020    Old_age   Always       -       93
+  5 Reallocated_Sector_Ct   0x0133   100   100   010    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   086   060   045    Pre-fail  Always       -       400308323
+  9 Power_On_Hours          0x0032   055   055   000    Old_age   Always       -       39905
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   020    Old_age   Always       -       91
+ 18 Head_Health             0x000b   100   100   050    Pre-fail  Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   100   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x0022   066   053   040    Old_age   Always       -       34 (Min/Max 26/39)
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       86
+193 Load_Cycle_Count        0x0032   100   100   000    Old_age   Always       -       1762
+194 Temperature_Celsius     0x0022   034   047   000    Old_age   Always       -       34 (0 22 0 0 0)
+195 Hardware_ECC_Recovered  0x001a   084   064   000    Old_age   Always       -       241727248
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
+240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       39827h+11m+33.330s
+241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       285357642525
+242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       579876629315
+
+
+############################################################################
+Model Family:     Seagate IronWolf
+Device Model:     ST4000VN008-2DR166
+Serial Number:    ZGY9WE6C
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000f   100   064   044    Pre-fail  Always       -       2237616
+  3 Spin_Up_Time            0x0003   094   093   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   100   100   020    Old_age   Always       -       39
+  5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   095   060   045    Pre-fail  Always       -       3268888824
+  9 Power_On_Hours          0x0032   067   067   000    Old_age   Always       -       29251 (190 99 0)
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   020    Old_age   Always       -       39
+184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   100   000    Old_age   Always       -       0
+189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x0022   070   060   040    Old_age   Always       -       30 (Min/Max 24/35)
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       0
+193 Load_Cycle_Count        0x0032   052   052   000    Old_age   Always       -       97540
+194 Temperature_Celsius     0x0022   030   040   000    Old_age   Always       -       30 (0 21 0 0 0)
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
+240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       27300h+54m+42.979s
+241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       17399721681
+242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       702989713669
+
+
+Verificacao concluida em 07-2025!

@@ -1,0 +1,868 @@
+========================================================
+RELATÓRIO MENSAL DE PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA
+Conforme estipulado em contrato mensal de prestação de serviços na área de informática, segue abaixo o relatório de manutenções preventivas e corretivas realizadas no mês de julho de 2025:
+
+Em 07-2025 o SWAP pôde ser limpo com sucesso: Sistema com desempenho dentro da normalidade!
+
+
+Atualizando o sistema!
+
+Hit:1 http://archive.ubuntu.com/ubuntu noble InRelease
+Hit:2 http://archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:3 http://archive.ubuntu.com/ubuntu noble-backports InRelease
+Hit:4 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:5 https://packages.mozilla.org/apt mozilla InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+16 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+Get more security updates through Ubuntu Pro with 'esm-apps' enabled:
+  libzvbi-common libcjson1 libavdevice60 libpostproc57 libavcodec60
+  libzvbi0t64 libavutil58 libswscale7 libswresample4 libavformat60
+  libavfilter9
+Learn more about Ubuntu Pro at https://ubuntu.com/pro
+The following NEW packages will be installed:
+  linux-headers-6.8.0-63 linux-headers-6.8.0-63-generic
+  linux-image-6.8.0-63-generic linux-modules-6.8.0-63-generic
+  linux-modules-extra-6.8.0-63-generic linux-tools-6.8.0-63
+  linux-tools-6.8.0-63-generic
+The following upgrades have been deferred due to phasing:
+  libpciaccess0
+The following packages will be upgraded:
+  duf firefox libarchive13t64 libasound2-data libasound2t64 libopeniscsiusr
+  linux-generic linux-headers-generic linux-image-generic linux-libc-dev
+  linux-tools-common open-iscsi python3-urllib3 rclone sudo
+15 upgraded, 7 newly installed, 0 to remove and 1 not upgraded.
+5 standard LTS security updates
+Need to get 290 MB of archives.
+After this operation, 302 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libopeniscsiusr amd64 2.1.9-3ubuntu5.4 [49.4 kB]
+Get:2 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 open-iscsi amd64 2.1.9-3ubuntu5.4 [328 kB]
+Get:3 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 sudo amd64 1.9.15p5-3ubuntu5.24.04.1 [948 kB]
+Get:4 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 duf amd64 0.8.1-1ubuntu0.24.04.3 [900 kB]
+Get:5 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libasound2t64 amd64 1.2.11-1ubuntu0.1 [399 kB]
+Get:6 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libasound2-data all 1.2.11-1ubuntu0.1 [21.1 kB]
+Get:7 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libarchive13t64 amd64 3.7.2-2ubuntu0.5 [382 kB]
+Get:8 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-modules-6.8.0-63-generic amd64 6.8.0-63.66 [39.4 MB]
+Get:9 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-image-6.8.0-63-generic amd64 6.8.0-63.66 [14.8 MB]
+Get:10 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-modules-extra-6.8.0-63-generic amd64 6.8.0-63.66 [113 MB]
+Get:11 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-generic amd64 6.8.0-63.66 [1,702 B]
+Get:12 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-image-generic amd64 6.8.0-63.66 [10.7 kB]
+Get:13 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-headers-6.8.0-63 all 6.8.0-63.66 [13.9 MB]
+Get:14 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-headers-6.8.0-63-generic amd64 6.8.0-63.66 [4,147 kB]
+Get:15 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-headers-generic amd64 6.8.0-63.66 [10.5 kB]
+Get:16 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-libc-dev amd64 6.8.0-63.66 [1,878 kB]
+Get:17 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-tools-common all 6.8.0-63.66 [719 kB]
+Get:18 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-tools-6.8.0-63 amd64 6.8.0-63.66 [5,378 kB]
+Get:19 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-tools-6.8.0-63-generic amd64 6.8.0-63.66 [1,814 B]
+Get:20 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-urllib3 all 2.0.7-1ubuntu0.2 [93.3 kB]
+Get:21 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 rclone amd64 1.60.1+dfsg-3ubuntu0.24.04.3 [16.5 MB]
+Get:22 https://packages.mozilla.org/apt mozilla/main amd64 firefox amd64 140.0.2~build1 [76.9 MB]
+Preconfiguring packages ...
+Fetched 290 MB in 17s (17.1 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 146116 files and directories currently installed.)
+Preparing to unpack .../00-libopeniscsiusr_2.1.9-3ubuntu5.4_amd64.deb ...
+Unpacking libopeniscsiusr (2.1.9-3ubuntu5.4) over (2.1.9-3ubuntu5.3) ...
+Preparing to unpack .../01-open-iscsi_2.1.9-3ubuntu5.4_amd64.deb ...
+Unpacking open-iscsi (2.1.9-3ubuntu5.4) over (2.1.9-3ubuntu5.3) ...
+Preparing to unpack .../02-sudo_1.9.15p5-3ubuntu5.24.04.1_amd64.deb ...
+Unpacking sudo (1.9.15p5-3ubuntu5.24.04.1) over (1.9.15p5-3ubuntu5) ...
+Preparing to unpack .../03-duf_0.8.1-1ubuntu0.24.04.3_amd64.deb ...
+Unpacking duf (0.8.1-1ubuntu0.24.04.3) over (0.8.1-1ubuntu0.24.04.2) ...
+Preparing to unpack .../04-libasound2t64_1.2.11-1ubuntu0.1_amd64.deb ...
+Unpacking libasound2t64:amd64 (1.2.11-1ubuntu0.1) over (1.2.11-1build2) ...
+Preparing to unpack .../05-libasound2-data_1.2.11-1ubuntu0.1_all.deb ...
+Unpacking libasound2-data (1.2.11-1ubuntu0.1) over (1.2.11-1build2) ...
+Preparing to unpack .../06-firefox_140.0.2~build1_amd64.deb ...
+Unpacking firefox (140.0.2~build1) over (139.0.4~build1) ...
+Preparing to unpack .../07-libarchive13t64_3.7.2-2ubuntu0.5_amd64.deb ...
+Unpacking libarchive13t64:amd64 (3.7.2-2ubuntu0.5) over (3.7.2-2ubuntu0.4) ...
+Selecting previously unselected package linux-modules-6.8.0-63-generic.
+Preparing to unpack .../08-linux-modules-6.8.0-63-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-modules-6.8.0-63-generic (6.8.0-63.66) ...
+Selecting previously unselected package linux-image-6.8.0-63-generic.
+Preparing to unpack .../09-linux-image-6.8.0-63-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-image-6.8.0-63-generic (6.8.0-63.66) ...
+Selecting previously unselected package linux-modules-extra-6.8.0-63-generic.
+Preparing to unpack .../10-linux-modules-extra-6.8.0-63-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-modules-extra-6.8.0-63-generic (6.8.0-63.66) ...
+Preparing to unpack .../11-linux-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-generic (6.8.0-63.66) over (6.8.0-62.65) ...
+Preparing to unpack .../12-linux-image-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-image-generic (6.8.0-63.66) over (6.8.0-62.65) ...
+Selecting previously unselected package linux-headers-6.8.0-63.
+Preparing to unpack .../13-linux-headers-6.8.0-63_6.8.0-63.66_all.deb ...
+Unpacking linux-headers-6.8.0-63 (6.8.0-63.66) ...
+Selecting previously unselected package linux-headers-6.8.0-63-generic.
+Preparing to unpack .../14-linux-headers-6.8.0-63-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-headers-6.8.0-63-generic (6.8.0-63.66) ...
+Preparing to unpack .../15-linux-headers-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-headers-generic (6.8.0-63.66) over (6.8.0-62.65) ...
+Preparing to unpack .../16-linux-libc-dev_6.8.0-63.66_amd64.deb ...
+Unpacking linux-libc-dev:amd64 (6.8.0-63.66) over (6.8.0-62.65) ...
+Preparing to unpack .../17-linux-tools-common_6.8.0-63.66_all.deb ...
+Unpacking linux-tools-common (6.8.0-63.66) over (6.8.0-62.65) ...
+Selecting previously unselected package linux-tools-6.8.0-63.
+Preparing to unpack .../18-linux-tools-6.8.0-63_6.8.0-63.66_amd64.deb ...
+Unpacking linux-tools-6.8.0-63 (6.8.0-63.66) ...
+Selecting previously unselected package linux-tools-6.8.0-63-generic.
+Preparing to unpack .../19-linux-tools-6.8.0-63-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-tools-6.8.0-63-generic (6.8.0-63.66) ...
+Preparing to unpack .../20-python3-urllib3_2.0.7-1ubuntu0.2_all.deb ...
+Unpacking python3-urllib3 (2.0.7-1ubuntu0.2) over (2.0.7-1ubuntu0.1) ...
+Preparing to unpack .../21-rclone_1.60.1+dfsg-3ubuntu0.24.04.3_amd64.deb ...
+Unpacking rclone (1.60.1+dfsg-3ubuntu0.24.04.3) over (1.60.1+dfsg-3ubuntu0.24.04.2) ...
+Setting up linux-headers-6.8.0-63 (6.8.0-63.66) ...
+Setting up rclone (1.60.1+dfsg-3ubuntu0.24.04.3) ...
+Setting up linux-modules-6.8.0-63-generic (6.8.0-63.66) ...
+Setting up linux-libc-dev:amd64 (6.8.0-63.66) ...
+Setting up libopeniscsiusr (2.1.9-3ubuntu5.4) ...
+Setting up libasound2-data (1.2.11-1ubuntu0.1) ...
+Setting up duf (0.8.1-1ubuntu0.24.04.3) ...
+Setting up libasound2t64:amd64 (1.2.11-1ubuntu0.1) ...
+Setting up linux-image-6.8.0-63-generic (6.8.0-63.66) ...
+I: /boot/vmlinuz.old is now a symlink to vmlinuz-6.8.0-62-generic
+I: /boot/initrd.img.old is now a symlink to initrd.img-6.8.0-62-generic
+I: /boot/vmlinuz is now a symlink to vmlinuz-6.8.0-63-generic
+I: /boot/initrd.img is now a symlink to initrd.img-6.8.0-63-generic
+Setting up sudo (1.9.15p5-3ubuntu5.24.04.1) ...
+Setting up python3-urllib3 (2.0.7-1ubuntu0.2) ...
+Setting up linux-headers-6.8.0-63-generic (6.8.0-63.66) ...
+/etc/kernel/header_postinst.d/dkms:
+ * dkms: running auto installation service for kernel 6.8.0-63-generic
+Sign command: /usr/src/linux-headers-6.8.0-63-generic/scripts/sign-file
+Binary update-secureboot-policy not found, modules won't be signed
+
+Building module:
+Cleaning build area...
+make -j4 KERNELRELEASE=6.8.0-63-generic -C /lib/modules/6.8.0-63-generic/build M=/var/lib/dkms/r8168/8.052.01/build...........
+Cleaning build area...
+
+r8168.ko.zst:
+Running module version sanity check.
+ - Original module
+   - No original module exists within this kernel
+ - Installation
+   - Installing to /lib/modules/6.8.0-63-generic/updates/dkms/
+depmod...
+dkms autoinstall on 6.8.0-63-generic/x86_64 succeeded for r8168
+ * dkms: autoinstall for kernel 6.8.0-63-generic
+   ...done.
+Setting up linux-modules-extra-6.8.0-63-generic (6.8.0-63.66) ...
+Setting up linux-tools-common (6.8.0-63.66) ...
+Setting up libarchive13t64:amd64 (3.7.2-2ubuntu0.5) ...
+Setting up linux-image-generic (6.8.0-63.66) ...
+Setting up firefox (140.0.2~build1) ...
+Setting up linux-headers-generic (6.8.0-63.66) ...
+Setting up open-iscsi (2.1.9-3ubuntu5.4) ...
+Setting up linux-tools-6.8.0-63 (6.8.0-63.66) ...
+Setting up linux-generic (6.8.0-63.66) ...
+Setting up linux-tools-6.8.0-63-generic (6.8.0-63.66) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+Processing triggers for initramfs-tools (0.142ubuntu25.5) ...
+update-initramfs: Generating /boot/initrd.img-6.8.0-62-generic
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.4) ...
+Processing triggers for linux-image-6.8.0-63-generic (6.8.0-63.66) ...
+/etc/kernel/postinst.d/dkms:
+ * dkms: running auto installation service for kernel 6.8.0-63-generic
+ * dkms: autoinstall for kernel 6.8.0-63-generic
+   ...done.
+/etc/kernel/postinst.d/initramfs-tools:
+update-initramfs: Generating /boot/initrd.img-6.8.0-63-generic
+/etc/kernel/postinst.d/zz-update-grub:
+Sourcing file `/etc/default/grub'
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-6.8.0-63-generic
+Found initrd image: /boot/initrd.img-6.8.0-63-generic
+Found linux image: /boot/vmlinuz-6.8.0-62-generic
+Found initrd image: /boot/initrd.img-6.8.0-62-generic
+Found linux image: /boot/vmlinuz-5.15.0-142-generic
+Found initrd image: /boot/initrd.img-5.15.0-142-generic
+Warning: os-prober will not be executed to detect other bootable partitions.
+Systems on them will not be added to the GRUB boot configuration.
+Check GRUB_DISABLE_OS_PROBER documentation entry.
+Adding boot menu entry for UEFI Firmware Settings ...
+done
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages will be REMOVED:
+  linux-headers-5.15.0-142 linux-headers-5.15.0-142-generic
+  linux-image-5.15.0-142-generic linux-modules-5.15.0-142-generic
+  linux-modules-extra-5.15.0-142-generic
+0 upgraded, 0 newly installed, 5 to remove and 1 not upgraded.
+After this operation, 584 MB disk space will be freed.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 184135 files and directories currently installed.)
+Removing linux-headers-5.15.0-142-generic (5.15.0-142.152) ...
+Removing linux-headers-5.15.0-142 (5.15.0-142.152) ...
+Removing linux-modules-extra-5.15.0-142-generic (5.15.0-142.152) ...
+Removing linux-image-5.15.0-142-generic (5.15.0-142.152) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+/etc/kernel/prerm.d/dkms:
+dkms: removing: r8168 8.052.01 (5.15.0-142-generic) (x86_64)
+Module r8168-8.052.01 for kernel 5.15.0-142-generic (x86_64).
+Before uninstall, this module version was ACTIVE on this kernel.
+
+r8168.ko:
+ - Uninstallation
+   - Deleting from: /lib/modules/5.15.0-142-generic/updates/dkms/
+ - Original module
+   - No original module was found for this module on this kernel.
+   - Use the dkms install command to reinstall any previous module version.
+depmod...
+/etc/kernel/postrm.d/initramfs-tools:
+update-initramfs: Deleting /boot/initrd.img-5.15.0-142-generic
+/etc/kernel/postrm.d/zz-update-grub:
+Sourcing file `/etc/default/grub'
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-6.8.0-63-generic
+Found initrd image: /boot/initrd.img-6.8.0-63-generic
+Found linux image: /boot/vmlinuz-6.8.0-62-generic
+Found initrd image: /boot/initrd.img-6.8.0-62-generic
+Warning: os-prober will not be executed to detect other bootable partitions.
+Systems on them will not be added to the GRUB boot configuration.
+Check GRUB_DISABLE_OS_PROBER documentation entry.
+Adding boot menu entry for UEFI Firmware Settings ...
+done
+Removing linux-modules-5.15.0-142-generic (5.15.0-142.152) ...
+
+Em 07-2025 o sistema do servidor foi atualizado e está em dia com a segurança digital.
+
+
+############################################################################
+Armazenamento: /dev/sda
+
+Model Family:     Phison Driven SSDs
+Device Model:     KINGSTON SA400S37240G
+Serial Number:    50026B77842D6C0C
+
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x0032   100   100   000    Old_age   Always       -       0
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       11370
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       225
+148 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       0
+149 Unknown_Attribute       0x0000   100   100   000    Old_age   Offline      -       0
+167 Write_Protect_Mode      0x0000   100   100   000    Old_age   Offline      -       0
+168 SATA_Phy_Error_Count    0x0012   100   100   000    Old_age   Always       -       0
+169 Bad_Block_Rate          0x0000   100   100   000    Old_age   Offline      -       29
+170 Bad_Blk_Ct_Lat/Erl      0x0000   100   100   010    Old_age   Offline      -       0/25
+172 Erase_Fail_Count        0x0032   100   100   000    Old_age   Always       -       0
+173 MaxAvgErase_Ct          0x0000   100   100   000    Old_age   Offline      -       195 (Average 179)
+181 Program_Fail_Count      0x0032   100   100   000    Old_age   Always       -       0
+182 Erase_Fail_Count        0x0000   100   100   000    Old_age   Offline      -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+192 Unsafe_Shutdown_Count   0x0012   100   100   000    Old_age   Always       -       113
+194 Temperature_Celsius     0x0022   036   050   000    Old_age   Always       -       36 (Min/Max 23/50)
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+199 SATA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       0
+218 CRC_Error_Count         0x0032   100   100   000    Old_age   Always       -       0
+231 SSD_Life_Left           0x0000   074   074   000    Old_age   Offline      -       74
+233 Flash_Writes_GiB        0x0032   100   100   000    Old_age   Always       -       29351
+241 Lifetime_Writes_GiB     0x0032   100   100   000    Old_age   Always       -       18007
+242 Lifetime_Reads_GiB      0x0032   100   100   000    Old_age   Always       -       177696
+244 Average_Erase_Count     0x0000   100   100   000    Old_age   Offline      -       179
+245 Max_Erase_Count         0x0000   100   100   000    Old_age   Offline      -       195
+246 Total_Erase_Count       0x0000   100   100   000    Old_age   Offline      -       606600
+
+
+
+############################################################################
+Armazenamento: /dev/sdb
+
+Device Model:     WDC WD6004FZWX-00BKVA0
+Serial Number:    WD-AD02LBLL
+
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x002f   200   200   051    Pre-fail  Always       -       0
+  3 Spin_Up_Time            0x0027   165   151   021    Pre-fail  Always       -       8733
+  4 Start_Stop_Count        0x0032   100   100   000    Old_age   Always       -       12
+  5 Reallocated_Sector_Ct   0x0033   200   200   140    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x002e   100   253   000    Old_age   Always       -       0
+  9 Power_On_Hours          0x0032   096   096   000    Old_age   Always       -       3070
+ 10 Spin_Retry_Count        0x0032   100   253   000    Old_age   Always       -       0
+ 11 Calibration_Retry_Count 0x0032   100   253   000    Old_age   Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       12
+192 Power-Off_Retract_Count 0x0032   200   200   000    Old_age   Always       -       6
+193 Load_Cycle_Count        0x0032   200   200   000    Old_age   Always       -       13
+194 Temperature_Celsius     0x0022   107   096   000    Old_age   Always       -       45
+196 Reallocated_Event_Count 0x0032   200   200   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0032   200   200   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0030   100   253   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x0032   200   200   000    Old_age   Always       -       0
+200 Multi_Zone_Error_Rate   0x0008   100   253   000    Old_age   Offline      -       0
+
+
+
+############################################################################
+Armazenamento: /dev/sdc
+
+Model Family:     Western Digital Red (SMR)
+Device Model:     WDC WD30EFAX-68JH4N0
+Serial Number:    WD-WX22D70JUPFT
+
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x002f   200   200   051    Pre-fail  Always       -       0
+  3 Spin_Up_Time            0x0027   202   194   021    Pre-fail  Always       -       2900
+  4 Start_Stop_Count        0x0032   100   100   000    Old_age   Always       -       825
+  5 Reallocated_Sector_Ct   0x0033   200   200   140    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x002e   200   200   000    Old_age   Always       -       0
+  9 Power_On_Hours          0x0032   085   085   000    Old_age   Always       -       11534
+ 10 Spin_Retry_Count        0x0032   100   100   000    Old_age   Always       -       0
+ 11 Calibration_Retry_Count 0x0032   100   100   000    Old_age   Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       290
+192 Power-Off_Retract_Count 0x0032   200   200   000    Old_age   Always       -       155
+193 Load_Cycle_Count        0x0032   199   199   000    Old_age   Always       -       5268
+194 Temperature_Celsius     0x0022   113   101   000    Old_age   Always       -       34
+196 Reallocated_Event_Count 0x0032   200   200   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0032   200   200   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0030   100   253   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x0032   200   200   000    Old_age   Always       -       0
+200 Multi_Zone_Error_Rate   0x0008   100   253   000    Old_age   Offline      -       0
+
+
+
+############################################################################
+Armazenamento: /dev/sdd
+
+Model Family:     Seagate IronWolf
+Device Model:     ST4000VN008-2DR166
+Serial Number:    ZGY5GEYK
+
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000f   083   064   044    Pre-fail  Always       -       214297454
+  3 Spin_Up_Time            0x0003   095   093   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   100   100   020    Old_age   Always       -       787
+  5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   088   060   045    Pre-fail  Always       -       9795029103
+  9 Power_On_Hours          0x0032   062   062   000    Old_age   Always       -       33804 (70 152 0)
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   020    Old_age   Always       -       420
+184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   100   000    Old_age   Always       -       0
+189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x0022   066   048   040    Old_age   Always       -       34 (Min/Max 24/41)
+191 G-Sense_Error_Rate      0x0032   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       331
+193 Load_Cycle_Count        0x0032   070   070   000    Old_age   Always       -       61591
+194 Temperature_Celsius     0x0022   034   052   000    Old_age   Always       -       34 (0 15 0 0 0)
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   200   000    Old_age   Always       -       0
+240 Head_Flying_Hours       0x0000   100   253   000    Old_age   Offline      -       25917h+21m+21.986s
+241 Total_LBAs_Written      0x0000   100   253   000    Old_age   Offline      -       2893130022027
+242 Total_LBAs_Read         0x0000   100   253   000    Old_age   Offline      -       912216047077
+
+
+
+Verificacao concluida em 07-2025!
+Em 07-2025 foi realizada a verificação da saúde dos discos rígidos. Mais informações no anexo SMART_DUMP no e-mail!
+
+Checking 3890 objects
+Checked 3890 objects (0 errors)
+
+Em 07-2025 foi realizada a verificação da integridade do Controlador de Domínio.
+
+
+
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-06-30 19:00 -03
+Pre-scan script results:
+| broadcast-avahi-dos: 
+|   Discovered hosts:
+|     224.0.0.251
+|   After NULL UDP avahi packet DoS (CVE-2011-1002).
+|_  Hosts are all up (not vulnerable).
+Nmap scan report for dominio.macvlan (192.168.9.10)
+Host is up (0.0011s latency).
+Not shown: 65518 closed tcp ports (reset)
+PORT      STATE SERVICE
+42/tcp    open  nameserver
+53/tcp    open  domain
+80/tcp    open  http
+| http-slowloris-check: 
+|   VULNERABLE:
+|   Slowloris DOS attack
+|     State: LIKELY VULNERABLE
+|     IDs:  CVE:CVE-2007-6750
+|       Slowloris tries to keep many connections to the target web server open and hold
+|       them open as long as possible.  It accomplishes this by opening connections to
+|       the target web server and sending a partial request. By doing so, it starves
+|       the http server's resources causing Denial Of Service.
+|       
+|     Disclosure date: 2009-09-17
+|     References:
+|       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-6750
+|_      http://ha.ckers.org/slowloris/
+|_http-csrf: Couldn't find any CSRF vulnerabilities.
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+88/tcp    open  kerberos-sec
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+389/tcp   open  ldap
+443/tcp   open  https
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+|_ssl-ccs-injection: No reply from server (TIMEOUT)
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+|_http-csrf: Couldn't find any CSRF vulnerabilities.
+445/tcp   open  microsoft-ds
+464/tcp   open  kpasswd5
+631/tcp   open  ipp
+|_http-vuln-cve2014-3704: ERROR: Script execution failed (use -d to debug)
+| http-method-tamper: 
+|   VULNERABLE:
+|   Authentication bypass by HTTP verb tampering
+|     State: VULNERABLE (Exploitable)
+|       This web server contains password protected resources vulnerable to authentication bypass
+|       vulnerabilities via HTTP verb tampering. This is often found in web servers that only limit access to the
+|        common HTTP methods and in misconfigured .htaccess files.
+|              
+|     Extra information:
+|       
+|   URIs suspected to be vulnerable to HTTP verb tampering:
+|     /admin [GENERIC]
+|   
+|     References:
+|       http://capec.mitre.org/data/definitions/274.html
+|       http://www.imperva.com/resources/glossary/http_verb_tampering.html
+|       http://www.mkit.com.ar/labs/htexploit/
+|_      https://www.owasp.org/index.php/Testing_for_HTTP_Methods_and_XST_%28OWASP-CM-008%29
+|_http-aspnet-debug: ERROR: Script execution failed (use -d to debug)
+| http-enum: 
+|   /admin.php: Possible admin folder (401 Unauthorized)
+|   /admin/: Possible admin folder (401 Unauthorized)
+|   /admin/admin/: Possible admin folder (401 Unauthorized)
+|   /administrator/: Possible admin folder (401 Unauthorized)
+|   /adminarea/: Possible admin folder (401 Unauthorized)
+|   /adminLogin/: Possible admin folder (401 Unauthorized)
+|   /admin_area/: Possible admin folder (401 Unauthorized)
+|   /administratorlogin/: Possible admin folder (401 Unauthorized)
+|   /admin/account.php: Possible admin folder (401 Unauthorized)
+|   /admin/index.php: Possible admin folder (401 Unauthorized)
+|   /admin/admin.php: Possible admin folder (401 Unauthorized)
+|   /admin_area/admin.php: Possible admin folder (401 Unauthorized)
+|   /admin_area/login.php: Possible admin folder (401 Unauthorized)
+|   /admin/index.html: Possible admin folder (401 Unauthorized)
+|   /admin/admin.html: Possible admin folder (401 Unauthorized)
+|   /admin_area/index.php: Possible admin folder (401 Unauthorized)
+|   /admin/home.php: Possible admin folder (401 Unauthorized)
+|   /admin_area/login.html: Possible admin folder (401 Unauthorized)
+|   /admin_area/index.html: Possible admin folder (401 Unauthorized)
+|   /admin/controlpanel.php: Possible admin folder (401 Unauthorized)
+|   /admincp/: Possible admin folder (401 Unauthorized)
+|   /admincp/index.asp: Possible admin folder (401 Unauthorized)
+|   /admincp/index.html: Possible admin folder (401 Unauthorized)
+|   /admincp/login.php: Possible admin folder (401 Unauthorized)
+|   /admin/account.html: Possible admin folder (401 Unauthorized)
+|   /adminpanel.html: Possible admin folder (401 Unauthorized)
+|   /admin/admin_login.html: Possible admin folder (401 Unauthorized)
+|   /admin_login.html: Possible admin folder (401 Unauthorized)
+|   /admin/cp.php: Possible admin folder (401 Unauthorized)
+|   /administrator/index.php: Possible admin folder (401 Unauthorized)
+|   /administrator/login.php: Possible admin folder (401 Unauthorized)
+|   /admin/admin_login.php: Possible admin folder (401 Unauthorized)
+|   /admin_login.php: Possible admin folder (401 Unauthorized)
+|   /administrator/account.php: Possible admin folder (401 Unauthorized)
+|   /administrator.php: Possible admin folder (401 Unauthorized)
+|   /admin_area/admin.html: Possible admin folder (401 Unauthorized)
+|   /admin/admin-login.php: Possible admin folder (401 Unauthorized)
+|   /admin-login.php: Possible admin folder (401 Unauthorized)
+|   /admin/home.html: Possible admin folder (401 Unauthorized)
+|   /admin/admin-login.html: Possible admin folder (401 Unauthorized)
+|   /admin-login.html: Possible admin folder (401 Unauthorized)
+|   /admincontrol.php: Possible admin folder (401 Unauthorized)
+|   /admin/adminLogin.html: Possible admin folder (401 Unauthorized)
+|   /adminLogin.html: Possible admin folder (401 Unauthorized)
+|   /adminarea/index.html: Possible admin folder (401 Unauthorized)
+|   /adminarea/admin.html: Possible admin folder (401 Unauthorized)
+|   /admin/controlpanel.html: Possible admin folder (401 Unauthorized)
+|   /admin.html: Possible admin folder (401 Unauthorized)
+|   /admin/cp.html: Possible admin folder (401 Unauthorized)
+|   /adminpanel.php: Possible admin folder (401 Unauthorized)
+|   /administrator/index.html: Possible admin folder (401 Unauthorized)
+|   /administrator/login.html: Possible admin folder (401 Unauthorized)
+|   /administrator/account.html: Possible admin folder (401 Unauthorized)
+|   /administrator.html: Possible admin folder (401 Unauthorized)
+|   /adminarea/login.html: Possible admin folder (401 Unauthorized)
+|   /admincontrol/login.html: Possible admin folder (401 Unauthorized)
+|   /admincontrol.html: Possible admin folder (401 Unauthorized)
+|   /adminLogin.php: Possible admin folder (401 Unauthorized)
+|   /admin/adminLogin.php: Possible admin folder (401 Unauthorized)
+|   /adminarea/index.php: Possible admin folder (401 Unauthorized)
+|   /adminarea/admin.php: Possible admin folder (401 Unauthorized)
+|   /adminarea/login.php: Possible admin folder (401 Unauthorized)
+|   /admincontrol/login.php: Possible admin folder (401 Unauthorized)
+|   /admin2.php: Possible admin folder (401 Unauthorized)
+|   /admin2/login.php: Possible admin folder (401 Unauthorized)
+|   /admin2/index.php: Possible admin folder (401 Unauthorized)
+|   /administratorlogin.php: Possible admin folder (401 Unauthorized)
+|   /admin/account.cfm: Possible admin folder (401 Unauthorized)
+|   /admin/index.cfm: Possible admin folder (401 Unauthorized)
+|   /admin/admin.cfm: Possible admin folder (401 Unauthorized)
+|   /admin.cfm: Possible admin folder (401 Unauthorized)
+|   /admin/admin_login.cfm: Possible admin folder (401 Unauthorized)
+|   /admin_login.cfm: Possible admin folder (401 Unauthorized)
+|   /adminpanel.cfm: Possible admin folder (401 Unauthorized)
+|   /admin/controlpanel.cfm: Possible admin folder (401 Unauthorized)
+|   /admincontrol.cfm: Possible admin folder (401 Unauthorized)
+|   /admin/cp.cfm: Possible admin folder (401 Unauthorized)
+|   /admincp/index.cfm: Possible admin folder (401 Unauthorized)
+|   /admincp/login.cfm: Possible admin folder (401 Unauthorized)
+|   /admin_area/admin.cfm: Possible admin folder (401 Unauthorized)
+|   /admin_area/login.cfm: Possible admin folder (401 Unauthorized)
+|   /administrator/login.cfm: Possible admin folder (401 Unauthorized)
+|   /administratorlogin.cfm: Possible admin folder (401 Unauthorized)
+|   /administrator.cfm: Possible admin folder (401 Unauthorized)
+|   /administrator/account.cfm: Possible admin folder (401 Unauthorized)
+|   /adminLogin.cfm: Possible admin folder (401 Unauthorized)
+|   /admin2/index.cfm: Possible admin folder (401 Unauthorized)
+|   /admin_area/index.cfm: Possible admin folder (401 Unauthorized)
+|   /admin2/login.cfm: Possible admin folder (401 Unauthorized)
+|   /admincontrol/login.cfm: Possible admin folder (401 Unauthorized)
+|   /administrator/index.cfm: Possible admin folder (401 Unauthorized)
+|   /adminarea/login.cfm: Possible admin folder (401 Unauthorized)
+|   /adminarea/admin.cfm: Possible admin folder (401 Unauthorized)
+|   /adminarea/index.cfm: Possible admin folder (401 Unauthorized)
+|   /admin/adminLogin.cfm: Possible admin folder (401 Unauthorized)
+|   /admin-login.cfm: Possible admin folder (401 Unauthorized)
+|   /admin/admin-login.cfm: Possible admin folder (401 Unauthorized)
+|   /admin/home.cfm: Possible admin folder (401 Unauthorized)
+|   /admin/account.asp: Possible admin folder (401 Unauthorized)
+|   /admin/index.asp: Possible admin folder (401 Unauthorized)
+|   /admin/admin.asp: Possible admin folder (401 Unauthorized)
+|   /admin_area/admin.asp: Possible admin folder (401 Unauthorized)
+|   /admin_area/login.asp: Possible admin folder (401 Unauthorized)
+|   /admin_area/index.asp: Possible admin folder (401 Unauthorized)
+|   /admin/home.asp: Possible admin folder (401 Unauthorized)
+|   /admin/controlpanel.asp: Possible admin folder (401 Unauthorized)
+|   /admin.asp: Possible admin folder (401 Unauthorized)
+|   /admin/admin-login.asp: Possible admin folder (401 Unauthorized)
+|   /admin-login.asp: Possible admin folder (401 Unauthorized)
+|   /admin/cp.asp: Possible admin folder (401 Unauthorized)
+|   /administrator/account.asp: Possible admin folder (401 Unauthorized)
+|   /administrator.asp: Possible admin folder (401 Unauthorized)
+|   /administrator/login.asp: Possible admin folder (401 Unauthorized)
+|   /admincp/login.asp: Possible admin folder (401 Unauthorized)
+|   /admincontrol.asp: Possible admin folder (401 Unauthorized)
+|   /adminpanel.asp: Possible admin folder (401 Unauthorized)
+|   /admin/admin_login.asp: Possible admin folder (401 Unauthorized)
+|   /admin_login.asp: Possible admin folder (401 Unauthorized)
+|   /adminLogin.asp: Possible admin folder (401 Unauthorized)
+|   /admin/adminLogin.asp: Possible admin folder (401 Unauthorized)
+|   /adminarea/index.asp: Possible admin folder (401 Unauthorized)
+|   /adminarea/admin.asp: Possible admin folder (401 Unauthorized)
+|   /adminarea/login.asp: Possible admin folder (401 Unauthorized)
+|   /administrator/index.asp: Possible admin folder (401 Unauthorized)
+|   /admincontrol/login.asp: Possible admin folder (401 Unauthorized)
+|   /admin2.asp: Possible admin folder (401 Unauthorized)
+|   /admin2/login.asp: Possible admin folder (401 Unauthorized)
+|   /admin2/index.asp: Possible admin folder (401 Unauthorized)
+|   /administratorlogin.asp: Possible admin folder (401 Unauthorized)
+|   /admin/account.aspx: Possible admin folder (401 Unauthorized)
+|   /admin/index.aspx: Possible admin folder (401 Unauthorized)
+|   /admin/admin.aspx: Possible admin folder (401 Unauthorized)
+|   /admin_area/admin.aspx: Possible admin folder (401 Unauthorized)
+|   /admin_area/login.aspx: Possible admin folder (401 Unauthorized)
+|   /admin_area/index.aspx: Possible admin folder (401 Unauthorized)
+|   /admin/home.aspx: Possible admin folder (401 Unauthorized)
+|   /admin/controlpanel.aspx: Possible admin folder (401 Unauthorized)
+|   /admin.aspx: Possible admin folder (401 Unauthorized)
+|   /admin/admin-login.aspx: Possible admin folder (401 Unauthorized)
+|   /admin-login.aspx: Possible admin folder (401 Unauthorized)
+|   /admin/cp.aspx: Possible admin folder (401 Unauthorized)
+|   /administrator/account.aspx: Possible admin folder (401 Unauthorized)
+|   /administrator.aspx: Possible admin folder (401 Unauthorized)
+|   /administrator/login.aspx: Possible admin folder (401 Unauthorized)
+|   /admincp/index.aspx: Possible admin folder (401 Unauthorized)
+|   /admincp/login.aspx: Possible admin folder (401 Unauthorized)
+|   /admincontrol.aspx: Possible admin folder (401 Unauthorized)
+|   /adminpanel.aspx: Possible admin folder (401 Unauthorized)
+|   /admin/admin_login.aspx: Possible admin folder (401 Unauthorized)
+|   /admin_login.aspx: Possible admin folder (401 Unauthorized)
+|   /adminLogin.aspx: Possible admin folder (401 Unauthorized)
+|   /admin/adminLogin.aspx: Possible admin folder (401 Unauthorized)
+|   /adminarea/index.aspx: Possible admin folder (401 Unauthorized)
+|   /adminarea/admin.aspx: Possible admin folder (401 Unauthorized)
+|   /adminarea/login.aspx: Possible admin folder (401 Unauthorized)
+|   /administrator/index.aspx: Possible admin folder (401 Unauthorized)
+|   /admincontrol/login.aspx: Possible admin folder (401 Unauthorized)
+|   /admin2.aspx: Possible admin folder (401 Unauthorized)
+|   /admin2/login.aspx: Possible admin folder (401 Unauthorized)
+|   /admin2/index.aspx: Possible admin folder (401 Unauthorized)
+|   /administratorlogin.aspx: Possible admin folder (401 Unauthorized)
+|   /admin/index.jsp: Possible admin folder (401 Unauthorized)
+|   /admin/admin.jsp: Possible admin folder (401 Unauthorized)
+|   /admin_area/admin.jsp: Possible admin folder (401 Unauthorized)
+|   /admin_area/login.jsp: Possible admin folder (401 Unauthorized)
+|   /admin_area/index.jsp: Possible admin folder (401 Unauthorized)
+|   /admin/home.jsp: Possible admin folder (401 Unauthorized)
+|   /admin/controlpanel.jsp: Possible admin folder (401 Unauthorized)
+|   /admin.jsp: Possible admin folder (401 Unauthorized)
+|   /admin/admin-login.jsp: Possible admin folder (401 Unauthorized)
+|   /admin-login.jsp: Possible admin folder (401 Unauthorized)
+|   /admin/cp.jsp: Possible admin folder (401 Unauthorized)
+|   /administrator/account.jsp: Possible admin folder (401 Unauthorized)
+|   /administrator.jsp: Possible admin folder (401 Unauthorized)
+|   /administrator/login.jsp: Possible admin folder (401 Unauthorized)
+|   /admincp/index.jsp: Possible admin folder (401 Unauthorized)
+|   /admincp/login.jsp: Possible admin folder (401 Unauthorized)
+|   /admincontrol.jsp: Possible admin folder (401 Unauthorized)
+|   /admin/account.jsp: Possible admin folder (401 Unauthorized)
+|   /adminpanel.jsp: Possible admin folder (401 Unauthorized)
+|   /admin/admin_login.jsp: Possible admin folder (401 Unauthorized)
+|   /admin_login.jsp: Possible admin folder (401 Unauthorized)
+|   /adminLogin.jsp: Possible admin folder (401 Unauthorized)
+|   /admin/adminLogin.jsp: Possible admin folder (401 Unauthorized)
+|   /adminarea/index.jsp: Possible admin folder (401 Unauthorized)
+|   /adminarea/admin.jsp: Possible admin folder (401 Unauthorized)
+|   /adminarea/login.jsp: Possible admin folder (401 Unauthorized)
+|   /administrator/index.jsp: Possible admin folder (401 Unauthorized)
+|   /admincontrol/login.jsp: Possible admin folder (401 Unauthorized)
+|   /admin2.jsp: Possible admin folder (401 Unauthorized)
+|   /admin2/login.jsp: Possible admin folder (401 Unauthorized)
+|   /admin2/index.jsp: Possible admin folder (401 Unauthorized)
+|   /administratorlogin.jsp: Possible admin folder (401 Unauthorized)
+|   /admin1.php: Possible admin folder (401 Unauthorized)
+|   /administr8.asp: Possible admin folder (401 Unauthorized)
+|   /administr8.php: Possible admin folder (401 Unauthorized)
+|   /administr8.jsp: Possible admin folder (401 Unauthorized)
+|   /administr8.aspx: Possible admin folder (401 Unauthorized)
+|   /administr8.cfm: Possible admin folder (401 Unauthorized)
+|   /administr8/: Possible admin folder (401 Unauthorized)
+|   /administer/: Possible admin folder (401 Unauthorized)
+|   /administracao.php: Possible admin folder (401 Unauthorized)
+|   /administracao.asp: Possible admin folder (401 Unauthorized)
+|   /administracao.aspx: Possible admin folder (401 Unauthorized)
+|   /administracao.cfm: Possible admin folder (401 Unauthorized)
+|   /administracao.jsp: Possible admin folder (401 Unauthorized)
+|   /administracion.php: Possible admin folder (401 Unauthorized)
+|   /administracion.asp: Possible admin folder (401 Unauthorized)
+|   /administracion.aspx: Possible admin folder (401 Unauthorized)
+|   /administracion.jsp: Possible admin folder (401 Unauthorized)
+|   /administracion.cfm: Possible admin folder (401 Unauthorized)
+|   /administrators/: Possible admin folder (401 Unauthorized)
+|   /adminpro/: Possible admin folder (401 Unauthorized)
+|   /admins/: Possible admin folder (401 Unauthorized)
+|   /admins.cfm: Possible admin folder (401 Unauthorized)
+|   /admins.php: Possible admin folder (401 Unauthorized)
+|   /admins.jsp: Possible admin folder (401 Unauthorized)
+|   /admins.asp: Possible admin folder (401 Unauthorized)
+|   /admins.aspx: Possible admin folder (401 Unauthorized)
+|   /administracion-sistema/: Possible admin folder (401 Unauthorized)
+|   /admin108/: Possible admin folder (401 Unauthorized)
+|   /admin_cp.asp: Possible admin folder (401 Unauthorized)
+|   /admin/backup/: Possible backup (401 Unauthorized)
+|   /admin/download/backup.sql: Possible database backup (401 Unauthorized)
+|   /robots.txt: Robots file
+|   /admin/upload.php: Admin File Upload (401 Unauthorized)
+|   /admin/CiscoAdmin.jhtml: Cisco Collaboration Server (401 Unauthorized)
+|   /admin-console/: JBoss Console (401 Unauthorized)
+|   /admin4.nsf: Lotus Domino (401 Unauthorized)
+|   /admin5.nsf: Lotus Domino (401 Unauthorized)
+|   /admin.nsf: Lotus Domino (401 Unauthorized)
+|   /administrator/wp-login.php: Wordpress login page. (401 Unauthorized)
+|   /admin/libraries/ajaxfilemanager/ajaxfilemanager.php: Log1 CMS (401 Unauthorized)
+|   /admin/view/javascript/fckeditor/editor/filemanager/connectors/test.html: OpenCart/FCKeditor File upload (401 Unauthorized)
+|   /admin/includes/tiny_mce/plugins/tinybrowser/upload.php: CompactCMS or B-Hind CMS/FCKeditor File upload (401 Unauthorized)
+|   /admin/includes/FCKeditor/editor/filemanager/upload/test.html: ASP Simple Blog / FCKeditor File Upload (401 Unauthorized)
+|   /admin/jscript/upload.php: Lizard Cart/Remote File upload (401 Unauthorized)
+|   /admin/jscript/upload.html: Lizard Cart/Remote File upload (401 Unauthorized)
+|   /admin/jscript/upload.pl: Lizard Cart/Remote File upload (401 Unauthorized)
+|   /admin/jscript/upload.asp: Lizard Cart/Remote File upload (401 Unauthorized)
+|   /admin/environment.xml: Moodle files (401 Unauthorized)
+|   /classes/: Potentially interesting folder
+|   /es/: Potentially interesting folder
+|   /help/: Potentially interesting folder
+|_  /printers/: Potentially interesting folder
+636/tcp   open  ldapssl
+3268/tcp  open  globalcatLDAP
+3269/tcp  open  globalcatLDAPssl
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+MAC Address: 02:42:C0:A8:09:0A (Unknown)
+
+Host script results:
+|_samba-vuln-cve-2012-1182: Could not negotiate a connection:SMB: ERROR: Server returned less data than it was supposed to (one or more fields are missing); aborting [9]
+|_smb-vuln-ms10-061: Could not negotiate a connection:SMB: ERROR: Server returned less data than it was supposed to (one or more fields are missing); aborting [9]
+|_smb-vuln-ms10-054: false
+
+Nmap done: 1 IP address (1 host up) scanned in 194.19 seconds
+
+Em 07-2025 nenhum novo equipamento vulnerável detectado na rede. Por enquanto nenhum equipamento cujos testes sejam pertinentes de serem notificados.
+
+
+/srv/containers/dominio/log/syslog
+
+Mar 17 06:56:11 brinfostore smbd_audit: IP=192.168.9.54|USER=AD\bruno|MACHINE=192.168.9.54|VOLUME=Backup|renameat|ok|/mnt/disk01/Dominio Contabil/Servidor/Disco d|/mnt/disk01/Dominio Contabil/Servidor/Disco D
+Mar 20 15:35:30 brinfostore smbd_audit: IP=192.168.9.63|USER=AD\bruno|MACHINE=192.168.9.63|VOLUME=Backup|renameat|ok|/mnt/disk01/New folder|/mnt/disk01/Kalley Prime Cred
+Mar 20 15:35:34 brinfostore smbd_audit: IP=192.168.9.63|USER=AD\bruno|MACHINE=192.168.9.63|VOLUME=Backup|renameat|ok|/mnt/disk01/Kalley Prime Cred/New folder|/mnt/disk01/Kalley Prime Cred/disco c
+Mar 20 15:35:39 brinfostore smbd_audit: IP=192.168.9.63|USER=AD\bruno|MACHINE=192.168.9.63|VOLUME=Backup|renameat|ok|/mnt/disk01/Kalley Prime Cred/New folder|/mnt/disk01/Kalley Prime Cred/Disco D
+Mar 20 15:35:45 brinfostore smbd_audit: IP=192.168.9.63|USER=AD\bruno|MACHINE=192.168.9.63|VOLUME=Backup|renameat|ok|/mnt/disk01/Kalley Prime Cred/disco c|/mnt/disk01/Kalley Prime Cred/Disco C
+Jun 26 11:54:44 dominio smbd_audit: IP=192.168.9.113|USER=AD\bruno|MACHINE=192.168.9.113|VOLUME=Suporte|renameat|ok|/mnt/disk02/1 WINDOWS/Engenharia e Designer Grafico/AutoCAD/Nova pasta|/mnt/disk02/1 WINDOWS/Engenharia e Designer Grafico/AutoCAD/2026
+Jun 26 11:57:00 dominio smbd_audit: IP=192.168.9.113|USER=AD\bruno|MACHINE=192.168.9.113|VOLUME=Suporte|renameat|ok|/mnt/disk02/1 WINDOWS/Engenharia e Designer Grafico/AutoCAD/2026/Novo(a) Documento de Texto.txt|/mnt/disk02/1 WINDOWS/Engenharia e Designer Grafico/AutoCAD/2026/Senha.txt
+
+Em 07-2025 foi realizada a verificação da integridade dos Logs de Eventos das pastas da rede e dos registros de uso dos compartilhamentos.
+
+
+Checando armazenamento geral!
+
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           765M  6.0M  759M   1% /run
+/dev/sda2       219G   68G  141G  33% /
+tmpfs           3.8G     0  3.8G   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/sdb        5.5T  2.5T  3.0T  46% /mnt/disk03
+/dev/sdd1       3.7T  854G  2.9T  23% /mnt/disk01
+/dev/sdc1       2.8T  1.8T  1.1T  64% /mnt/disk02
+tmpfs           765M   20K  765M   1% /run/user/1000
+
+DUMP de RSnapshots (se existente)!
+
+Jul 01 10:08:56 brinfostore python3[1553783]: ansible-ansible.legacy.command Invoked with _raw_params=dpkg -l rsnapshot _uses_shell=False expand_argument_vars=True stdin_add_newline=True strip_empty_ends=True argv=None chdir=None executable=None creates=None removes=None stdin=None
+
+DUMP de RSYNC (se existente)!
+
+
+DUMP do RClone (se existente)!
+
+Jul 01 10:08:57 brinfostore python3[1553807]: ansible-ansible.legacy.command Invoked with _raw_params=dpkg -l rclone _uses_shell=False expand_argument_vars=True stdin_add_newline=True strip_empty_ends=True argv=None chdir=None executable=None creates=None removes=None stdin=None
+
+Checando backups dos containers!
+
+total 22G
+drwxrwxrwx 1 root root  24K Jul  1 02:05 .
+drwxrwxrwx 1 root root  16K Mar 31 11:42 ..
+drwxrwxrwx 1 root root    0 Apr 20  2024 config
+-rwxrwxrwx 1 root root  234 Jul  1 02:00 dashdot-01_07_25.tar.lz4
+-rwxrwxrwx 1 root root  234 Jun 29 02:00 dashdot-29_06_25.tar.lz4
+-rwxrwxrwx 1 root root  234 Jun 30 02:00 dashdot-30_06_25.tar.lz4
+-rwxrwxrwx 1 root root  22K Jul  1 02:00 data-01_07_25.tar.lz4
+-rwxrwxrwx 1 root root  22K Jun 29 02:00 data-29_06_25.tar.lz4
+-rwxrwxrwx 1 root root  22K Jun 30 02:00 data-30_06_25.tar.lz4
+-rwxrwxrwx 1 root root  11M Jul  1 02:00 dominio-01_07_25.tar.lz4
+-rwxrwxrwx 1 root root  11M Jun 29 02:00 dominio-29_06_25.tar.lz4
+-rwxrwxrwx 1 root root  11M Jun 30 02:00 dominio-30_06_25.tar.lz4
+-rwxrwxrwx 1 root root 2.2K Jul  1 02:00 file-browser-01_07_25.tar.lz4
+-rwxrwxrwx 1 root root 2.2K Jun 29 02:00 file-browser-29_06_25.tar.lz4
+-rwxrwxrwx 1 root root 2.2K Jun 30 02:00 file-browser-30_06_25.tar.lz4
+-rwxrwxrwx 1 root root 124M Jul  1 02:02 glpi-brinfostore-01_07_25.tar.lz4
+-rwxrwxrwx 1 root root 123M Jun 29 02:02 glpi-brinfostore-29_06_25.tar.lz4
+-rwxrwxrwx 1 root root 124M Jun 30 02:02 glpi-brinfostore-30_06_25.tar.lz4
+-rwxrwxrwx 1 root root  258 Jul  1 02:02 glpi-custom-01_07_25.tar.lz4
+-rwxrwxrwx 1 root root  258 Jun 29 02:02 glpi-custom-29_06_25.tar.lz4
+-rwxrwxrwx 1 root root  258 Jun 30 02:02 glpi-custom-30_06_25.tar.lz4
+-rwxrwxrwx 1 root root 8.3K Jul  1 02:02 homarr-01_07_25.tar.lz4
+-rwxrwxrwx 1 root root 8.3K Jun 29 02:02 homarr-29_06_25.tar.lz4
+-rwxrwxrwx 1 root root 8.3K Jun 30 02:02 homarr-30_06_25.tar.lz4
+-rwxrwxrwx 1 root root 134M Jul  1 02:02 kuma-tracker-01_07_25.tar.lz4
+-rwxrwxrwx 1 root root 134M Jun 29 02:02 kuma-tracker-29_06_25.tar.lz4
+-rwxrwxrwx 1 root root 134M Jun 30 02:02 kuma-tracker-30_06_25.tar.lz4
+-rwxrwxrwx 1 root root 125K Jul  1 02:02 myspeed-tracker-01_07_25.tar.lz4
+-rwxrwxrwx 1 root root 127K Jun 29 02:02 myspeed-tracker-29_06_25.tar.lz4
+-rwxrwxrwx 1 root root 128K Jun 30 02:02 myspeed-tracker-30_06_25.tar.lz4
+-rwxrwxrwx 1 root root  13M Jul  1 02:02 mysql-glpi-01_07_25.tar.lz4
+-rwxrwxrwx 1 root root  13M Jun 29 02:02 mysql-glpi-29_06_25.tar.lz4
+-rwxrwxrwx 1 root root  13M Jun 30 02:02 mysql-glpi-30_06_25.tar.lz4
+-rwxrwxrwx 1 root root 289M Jul  1 02:02 mysql-nextcloud-01_07_25.tar.lz4
+-rwxrwxrwx 1 root root 290M Jun 29 02:02 mysql-nextcloud-29_06_25.tar.lz4
+-rwxrwxrwx 1 root root 289M Jun 30 02:02 mysql-nextcloud-30_06_25.tar.lz4
+-rwxrwxrwx 1 root root 7.5M Jul  1 02:02 mysql-spark-01_07_25.tar.lz4
+-rwxrwxrwx 1 root root 7.5M Jun 29 02:02 mysql-spark-29_06_25.tar.lz4
+-rwxrwxrwx 1 root root 7.5M Jun 30 02:02 mysql-spark-30_06_25.tar.lz4
+-rwxrwxrwx 1 root root 3.2G Jul  1 02:04 netboot-xyz-01_07_25.tar.lz4
+-rwxrwxrwx 1 root root 3.2G Jun 29 02:03 netboot-xyz-29_06_25.tar.lz4
+-rwxrwxrwx 1 root root 3.2G Jun 30 02:04 netboot-xyz-30_06_25.tar.lz4
+-rwxrwxrwx 1 root root 108M Jul  1 02:04 nextcloud-01_07_25.tar.lz4
+-rwxrwxrwx 1 root root 108M Jun 29 02:03 nextcloud-29_06_25.tar.lz4
+-rwxrwxrwx 1 root root 108M Jun 30 02:04 nextcloud-30_06_25.tar.lz4
+-rwxrwxrwx 1 root root 9.4M Jul  1 02:04 onlyoffice-01_07_25.tar.lz4
+-rwxrwxrwx 1 root root 9.3M Jun 29 02:03 onlyoffice-29_06_25.tar.lz4
+-rwxrwxrwx 1 root root 9.4M Jun 30 02:04 onlyoffice-30_06_25.tar.lz4
+-rwxrwxrwx 1 root root  43M Jul  1 02:04 openfire-01_07_25.tar.lz4
+-rwxrwxrwx 1 root root  43M Jun 29 02:04 openfire-29_06_25.tar.lz4
+-rwxrwxrwx 1 root root  43M Jun 30 02:04 openfire-30_06_25.tar.lz4
+-rwxrwxrwx 1 root root  231 Jul  1 02:04 openspeedtest-01_07_25.tar.lz4
+-rwxrwxrwx 1 root root  231 Jun 29 02:04 openspeedtest-29_06_25.tar.lz4
+-rwxrwxrwx 1 root root  231 Jun 30 02:04 openspeedtest-30_06_25.tar.lz4
+-rwxrwxrwx 1 root root 600K Jul  1 02:04 pentest-01_07_25.tar.lz4
+-rwxrwxrwx 1 root root 600K Jun 29 02:04 pentest-29_06_25.tar.lz4
+-rwxrwxrwx 1 root root 604K Jun 30 02:04 pentest-30_06_25.tar.lz4
+-rwxrwxrwx 1 root root 911M Jul  1 02:04 pihole-01_07_25.tar.lz4
+-rwxrwxrwx 1 root root 910M Jun 29 02:04 pihole-29_06_25.tar.lz4
+-rwxrwxrwx 1 root root 911M Jun 30 02:04 pihole-30_06_25.tar.lz4
+-rwxrwxrwx 1 root root 4.7M Jul  1 02:04 reverseproxy-01_07_25.tar.lz4
+-rwxrwxrwx 1 root root 4.7M Jun 29 02:04 reverseproxy-29_06_25.tar.lz4
+-rwxrwxrwx 1 root root 4.7M Jun 30 02:04 reverseproxy-30_06_25.tar.lz4
+-rwxrwxrwx 1 root root 1.7K Jul  1 02:04 scripts-01_07_25.tar.lz4
+-rwxrwxrwx 1 root root 1.7K Jun 29 02:04 scripts-29_06_25.tar.lz4
+-rwxrwxrwx 1 root root 1.7K Jun 30 02:04 scripts-30_06_25.tar.lz4
+-rwxrwxrwx 1 root root 792K Jul  1 02:04 scrutiny-01_07_25.tar.lz4
+-rwxrwxrwx 1 root root 775K Jun 29 02:04 scrutiny-29_06_25.tar.lz4
+-rwxrwxrwx 1 root root 781K Jun 30 02:04 scrutiny-30_06_25.tar.lz4
+-rwxrwxrwx 1 root root  331 Jul  1 02:04 ssh-tunnel-01_07_25.tar.lz4
+-rwxrwxrwx 1 root root  331 Jun 29 02:04 ssh-tunnel-29_06_25.tar.lz4
+-rwxrwxrwx 1 root root  331 Jun 30 02:04 ssh-tunnel-30_06_25.tar.lz4
+drwxrwxrwx 1 root root    0 Apr 20  2024 .stfolder
+drwxrwxrwx 1 root root    0 Apr 20  2024 Sync
+-rwxrwxrwx 1 root root 2.4G Jul  1 02:05 syncthing-01_07_25.tar.lz4
+-rwxrwxrwx 1 root root 2.4G Jun 29 02:05 syncthing-29_06_25.tar.lz4
+-rwxrwxrwx 1 root root 2.4G Jun 30 02:05 syncthing-30_06_25.tar.lz4
+-rwxrwxrwx 1 root root 1.9M Jul  1 02:05 syncthing-cloud-01_07_25.tar.lz4
+-rwxrwxrwx 1 root root 1.9M Jun 29 02:05 syncthing-cloud-29_06_25.tar.lz4
+-rwxrwxrwx 1 root root 1.9M Jun 30 02:05 syncthing-cloud-30_06_25.tar.lz4
+-rwxrwxrwx 1 root root 7.5K Jul  1 02:05 tailscale-01_07_25.tar.lz4
+-rwxrwxrwx 1 root root 7.5K Jun 29 02:05 tailscale-29_06_25.tar.lz4
+-rwxrwxrwx 1 root root 7.5K Jun 30 02:05 tailscale-30_06_25.tar.lz4
+-rwxrwxrwx 1 root root 209M Jul  1 02:05 unifi-01_07_25.tar.lz4
+-rwxrwxrwx 1 root root 209M Jun 29 02:05 unifi-29_06_25.tar.lz4
+-rwxrwxrwx 1 root root 209M Jun 30 02:05 unifi-30_06_25.tar.lz4
+-rwxrwxrwx 1 root root  279 Jul  1 02:05 wetty-01_07_25.tar.lz4
+-rwxrwxrwx 1 root root  279 Jun 29 02:05 wetty-29_06_25.tar.lz4
+-rwxrwxrwx 1 root root  279 Jun 30 02:05 wetty-30_06_25.tar.lz4
+-rwxrwxrwx 1 root root 804K Jul  1 02:05 xpra-virt-manager-01_07_25.tar.lz4
+-rwxrwxrwx 1 root root 802K Jun 29 02:05 xpra-virt-manager-29_06_25.tar.lz4
+-rwxrwxrwx 1 root root 803K Jun 30 02:05 xpra-virt-manager-30_06_25.tar.lz4
+Em 07-2025 foi realizada a verificação das rotinas de backup do servidor. O backup para a nuvem, se existente, também foi verificado.
+
+Total reclaimed space: 0B
+
+Em 07-2025 foi realizada a limpeza do sistema com remoção de pacotes e imagens obsoletas dos serviços, objetivando reduzir o consumo de armazenamento.
+
+Em 07-2025 o SWAP pôde ser limpo com sucesso pela segunda vez para finalização da manutenção: Sistema com desempenho dentro da normalidade!
+

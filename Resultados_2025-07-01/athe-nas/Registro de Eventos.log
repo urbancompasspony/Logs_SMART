@@ -1,0 +1,306 @@
+========================================================
+RELATÓRIO MENSAL DE PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA
+Conforme estipulado em contrato mensal de prestação de serviços na área de informática, segue abaixo o relatório de manutenções preventivas e corretivas realizadas no mês de julho de 2025:
+
+Em 07-2025 o SWAP pôde ser limpo com sucesso: Sistema com desempenho dentro da normalidade!
+
+
+Atualizando o sistema!
+
+Hit:1 http://br.archive.ubuntu.com/ubuntu noble InRelease
+Hit:2 http://br.archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:3 http://br.archive.ubuntu.com/ubuntu noble-backports InRelease
+Hit:4 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:5 https://packages.mozilla.org/apt mozilla InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+8 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following packages were automatically installed and are no longer required:
+  linux-headers-5.15.0-142 linux-headers-5.15.0-142-generic
+  linux-image-5.15.0-142-generic linux-modules-5.15.0-142-generic
+  linux-modules-extra-5.15.0-142-generic squashfs-tools
+Use 'sudo apt autoremove' to remove them.
+Get more security updates through Ubuntu Pro with 'esm-apps' enabled:
+  libzvbi-common libavcodec60 libzvbi0t64 libavutil58 libswresample4 7zip
+Learn more about Ubuntu Pro at https://ubuntu.com/pro
+The following NEW packages will be installed:
+  linux-headers-6.8.0-63 linux-headers-6.8.0-63-generic linux-tools-6.8.0-63
+  linux-tools-6.8.0-63-generic
+The following upgrades have been deferred due to phasing:
+  libpciaccess0
+The following packages will be upgraded:
+  linux-generic linux-headers-generic linux-image-generic linux-libc-dev
+  linux-tools-common python3-urllib3 rclone
+7 upgraded, 4 newly installed, 0 to remove and 1 not upgraded.
+2 standard LTS security updates
+Need to get 0 B/42.7 MB of archives.
+After this operation, 135 MB of additional disk space will be used.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 170267 files and directories currently installed.)
+Preparing to unpack .../00-linux-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-generic (6.8.0-63.66) over (6.8.0-62.65) ...
+Preparing to unpack .../01-linux-image-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-image-generic (6.8.0-63.66) over (6.8.0-62.65) ...
+Selecting previously unselected package linux-headers-6.8.0-63.
+Preparing to unpack .../02-linux-headers-6.8.0-63_6.8.0-63.66_all.deb ...
+Unpacking linux-headers-6.8.0-63 (6.8.0-63.66) ...
+Selecting previously unselected package linux-headers-6.8.0-63-generic.
+Preparing to unpack .../03-linux-headers-6.8.0-63-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-headers-6.8.0-63-generic (6.8.0-63.66) ...
+Preparing to unpack .../04-linux-headers-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-headers-generic (6.8.0-63.66) over (6.8.0-62.65) ...
+Preparing to unpack .../05-linux-libc-dev_6.8.0-63.66_amd64.deb ...
+Unpacking linux-libc-dev:amd64 (6.8.0-63.66) over (6.8.0-62.65) ...
+Preparing to unpack .../06-linux-tools-common_6.8.0-63.66_all.deb ...
+Unpacking linux-tools-common (6.8.0-63.66) over (6.8.0-62.65) ...
+Selecting previously unselected package linux-tools-6.8.0-63.
+Preparing to unpack .../07-linux-tools-6.8.0-63_6.8.0-63.66_amd64.deb ...
+Unpacking linux-tools-6.8.0-63 (6.8.0-63.66) ...
+Selecting previously unselected package linux-tools-6.8.0-63-generic.
+Preparing to unpack .../08-linux-tools-6.8.0-63-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-tools-6.8.0-63-generic (6.8.0-63.66) ...
+Preparing to unpack .../09-python3-urllib3_2.0.7-1ubuntu0.2_all.deb ...
+Unpacking python3-urllib3 (2.0.7-1ubuntu0.2) over (2.0.7-1ubuntu0.1) ...
+Preparing to unpack .../10-rclone_1.60.1+dfsg-3ubuntu0.24.04.3_amd64.deb ...
+Unpacking rclone (1.60.1+dfsg-3ubuntu0.24.04.3) over (1.60.1+dfsg-3ubuntu0.24.04.2) ...
+Setting up linux-image-generic (6.8.0-63.66) ...
+Setting up linux-headers-6.8.0-63 (6.8.0-63.66) ...
+Setting up rclone (1.60.1+dfsg-3ubuntu0.24.04.3) ...
+Setting up linux-libc-dev:amd64 (6.8.0-63.66) ...
+Setting up python3-urllib3 (2.0.7-1ubuntu0.2) ...
+Setting up linux-headers-6.8.0-63-generic (6.8.0-63.66) ...
+Setting up linux-tools-common (6.8.0-63.66) ...
+Setting up linux-headers-generic (6.8.0-63.66) ...
+Setting up linux-tools-6.8.0-63 (6.8.0-63.66) ...
+Setting up linux-generic (6.8.0-63.66) ...
+Setting up linux-tools-6.8.0-63-generic (6.8.0-63.66) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages will be REMOVED:
+  linux-headers-5.15.0-142 linux-headers-5.15.0-142-generic
+  linux-image-5.15.0-142-generic linux-modules-5.15.0-142-generic
+  linux-modules-extra-5.15.0-142-generic squashfs-tools
+0 upgraded, 0 newly installed, 6 to remove and 1 not upgraded.
+After this operation, 585 MB disk space will be freed.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 200564 files and directories currently installed.)
+Removing linux-headers-5.15.0-142-generic (5.15.0-142.152) ...
+Removing linux-headers-5.15.0-142 (5.15.0-142.152) ...
+Removing linux-modules-extra-5.15.0-142-generic (5.15.0-142.152) ...
+Removing squashfs-tools (1:4.6.1-1build1) ...
+Removing linux-image-5.15.0-142-generic (5.15.0-142.152) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+/etc/kernel/postrm.d/initramfs-tools:
+update-initramfs: Deleting /boot/initrd.img-5.15.0-142-generic
+/etc/kernel/postrm.d/zz-update-grub:
+Sourcing file `/etc/default/grub'
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-6.8.0-63-generic
+Found initrd image: /boot/initrd.img-6.8.0-63-generic
+Found linux image: /boot/vmlinuz-6.8.0-62-generic
+Found initrd image: /boot/initrd.img-6.8.0-62-generic
+Warning: os-prober will not be executed to detect other bootable partitions.
+Systems on them will not be added to the GRUB boot configuration.
+Check GRUB_DISABLE_OS_PROBER documentation entry.
+Adding boot menu entry for UEFI Firmware Settings ...
+done
+Removing linux-modules-5.15.0-142-generic (5.15.0-142.152) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+
+Em 07-2025 o sistema do servidor foi atualizado e está em dia com a segurança digital.
+
+
+############################################################################
+Armazenamento: /dev/sda
+
+Model Family:     Seagate Skyhawk
+Device Model:     ST1000VX005-2EZ102
+Serial Number:    Z9CCARCE
+
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000f   079   063   006    Pre-fail  Always       -       91447968
+  3 Spin_Up_Time            0x0003   096   096   000    Pre-fail  Always       -       0
+  4 Start_Stop_Count        0x0032   086   086   020    Old_age   Always       -       14609
+  5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000f   084   060   045    Pre-fail  Always       -       243115834
+  9 Power_On_Hours          0x0032   057   057   000    Old_age   Always       -       38003h+00m+00.000s
+ 10 Spin_Retry_Count        0x0013   100   100   097    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   086   086   020    Old_age   Always       -       14609
+184 End-to-End_Error        0x0032   100   100   099    Old_age   Always       -       0
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+188 Command_Timeout         0x0032   100   100   000    Old_age   Always       -       0
+189 High_Fly_Writes         0x003a   100   100   000    Old_age   Always       -       0
+190 Airflow_Temperature_Cel 0x0022   060   040   040    Old_age   Always   In_the_past 40 (Min/Max 37/47)
+193 Load_Cycle_Count        0x0032   092   092   000    Old_age   Always       -       16153
+194 Temperature_Celsius     0x0022   040   020   000    Old_age   Always       -       40 (0 20 0 0 0)
+195 Hardware_ECC_Recovered  0x001a   004   001   000    Old_age   Always       -       91447968
+197 Current_Pending_Sector  0x0012   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0010   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x003e   200   199   000    Old_age   Always       -       7
+
+
+
+############################################################################
+Armazenamento: /dev/sdb
+
+Model Family:     Toshiba P300 (CMR)
+Device Model:     TOSHIBA HDWD110
+Serial Number:    11FNSDUFS
+
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000b   100   100   016    Pre-fail  Always       -       0
+  2 Throughput_Performance  0x0005   142   142   054    Pre-fail  Offline      -       71
+  3 Spin_Up_Time            0x0007   117   117   024    Pre-fail  Always       -       196 (Average 197)
+  4 Start_Stop_Count        0x0012   100   100   000    Old_age   Always       -       86
+  5 Reallocated_Sector_Ct   0x0033   100   100   005    Pre-fail  Always       -       1
+  7 Seek_Error_Rate         0x000b   100   100   067    Pre-fail  Always       -       0
+  8 Seek_Time_Performance   0x0005   115   115   020    Pre-fail  Offline      -       34
+  9 Power_On_Hours          0x0012   097   097   000    Old_age   Always       -       25654
+ 10 Spin_Retry_Count        0x0013   100   100   060    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       85
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       574
+193 Load_Cycle_Count        0x0012   100   100   000    Old_age   Always       -       574
+194 Temperature_Celsius     0x0002   146   146   000    Old_age   Always       -       41 (Min/Max 25/62)
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       1
+197 Current_Pending_Sector  0x0022   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0008   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x000a   200   200   000    Old_age   Always       -       3
+
+
+
+############################################################################
+Armazenamento: /dev/sdc
+
+Model Family:     Toshiba P300 (CMR)
+Device Model:     TOSHIBA HDWD110
+Serial Number:    11FNSYYFS
+
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000b   100   100   016    Pre-fail  Always       -       0
+  2 Throughput_Performance  0x0005   142   142   054    Pre-fail  Offline      -       68
+  3 Spin_Up_Time            0x0007   116   116   024    Pre-fail  Always       -       199 (Average 195)
+  4 Start_Stop_Count        0x0012   098   098   000    Old_age   Always       -       10236
+  5 Reallocated_Sector_Ct   0x0033   100   100   005    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000b   100   100   067    Pre-fail  Always       -       0
+  8 Seek_Time_Performance   0x0005   110   110   020    Pre-fail  Offline      -       36
+  9 Power_On_Hours          0x0012   098   098   000    Old_age   Always       -       20308
+ 10 Spin_Retry_Count        0x0013   100   100   060    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       1217
+192 Power-Off_Retract_Count 0x0032   092   092   000    Old_age   Always       -       10518
+193 Load_Cycle_Count        0x0012   092   092   000    Old_age   Always       -       10518
+194 Temperature_Celsius     0x0002   157   157   000    Old_age   Always       -       38 (Min/Max 22/63)
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0022   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0008   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x000a   200   200   000    Old_age   Always       -       0
+
+
+
+############################################################################
+Armazenamento: /dev/sdd
+
+
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+/dev/sdd: Unknown USB bridge [0x152d:0xb567 (0x223)]
+Please specify device type with the -d option.
+
+Use smartctl -h to get a usage summary
+
+
+
+Verificacao concluida em 07-2025!
+Em 07-2025 foi realizada a verificação da saúde dos discos rígidos. Mais informações no anexo SMART_DUMP no e-mail!
+
+
+Pentest não configurado. Ignorando.
+
+/srv/containers/inova/log/syslog
+
+Jun 30 21:35:51 inova smbd_audit: IP=192.168.160.14|USER=jocasta|MACHINE=desktop-2pd2a1u|VOLUME=Atendimento|renameat|ok|/mnt/disk0p0/notebook/ATENDIMENTO/ATENDIMENTO/JO/ATUALIZAÇÃO PROMOSYS/ROTEIROS E ATUALIZAÇÕES BANCOS/BANCOS ATIVOS/INSS/~$PAN.docx|/mnt/disk0p0/Lixeira/jocasta/ATENDIMENTO/JO/ATUALIZAÇÃO PROMOSYS/ROTEIROS E ATUALIZAÇÕES BANCOS/BANCOS ATIVOS/INSS/~$PAN.docx
+Jun 30 22:39:17 inova smbd_audit: IP=192.168.160.14|USER=jocasta|MACHINE=desktop-2pd2a1u|VOLUME=Atendimento|renameat|ok|/mnt/disk0p0/notebook/ATENDIMENTO/ATENDIMENTO/JO/ATUALIZAÇÃO PROMOSYS/ROTEIROS E ATUALIZAÇÕES BANCOS/BANCOS ATIVOS/INSS/~$PAN.docx|/mnt/disk0p0/Lixeira/jocasta/ATENDIMENTO/JO/ATUALIZAÇÃO PROMOSYS/ROTEIROS E ATUALIZAÇÕES BANCOS/BANCOS ATIVOS/INSS/Copy #1 of ~$PAN.docx
+Jun 30 22:39:36 inova smbd_audit: IP=192.168.160.14|USER=jocasta|MACHINE=desktop-2pd2a1u|VOLUME=Atendimento|renameat|ok|/mnt/disk0p0/notebook/ATENDIMENTO/ATENDIMENTO/JO/ATUALIZAÇÃO PROMOSYS/ROTEIROS E ATUALIZAÇÕES BANCOS/BANCOS ATIVOS/INSS/~$HAPPY.docx|/mnt/disk0p0/Lixeira/jocasta/ATENDIMENTO/JO/ATUALIZAÇÃO PROMOSYS/ROTEIROS E ATUALIZAÇÕES BANCOS/BANCOS ATIVOS/INSS/~$HAPPY.docx
+Jun 30 23:17:09 inova smbd_audit: IP=192.168.160.14|USER=jocasta|MACHINE=desktop-2pd2a1u|VOLUME=Atendimento|renameat|ok|/mnt/disk0p0/notebook/ATENDIMENTO/ATENDIMENTO/JO/ATUALIZAÇÃO PROMOSYS/CAMPANHA PRONTA/PLANILHAS.xlsx|/mnt/disk0p0/notebook/ATENDIMENTO/ATENDIMENTO/JO/ATUALIZAÇÃO PROMOSYS/CAMPANHA PRONTA/5268CCFA.tmp
+Jun 30 23:17:10 inova smbd_audit: IP=192.168.160.14|USER=jocasta|MACHINE=desktop-2pd2a1u|VOLUME=Atendimento|renameat|ok|/mnt/disk0p0/notebook/ATENDIMENTO/ATENDIMENTO/JO/ATUALIZAÇÃO PROMOSYS/CAMPANHA PRONTA/D8FB539D.tmp|/mnt/disk0p0/notebook/ATENDIMENTO/ATENDIMENTO/JO/ATUALIZAÇÃO PROMOSYS/CAMPANHA PRONTA/PLANILHAS.xlsx
+Jun 30 23:17:14 inova smbd_audit: IP=192.168.160.14|USER=jocasta|MACHINE=desktop-2pd2a1u|VOLUME=Atendimento|renameat|ok|/mnt/disk0p0/notebook/ATENDIMENTO/ATENDIMENTO/JO/ATUALIZAÇÃO PROMOSYS/CAMPANHA PRONTA/~$PLANILHAS.xlsx|/mnt/disk0p0/Lixeira/jocasta/ATENDIMENTO/JO/ATUALIZAÇÃO PROMOSYS/CAMPANHA PRONTA/Copy #1 of ~$PLANILHAS.xlsx
+Jun 30 23:17:18 inova smbd_audit: IP=192.168.160.14|USER=jocasta|MACHINE=desktop-2pd2a1u|VOLUME=Atendimento|renameat|ok|/mnt/disk0p0/notebook/ATENDIMENTO/ATENDIMENTO/JO/ATUALIZAÇÃO PROMOSYS/ROTEIROS E ATUALIZAÇÕES BANCOS/BANCOS ATIVOS/INSS/~$HAPPY.docx|/mnt/disk0p0/Lixeira/jocasta/ATENDIMENTO/JO/ATUALIZAÇÃO PROMOSYS/ROTEIROS E ATUALIZAÇÕES BANCOS/BANCOS ATIVOS/INSS/Copy #1 of ~$HAPPY.docx
+
+Em 07-2025 foi realizada a verificação da integridade dos Logs de Eventos das pastas da rede e dos registros de uso dos compartilhamentos.
+
+
+Checando armazenamento geral!
+
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           776M  4.7M  771M   1% /run
+efivarfs        128K   74K   50K  61% /sys/firmware/efi/efivars
+/dev/sdd2        29G   17G  9.8G  64% /
+tmpfs           3.8G     0  3.8G   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           3.8G     0  3.8G   0% /run/qemu
+tmpfs           3.8G   12K  3.8G   1% /tmp
+tmpfs           3.8G     0  3.8G   0% /var/tmp
+/dev/sdc        916G  188G  729G  21% /mnt/cloud-bkp
+/dev/sda1       393G  304G   90G  78% /mnt/disk1p0
+/dev/sdb1       393G  298G   96G  76% /mnt/disk0p0
+/dev/sdd1       1.1G  6.2M  1.1G   1% /boot/efi
+tmpfs           776M   36K  775M   1% /run/user/1000
+
+DUMP de RSnapshots (se existente)!
+
+Jun 30 18:30:01 athe-nas CRON[21668]: (root) CMD (/usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot-inova.conf beta)
+Jun 30 18:30:01 athe-nas rsnapshot[21670]: /usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot-inova.conf beta: completed successfully
+Jul 01 07:00:01 athe-nas CRON[22876]: (root) CMD (/usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot-inova.conf alpha)
+Jul 01 07:00:16 athe-nas rsnapshot[22882]: /usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot-inova.conf alpha: completed successfully
+Jul 01 10:00:01 athe-nas CRON[43877]: (root) CMD (/usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot-inova.conf alpha)
+Jul 01 10:00:38 athe-nas rsnapshot[43886]: /usr/bin/rsnapshot -c /srv/containers/scripts/rsnapshot-inova.conf alpha: completed successfully
+Jul 01 10:08:29 athe-nas python3[46241]: ansible-ansible.legacy.command Invoked with _raw_params=dpkg -l rsnapshot _uses_shell=False expand_argument_vars=True stdin_add_newline=True strip_empty_ends=True argv=None chdir=None executable=None creates=None removes=None stdin=None
+
+DUMP de RSYNC (se existente)!
+
+
+DUMP do RClone (se existente)!
+
+Jul 01 10:08:30 athe-nas python3[46265]: ansible-ansible.legacy.command Invoked with _raw_params=dpkg -l rclone _uses_shell=False expand_argument_vars=True stdin_add_newline=True strip_empty_ends=True argv=None chdir=None executable=None creates=None removes=None stdin=None
+
+Checando backups dos containers!
+
+
+Não existem backups de containers neste servidor. Verifique se esta situação está correta.
+
+Em 07-2025 foi realizada a verificação das rotinas de backup do servidor. O backup para a nuvem, se existente, também foi verificado.
+
+Total reclaimed space: 0B
+
+Em 07-2025 foi realizada a limpeza do sistema com remoção de pacotes e imagens obsoletas dos serviços, objetivando reduzir o consumo de armazenamento.
+
+Em 07-2025 o SWAP pôde ser limpo com sucesso pela segunda vez para finalização da manutenção: Sistema com desempenho dentro da normalidade!
+

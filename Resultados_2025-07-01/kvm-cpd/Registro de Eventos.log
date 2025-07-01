@@ -1,0 +1,342 @@
+========================================================
+RELATÓRIO MENSAL DE PRESTAÇÃO DE SERVIÇOS DE INFORMÁTICA
+Conforme estipulado em contrato mensal de prestação de serviços na área de informática, segue abaixo o relatório de manutenções preventivas e corretivas realizadas no mês de julho de 2025:
+
+Em 07-2025 o SWAP pôde ser limpo com sucesso: Sistema com desempenho dentro da normalidade!
+
+
+Atualizando o sistema!
+
+Hit:1 http://br.archive.ubuntu.com/ubuntu noble InRelease
+Hit:2 http://br.archive.ubuntu.com/ubuntu noble-updates InRelease
+Hit:3 http://br.archive.ubuntu.com/ubuntu noble-backports InRelease
+Hit:4 http://security.ubuntu.com/ubuntu noble-security InRelease
+Hit:5 https://packages.mozilla.org/apt mozilla InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+13 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+Get another security update through Ubuntu Pro with 'esm-apps' enabled:
+  7zip
+Learn more about Ubuntu Pro at https://ubuntu.com/pro
+The following NEW packages will be installed:
+  linux-headers-6.8.0-63 linux-headers-6.8.0-63-generic
+  linux-image-6.8.0-63-generic linux-modules-6.8.0-63-generic
+  linux-modules-extra-6.8.0-63-generic linux-tools-6.8.0-63
+  linux-tools-6.8.0-63-generic
+The following upgrades have been deferred due to phasing:
+  libpciaccess0
+The following packages will be upgraded:
+  docker-buildx duf firefox libopeniscsiusr linux-generic
+  linux-headers-generic linux-image-generic linux-libc-dev linux-tools-common
+  open-iscsi rclone sudo
+12 upgraded, 7 newly installed, 0 to remove and 1 not upgraded.
+4 standard LTS security updates
+Need to get 304 MB of archives.
+After this operation, 301 MB of additional disk space will be used.
+Get:1 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 libopeniscsiusr amd64 2.1.9-3ubuntu5.4 [49.4 kB]
+Get:2 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 open-iscsi amd64 2.1.9-3ubuntu5.4 [328 kB]
+Get:3 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 sudo amd64 1.9.15p5-3ubuntu5.24.04.1 [948 kB]
+Get:4 http://br.archive.ubuntu.com/ubuntu noble-updates/universe amd64 docker-buildx amd64 0.20.1-0ubuntu1~24.04.2 [14.6 MB]
+Get:5 https://packages.mozilla.org/apt mozilla/main amd64 firefox amd64 140.0.2~build1 [76.9 MB]
+Get:6 http://br.archive.ubuntu.com/ubuntu noble-updates/universe amd64 duf amd64 0.8.1-1ubuntu0.24.04.3 [900 kB]
+Get:7 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-modules-6.8.0-63-generic amd64 6.8.0-63.66 [39.4 MB]
+Get:8 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-image-6.8.0-63-generic amd64 6.8.0-63.66 [14.8 MB]
+Get:9 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-modules-extra-6.8.0-63-generic amd64 6.8.0-63.66 [113 MB]
+Get:10 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-generic amd64 6.8.0-63.66 [1,702 B]
+Get:11 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-image-generic amd64 6.8.0-63.66 [10.7 kB]
+Get:12 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-headers-6.8.0-63 all 6.8.0-63.66 [13.9 MB]
+Get:13 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-headers-6.8.0-63-generic amd64 6.8.0-63.66 [4,147 kB]
+Get:14 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-headers-generic amd64 6.8.0-63.66 [10.5 kB]
+Get:15 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-libc-dev amd64 6.8.0-63.66 [1,878 kB]
+Get:16 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-tools-common all 6.8.0-63.66 [719 kB]
+Get:17 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-tools-6.8.0-63 amd64 6.8.0-63.66 [5,378 kB]
+Get:18 http://br.archive.ubuntu.com/ubuntu noble-updates/main amd64 linux-tools-6.8.0-63-generic amd64 6.8.0-63.66 [1,814 B]
+Get:19 http://br.archive.ubuntu.com/ubuntu noble-updates/universe amd64 rclone amd64 1.60.1+dfsg-3ubuntu0.24.04.3 [16.5 MB]
+Preconfiguring packages ...
+Fetched 304 MB in 11s (28.9 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 149120 files and directories currently installed.)
+Preparing to unpack .../00-libopeniscsiusr_2.1.9-3ubuntu5.4_amd64.deb ...
+Unpacking libopeniscsiusr (2.1.9-3ubuntu5.4) over (2.1.9-3ubuntu5.3) ...
+Preparing to unpack .../01-open-iscsi_2.1.9-3ubuntu5.4_amd64.deb ...
+Unpacking open-iscsi (2.1.9-3ubuntu5.4) over (2.1.9-3ubuntu5.3) ...
+Preparing to unpack .../02-sudo_1.9.15p5-3ubuntu5.24.04.1_amd64.deb ...
+Unpacking sudo (1.9.15p5-3ubuntu5.24.04.1) over (1.9.15p5-3ubuntu5) ...
+Preparing to unpack .../03-docker-buildx_0.20.1-0ubuntu1~24.04.2_amd64.deb ...
+Unpacking docker-buildx (0.20.1-0ubuntu1~24.04.2) over (0.20.1-0ubuntu1~24.04.1) ...
+Preparing to unpack .../04-duf_0.8.1-1ubuntu0.24.04.3_amd64.deb ...
+Unpacking duf (0.8.1-1ubuntu0.24.04.3) over (0.8.1-1ubuntu0.24.04.2) ...
+Preparing to unpack .../05-firefox_140.0.2~build1_amd64.deb ...
+Unpacking firefox (140.0.2~build1) over (140.0~build1) ...
+Selecting previously unselected package linux-modules-6.8.0-63-generic.
+Preparing to unpack .../06-linux-modules-6.8.0-63-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-modules-6.8.0-63-generic (6.8.0-63.66) ...
+Selecting previously unselected package linux-image-6.8.0-63-generic.
+Preparing to unpack .../07-linux-image-6.8.0-63-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-image-6.8.0-63-generic (6.8.0-63.66) ...
+Selecting previously unselected package linux-modules-extra-6.8.0-63-generic.
+Preparing to unpack .../08-linux-modules-extra-6.8.0-63-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-modules-extra-6.8.0-63-generic (6.8.0-63.66) ...
+Preparing to unpack .../09-linux-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-generic (6.8.0-63.66) over (6.8.0-62.65) ...
+Preparing to unpack .../10-linux-image-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-image-generic (6.8.0-63.66) over (6.8.0-62.65) ...
+Selecting previously unselected package linux-headers-6.8.0-63.
+Preparing to unpack .../11-linux-headers-6.8.0-63_6.8.0-63.66_all.deb ...
+Unpacking linux-headers-6.8.0-63 (6.8.0-63.66) ...
+Selecting previously unselected package linux-headers-6.8.0-63-generic.
+Preparing to unpack .../12-linux-headers-6.8.0-63-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-headers-6.8.0-63-generic (6.8.0-63.66) ...
+Preparing to unpack .../13-linux-headers-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-headers-generic (6.8.0-63.66) over (6.8.0-62.65) ...
+Preparing to unpack .../14-linux-libc-dev_6.8.0-63.66_amd64.deb ...
+Unpacking linux-libc-dev:amd64 (6.8.0-63.66) over (6.8.0-62.65) ...
+Preparing to unpack .../15-linux-tools-common_6.8.0-63.66_all.deb ...
+Unpacking linux-tools-common (6.8.0-63.66) over (6.8.0-62.65) ...
+Selecting previously unselected package linux-tools-6.8.0-63.
+Preparing to unpack .../16-linux-tools-6.8.0-63_6.8.0-63.66_amd64.deb ...
+Unpacking linux-tools-6.8.0-63 (6.8.0-63.66) ...
+Selecting previously unselected package linux-tools-6.8.0-63-generic.
+Preparing to unpack .../17-linux-tools-6.8.0-63-generic_6.8.0-63.66_amd64.deb ...
+Unpacking linux-tools-6.8.0-63-generic (6.8.0-63.66) ...
+Preparing to unpack .../18-rclone_1.60.1+dfsg-3ubuntu0.24.04.3_amd64.deb ...
+Unpacking rclone (1.60.1+dfsg-3ubuntu0.24.04.3) over (1.60.1+dfsg-3ubuntu0.24.04.2) ...
+Setting up linux-headers-6.8.0-63 (6.8.0-63.66) ...
+Setting up rclone (1.60.1+dfsg-3ubuntu0.24.04.3) ...
+Setting up firefox (140.0.2~build1) ...
+Setting up linux-modules-6.8.0-63-generic (6.8.0-63.66) ...
+Setting up linux-libc-dev:amd64 (6.8.0-63.66) ...
+Setting up libopeniscsiusr (2.1.9-3ubuntu5.4) ...
+Setting up duf (0.8.1-1ubuntu0.24.04.3) ...
+Setting up linux-image-6.8.0-63-generic (6.8.0-63.66) ...
+I: /boot/vmlinuz.old is now a symlink to vmlinuz-6.8.0-62-generic
+I: /boot/initrd.img.old is now a symlink to initrd.img-6.8.0-62-generic
+I: /boot/vmlinuz is now a symlink to vmlinuz-6.8.0-63-generic
+I: /boot/initrd.img is now a symlink to initrd.img-6.8.0-63-generic
+Setting up sudo (1.9.15p5-3ubuntu5.24.04.1) ...
+Setting up linux-headers-6.8.0-63-generic (6.8.0-63.66) ...
+/etc/kernel/header_postinst.d/dkms:
+ * dkms: running auto installation service for kernel 6.8.0-63-generic
+Sign command: /usr/bin/kmodsign
+Signing key: /var/lib/shim-signed/mok/MOK.priv
+Public certificate (MOK): /var/lib/shim-signed/mok/MOK.der
+
+Building module:
+Cleaning build area...
+make -j2 KERNELRELEASE=6.8.0-63-generic -C /lib/modules/6.8.0-63-generic/build M=/var/lib/dkms/r8168/8.052.01/build..........
+Signing module /var/lib/dkms/r8168/8.052.01/build/r8168.ko
+Cleaning build area...
+
+r8168.ko.zst:
+Running module version sanity check.
+ - Original module
+   - No original module exists within this kernel
+ - Installation
+   - Installing to /lib/modules/6.8.0-63-generic/updates/dkms/
+depmod...
+dkms autoinstall on 6.8.0-63-generic/x86_64 succeeded for r8168
+ * dkms: autoinstall for kernel 6.8.0-63-generic
+   ...done.
+Setting up linux-modules-extra-6.8.0-63-generic (6.8.0-63.66) ...
+Setting up docker-buildx (0.20.1-0ubuntu1~24.04.2) ...
+Setting up linux-tools-common (6.8.0-63.66) ...
+Setting up linux-image-generic (6.8.0-63.66) ...
+Setting up linux-headers-generic (6.8.0-63.66) ...
+Setting up open-iscsi (2.1.9-3ubuntu5.4) ...
+Setting up linux-tools-6.8.0-63 (6.8.0-63.66) ...
+Setting up linux-generic (6.8.0-63.66) ...
+Setting up linux-tools-6.8.0-63-generic (6.8.0-63.66) ...
+Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for desktop-file-utils (0.27-2build1) ...
+Processing triggers for initramfs-tools (0.142ubuntu25.5) ...
+update-initramfs: Generating /boot/initrd.img-6.8.0-62-generic
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.4) ...
+Processing triggers for linux-image-6.8.0-63-generic (6.8.0-63.66) ...
+/etc/kernel/postinst.d/dkms:
+ * dkms: running auto installation service for kernel 6.8.0-63-generic
+ * dkms: autoinstall for kernel 6.8.0-63-generic
+   ...done.
+/etc/kernel/postinst.d/initramfs-tools:
+update-initramfs: Generating /boot/initrd.img-6.8.0-63-generic
+/etc/kernel/postinst.d/zz-update-grub:
+Sourcing file `/etc/default/grub'
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-6.8.0-63-generic
+Found initrd image: /boot/initrd.img-6.8.0-63-generic
+Found linux image: /boot/vmlinuz-6.8.0-62-generic
+Found initrd image: /boot/initrd.img-6.8.0-62-generic
+Found linux image: /boot/vmlinuz-5.15.0-142-generic
+Found initrd image: /boot/initrd.img-5.15.0-142-generic
+Warning: os-prober will not be executed to detect other bootable partitions.
+Systems on them will not be added to the GRUB boot configuration.
+Check GRUB_DISABLE_OS_PROBER documentation entry.
+Adding boot menu entry for UEFI Firmware Settings ...
+done
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages will be REMOVED:
+  linux-headers-5.15.0-142 linux-headers-5.15.0-142-generic
+  linux-image-5.15.0-142-generic linux-modules-5.15.0-142-generic
+  linux-modules-extra-5.15.0-142-generic
+0 upgraded, 0 newly installed, 5 to remove and 1 not upgraded.
+After this operation, 584 MB disk space will be freed.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 187139 files and directories currently installed.)
+Removing linux-headers-5.15.0-142-generic (5.15.0-142.152) ...
+Removing linux-headers-5.15.0-142 (5.15.0-142.152) ...
+Removing linux-modules-extra-5.15.0-142-generic (5.15.0-142.152) ...
+Removing linux-image-5.15.0-142-generic (5.15.0-142.152) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+/etc/kernel/prerm.d/dkms:
+dkms: removing: r8168 8.052.01 (5.15.0-142-generic) (x86_64)
+Module r8168-8.052.01 for kernel 5.15.0-142-generic (x86_64).
+Before uninstall, this module version was ACTIVE on this kernel.
+
+r8168.ko:
+ - Uninstallation
+   - Deleting from: /lib/modules/5.15.0-142-generic/updates/dkms/
+ - Original module
+   - No original module was found for this module on this kernel.
+   - Use the dkms install command to reinstall any previous module version.
+depmod...
+/etc/kernel/postrm.d/initramfs-tools:
+update-initramfs: Deleting /boot/initrd.img-5.15.0-142-generic
+/etc/kernel/postrm.d/zz-update-grub:
+Sourcing file `/etc/default/grub'
+Generating grub configuration file ...
+Found linux image: /boot/vmlinuz-6.8.0-63-generic
+Found initrd image: /boot/initrd.img-6.8.0-63-generic
+Found linux image: /boot/vmlinuz-6.8.0-62-generic
+Found initrd image: /boot/initrd.img-6.8.0-62-generic
+Warning: os-prober will not be executed to detect other bootable partitions.
+Systems on them will not be added to the GRUB boot configuration.
+Check GRUB_DISABLE_OS_PROBER documentation entry.
+Adding boot menu entry for UEFI Firmware Settings ...
+done
+Removing linux-modules-5.15.0-142-generic (5.15.0-142.152) ...
+
+Em 07-2025 o sistema do servidor foi atualizado e está em dia com a segurança digital.
+
+
+############################################################################
+Armazenamento: /dev/sda
+
+Model Family:     Silicon Motion based SSDs
+Device Model:     ADATA SU650
+Serial Number:    2M17291HCSHR
+
+smartctl 7.4 2023-08-01 r5530 [x86_64-linux-6.8.0-62-generic] (local build)
+Copyright (C) 2002-23, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF READ SMART DATA SECTION ===
+SMART Attributes Data Structure revision number: 10
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x002f   100   100   050    Pre-fail  Always       -       0
+  5 Reallocated_Sector_Ct   0x0033   100   100   010    Pre-fail  Always       -       0
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       7556
+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       64
+161 Valid_Spare_Block_Cnt   0x0032   100   100   000    Old_age   Always       -       0
+162 Cache_Block_Count       0x0032   100   100   000    Old_age   Always       -       66324
+163 Initial_Bad_Block_Count 0x0032   100   100   000    Old_age   Always       -       100
+164 Total_Erase_Count       0x0032   100   100   000    Old_age   Always       -       148
+166 Min_Erase_Count         0x0032   100   100   000    Old_age   Always       -       74
+167 Average_Erase_Count     0x0032   100   100   050    Old_age   Always       -       0
+168 Max_Erase_Count_of_Spec 0x0032   100   100   000    Old_age   Always       -       0
+169 Remaining_Lifetime_Perc 0x0032   100   100   000    Old_age   Always       -       100
+171 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       0
+172 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       0
+174 Unknown_Attribute       0x0032   100   100   000    Old_age   Always       -       39
+175 Program_Fail_Count_Chip 0x0032   100   100   000    Old_age   Always       -       0
+181 Program_Fail_Cnt_Total  0x0022   100   100   000    Old_age   Always       -       1509143
+187 Reported_Uncorrect      0x0032   100   100   000    Old_age   Always       -       0
+194 Temperature_Celsius     0x0022   100   100   030    Old_age   Always       -       42
+195 Hardware_ECC_Recovered  0x003a   100   100   000    Old_age   Always       -       533
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+199 UDMA_CRC_Error_Count    0x0032   100   100   000    Old_age   Always       -       0
+206 Unknown_SSD_Attribute   0x0032   100   100   000    Old_age   Always       -       4
+207 Unknown_SSD_Attribute   0x0032   100   100   000    Old_age   Always       -       177
+232 Available_Reservd_Space 0x0032   100   100   000    Old_age   Always       -       100
+233 Media_Wearout_Indicator 0x0032   100   100   000    Old_age   Always       -       320
+241 Host_Writes_32MiB       0x0032   100   100   000    Old_age   Always       -       4225
+242 Host_Reads_32MiB        0x0032   100   100   000    Old_age   Always       -       252
+249 Unkn_SiliconMotion_Attr 0x0032   100   100   000    Old_age   Always       -       500
+250 Read_Error_Retry_Rate   0x0032   100   100   000    Old_age   Always       -       5740
+
+
+
+Verificacao concluida em 07-2025!
+Em 07-2025 foi realizada a verificação da saúde dos discos rígidos. Mais informações no anexo SMART_DUMP no e-mail!
+
+
+Pentest não configurado. Ignorando.
+
+Em 07-2025 foi realizada a verificação da integridade dos Logs de Eventos das pastas da rede e dos registros de uso dos compartilhamentos.
+
+
+Checando armazenamento geral!
+
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           379M  4.8M  374M   2% /run
+efivarfs        128K   96K   28K  78% /sys/firmware/efi/efivars
+/dev/sda2       109G   19G   84G  19% /
+tmpfs           1.9G     0  1.9G   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           1.9G   12K  1.9G   1% /tmp
+tmpfs           1.9G     0  1.9G   0% /var/tmp
+/dev/sda1       1.1G  6.2M  1.1G   1% /boot/efi
+tmpfs           379M   20K  379M   1% /run/user/1000
+
+DUMP de RSnapshots (se existente)!
+
+Jul 01 10:08:30 kvm-cpd python3[35237]: ansible-ansible.legacy.command Invoked with _raw_params=dpkg -l rsnapshot _uses_shell=False expand_argument_vars=True stdin_add_newline=True strip_empty_ends=True argv=None chdir=None executable=None creates=None removes=None stdin=None
+
+DUMP de RSYNC (se existente)!
+
+
+DUMP do RClone (se existente)!
+
+Jul 01 10:08:30 kvm-cpd python3[35261]: ansible-ansible.legacy.command Invoked with _raw_params=dpkg -l rclone _uses_shell=False expand_argument_vars=True stdin_add_newline=True strip_empty_ends=True argv=None chdir=None executable=None creates=None removes=None stdin=None
+
+Checando backups dos containers!
+
+
+Não existem backups de containers neste servidor. Verifique se esta situação está correta.
+
+Em 07-2025 foi realizada a verificação das rotinas de backup do servidor. O backup para a nuvem, se existente, também foi verificado.
+
+Deleted Images:
+untagged: urbancompasspony/ssh-dw:latest
+untagged: urbancompasspony/ssh-dw@sha256:30961eccb04000ba4425139fdcd3af353f31d396936cff42d1d21c4d7bd79f33
+deleted: sha256:d163365764e19eda3ac2abe0eb5873f94af15a0928eb32b969b95a9114e9e500
+deleted: sha256:b612e819e2822a0c9d2883395628c2b3a431721c1da364a660b016b529f58b3a
+deleted: sha256:369e5ffba1611f01cec2f4c621f105f9debe23d5e6ed3b54ed7f584a5f860b20
+deleted: sha256:b2b4e070e79b01a609ca4c1a587ed064ef0ea4942377dc0a5631a3b8db1bcdda
+deleted: sha256:db0b6edc69c4de431e308fe41a40b81fff773f542216ea2bd7aa767023d5e3df
+deleted: sha256:cb525a6e51068e7b73dd886c3976005ea9eddf3c23bebdb4c397b21fc9f01887
+deleted: sha256:5925ce005f7ffa090111f2d24bc1975ec1ab2f80a221dc6229d36dd2acb5ac54
+deleted: sha256:d1e18c224c4ac0178d0210f76a529029001256618879af485cca4e8391a67130
+deleted: sha256:74adb21f5b758dc506ec0df0df4ffd2a0ff4bcce7b7ed724febbf31f1577f8f7
+deleted: sha256:dcf7f955b7d03429b01229489af1d16e5cc2e2e36a1d216660891a05a743592a
+deleted: sha256:bafaeae8db68cf081b2344728db5dde202aa0244418377cd957ccbb5af31897e
+deleted: sha256:c13fbee9a730a86705fbac3e1de6e8afabcbd1634ebea95269129a08cb189486
+deleted: sha256:25e16f1dc08230273348e7d2bce18ecd65baaa99151f124845105d232db9fc5c
+deleted: sha256:8c396ff5869a025ba2884a698418146370dc7a4ca8e7efb2a95b1b684cc2c0b1
+deleted: sha256:629ca62fb7c791374ce57626d6b8b62c76378be091a0daf1a60d32700b49add7
+
+Total reclaimed space: 266.1MB
+
+Em 07-2025 foi realizada a limpeza do sistema com remoção de pacotes e imagens obsoletas dos serviços, objetivando reduzir o consumo de armazenamento.
+
+Em 07-2025 o SWAP pôde ser limpo com sucesso pela segunda vez para finalização da manutenção: Sistema com desempenho dentro da normalidade!
+
