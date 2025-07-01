@@ -1,6 +1,7 @@
 Cole tudo abaixo no Copilot do Github:
 
-https://github.com/urbancompasspony/Logs_SMART/tree/main/Resultados_DATAAQUI
+https://github.com/urbancompasspony/Logs_SMART/tree/main/Resultados_2025-07-01
+
 Dentro do link encontre os seguintes arquivos:
 
 athe-nas/Saúde do Armazenamento (SMART_DUMP)
